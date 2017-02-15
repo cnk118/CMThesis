@@ -74,17 +74,38 @@
 \BOOKMARK [2][-]{subsection..6.3.1}{Elastic calcualtion results}{section..6.3}% 74
 \BOOKMARK [2][-]{subsection..6.3.2}{Extrapolation to higher ordered systems}{section..6.3}% 75
 \BOOKMARK [1][-]{section..6.4}{Conclusion}{chapter..6}% 76
-\BOOKMARK [0][-]{appendix.A}{Title of the First Appendix}{}% 77
-\BOOKMARK [1][-]{section.A.1}{Introduction}{appendix.A}% 78
-\BOOKMARK [1][-]{section.A.2}{More Declaration}{appendix.A}% 79
-\BOOKMARK [2][-]{subsection.A.2.1}{Some Subsection Title Here}{section.A.2}% 80
-\BOOKMARK [0][-]{appendix.B}{Title of the Second Appendix}{}% 81
-\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 82
-\BOOKMARK [1][-]{section.B.2}{More Declaration}{appendix.B}% 83
-\BOOKMARK [0][-]{appendix.C}{Title of the Third Appendix}{}% 84
-\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 85
-\BOOKMARK [1][-]{section.C.2}{More Declaration}{appendix.C}% 86
-\BOOKMARK [0][-]{appendix.D}{Title of the Fourth Appendix}{}% 87
-\BOOKMARK [1][-]{section.D.1}{Introduction}{appendix.D}% 88
-\BOOKMARK [1][-]{section.D.2}{More Declaration}{appendix.D}% 89
-\BOOKMARK [0][-]{section.D.2}{Bibliography}{}% 90
+\BOOKMARK [0][-]{chapter..7}{Phase stability and elastic properties study of the Ti-Ta and Ti-Nb systems}{}% 77
+\BOOKMARK [1][-]{section..7.1}{Introduction}{chapter..7}% 78
+\BOOKMARK [1][-]{section..7.2}{Modeling and Calculations}{chapter..7}% 79
+\BOOKMARK [2][-]{subsection..7.2.1}{Computational details}{section..7.2}% 80
+\BOOKMARK [2][-]{subsection..7.2.2}{Modeling details}{section..7.2}% 81
+\BOOKMARK [1][-]{section..7.3}{Results and discussion}{chapter..7}% 82
+\BOOKMARK [2][-]{subsection..7.3.1}{First-principles calculations at 0 K}{section..7.3}% 83
+\BOOKMARK [2][-]{subsection..7.3.2}{Elastic properties}{section..7.3}% 84
+\BOOKMARK [2][-]{subsection..7.3.3}{Neutron scattering results}{section..7.3}% 85
+\BOOKMARK [3][-]{subsubsection..7.3.3.1}{Phonon density of states at 300 K}{subsection..7.3.3}% 86
+\BOOKMARK [3][-]{subsubsection..7.3.3.2}{Diffraction patterns at 300 K}{subsection..7.3.3}% 87
+\BOOKMARK [3][-]{subsubsection..7.3.3.3}{Temperature dependent phonon density of states }{subsection..7.3.3}% 88
+\BOOKMARK [3][-]{subsubsection..7.3.3.4}{Temperature dependent diffraction patterns}{subsection..7.3.3}% 89
+\BOOKMARK [2][-]{subsection..7.3.4}{Partition function approach results}{section..7.3}% 90
+\BOOKMARK [3][-]{subsubsection..7.3.4.1}{Phase fractions}{subsection..7.3.4}% 91
+\BOOKMARK [3][-]{subsubsection..7.3.4.2}{Mixed force constants}{subsection..7.3.4}% 92
+\BOOKMARK [2][-]{subsection..7.3.5}{Comparison of elastic properties}{section..7.3}% 93
+\BOOKMARK [1][-]{section..7.4}{Conclusion}{chapter..7}% 94
+\BOOKMARK [0][-]{chapter..8}{Conclusions and Future Work}{}% 95
+\BOOKMARK [1][-]{section..8.1}{Conclusions}{chapter..8}% 96
+\BOOKMARK [1][-]{section..8.2}{Future Work}{chapter..8}% 97
+\BOOKMARK [0][-]{appendix.A}{Title of the First Appendix}{}% 98
+\BOOKMARK [1][-]{section.A.1}{Introduction}{appendix.A}% 99
+\BOOKMARK [1][-]{section.A.2}{More Declaration}{appendix.A}% 100
+\BOOKMARK [2][-]{subsection.A.2.1}{Some Subsection Title Here}{section.A.2}% 101
+\BOOKMARK [0][-]{appendix.B}{Title of the Second Appendix}{}% 102
+\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 103
+\BOOKMARK [1][-]{section.B.2}{More Declaration}{appendix.B}% 104
+\BOOKMARK [0][-]{appendix.C}{Title of the Third Appendix}{}% 105
+\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 106
+\BOOKMARK [1][-]{section.C.2}{More Declaration}{appendix.C}% 107
+\BOOKMARK [0][-]{appendix.D}{Title of the Fourth Appendix}{}% 108
+\BOOKMARK [1][-]{section.D.1}{Introduction}{appendix.D}% 109
+\BOOKMARK [1][-]{section.D.2}{More Declaration}{appendix.D}% 110
+\BOOKMARK [0][-]{section.D.2}{Bibliography}{}% 111

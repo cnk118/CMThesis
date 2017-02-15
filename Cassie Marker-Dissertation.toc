@@ -74,18 +74,39 @@
 \contentsline {subsection}{\numberline {6.3.1}Elastic calcualtion results}{98}{subsection..6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Extrapolation to higher ordered systems}{101}{subsection..6.3.2}
 \contentsline {section}{\numberline {6.4}Conclusion}{102}{section..6.4}
+\contentsline {chapter}{\numberline {7}Phase stability and elastic properties study of the Ti-Ta and Ti-Nb systems}{125}{chapter..7}
+\contentsline {section}{\numberline {7.1}Introduction}{125}{section..7.1}
+\contentsline {section}{\numberline {7.2}Modeling and Calculations}{125}{section..7.2}
+\contentsline {subsection}{\numberline {7.2.1}Computational details}{125}{subsection..7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Modeling details}{125}{subsection..7.2.2}
+\contentsline {section}{\numberline {7.3}Results and discussion}{125}{section..7.3}
+\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{125}{subsection..7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{126}{subsection..7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{126}{subsection..7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{126}{subsubsection..7.3.3.1}
+\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{126}{subsubsection..7.3.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3.3}Temperature dependent phonon density of states }{126}{subsubsection..7.3.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.4}Temperature dependent diffraction patterns}{126}{subsubsection..7.3.3.4}
+\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{126}{subsection..7.3.4}
+\contentsline {subsubsection}{\numberline {7.3.4.1}Phase fractions}{126}{subsubsection..7.3.4.1}
+\contentsline {subsubsection}{\numberline {7.3.4.2}Mixed force constants}{126}{subsubsection..7.3.4.2}
+\contentsline {subsection}{\numberline {7.3.5}Comparison of elastic properties}{126}{subsection..7.3.5}
+\contentsline {section}{\numberline {7.4}Conclusion}{126}{section..7.4}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{127}{chapter..8}
+\contentsline {section}{\numberline {8.1}Conclusions}{127}{section..8.1}
+\contentsline {section}{\numberline {8.2}Future Work}{127}{section..8.2}
 \renewcommand {\cftchappresnum }{Appendix }
-\contentsline {chapter}{\numberline {A}Title of the First Appendix}{125}{appendix.A}
-\contentsline {section}{\numberline {A.1}Introduction}{125}{section.A.1}
-\contentsline {section}{\numberline {A.2}More Declaration}{125}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}Some Subsection Title Here}{125}{subsection.A.2.1}
-\contentsline {chapter}{\numberline {B}Title of the Second Appendix}{127}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{127}{section.B.1}
-\contentsline {section}{\numberline {B.2}More Declaration}{127}{section.B.2}
-\contentsline {chapter}{\numberline {C}Title of the Third Appendix}{129}{appendix.C}
-\contentsline {section}{\numberline {C.1}Introduction}{129}{section.C.1}
-\contentsline {section}{\numberline {C.2}More Declaration}{129}{section.C.2}
-\contentsline {chapter}{\numberline {D}Title of the Fourth Appendix}{131}{appendix.D}
-\contentsline {section}{\numberline {D.1}Introduction}{131}{section.D.1}
-\contentsline {section}{\numberline {D.2}More Declaration}{131}{section.D.2}
-\contentsline {chapter}{Bibliography}{133}{section.D.2}
+\contentsline {chapter}{\numberline {A}Title of the First Appendix}{128}{appendix.A}
+\contentsline {section}{\numberline {A.1}Introduction}{128}{section.A.1}
+\contentsline {section}{\numberline {A.2}More Declaration}{128}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Some Subsection Title Here}{128}{subsection.A.2.1}
+\contentsline {chapter}{\numberline {B}Title of the Second Appendix}{130}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{130}{section.B.1}
+\contentsline {section}{\numberline {B.2}More Declaration}{130}{section.B.2}
+\contentsline {chapter}{\numberline {C}Title of the Third Appendix}{132}{appendix.C}
+\contentsline {section}{\numberline {C.1}Introduction}{132}{section.C.1}
+\contentsline {section}{\numberline {C.2}More Declaration}{132}{section.C.2}
+\contentsline {chapter}{\numberline {D}Title of the Fourth Appendix}{134}{appendix.D}
+\contentsline {section}{\numberline {D.1}Introduction}{134}{section.D.1}
+\contentsline {section}{\numberline {D.2}More Declaration}{134}{section.D.2}
+\contentsline {chapter}{Bibliography}{136}{section.D.2}

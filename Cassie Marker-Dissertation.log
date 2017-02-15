@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 FEB 2017 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 FEB 2017 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,34 +655,34 @@ LaTeX Warning: Label `Ch6-table:tixyelasdata' multiply defined.
 (./Appendix-C/Appendix-C.aux) (./Appendix-D/Appendix-D.aux))
 \openout1 = `"Cassie Marker-Dissertation.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 247.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 247.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 249.
+LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 249.
+LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 249.
+LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 249.
+LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 249.
+LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 249.
+LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 249.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 249.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 247.
+LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 249.
+LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 249.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \microtypecontext on input line 247.
+LaTeX Info: Redefining \microtypecontext on input line 249.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -726,17 +726,17 @@ e
 ))
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 247.
-Package gensymb Info: Math companion symbols declared on input line 247.
-LaTeX Info: Redefining \degree on input line 247.
-LaTeX Info: Redefining \celsius on input line 247.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 249.
+Package gensymb Info: Math companion symbols declared on input line 249.
+LaTeX Info: Redefining \degree on input line 249.
+LaTeX Info: Redefining \celsius on input line 249.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 247.
-LaTeX Info: Redefining \ohm on input line 247.
-Package gensymb Info: Using \textohm for \ohm on input line 247.
-Package gensymb Info: Using \textmu for \micro on input line 247.
+erthousand on input line 249.
+LaTeX Info: Redefining \ohm on input line 249.
+Package gensymb Info: Using \textohm for \ohm on input line 249.
+Package gensymb Info: Using \textmu for \micro on input line 249.
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring OFF on input line 247.
+Package hyperref Info: Link coloring OFF on input line 249.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -746,16 +746,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 247.
-LaTeX Info: Redefining \pageref on input line 247.
-LaTeX Info: Redefining \nameref on input line 247.
+LaTeX Info: Redefining \ref on input line 249.
+LaTeX Info: Redefining \pageref on input line 249.
+LaTeX Info: Redefining \nameref on input line 249.
 
 (./Cassie Marker-Dissertation.out) (./Cassie Marker-Dissertation.out)
 \@outlinefile=\write3
 \openout3 = `"Cassie Marker-Dissertation.out"'.
 
 \c@lstlisting=\count140
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 269.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 271.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmr.fd
@@ -764,27 +764,27 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 274.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 276.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 274.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 276.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 274
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 276
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 274.
-LaTeX Font Info:    Try loading font information for U+msa on input line 274.
+(Font)              <6> on input line 276.
+LaTeX Font Info:    Try loading font information for U+msa on input line 276.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -792,7 +792,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 274.
+LaTeX Font Info:    Try loading font information for U+msb on input line 276.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -800,12 +800,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 274.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 276.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ) [2]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 278.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 280.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -1545,42 +1545,60 @@ Package pdftex.def Info: Chapter-6/Figures/tixydatabase.png used on input line
 295.
 (pdftex.def)             Requested size: 419.16621pt x 361.99557pt.
 ) [124 <./Chapter-6/Figures/tixydatabase.png>]
-\openout2 = `Appendix-A/Appendix-A.aux'.
+\openout2 = `Chapter-7/Chapter-7.aux'.
 
- (./Appendix-A/Appendix-A.tex
-Appendix A.
-) [125
+ (./Chapter-7/Chapter-7.tex
+Chapter 7.
+[125
 
 
 
-] [126]
-\openout2 = `Appendix-B/Appendix-B.aux'.
+]) [126]
+\openout2 = `Chapter-8/Chapter-8.aux'.
 
- (./Appendix-B/Appendix-B.tex
-Appendix B.
+ (./Chapter-8/Chapter-8.tex
+Chapter 8.
 ) [127
 
 
 
-] [128]
+]
+\openout2 = `Appendix-A/Appendix-A.aux'.
+
+ (./Appendix-A/Appendix-A.tex
+Appendix A.
+) [128
+
+
+
+] [129]
+\openout2 = `Appendix-B/Appendix-B.aux'.
+
+ (./Appendix-B/Appendix-B.tex
+Appendix B.
+) [130
+
+
+
+] [131]
 \openout2 = `Appendix-C/Appendix-C.aux'.
 
  (./Appendix-C/Appendix-C.tex
 Appendix C.
-) [129
+) [132
 
 
 
-] [130]
+] [133]
 \openout2 = `Appendix-D/Appendix-D.aux'.
 
  (./Appendix-D/Appendix-D.tex
 Appendix D.
-) [131
+) [134
 
 
 
-] [132] (./Cassie Marker-Dissertation.bbl
+] [135] (./Cassie Marker-Dissertation.bbl
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1593,7 +1611,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [133
+ [136
 
 
 ]
@@ -1602,53 +1620,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--73
  scholar ? hl = en{&}q = ti-[]ta-[]mo +
  []
 
-[134] [135] [136]
+[137] [138] [139]
 Underfull \hbox (badness 10000) in paragraph at lines 333--337
 \T1/lmr/m/n/12 (+20) URL []$\T1/lmtt/m/n/12 http : / / www . sciencedirect . co
 m / science / article / pii /
  []
 
-[137]
+[140]
 Underfull \hbox (badness 10000) in paragraph at lines 344--349
 \T1/lmr/m/n/12 (+20) URL []$\T1/lmtt/m/n/12 http : / / www . sciencedirect . co
 m / science / article / pii /
  []
 
-[138] [139] [140]) [141] (./SupplementaryMaterial/Vita.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 389.
- [142
+[141] [142] [143]) [144] (./SupplementaryMaterial/Vita.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
+ [145
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
 
 (./Cassie Marker-Dissertation.aux (./Chapter-1/Chapter-1.aux)
 (./Chapter-2/Chapter-2.aux) (./Chapter-3/Chapter-3.aux)
 (./Chapter-4/Chapter-4.aux) (./Chapter-5/Chapter-5.aux)
-(./Chapter-6/Chapter-6.aux) (./Appendix-A/Appendix-A.aux)
+(./Chapter-6/Chapter-6.aux) (./Chapter-7/Chapter-7.aux)
+(./Chapter-8/Chapter-8.aux) (./Appendix-A/Appendix-A.aux)
 (./Appendix-B/Appendix-B.aux) (./Appendix-C/Appendix-C.aux)
 (./Appendix-D/Appendix-D.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
-Package rerunfilecheck Info: File `"Cassie Marker-Dissertation".out' has not ch
-anged.
-(rerunfilecheck)             Checksum: 45FC24E63A241E4B56F1AD00143216CB;6458.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
 
+
+Package rerunfilecheck Warning: File `"Cassie Marker-Dissertation".out' has cha
+nged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Cassie Marker-Dissertation".out':
+(rerunfilecheck)             Before: 45FC24E63A241E4B56F1AD00143216CB;6458
+(rerunfilecheck)             After:  F3EE289EB6C703B4A4A6D1158208B3FB;8190.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 389.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 393.
  ) 
 Here is how much of TeX's memory you used:
- 12845 strings out of 493014
- 195860 string characters out of 6133351
- 391069 words of memory out of 5000000
+ 12881 strings out of 493014
+ 196457 string characters out of 6133351
+ 391109 words of memory out of 5000000
  15231 multiletter control sequences out of 15000+600000
  117921 words of font info for 229 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,45p,2481b,929s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,45p,2481b,1036s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -1674,10 +1699,10 @@ lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb>
 016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on "Cassie Marker-Dissertation.pdf" (162 pages, 6174183 bytes).
+Output written on "Cassie Marker-Dissertation.pdf" (165 pages, 6176810 bytes).
 PDF statistics:
- 2704 PDF objects out of 2984 (max. 8388607)
- 2343 compressed objects within 24 object streams
- 441 named destinations out of 1000 (max. 500000)
+ 2742 PDF objects out of 2984 (max. 8388607)
+ 2378 compressed objects within 24 object streams
+ 465 named destinations out of 1000 (max. 500000)
  30165 words of extra memory for PDF output out of 35830 (max. 10000000)
 
