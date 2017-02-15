@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Cassie Marker-Dissertation.aux
+A level-1 auxiliary file: Chapter-1/Chapter-1.aux
+A level-1 auxiliary file: Chapter-2/Chapter-2.aux
+A level-1 auxiliary file: Chapter-3/Chapter-3.aux
+A level-1 auxiliary file: Chapter-4/Chapter-4.aux
+A level-1 auxiliary file: Chapter-5/Chapter-5.aux
+A level-1 auxiliary file: Chapter-6/Chapter-6.aux
+A level-1 auxiliary file: Appendix-A/Appendix-A.aux
+A level-1 auxiliary file: Appendix-B/Appendix-B.aux
+A level-1 auxiliary file: Appendix-C/Appendix-C.aux
+A level-1 auxiliary file: Appendix-D/Appendix-D.aux
+The style file: GLG-bibstyle.bst
+Database file #1: Thesis.bib
+Warning--there's a number but no volume in Nikitin1971
+Warning--missing school in Mei2011
+Warning--empty booktitle in Predel1997
+Warning--missing institution in English1961
+Warning--can't use both volume and number fields in Basile1971
+You've used 97 entries,
+            2552 wiz_defined-function locations,
+            1234 strings with 21706 characters,
+and the built_in function-call counts, 48001 in all, are:
+= -- 3509
+> -- 1336
+< -- 87
++ -- 388
+- -- 291
+* -- 3547
+:= -- 4722
+add.period$ -- 188
+call.type$ -- 97
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 102
+duplicate$ -- 5189
+empty$ -- 4746
+format.name$ -- 366
+if$ -- 11048
+int.to.chr$ -- 0
+int.to.str$ -- 97
+missing$ -- 945
+newline$ -- 307
+num.names$ -- 96
+pop$ -- 1235
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1746
+stack$ -- 0
+substring$ -- 2802
+swap$ -- 3752
+text.length$ -- 87
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 339
+width$ -- 99
+write$ -- 873
+(There were 5 warnings)

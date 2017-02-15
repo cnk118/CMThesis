@@ -1,0 +1,542 @@
+\begin{thebibliography}{10}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Ansara1998}
+\textsc{Ansara, I.}, \textsc{A.~Dinsdale}, and \textsc{M.~Rand} (1998)
+  \emph{{COST 507: thermochemical database for light metal alloys}}, vol.~2,
+  European Communities, Brussels and Luxembourg.
+
+\bibitem{Murray1981}
+\textsc{Murray, J.} (1981) \enquote{{The Mo−Ti (Molybdenum-Titanium)
+  system},} \emph{Bulletin of Alloy Phase Diagrams}, \textbf{2}(2), pp.
+  185--192.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/BF02881476}
+
+\bibitem{Zhang2001}
+\textsc{Zhang, Y.}, \textsc{H.~Liu}, and \textsc{Z.~Jin} (2001)
+  \enquote{{Thermodynamic assessment of the Nb-Ti system},}
+  \emph{Calphad-Computer Coupling of Phase Diagrams and Thermochemistry},
+  \textbf{25}(2), pp. 305--317.
+
+\bibitem{Kumar1994}
+\textsc{Kumar, K.}, \textsc{P.~Wollants}, and \textsc{L.~Delaey} (1994)
+  \enquote{{Thermodynamic calculation of Nb-Ti-V phase diagram},}
+  \emph{CALPHAD}, \textbf{18}(1), pp. 71--79.
+
+\bibitem{Murray1987}
+\textsc{Murray, J.~L.} (1987) \enquote{{Phase diagrams of binary titanium
+  alloys},} \emph{ASM International, 1987,}, p. 354.
+
+\bibitem{Kumar1994a}
+\textsc{Kumar, K.}, \textsc{P.~Wollants}, and \textsc{L.~Delaey} (1994)
+  \enquote{{Thermodynamic assessment of the Ti-Zr system and calculation of the
+  Nb-Ti-Zr phase-diagram},} \emph{Journal of Alloys and Compounds},
+  \textbf{206}(1), pp. 121--127.
+
+\bibitem{Xiong2004}
+\textsc{Xiong, W.}, \textsc{Y.~Du}, \textsc{Y.~Liu}, \textsc{B.~Huang},
+  \textsc{H.~Xu}, \textsc{H.~Chen}, and \textsc{Z.~Pan} (2004)
+  \enquote{{Thermodynamic assessment of the Mo-Nb-Ta system},}
+  \emph{Calphad-Computer Coupling of Phase Diagrams and Thermochemistry},
+  \textbf{28}(2), pp. 133--140.
+
+\bibitem{Perez2003}
+\textsc{Perez, R.} and \textsc{B.~Sundman} (2003) \enquote{{Thermodynamic
+  assessment of the Mo-Zr binary phase diagram},} \emph{Calphad-Computer
+  Coupling of Phase Diagrams and Thermochemistry}, \textbf{27}(3), pp.
+  253--262.
+
+\bibitem{Guillermet1991}
+\textsc{Guillermet, A.} (1991) \enquote{{Thermodynamic analysis of the stable
+  phases in the Zr-Nb system and calculation of the phase-diagram},}
+  \emph{Zeitschrift Fur Metallkunde}, \textbf{82}(6), pp. 478--487.
+
+\bibitem{Abriata1982}
+\textsc{Abriata, J.~P.} and \textsc{J.~C. Bolcich} (1982) \enquote{{The Nb−
+  Zr (Niobium− Zirconium) system},} \emph{Bulletin of alloy phase diagrams},
+  \textbf{3}(1), pp. 34--44.
+
+\bibitem{Guillermet1995}
+\textsc{Guillermet, A.} (1995) \enquote{{Phase-diagram and thermochemical
+  properties of the Zr-Ta system - an assessment based on Gibbs energy
+  modeling},} \emph{Journal of Alloys and Compounds}, \textbf{226}(1-2), pp.
+  174--184.
+
+\bibitem{Nikitin1971}
+\textsc{Nikitin, P.} and \textsc{V.~Mikheyev} (1971) \enquote{{Examination of
+  titanium corner of Ti-Ta-Mo equilibrium diagram},} \emph{Russian
+  Metallurgy-Metally-USSR}, (1), pp. 144--147.
+\newline\urlprefix\url{http://scholar.google.com/scholar?hl=en{\&}q=ti-ta-mo+nikitin{\&}btnG={\&}as{\_}sdt=1{\%}2C39{\&}as{\_}sdtp={\#}0}
+
+\bibitem{Kar2008}
+\textsc{Kar, S.} and \textsc{D.~Lipkin} (2008) \enquote{{A CALPHAD-based phase
+  equilibrium model of Mo-Ti-Zr-C},} in \emph{TMS 2008 Annual Meeting
+  Supplemental Proceedings, Vol 2: Materials Characterization, Computation and
+  Modeling}, Minerals, Metals {\&} Materials Soc, Warrendale, pp. 237--243.
+
+\bibitem{Prokoshkin1967}
+\textsc{Prokoshkin, D.~A.} and \textsc{M.~I. Zakharova} (1967) \enquote{{Phase
+  equilibrium in the molybdenum-titanium- zirconium system(Ternary phase
+  diagram of Mo-Ti-Zr system from eleven isothermal cross sections)},} in
+  \emph{AKADEMIIA NAUK SSSR, DOKLADY}, vol. 172, pp. 1382--1384.
+
+\bibitem{Na2001}
+\textsc{Na, L.} and \textsc{W.~Warnes} (2001) \enquote{{Estimation of the
+  Nb-Ti-Ta phase diagram},} \emph{Ieee Transactions on Applied
+  Superconductivity}, \textbf{11}(1), pp. 3800--3803.
+
+\bibitem{Tokunaga2007}
+\textsc{Tokunaga, T.}, \textsc{S.~Matsumoto}, \textsc{H.~Ohtani}, and
+  \textsc{M.~Hasebe} (2007) \enquote{{Thermodynamic calculation of phase
+  equilibria in the Nb-Ni-Ti-Zr quaternary system},} \emph{Materials
+  transactions}, \textbf{48}(2), pp. 89--96.
+
+\bibitem{Lin1996}
+\textsc{Lin, L.}, \textsc{L.~Delaey}, \textsc{O.~VanDerBiest}, and
+  \textsc{P.~Wollants} (1996) \enquote{{Calculation of isothermal sections of
+  three ternary Ti-Zr-X systems},} \emph{Scripta Materialia}, \textbf{34}(9),
+  pp. 1411--1416.
+
+\bibitem{Hoch1964}
+\textsc{Hoch, M.} and \textsc{D.~Butrymow} (1964) \enquote{{System
+  tantalum-titanium-zirconium-oxygen at 1500 degrees C},} \emph{Transactions of
+  the Metallurgical Society of AIME}, \textbf{230}(1), pp. 186--192.
+
+\bibitem{Taioli2007a}
+\textsc{Taioli, S.}, \textsc{C.~Cazorla}, \textsc{M.~J. Gillan}, and
+  \textsc{D.~Alf{\`{e}}} (2007) \enquote{{Melting curve of tantalum from first
+  principles},} \emph{Physical Review B}, \textbf{75}(21), p. 214103.
+
+\bibitem{Olijnyk1992}
+\textsc{Olijnyk, H.} (1992) \enquote{{Pressure dependence of Raman phonons of
+  metallic $\beta$-Sn},} \emph{Physical Review B}, \textbf{46}(10).
+
+\bibitem{Dinsdale1991}
+\textsc{Dinsdale, A.} (1991) \enquote{{SGTE Data for Pure Elements},}
+  \emph{CALPHAD}, \textbf{15}(4), pp. 317--425.
+
+\bibitem{Ikehata2004}
+\textsc{Ikehata, H.}, \textsc{N.~Nagasako}, \textsc{T.~Furuta},
+  \textsc{A.~Fukumoto}, \textsc{K.~Miwa}, and \textsc{T.~Saito} (2004)
+  \enquote{{First-principles calculations for development of low elastic
+  modulus Ti alloys},} \emph{Physical Review B}, \textbf{70}(17), p. 174113.
+
+\bibitem{Zhang2015}
+\textsc{Zhang, W.-D.}, \textsc{Y.~Liu}, \textsc{H.~Wu}, \textsc{M.~Song},
+  \textsc{T.-Y. Zhang}, \textsc{X.-D. Lan}, and \textsc{T.-H. Yao} (2015)
+  \enquote{{Elastic modulus of phases in Ti–Mo alloys},} \emph{Materials
+  Characterization}, \textbf{106}, pp. 302--307.
+
+\bibitem{Boyer1994}
+\textsc{Boyer, R.}, \textsc{G.~Welsch}, and \textsc{E.~Collings} (1994)
+  \enquote{{Materials Properties Handbook: Titanium Alloys},} \emph{ASM
+  International, Materials Park, OH}.
+
+\bibitem{Sung2015}
+\textsc{Sung, B.-S.}, \textsc{T.-E. Park}, and \textsc{Y.-H. Yun} (2015)
+  \enquote{{Microstructures and electrochemical behavior of Ti-Mo alloys for
+  biomaterials},} \emph{Advances in Materials Science and Engineering},
+  \textbf{2015}(Article ID 872730), pp. 1--7.
+
+\bibitem{Ozaki2004}
+\textsc{Ozaki, T.}, \textsc{H.~Matsumoto}, \textsc{S.~Watanabe}, and
+  \textsc{S.~Hanada} (2004) \enquote{{Beta Ti Alloys with Low Young's
+  Modulus},} \emph{MATERIALS TRANSACTIONS}, \textbf{45}(8), pp. 2776--2779.
+
+\bibitem{Fedotov1985}
+\textsc{Fedotov, S.}, \textsc{T.~Chelidze}, \textsc{Y.~Kovneristyy}, and
+  \textsc{V.~Sanadze} (1985) \enquote{{Phase structure, critical points MS and
+  AS of martensitic transformations and elastic properties of metastable alloys
+  of the Ti-Ta system},} \emph{Phys. Met. Metall.}, \textbf{60}(3), pp.
+  139--143.
+
+\bibitem{Zhou2009a}
+\textsc{Zhou, Y.-L.} and \textsc{M.~Niinomi} (2009) \enquote{{Ti–25Ta alloy
+  with the best mechanical compatibility in Ti–Ta alloys for biomedical
+  applications},} \emph{Materials Science and Engineering: C}, \textbf{29}(3),
+  pp. 1061--1065.
+
+\bibitem{Zhou2004a}
+\textsc{Zhou, Y.~L.}, \textsc{M.~Niinomi}, and \textsc{T.~Akahori} (2004)
+  \enquote{{Effects of Ta content on Young's modulus and tensile properties of
+  binary Ti–Ta alloys for biomedical applications},} \emph{Materials Science
+  and Engineering: A}, \textbf{371}(1-2), pp. 283--290.
+
+\bibitem{Friak2012}
+\textsc{Fri{\'{a}}k, M.}, \textsc{W.~Counts}, \textsc{D.~Ma},
+  \textsc{B.~Sander}, \textsc{D.~Holec}, \textsc{D.~Raabe}, and
+  \textsc{J.~Neugebauer} (2012) \enquote{{Theory-guided materials design of
+  multi-phase Ti-Nb alloys with bone-matching elastic properties},}
+  \emph{Materials}, \textbf{5}(10), pp. 1853--1872.
+
+\bibitem{Wu2010a}
+\textsc{Wu, C.}, \textsc{Y.~Xin}, \textsc{X.~Wang}, and \textsc{J.~Lin} (2010)
+  \enquote{{Effects of Ta content on the phase stability and elastic properties
+  of $\beta$ Ti–Ta alloys from first-principles calculations},} \emph{Solid
+  State Sciences}, \textbf{12}(12), pp. 2120--2124.
+
+\bibitem{Tane2010a}
+\textsc{Tane, M.}, \textsc{S.~Akita}, \textsc{T.~Nakano}, \textsc{K.~Hagihara},
+  \textsc{Y.~Umakoshi}, \textsc{M.~Niinomi}, \textsc{H.~Mori}, and
+  \textsc{H.~Nakajima} (2010) \enquote{{Low Young's modulus of
+  Ti–Nb–Ta–Zr alloys caused by softening in shear moduli c′ and c44
+  near lower limit of body-centered cubic phase stability},} \emph{Acta
+  Materialia}, \textbf{58}(20), pp. 6790--6798.
+
+\bibitem{Geetha2009}
+\textsc{Geetha, M.}, \textsc{A.~Singh}, \textsc{R.~Asokamani}, and
+  \textsc{A.~Gogia} (2009) \enquote{{Ti based biomaterials, the ultimate choice
+  for orthopaedic implants – A review},} \emph{Progress in Materials
+  Science}, \textbf{54}(3), pp. 397--425.
+
+\bibitem{Mohammed2014}
+\textsc{Mohammed, M.}, \textsc{Z.~Khan}, and \textsc{A.~Siddiquee} (2014)
+  \enquote{{Beta titanium alloys: the lowest elastic modulus for biomedical
+  applications: a review},} \emph{International Journal of Chemical, Molecular,
+  Nuclear, Materials and Metallurgical Engineering}, \textbf{8}(8), pp.
+  788--793.
+
+\bibitem{Niinomi2012}
+\textsc{Niinomi, M.}, \textsc{M.~Nakai}, and \textsc{J.~Hieda} (2012)
+  \enquote{{Development of new metallic alloys for biomedical applications},}
+  \emph{Acta Biomaterialia}, \textbf{8}(11), pp. 3888--3903.
+
+\bibitem{Nozoe2007}
+\textsc{Nozoe, F.}, \textsc{H.~Matsumoto}, \textsc{T.~K. Jung},
+  \textsc{S.~Watanabe}, \textsc{T.~Saburi}, and \textsc{S.~Hanada} (2007)
+  \enquote{{Effect of Low Temperature Aging on Superelastic Behavior in
+  Biocompatible. BETA. TiNbSn Alloy},} \emph{Materials transactions},
+  \textbf{48}(11), pp. 3007--3013.
+
+\bibitem{Otis2017}
+\textsc{Otis, R.} and \textsc{Z.-K. Liu} (2017) \enquote{{pycalphad:
+  CALPHAD-based Computational Thermodynamics in Python},} \emph{Journal of Open
+  Research Software}, \textbf{5}(1).
+
+\bibitem{Long1998a}
+\textsc{Long, M.} and \textsc{H.~Rack} (1998) \enquote{{Titanium alloys in
+  total joint replacement—a materials science perspective},}
+  \emph{Biomaterials}, \textbf{19}(18), pp. 1621--1639.
+
+\bibitem{Kurtz2007}
+\textsc{Kurtz, S.} (2007) \enquote{{Projections of primary and revision hip and
+  knee arthroplasty in the United States from 2005 to 2030},} \emph{The Journal
+  of Bone and Joint Surgery (American)}, \textbf{89}(4), pp. 780--785.
+
+\bibitem{Krishna2007a}
+\textsc{Krishna, B.}, \textsc{S.~Bose}, and \textsc{A.~Bandyopadhyay} (2007)
+  \enquote{{Low stiffness porous Ti structures for load-bearing implants},}
+  \emph{Acta biomaterialia}, \textbf{3}(6), pp. 997--1006.
+
+\bibitem{Niinomi2003}
+\textsc{Niinomi, M.} (2003) \enquote{{Recent research and development in
+  titanium alloys for biomedical applications and healthcare goods},}
+  \emph{Science and Technology of Advanced Materials}, \textbf{4}(5), pp.
+  445--454.
+
+\bibitem{Ito1995a}
+\textsc{Ito, A.}, \textsc{Y.~Okazaki}, \textsc{T.~Tateishi}, and
+  \textsc{Y.~Ito} (1995) \enquote{{In vitro biocompatibility, mechanical
+  properties, and corrosion resistance of Ti-Zr-Nb-Ta-Pd and Ti-Sn-Nb-Ta-Pd
+  alloys},} \emph{Journal of Biomedical Materials Research}, \textbf{29}(7),
+  pp. 893--899.
+
+\bibitem{Mei2011}
+\textsc{Mei, Z.~G.} (2011) \emph{{First-principles Thermodynamics of Phase
+  Transition: from Metal to Oxide}}, Ph.D. thesis.
+
+\bibitem{Brailovski2011b}
+\textsc{Brailovski, V.}, \textsc{S.~Prokoshkin}, \textsc{M.~Gauthier},
+  \textsc{K.~Inaekyan}, \textsc{S.~Dubinskiy}, \textsc{M.~Petrzhik}, and
+  \textsc{M.~Filonov} (2011) \enquote{{Bulk and porous metastable beta
+  Ti–Nb–Zr (Ta) alloys for biomedical applications},} \emph{Materials
+  Science and Engineering: C}, \textbf{31}(3), pp. 643--657.
+
+\bibitem{Tane2008a}
+\textsc{Tane, M.}, \textsc{S.~Akita}, \textsc{T.~Nakano}, \textsc{K.~Hagihara},
+  \textsc{Y.~Umakoshi}, \textsc{M.~Niinomi}, and \textsc{H.~Nakajima} (2008)
+  \enquote{{Peculiar elastic behavior of Ti–Nb–Ta–Zr single crystals},}
+  \emph{Acta Materialia}, \textbf{56}(12), pp. 2856--2863.
+
+\bibitem{Hohenberg1964}
+\textsc{Hohenberg, P.} and \textsc{W.~Kohn} (1964) \enquote{{Inhomogeneous
+  Electron Gas},} \emph{Physical Review}, \textbf{136}(3B), pp. B864--B871.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRev.136.B864}
+
+\bibitem{Kohn1965}
+\textsc{Kohn, W.} and \textsc{L.~Sham} (1965) \enquote{{Self-Consistent
+  Equations Including Exchange and Correlation Effects},} \emph{Phys. Rev.},
+  \textbf{140}, pp. 1133--1138.
+
+\bibitem{Shang2010}
+\textsc{Shang, S.}, \textsc{Y.~Wang}, \textsc{D.~Kim}, and \textsc{Z.-K. Liu}
+  (2010) \enquote{{First-principles thermodynamics from phonon and Debye model:
+  Application to Ni and Ni3Al},} \emph{Computational Materials Science},
+  \textbf{47}(4), pp. 1040--1048.
+
+\bibitem{Wang2004}
+\textsc{Wang, Y.}, \textsc{Z.-K. Liu}, and \textsc{L.-Q. Chen} (2004)
+  \enquote{{Thermodynamic properties of Al, Ni, NiAl, and Ni3Al from
+  first-principles calculations},} \emph{Acta Materialia}, \textbf{52}(9), pp.
+  2665--2671.
+
+\bibitem{Kresse1996}
+\textsc{Kresse, G.} and \textsc{J.~Furthm{\"{u}}ller} (1996)
+  \enquote{{Efficiency of ab-initio total energy calculations for metals and
+  semiconductors using a plane-wave basis set},} \emph{Computational Materials
+  Science}, \textbf{6}(1), pp. 15--50.
+
+\bibitem{Kresse1999}
+\textsc{Kresse, G.} and \textsc{D.~Joubert} (1999) \enquote{{From ultrasoft
+  pseudopotentials to the projector augmented-wave method},} \emph{Physical
+  Review B}, \textbf{59}(3), pp. 1758--1775.
+
+\bibitem{Moruzzi1988}
+\textsc{Moruzzi, V.~L.}, \textsc{J.~F. Janak}, and \textsc{K.~Schwarz} (1988)
+  \enquote{{Calculated thermal properties of metals},} \emph{Physical Review
+  B}, \textbf{37}(2), pp. 790--799.
+
+\bibitem{Liu2015}
+\textsc{Liu, X.~L.}, \textsc{B.~K. VanLeeuwen}, \textsc{S.~Shang},
+  \textsc{Y.~Du}, and \textsc{Z.-K. Liu} (2015) \enquote{{On the scaling factor
+  in Debye–Gr{\"{u}}neisen model: A case study of the Mg–Zn binary
+  system},} \emph{Computational Materials Science}, \textbf{98}, pp. 34--41.
+
+\bibitem{Shang2007c}
+\textsc{Shang, S.}, \textsc{Y.~Wang}, and \textsc{Z.-K. Liu} (2007)
+  \enquote{{First-principles elastic constants of alpha- and theta-Al2O3},}
+  \emph{Applied Physics Letters}, \textbf{90}(10), p. 101909.
+
+\bibitem{Simmons1971b}
+\textsc{Simmons, G.} and \textsc{H.~Wang} (1971) \emph{{Single Crystal Elastic
+  Constants and Calculated Aggregate Properties: A Handbook}}, M.I.T. Press,
+  Cambridge.
+
+\bibitem{Born1998}
+\textsc{Born, M.} and \textsc{K.~Huang} (1998) \emph{{Dynamical Theory of
+  Crystal Lattices}}, Oxford University Press.
+
+\bibitem{Nye1985}
+\textsc{Nye, J.} (1985) \emph{{Physical Properties of Crystals: Their
+  Representation by Tensors and Matrices}}, Oxford University Press.
+
+\bibitem{Jiang2004}
+\textsc{Jiang, C.}, \textsc{C.~Wolverton}, \textsc{J.~Sofo}, \textsc{L.-Q.
+  Chen}, and \textsc{Z.-K. Liu} (2004) \enquote{{First-principles study of
+  binary bcc alloys using special quasirandom structures},} \emph{Physical
+  Review B}, \textbf{69}(21), p. 214202.
+
+\bibitem{Jiang2009}
+\textsc{Jiang, C.} (2009) \enquote{{First-principles study of ternary bcc
+  alloys using special quasi-random structures},} \emph{Acta Materialia},
+  \textbf{57}(16), pp. 4716--4726.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1359645409003772}
+
+\bibitem{Liu2013}
+\textsc{Liu, X.~L.}, \textsc{C.~Z. Hargather}, and \textsc{Z.-K. Liu} (2013)
+  \enquote{{First-principles aided thermodynamic modeling of the Nb–Re
+  system},} \emph{Calphad}, \textbf{41}, pp. 119--127.
+
+\bibitem{Zacherl2012}
+\textsc{Zacherl, C.}, \textsc{S.~Shang}, \textsc{A.~Saengdeejing}, and
+  \textsc{Z.-K. Liu} (2012) \enquote{{Phase stability and thermodynamic
+  modeling of the Re–Ti system supplemented by first-principles
+  calculations},} \emph{Calphad}, \textbf{38}, pp. 71--80.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0364591612000442}
+
+\bibitem{Liu2009}
+\textsc{Liu, Z.-K.} (2009) \enquote{{First-Principles Calculations and CALPHAD
+  Modeling of Thermodynamics},} \emph{Journal of Phase Equilibria and
+  Diffusion}, \textbf{30}(5), pp. 517--534.
+
+\bibitem{Blochl1994}
+\textsc{Bl{\"{o}}chl, P.} (1994) \enquote{{Projector augmented-wave method},}
+  \emph{Physical Review B}, \textbf{50}(24), p. 17953.
+
+\bibitem{Perdew1996a}
+\textsc{Perdew, J.}, \textsc{K.~Burke}, and \textsc{M.~Ernzerhof} (1996)
+  \enquote{{Generalized gradient approximation made simple},} \emph{Physical
+  Review Letters}, \textbf{77}(18), p. 3865.
+
+\bibitem{Monkhorst1976a}
+\textsc{Monkhorst, H.} and \textsc{J.~Pack} (1976) \enquote{{Special points for
+  Brillouin-zone integrations},} \emph{Physical Review B}, \textbf{13}(12), pp.
+  5188--5192.
+
+\bibitem{Predel1997}
+\textsc{Predel, B.} (1997) \enquote{{Mo-Ti (Molybdenum-Titanium) BT - Li-Mg –
+  Nd-Zr},} Springer Berlin Heidelberg, Berlin, Heidelberg, pp. 1--3.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/10522884{\_}2106}
+
+\bibitem{Hoffman1967}
+\textsc{Hoffman, J.~R.}, \textsc{E.~Rudy}, \textsc{S.~T. Windisch}, and
+  \textsc{A.~J. Stosick} (1967) \enquote{{The constitution of binary
+  molybdenum-carbon alloys(Binary molybdenum-carbon system investigated using
+  X-ray, metallographic, thermoanalytical and melting-point techniques)},}
+  \emph{AIME, TRANSACTIONS}, \textbf{239}, pp. 1247--1267.
+
+\bibitem{English1961}
+\textsc{English, J.} (1961) \emph{{Binary and Ternary Phase Diagrams of
+  Columbium, Molybdenum, Tantalum, and Tungsten}}, \emph{Tech. rep.}
+
+\bibitem{Shang2010b}
+\textsc{Shang, S.}, \textsc{A.~Saengdeejing}, \textsc{Z.~Mei}, \textsc{D.~Kim},
+  \textsc{H.~Zhang}, \textsc{S.~Ganeshan}, \textsc{Y.~Wang}, and \textsc{Z.-K.
+  Liu} (2010) \enquote{{First-principles calculations of pure elements:
+  Equations of state and elastic stiffness constants},} \emph{Computational
+  Materials Science}, \textbf{48}(4), pp. 813--826.
+
+\bibitem{WolframResearch}
+\textsc{{Wolfram Research}, I.}, \enquote{{Matematica},} .
+
+\bibitem{Dickinson1967a}
+\textsc{Dickinson, J.} and \textsc{P.~Armstrong} (1967) \enquote{{Temperature
+  dependence of the elastic constants of molybdenum},} \emph{Journal of Applied
+  Physics}, \textbf{38}(2), pp. 602--606.
+
+\bibitem{Bolef1961}
+\textsc{Bolef, D.} (1961) \enquote{{Elastic constants of single crystals of the
+  bcc transition elements V, Nb, and Ta},} \emph{Journal of Applied Physics},
+  \textbf{32}(1), pp. 100--105.
+
+\bibitem{Treco1953_964}
+\textsc{Treco, R.~M.} (1953) \enquote{{Effect of small additions of oxygen on
+  lattice constants and hardness of zirconium},} \emph{Transactions of the
+  American Institute of Mining, Metallurgical and Petroleum Engineers},
+  \textbf{197}, pp. 344--348.
+
+\bibitem{Bergerhoff1983}
+\textsc{Bergerhoff, G.}, \textsc{R.~Hundt}, \textsc{R.~Sievers}, and
+  \textsc{I.~D. Brown} (1983) \enquote{{The inorganic crystal structure data
+  base},} \emph{Journal of Chemical Information and Computer Sciences},
+  \textbf{23}(2), pp. 66--69.
+\newline\urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/ci00038a003}
+
+\bibitem{Karlsruhe}
+\textsc{Karlsruhe, F. I.~Z.}, \enquote{{Inorganic Crystal Structure Database},}
+  .
+\newline\urlprefix\url{http://icsd.fiz-karlsruhe.de}
+
+\bibitem{MaterialsProject}
+\enquote{{Materials Project},} .
+\newline\urlprefix\url{http://www.materialsproject.org}
+
+\bibitem{Kuroda1998}
+\textsc{Kuroda, D.}, \textsc{M.~Niinomi}, \textsc{M.~Morinaga},
+  \textsc{Y.~Kato}, and \textsc{T.~Yashiro} (1998) \enquote{{Design and
+  mechanical properties of new $\beta$ type titanium alloys for implant
+  materials},} \emph{Materials Science and Engineering: A}, \textbf{243}(1),
+  pp. 244--249.
+
+\bibitem{He2004}
+\textsc{He, G.} and \textsc{M.~Hagiwara} (2004) \enquote{{Ti-Cu-Ni (Fe, Cr,
+  Co)-Sn-Ta (Nb) alloys with potential for biomedical applications},}
+  \emph{Materials Transactions}, \textbf{45}(4), pp. 1120--1123.
+
+\bibitem{He2006}
+---{}---{}--- (2006) \enquote{{Ti alloy design strategy for biomedical
+  applications},} \emph{Materials Science and Engineering: C}, \textbf{26}(1),
+  pp. 14--19.
+
+\bibitem{Okamoto2003}
+\textsc{Okamoto, H.} (2003) \enquote{{Sn-Ta (Tin-Tantalum)},} \emph{Journal of
+  Phase Equilibria}, \textbf{24}(5), p. 484.
+
+\bibitem{Wang2012}
+\textsc{Wang, A.}, \textsc{S.~Shang}, \textsc{D.~Zhao}, \textsc{J.~Wang},
+  \textsc{L.~Chen}, \textsc{Y.~Du}, \textsc{Z.-K. Liu}, \textsc{T.~Xu}, and
+  \textsc{S.~Wang} (2012) \enquote{{Structural, phonon and thermodynamic
+  properties of fcc-based metal nitrides from first-principles calculations},}
+  \emph{Calphad}, \textbf{37}, pp. 126--131.
+
+\bibitem{Studnitzky2002}
+\textsc{Studnitzky, T.} and \textsc{R.~Schmid-Fetzer} (2002) \enquote{{Phase
+  Formation and reaction Kinetics in M-Sn systems (M=Zr, Hf, Nb, Ta, Mo)},}
+  \emph{Zeitschrift Fur Metallkunde}, \textbf{93}(9), pp. 894--903.
+
+\bibitem{Basile1971}
+\textsc{Basile, F.} (1971) \enquote{{Cristallogrpahic study and supraconductive
+  properties of compounds V3Sn and Ta2Sn3},} in \emph{Annales de chimie},
+  vol.~6, pp. 241--244.
+
+\bibitem{Yue2009}
+\textsc{Yue, Q.}, \textsc{Y.~Liu}, \textsc{M.~Chu}, and \textsc{J.~Shen} (2009)
+  \enquote{{Thermodynamic modeling of the Sn–V binary system},}
+  \emph{Calphad}, \textbf{33}(3), pp. 539--544.
+
+\bibitem{Toffolon1998}
+\textsc{Toffolon, C.}, \textsc{C.~Servant}, and \textsc{B.~Sundman} (1998)
+  \enquote{{Thermodynamic assessment of the Nb-Sn system},} \emph{Journal of
+  Phase Equilibria}, \textbf{19}(5), pp. 479--485.
+
+\bibitem{Toffolon2002}
+\textsc{Toffolon, C.}, \textsc{C.~Servant}, \textsc{J.~Gachon}, and
+  \textsc{B.~Sundman} (2002) \enquote{{Reassessment of the Nb-Sn system},}
+  \emph{Journal of Phase Equilibria}, \textbf{23}(2), pp. 134--139.
+
+\bibitem{Courtney1965}
+\textsc{Courtney, T.}, \textsc{G.~Pearsall}, and \textsc{J.~Wulff} (1965)
+  \enquote{{Effect of Processing History on the Superconducting Properties and
+  Long‐Range Order of Ta3Sn},} \emph{Journal of Applied Physics},
+  \textbf{36}(10), pp. 3256--3260.
+
+\bibitem{Predmore1970}
+\textsc{Predmore, R.} and \textsc{R.~Arsenault} (1970) \enquote{{Short range
+  order of Ta-Mo B.C.C. alloys},} \emph{Scripta Metallurgica}, \textbf{4}(3),
+  pp. 213--217.
+
+\bibitem{Allen1991}
+\textsc{Allen, W.} and \textsc{J.~Perepezko} (1991) \enquote{{Solidification of
+  undercooled Sn-Sb peritectic alloys: Part I. Microstructural evolution},}
+  \emph{Metallurgical Transactions A}, \textbf{22}(3), pp. 753--764.
+
+\bibitem{Arroyave2006a}
+\textsc{Arroyave, R.} and \textsc{Z.-K. Liu} (2006) \enquote{{Intermetallics in
+  the Mg-Ca-Sn ternary system: Structural, vibrational, and thermodynamic
+  properties from first principles},} \emph{Physical Review B},
+  \textbf{74}(17), p. 174118.
+
+\bibitem{Calvert1991}
+\textsc{Calvert, L.} and \textsc{P.~Villars} (1991) \enquote{{Pearson's
+  Handbook of Crystallographic Data for Intermetallic Phases},} \emph{ASM,
+  Materials Park, OH}.
+
+\bibitem{PeltzeryBlanca1993a}
+\textsc{{Peltzer y Blanc{\'{a}}}, E.~L.}, \textsc{A.~Svane}, \textsc{N.~E.
+  Christensen}, \textsc{C.~O. Rodr{\'{i}}guez}, \textsc{O.~M. Cappannini}, and
+  \textsc{M.~S. Moreno} (1993) \enquote{{Calculated static and dynamic
+  properties of $\beta$-Sn and Sn-O compounds},} \emph{Physical Review B},
+  \textbf{48}(21), pp. 15712--15718.
+
+\bibitem{Jouault1967_611}
+\textsc{Jouault, F.} and \textsc{P.~Lecocq} (1967) \enquote{{Etude comparee des
+  trois diagrammes V-Sn, Nb-Sn, Ta-Sn},} \emph{Colloques Internationaux du
+  Centre National de la Recherche Scientifique}, \textbf{157}, pp. 229--235.
+
+\bibitem{Geller1955_165}
+\textsc{Geller, S.}, \textsc{B.~T. Matthias}, and \textsc{R.~Goldstein} (1955)
+  \enquote{{Some new intermetallic compounds with the beta.-wolfram
+  structure},} \emph{Journal of the American Chemical Society}, \textbf{77},
+  pp. 1502--1504.
+
+\bibitem{Andersson2002}
+\textsc{Andersson, J.-O.}, \textsc{T.~Helander}, \textsc{L.~H{\"{o}}glund},
+  \textsc{P.~Shi}, and \textsc{B.~Sundman} (2002) \enquote{{Thermo-Calc {\&}
+  DICTRA, computational tools for materials science},} \emph{Calphad},
+  \textbf{26}(2), pp. 273--312.
+
+\bibitem{Wang2004a}
+\textsc{Wang, Y.}, \textsc{S.~Curtarolo}, \textsc{C.~Jiang},
+  \textsc{R.~Arroyave}, \textsc{T.~Wang}, \textsc{G.~Ceder}, \textsc{L.-Q.
+  Chen}, and \textsc{Z.-K. Liu} (2004) \enquote{{Ab initio lattice stability in
+  comparison with CALPHAD lattice stability},} \emph{Calphad}, \textbf{28}(1),
+  pp. 79--90.
+
+\bibitem{Arroyave2006}
+\textsc{Arroyave, R.} and \textsc{Z.-K. Liu} (2006) \enquote{{Thermodynamic
+  modelling of the Zn–Zr system},} \emph{Calphad}, \textbf{30}(1), pp. 1--13.
+
+\end{thebibliography}
