@@ -7,6 +7,8 @@ A level-1 auxiliary file: Chapter-3/Chapter-3.aux
 A level-1 auxiliary file: Chapter-4/Chapter-4.aux
 A level-1 auxiliary file: Chapter-5/Chapter-5.aux
 A level-1 auxiliary file: Chapter-6/Chapter-6.aux
+A level-1 auxiliary file: Chapter-7/Chapter-7.aux
+A level-1 auxiliary file: Chapter-8/Chapter-8.aux
 A level-1 auxiliary file: Appendix-A/Appendix-A.aux
 A level-1 auxiliary file: Appendix-B/Appendix-B.aux
 A level-1 auxiliary file: Appendix-C/Appendix-C.aux
@@ -18,45 +20,45 @@ Warning--missing school in Mei2011
 Warning--empty booktitle in Predel1997
 Warning--missing institution in English1961
 Warning--can't use both volume and number fields in Basile1971
-You've used 97 entries,
+You've used 99 entries,
             2552 wiz_defined-function locations,
-            1234 strings with 21706 characters,
-and the built_in function-call counts, 48001 in all, are:
-= -- 3509
-> -- 1336
-< -- 87
-+ -- 388
-- -- 291
-* -- 3547
-:= -- 4722
-add.period$ -- 188
-call.type$ -- 97
+            1247 strings with 22006 characters,
+and the built_in function-call counts, 48911 in all, are:
+= -- 3575
+> -- 1356
+< -- 89
++ -- 394
+- -- 295
+* -- 3609
+:= -- 4810
+add.period$ -- 192
+call.type$ -- 99
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 102
-duplicate$ -- 5189
-empty$ -- 4746
-format.name$ -- 366
-if$ -- 11048
+cite$ -- 104
+duplicate$ -- 5293
+empty$ -- 4838
+format.name$ -- 372
+if$ -- 11262
 int.to.chr$ -- 0
-int.to.str$ -- 97
-missing$ -- 945
-newline$ -- 307
-num.names$ -- 96
-pop$ -- 1235
+int.to.str$ -- 99
+missing$ -- 963
+newline$ -- 313
+num.names$ -- 98
+pop$ -- 1259
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1746
+skip$ -- 1784
 stack$ -- 0
-substring$ -- 2802
-swap$ -- 3752
-text.length$ -- 87
+substring$ -- 2844
+swap$ -- 3830
+text.length$ -- 89
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 339
-width$ -- 99
-write$ -- 873
+while$ -- 345
+width$ -- 101
+write$ -- 891
 (There were 5 warnings)

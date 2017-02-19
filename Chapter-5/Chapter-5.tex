@@ -7,7 +7,7 @@ The present chapter is aimed at studying the effects of alloying elements on the
 \section{Modeling and Calculations}
 
 \subsection{Calculation details}
-In the present work the Vienna ab-initio Simulation Package (VASP) \cite{Kresse1996} was employed to calculate the elastic properties of pure elements and Ti-containing binary systems in the bcc phase. The ion-electron interactions were described using the projector augmented wave (PAW) \cite{Kresse1999,Blochl1994} method. Two different exchange-correlation (X-C) functionals, the generalized gradient approximation (GGA) implemented by Perdew and Wang (PW91) and the Perdew, Burke, and Ernzerhof (PBE) were tested on a single binary system along with three magnitudes of strain, $\pm$0.01, $\pm$0.013 and $\pm$0.007 \cite{Perdew1996a}. Both the X-C functionals and the three magnitudes of strain showed little variance in results, thus the calculations were done with PBE and $\pm$0.01 strains. For consistency, a 310 eV energy cutoff was adopted for all calculations, which is roughly 1.3 times higher than the default value. The energy convergence criterion was 10$^{-6}$ eV/atom, and the Monkhorst-Pack scheme is used for Brillouin zone sampling \cite{Kresse1996,Monkhorst1976a}. 
+In the present work the Vienna ab-initio Simulation Package (VASP) \cite{Kresse1996} was employed to calculate the elastic properties of pure elements and Ti-containing binary systems in the bcc phase. The ion-electron interactions were described using the projector augmented wave (PAW) \cite{Kresse1999,Blochl1994} method and based on the previous work of comparing X-C functionals (Figure \ref{Ch2-figure:PBEvsPW91}) the exchange-correlation functional of the generalized gradient approach depicted by Perdew, Burke, and Ernzerhof (PBE-GGA) was employed \cite{Perdew1996a}. Three magnitudes of strain were compared by doing the same calculations on the Ti-Mo system using the  $\pm$0.01, $\pm$0.013 and $\pm$0.007 magnitudes of strain. The three magnitudes of strain showed little variance in results, thus the calculations were done with PBE and $\pm$0.01 strains. For consistency, a 310 eV energy cutoff was adopted for all calculations, which is roughly 1.3 times higher than the default value. The energy convergence criterion was 10$^{-6}$ eV/atom, and the Monkhorst-Pack scheme is used for Brillouin zone sampling \cite{Kresse1996,Monkhorst1976a}. 
 
 For the Ti-X binary systems, calculations for both dilute and SQS solutions were carried out. Three SQS cells with mole fractions of X atoms at 0.25, 0.5, and 0.75 were employed. Five dilute solutions were calculated for each Ti-X binary alloy using supercell sizes, i.e., Ti$_{53}$X (54-atom), Ti$_{15}$X (16-atom), Ti$_{7}$X (8-atom), X$_{15}$Ti (16-atom), and X$_{53}$Ti (54-atom). The interaction paramters for the  elastic stiffness constants were then determined according to the methodology laid out in chapter 2. 
 
@@ -200,14 +200,6 @@ The effects of five alloying elements on the elastic properties of bcc Ti-X (X =
 \end{table}
 \clearpage
 %%%
-
-\pagebreak
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{Chapter-5/Figures/PBEvsPW91.png}
-	\caption{Elastic stiffness constants of the bcc Ti-Ta binary system calculated with the GGA and PBE exchange correction functions, respectively.}
-	\label{Ch5-figure:PBEvsPW91}
-\end{figure}
 
 \pagebreak
 \begin{figure}[H]

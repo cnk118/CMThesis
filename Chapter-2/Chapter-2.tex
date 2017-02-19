@@ -4,63 +4,59 @@
 
 In this disseration, the ground state energy structures, thermodynamic propertie and mechanical properties are calcualted using first-principles based on Density Functional Theory. The first-priniciples refers to the calculations orginating from first-principles, meaning that the inputs are the atomic coordinates and atomic numbers. This method computes the interactions between atoms in a periodic supercell. This is determined using quantum mechanical electronic theroy that is based on the electronic charge density. do not rely on any emprical data. This section provides a description of the DFT methodology.
 
-\subsection{Density Functional Theory at 0 K}
-
-Solving Schr$\ddot{o}$dinger's time-independent non-relativisitc equation is a solution to the many-body problem of calculating the interactions of postiviely charged nuclei and negatively charged electrons. The Schr$\ddot{o}$dinger equation:
+Schr$\ddot{o}$dinger's time-independent non-relativisitc equation is a solution to the many-body problem of calculating the interactions of postiviely charged nuclei and negatively charged electrons. The Schr$\ddot{o}$dinger equation:
 
 %%
 \begin{equation}
 \label{eq: schrodinger}
-\hat{H} \Psi = E \Psi
+\left[ \sum_{i=1}^{N} \left( - \frac{\hbar^2}{2m} \nabla_{i}^2 + V_{ext} (r_{i}) \right) + \sum_{i<j} U (r_{i}, r_{j}) \right] \Psi = E \Psi
 \end{equation}
 %%
 
-is based on $\hat{H}$ representing the Hamiltonian of the system, $\Psi$ describing the wave function of electrons and $E$ denoting the systems energy. The $\hat{H}$ of the system is described by:
+\noindent where $\Psi$ describing the wave function of electrons, $E$ describes the systems energy and the first part representing the Hamiltonian ($\hat{H}$). The $\hat{H}$ of the system is described by three parts, the first part representing the kinetic energy with $N$ being the total number of electons in the system, $\hbar$ being Planck's constant and $m$ the mass of a electron. The second term $V_{ext}$ gives the external potential and $U$ is the potential of the electron-electron repulsion. 
 
-%%
-\begin{equation}
-\label{eq: hamiltonian}
-\hat{H} = \sum_{i=1}^{N} (-\frac{\hbar^{2}}{2m} \nabla_{i}^{2} - e^{2} \sum_{a} \frac{Z_{a}}{|r_{i} - R_{a}}) + \frac{1}{2} \sum_{i \neq j} \frac{e^{2}}{|r_{i}-r_{j}}
-\end{equation}
-%%
+Eq. \ref{eq: schrodinger} can be solved for $\Psi$ with the lowest energy $E_0$ being the ground state energy. Assuming the nuclei-nuclei interactions are neglected due to the Born-Oppenheimer approximation which allows us to assume the nuclei are stationary and ignore the motion of nuclei on the electronic timescale. This assumption is due to the mass difference, with nuceli being \~ 10$^3$ to 10$^5$ larger than electrons. However, even with approximations solving Eq. \ref{eq: schrodinger} difficult to deal with due to the electron-electron Columb interactions making the electronic motion correlated and the fact that the many-body problem results in too many variables because of the 3N degrees of freedom. 
 
-where the first-term represents the kinetic energy and $N$ is the total number of electons in the system, $\hbar$ is Planck's constant, $m$ is the mass of a electron. The second term gives the interaction with nuclei where $r_i$ represents the position of electron $i$, and $R_a$ represents the position of nuclei $a$ with a chage valance of $Z_a$. The third term describes the electron-electron interaction where $r_i$ represents the position of electron $i$ and $r_j$ represents the position of electron $j$. The nuclei-nuclei interactions have been neglected due to the Born-Oppenheimer approximation which allows us to assume the nuclei are stationary and ignore the motion of nuclei on the electronic timescale. This assumption is due to the mass difference, with nuceli being ~ 10$^3$ to 10$^5$ larger than electrons. 
-
-Using Eq. \ref{eq: hamiltonian}, Eq. \ref{eq: schrodinger} can be solved for $\Psi$ with the lowest energy $E_0$ being the ground state energy. However, even with approximations solving Eq. \ref{eq: schrodinger} difficult to deal with due to the electron-electron Columb interactions making the electronic motion correlated and the fact that the many-body problem results in too many variables because of the 3N degrees of freedom. The Hohenberg-Kohn-Sham formulated DFT fixes this problem by introducing two thereoms \cite{Hohenberg1964,Kohn1965}. The first theorem is that the external potential as a unique functional of the electron density. The second thereom states that the density that minimizes the total energy is the exact ground state density and thus the ground state is obtained variationaly. WIth these thereoms the Hamiltonian fixes the ground state of the system and the electron density is the only variable of interest. Therefore, the $E$ can be expressed as function of the electron density $\rho(r)$:
-
-\begin{equation}
-\label{eq: hkenergy}
-E [\rho(r)] = T_{KE}[\rho(r)] + \int V_{ext} (\rho(r))\rho(r) d^3 r + E_{ee} [\rho(r)]
-\end{equation}
-%%
-
- where $T_{KE}$ is the kinetic energy, $V_{ext}$ is the external potential and $E_{ee}$ is the electron-electron interaction energy. Kohn-Sham sovled the electon density $\rho{r}$ for $N$ electrons:
- 
- \begin{equation}
- \label{eq: electrondensity}
- \rho(r) = \sum_{i}^{N} |\phi_{i}(r)|^{2} 
- \end{equation}
- %%
- 
- where $\phi_{i}(r)$ is the Kohn-Sham orbital. The Kohn-Sham orbital is solved by the equation:
+Hohenberg-Kohn formulated two thereoms to simplify this problem \cite{Hohenberg1964}. The first theorem is that the external potential as a unique functional of the electron density. The second thereom states that the density that minimizes the total energy is the exact ground state density and thus the ground state is obtained variationaly. With these thereoms, Kohn-Sham proved that the problem can be solved as if the electrons are not interacting and still obtain the density as if they were with their equation \cite{Kohn1965}:
  
   \begin{equation}
  \label{eq: kohnsham}
-[-\frac{\hbar^2}{2m} \nabla^{2} + V (r) + V_{Hartree}(r) + V_{XC} (r)] \phi_{1}(r) = \varepsilon_{i} \psi_{i}(r)
+\left[ -\frac{\hbar^2}{2m} \nabla^{2} + V_{ext} (r) + V_{Hartree}(r) + V_{XC} (r) \right] \phi_{1}(r) = \epsilon_{i} \psi_{i}(r)
  \end{equation}
  %%
  
-where the solution to the Kohn-Sham equations are single-electron wave functions that depend on three spatial variables. The $V (r)$ orbitabl energy of the correspoinding Kohn-Sham orbital is described by $\varepsilon_{i}$ unc  in the wave function and electron-electron 
-DFT is a method to predict the Helmholtz energy, F(V,T) as a function of temperature T and volume V via the quasiharmonic approach \cite{Shang2010,Wang2004}:
+ \noindent where $V_{ext}(r)$ is described the electron-nuclei interaction similar as in Eq. \ref{eq: schrodinger}:
 
-%%
 \begin{equation}
-\label{eq: helmholtz}
-F(V,T) = E_{0}(V) + F_{vib}(V,T) + F_{T-el}(V,T)
+\label{eq: vext}
+V_{ext} = - e^2 \sum_{a} \frac {Z_{a}}{|r_i - R_a|}
+\end{equation}
+
+\noindent where $r_i$ represents the position of electron i and $R_a$ represents the position of nucleus $a$ with a charge valance of $Z_a$. The electron-electron interactions are represented by $V_{Hartree}$:
+
+\begin{equation}
+\label{eq: vhartree}
+V_{Hartree} (r) = e^{2} \int \frac {\rho(r)}{|r - r_{j}|} d^3r
 \end{equation}
 %%
 
-where $E_0$ is the static contribution at 0 $^\circ$K without the contribution of zero-point vibrational energy, $F_{vib}$ is the temperature-dependent vibrational contribution, and $F_{T-el}$ is the thermal electronic contribution. At ambient pressure, the Helmholtz energy of the system is equal to the Gibbs energy, which is used in the CALPHAD modeling. In the present work, the $E_0$ was calculated from the equation of state (EOS) fitted to the first-principles data points using the four-parameter Birch-Murnaghan (BM4) EOS \cite{Shang2010}:
+\noindent where $r$ and $r_j$ represent the electrons and $\rho (r)$ is described by :
+
+\begin{equation}
+\label{eq: rhop}
+\rho (r) = \sum_{i}^N | \psi_{i} (r) |^2
+\end{equation}
+%%
+
+\noindent The final term of $V_{xc}$ is the exchange correlation potential that is described in terms of an exchange-correlation energy. By implementing th thereoms and the Kohn-Sham equation, the energy of the system can be calculated. 
+
+While there is no exact solution to the exchange-correlation (X-C) energy avaliable, there are multiple different appoximations. Each approximation is done to account for different things. In the present work, the generalized gradient approximation by Perdew and Wang (PW91) \cite{Perdew1992} and the generalized gradient approximation by Perdew, Burke and Ernzerhoff (PBE) \cite{Perdew1996a} where used. The generalized gradient approach impoves the total energies, atomization ernegies as opposed to other methods such as the local density approximation \cite{Ceperley1980} but can over-correct for the expansion and softening of bonds. The generalized gradient approximation (GGA) is favored for densities that are inhomogenous. Based on previous research done by Perdew et al. \cite{Perdew1996a}, GGA's are considered to be adequate approximations for calculating metals. The use of PW91 vs PBE was compared when looking at the elastic properties of the Ti-Ta system. The results showed little difference in calcluated elastic properites. The PW91 X-C functional was designed to satisfy as many exact conditions as possible and thus has some issues. Perdew introduced the PBE X-C functional as an improvement to PW91 which satisfied less exact conditions and only looked at the ones that were energtically significant for metals. Due to this and the fact the results vary so little, the PBE X-C functional was chosen to be used for the present thesis work.  
+
+
+
+\subsection{Density Functional Theory at 0 $^\circ$K}
+
+ The ground state energy at 0 $^\circ$K with the contribution of zero-point vibrational energy can be calcaulted by using the equation of states fitting for the relationship between the energy and volume of the structure. The EOS fitting is achieved through an energy-volume ($E_{0}-V$) curve of 5 or more relaxed volumes and using the four-parameter Birch-Murnaghan (BM4) EOS \cite{Shang2010}:
 
 %%
 \begin{equation}
@@ -69,11 +65,21 @@ E_{0}(V) = a + bV^{\frac{-2}{3}} + cV^{{-4}{3}} + dV^{-2}
 \end{equation}
 %%
 
-The EOS fitting is achieved through an energy-volume ($E_{0}-V$) curve of 7 different relaxed volumes based on the methodology of Shang et al. \cite{Shang2010}. The valance configuration for each element was selected based on the VASP recommendations. The p electrons were treated as valance for the Mo and Ta, the d electrons were treated as valance for Sn and the s electrons were treated as valance for Ti, Nb, and Zr \cite{Kresse1996,Kresse1999}. 
+\noindent where $a$, $b$, $c$ and $d$ are fitting parameters. From this, the volume $V_0$, ground state energy $E_{0}$, bulk modulus $B_{EOS}$, and first derviative with respect to pressure $B'$ can be calculated. 
+
+From the ground state energies, the energy of formation and enthalpy of formation at 0 $^\circ$K can be calculated by finding the differenc between the structures energy and a reference state, normally the standard element reference state at standard pressure and temperature. The valance configuration for each element was selected based on the VASP recommendations. The p electrons were treated as valance for the Mo and Ta, the d electrons were treated as valance for Sn and the s electrons were treated as valance for Ti, Nb, and Zr \cite{Kresse1996,Kresse1999}. 
 
 \subsection{Finite-temperature thermodynamics}
 
- The vibrational contribution is obtained through the phonon quasiharmonic supercell (phonon approach) or the Debye-Grüneisen method (Debye). The phonon approach is a more accurate approach compared to the Debye model but it is also more computationally expensive. In the present work both the phonon and Debye models are used in different sections. The vibrational contribution is obtained through phonon calculations of at least five different volumes [18]: 
+The Helmholtz energy, F (V,T) can be calulated, with DFT, as a function of temperature $T$ and volume $V$:
+ %%
+ \begin{equation}
+ \label{eq: helmholtz}
+ F(V,T) = E_{0}(V) + F_{vib}(V,T) + F_{T-el}(V,T)
+ \end{equation}
+ %%
+ 
+ \noindent where $E_0$ is the static contribution at 0 $^\circ$K without the contribution of zero-point vibrational energy, $F_{vib}$ is the temperature-dependent vibrational contribution, and $F_{T-el}$ is the thermal electronic contribution. At ambient pressure, the Helmholtz energy of the system is equal to the Gibbs energy, which is used in the CALPHAD modeling. The vibrational contribution is obtained through the phonon quasiharmonic supercell (phonon approach) or the Debye-Grüneisen method (Debye). The phonon approach is a more accurate approach compared to the Debye model but it is also more computationally expensive. In the present work both the phonon and Debye models are used in different sections. The vibrational contribution is obtained through phonon calculations of at least five different volumes \cite{Wang2012}: 
 
 %%
 \begin{equation}
@@ -82,7 +88,7 @@ F_{vib}(V,T) = k_{b}T \int_{0}^{infty} ln[2sinh\frac{\hbar \omega}{2k_BT}] g(\om
 \end{equation}
 %%
 
-where $g(\omega)$ is the phonon density of states as a function of phonon frequency $\omega$ at volume $V$.  In addition, the Debye model is used to estimate the vibrational contribution \cite{Shang2010}: 
+\noindent where $g(\omega)$ is the phonon density of states as a function of phonon frequency $\omega$ at volume $V$.  In addition, the Debye model is used to estimate the vibrational contribution \cite{Shang2010}: 
 
 %%
 \begin{equation}
@@ -91,7 +97,7 @@ F_{vib}(V,T) = \frac{9}{8} k_{b} \theta_{D}(V) - k_{B}T[D (\frac{\theta_D(V){T}}
 \end{equation}
 %%
 
-where $\theta_{D}$ is the Debye temperature, $T$ is the temperature, and $D[\frac{\theta{D}(V)}{T}]$ is the Debye function. The Debye temperature is calculated through: 
+\noindent where $\theta_{D}$ is the Debye temperature, $T$ is the temperature, and $D[\frac{\theta{D}(V)}{T}]$ is the Debye function. The Debye temperature is calculated through: 
 
 %%
 \begin{equation}
@@ -100,7 +106,7 @@ where $\theta_{D}$ is the Debye temperature, $T$ is the temperature, and $D[\fra
 \end{equation}
 %%
 
-where $s$ is the Debye temperature scaling factor, $\gamma$ is the Grüneisen parameter determined by the pressure derivative of bulk modulus ($B'$), $B$ is the bulk modulus, $M$ is the atomic mass, and $V_0$ is the equilibrium volume. Here the equilibrium properties $V_0$, $B$, and $B'$ are estimated from the EOS of Eq. Y. The Debye temperature scaling factor was determined by Moruzzi et al. \cite{Moruzzi1988} to be 0.617 for nonmagnetic metals. However, this value has been shown to be less accurate for other materials. Liu et al. extensively looked at the Debye scaling factor and how to calculate the scaling factor based on a the Poisson’s ratio of a material [20]. The methodology by Liu et al. \cite{Liu2015} was used for the present work to calculate the scaling factor: 
+\noindent where $s$ is the Debye temperature scaling factor, $\gamma$ is the Grüneisen parameter determined by the pressure derivative of bulk modulus ($B'$), $B$ is the bulk modulus, $M$ is the atomic mass, and $V_0$ is the equilibrium volume. Here the equilibrium properties $V_0$, $B$, and $B'$ are estimated from the EOS of Eq. Y. The Debye temperature scaling factor was determined by Moruzzi et al. \cite{Moruzzi1988} to be 0.617 for nonmagnetic metals. However, this value has been shown to be less accurate for other materials. Liu et al. extensively looked at the Debye scaling factor and how to calculate the scaling factor based on a the Poisson’s ratio of a material \cite{Liu2015}. The methodology by Liu et al. \cite{Liu2015} was used for the present work to calculate the scaling factor: 
 
 %%
 \begin{equation}
@@ -109,16 +115,51 @@ s(\nu) = 3^{\frac{5}{6}} [4\sqrt{2} (\frac{1 + \nu}{1 - \nu})^{\frac{3}{2}} + (\
 \end{equation}
 %%
 
-where $\nu$ is the Poisson’s ratio, which can be calculated from the elastic stiffness constants.
+\noindent where $\nu$ is the Poisson’s ratio, which can be calculated from the elastic stiffness constants.
 
-The thermal electronic contribution is based on the electronic density of states and calculated with the Fermi-Dirac statistics [17].
+The thermal electronic contribution is based on the electronic density of states and calculated with the Fermi-Dirac statistics \cite{Shang2010,Wang2004}:
+
+%%
+\begin{equation}
+\label{eq:thermalelectronic}
+F_{T-el} = E_{T-el} - T S_{T-el}
+\end{equation}
+%%
+
+The $E_{ele}$ and $S_{ele}$ represent the energy and entropy of the thermal electron excitations, respectively. The $E_{T-el}$ is expressed by:
+
+%%
+\begin{equation}
+\label{eq:etel}
+E_{T-el} (V,T) = \int n\left(\epsilon, V\right) f \left(\epsilon, T\right) \epsilon d \epsilon - \int^{\epsilon_{f}} n (\epsilon) \epsilon d \epsilon
+\end{equation}
+%%
+
+\noindent and the entropy $S_{T-el}$ is expressed by:
+
+%%
+\begin{equation}
+\label{eq:sel}
+S_{T-el} (V,T) = -k_{B} \int n(\epsilon, V) \left[ ln f \left(\epsilon,T\right) + \left( 1 - f(\epsilon, T) \right) ln \left( 1 - f \left(\epsilon, T \right) \right) \right] d\epsilon 
+\end{equation}
+%%
+
+\noindent where $n(\epsilon, V)$ is the electronic density of states (DOS) at energy $\epsilon$,  $f (\epsilon,T)$ is the Fermi-Dirac distribution, $\epsilon_{f}$ is the Fermi energy level and $k_{B}$ is Boltzmann's constant. The Fermi-Dirac distribution $f (\epsilon, T)$ is expressed by:
+
+%%
+\begin{equation}
+\label{eq:fermidirac}
+f (\epsilon,T) = \left[ exp \left( \frac{\epsilon - \mu}{k_{B} T} \right) + 1 \right]^{-1}
+\end{equation}
+%%
+
+and $\mu$ is the chemical potential of the electrons. The $S_{T-el}$ entropy term is expressed by:
 
 
-ADD-look at xuan's
 
 \subsection{Elastic stiffness calculations}
 
-The single crystal elastic stiffness constants $c_{ij}'s$ were calculated from the ground state energy structure using a stress-strain method developed by Shang et al. \cite{Shang2007c}. With this method, a set of independent strains $\epsilon = (\epsilon_{1}, \epsilon_{2}, \epsilon_{3}, \epsilon_{4}, \epsilon_{5}, \epsilon_{6})$  were imposed on the crystal lattice, where $\epsilon_{1}$, $\epsilon_{2}$, and $\epsilon_{3}$ are the normal strains, $\epsilon_{4}$, $\epsilon_{5}$, and $\epsilon_{6}$ the shear strains, and a set of stresses $\sigma = (\sigma_{1}, \sigma_{2}, \sigma_{3}, \sigma_{4}, \sigma_{5},\sigma_{6})$ are generated. Hooke's law was used to calculate the elastic stiffness constants: 
+The single crystal elastic stiffness constants $c_{ij}'s$ were calculated from the ground state energy structure using a stress-strain method developed by Shang et al. \cite{Shang2007c}. With this method, a set of independent strains $\varepsilon = (\varepsilon_{1}, \varepsilon_{2}, \varepsilon_{3}, \varepsilon_{4}, \varepsilon_{5}, \varepsilon_{6})$  were imposed on the crystal lattice, where $\epsilon_{1}$, $\epsilon_{2}$, and $\varepsilon_{3}$ are the normal strains, $\varepsilon_{4}$, $\varepsilon_{5}$, and $\varepsilon_{6}$ the shear strains, and a set of stresses $\sigma = (\sigma_{1}, \sigma_{2}, \sigma_{3}, \sigma_{4}, \sigma_{5},\sigma_{6})$ are generated. Hooke's law was used to calculate the elastic stiffness constants: 
 
 %%
 \begin{equation}
@@ -132,12 +173,12 @@ The single crystal elastic stiffness constants $c_{ij}'s$ were calculated from t
 	0 & 0 & 0 & 0 & 0 & c_{66} \\    		
 \end{pmatrix} =
 \begin{pmatrix}
-	\epsilon_{1,1} & & \epsilon_{1,n}\\
-	\epsilon_{2,1} & & \epsilon_{2,n}\\
-	\epsilon_{3,1} & ... & \epsilon_{3,n}\\
-	\epsilon_{4,1} & & \epsilon_{4,n}\\
-	\epsilon_{5,1} & & \epsilon_{5,n}\\
-	\epsilon_{6,1} & & \epsilon_{6,n}\\					
+	\varepsilon_{1,1} & & \varepsilon_{1,n}\\
+	\varepsilon_{2,1} & & \varepsilon_{2,n}\\
+	\varepsilon_{3,1} & ... & \varepsilon_{3,n}\\
+	\varepsilon_{4,1} & & \varepsilon_{4,n}\\
+	\varepsilon_{5,1} & & \varepsilon_{5,n}\\
+	\varepsilon_{6,1} & & \varepsilon_{6,n}\\					
 \end{pmatrix}^{-1}
 \begin{pmatrix}
 	\sigma_{1,1} & & \sigma_{1,n}\\
@@ -223,24 +264,66 @@ where $A_{calc}$ is from the present calculation and $A_{ref}$ is from the previ
 
 \section{CALPHAD method}
 
-CALPHAD modeling is used to evaluate the parameters of the Gibbs energy function for each individual phase \cite{Liu2009}. The Gibbs energy functions of pure elements are adopted from the SGTE (SSUB) database \cite{Dinsdale1991}. The solution phases are modeled as: 
+The CALculation of PHAse Diagrams (CALPHAD) method evaluates parameters to represent the Gibbs energy of individual phases as a function of temperature, pressure and composition. Thermochemcial and and phase boundary data obtained from experiments and first-principles calcualtions are used in the PARROT module of Thermo-Calc to evaluate the parameters \cite{Andersson2002}. The Gibbs free energy is described by enthapy $H$, temperature $T$ and entropy $S$ as follows:
+
+%%
+\begin{equation}
+\label{eq: gibbs}
+G = H - T S 
+\end{equation}
+%%
+
+The Gibbs energy is then parameterized and expressed by:
+
+%%
+\begin{equation}
+\label{eq: parameterizaiton}
+G - H^{SER} = a + bT + cT ln T + d T^2 + \sum_{2}^{n} e_{n} T^{n}
+\end{equation}
+%%
+
+where $H^{SER}$ refers to the elemental enthalpy of an element in the SER state and $a$, $b$, $c$, $d$, $e$ are coefficients. Other themodynamic properties such as, enthalpy, entropy and heat capacity can be derivd from this equation. The parameterized equations for the pure elements have been determined and widely adopted from the SGTE to ensure global compatibility between different databases \cite{Dinsdale1991}. 
+
+\subsection{Order-disorder model}
+
+The databases are built upon the pure elements and then the effects of the binary and ternary interactions are modeled. Normally, the effects of alloying are modeled as solution phases or stoichiometric phases. The solution phases with one sublattice are described by: 
 
 %%
 \begin{equation}
 \label{eq: gibbssolution}
-G_m^{\phi} = x_{i} ^{0}G_{j}^{\phi} + 
+G_m^{\phi} = \sum x_{A} ^{0}G_{A}^{\phi} + R T \sum x_{A} ln x_{A} + ^{XS}G_{m}^{\phi}
 \end{equation}
 %%
 
-where xi, xj and xk are the mole fractions of elements i, j and k, respectively,  is the molar Gibbs energy of pure elements in the specific phase being modeled, taken from the SGTE database [24].  The last term represents the excess mixing energy. The excess mixing energy can be expressed as [25]: 
+\noindent where $x_{A}$ is the mole fractions of elements $A$ and $^{0}G_{A}^{\phi}$ is the molar Gibbs energy of pure elements in the specific phase $\phi$ being modeled. The last term represents the excess mixing energy, representing the non-ideal interactions between species $A$ and $B$. The excess mixing energy can be expressed by the Redlich-Kister polynomial as \cite{Redlich1948b}: 
 
-Eq. 10
+%%
+\begin{equation}
+\label{eq: gibbexsol}
+^{XS}G_m^{\phi} = \sum x_{A} x_{B} \sum_{k=0} ^{k}L_{A,B}^{\phi} (x_{A} - x_{B})^k
+\end{equation}
+%%
 
-where δi,j,k is defined as δi,j,k=(1-xi-xj-xk)/3, and  and   are the binary and ternary interaction parameters defined as: 
+\noindent where $^kL_{A,B}^{\phi}$ represents the interaction parameter for elements $A$ and $B$ in phase $\phi$ described by:
 
-Eq. 11
+%%
+\begin{equation}
+\label{eq: binip}
+L_{A,B}^{\phi} = ^{k}a + ^{k}bT
+\end{equation}
+%%
 
-where a and b are parameters being modeled. 
+\noindent in which $^{k}a$ and $^{k}b$ are evaluated model parameters. Eq. \ref{eq: gibbexsol} can be extended to multi-component systems as:
+
+%%
+\begin{equation}
+\label{eq: gibbexsolmulti}
+^{XS}G_m^{\phi} = \sum x_{A} x_{B} \sum_{k=0} ^{k}L_{A,B}^{\phi} (x_{A} - x_{B})^k + \sum x_{A} x_{B} x_{C} \left[ ^{0}L_{A, B, C}^{\phi} (x_{A} + \delta_{A, B, C} + ^{1}L_{A, B, C}^{\phi} (x_{B} + \delta_{A, B, C} + ^{2}L_{A, B, C}^{\phi} (x_{c} + \delta_{A, B, C} ) \right]
+\end{equation}
+%%
+
+\noindent where the ternary interaction parameters $L_{A, B, C}^{\phi}$ are described the same as the binary interaction parameters in Eq. \ref{eq: binip} and $\delta_{A, B, C}$is defined as $\delta_{A, B, C} = ( 1 - x_{A} - x_{B} - x_{C})/3$
+
 For the stoichiometric compounds ApBq, the Gibbs energy in per mole unit formula used in the present work is of the form [26]: 
 
 Eq. 12
@@ -254,7 +337,7 @@ where xTi, xX, xY, are the mole fractions of Ti and the alloying elements X and 
 
 
 
-\subsection{Order-disorder model}
+
 
 ADD
 
@@ -296,9 +379,10 @@ ADD
 
 ADD
 
-%%
-\begin{equation}
-\label{eq: label}
-x = y
-\end{equation}
-%%
+\pagebreak
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Chapter-2/Figures/PBEvsPW91.png}
+	\caption{Elastic stiffness constants of the bcc Ti-Ta binary system calculated with the GGA and PBE exchange correction functions, respectively.}
+	\label{Ch2-figure:PBEvsPW91}
+\end{figure}

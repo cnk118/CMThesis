@@ -271,17 +271,26 @@
   Equations Including Exchange and Correlation Effects},} \emph{Phys. Rev.},
   \textbf{140}, pp. 1133--1138.
 
+\bibitem{Perdew1992}
+\textsc{Perdew, J.} and \textsc{Y.~Wang} (1992) \enquote{{Accurate and simple
+  analytic representation of the electron-gas correlation energy},}
+  \emph{Physical Review B}, \textbf{45}(23), p. 13244.
+
+\bibitem{Perdew1996a}
+\textsc{Perdew, J.}, \textsc{K.~Burke}, and \textsc{M.~Ernzerhof} (1996)
+  \enquote{{Generalized gradient approximation made simple},} \emph{Physical
+  Review Letters}, \textbf{77}(18), p. 3865.
+
+\bibitem{Ceperley1980}
+\textsc{Ceperley, D.~M.} and \textsc{B.~J. Alder} (1980) \enquote{{Ground state
+  of the electron gas by a stochastic method},} \emph{Physical Review Letters},
+  \textbf{45}(7), p. 566.
+
 \bibitem{Shang2010}
 \textsc{Shang, S.}, \textsc{Y.~Wang}, \textsc{D.~Kim}, and \textsc{Z.-K. Liu}
   (2010) \enquote{{First-principles thermodynamics from phonon and Debye model:
   Application to Ni and Ni3Al},} \emph{Computational Materials Science},
   \textbf{47}(4), pp. 1040--1048.
-
-\bibitem{Wang2004}
-\textsc{Wang, Y.}, \textsc{Z.-K. Liu}, and \textsc{L.-Q. Chen} (2004)
-  \enquote{{Thermodynamic properties of Al, Ni, NiAl, and Ni3Al from
-  first-principles calculations},} \emph{Acta Materialia}, \textbf{52}(9), pp.
-  2665--2671.
 
 \bibitem{Kresse1996}
 \textsc{Kresse, G.} and \textsc{J.~Furthm{\"{u}}ller} (1996)
@@ -294,6 +303,13 @@
   pseudopotentials to the projector augmented-wave method},} \emph{Physical
   Review B}, \textbf{59}(3), pp. 1758--1775.
 
+\bibitem{Wang2012}
+\textsc{Wang, A.}, \textsc{S.~Shang}, \textsc{D.~Zhao}, \textsc{J.~Wang},
+  \textsc{L.~Chen}, \textsc{Y.~Du}, \textsc{Z.-K. Liu}, \textsc{T.~Xu}, and
+  \textsc{S.~Wang} (2012) \enquote{{Structural, phonon and thermodynamic
+  properties of fcc-based metal nitrides from first-principles calculations},}
+  \emph{Calphad}, \textbf{37}, pp. 126--131.
+
 \bibitem{Moruzzi1988}
 \textsc{Moruzzi, V.~L.}, \textsc{J.~F. Janak}, and \textsc{K.~Schwarz} (1988)
   \enquote{{Calculated thermal properties of metals},} \emph{Physical Review
@@ -304,6 +320,12 @@
   \textsc{Y.~Du}, and \textsc{Z.-K. Liu} (2015) \enquote{{On the scaling factor
   in Debye–Gr{\"{u}}neisen model: A case study of the Mg–Zn binary
   system},} \emph{Computational Materials Science}, \textbf{98}, pp. 34--41.
+
+\bibitem{Wang2004}
+\textsc{Wang, Y.}, \textsc{Z.-K. Liu}, and \textsc{L.-Q. Chen} (2004)
+  \enquote{{Thermodynamic properties of Al, Ni, NiAl, and Ni3Al from
+  first-principles calculations},} \emph{Acta Materialia}, \textbf{52}(9), pp.
+  2665--2671.
 
 \bibitem{Shang2007c}
 \textsc{Shang, S.}, \textsc{Y.~Wang}, and \textsc{Z.-K. Liu} (2007)
@@ -355,11 +377,6 @@
 \bibitem{Blochl1994}
 \textsc{Bl{\"{o}}chl, P.} (1994) \enquote{{Projector augmented-wave method},}
   \emph{Physical Review B}, \textbf{50}(24), p. 17953.
-
-\bibitem{Perdew1996a}
-\textsc{Perdew, J.}, \textsc{K.~Burke}, and \textsc{M.~Ernzerhof} (1996)
-  \enquote{{Generalized gradient approximation made simple},} \emph{Physical
-  Review Letters}, \textbf{77}(18), p. 3865.
 
 \bibitem{Monkhorst1976a}
 \textsc{Monkhorst, H.} and \textsc{J.~Pack} (1976) \enquote{{Special points for
@@ -444,13 +461,6 @@
 \bibitem{Okamoto2003}
 \textsc{Okamoto, H.} (2003) \enquote{{Sn-Ta (Tin-Tantalum)},} \emph{Journal of
   Phase Equilibria}, \textbf{24}(5), p. 484.
-
-\bibitem{Wang2012}
-\textsc{Wang, A.}, \textsc{S.~Shang}, \textsc{D.~Zhao}, \textsc{J.~Wang},
-  \textsc{L.~Chen}, \textsc{Y.~Du}, \textsc{Z.-K. Liu}, \textsc{T.~Xu}, and
-  \textsc{S.~Wang} (2012) \enquote{{Structural, phonon and thermodynamic
-  properties of fcc-based metal nitrides from first-principles calculations},}
-  \emph{Calphad}, \textbf{37}, pp. 126--131.
 
 \bibitem{Studnitzky2002}
 \textsc{Studnitzky, T.} and \textsc{R.~Schmid-Fetzer} (2002) \enquote{{Phase
