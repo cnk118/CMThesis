@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -369,10 +369,23 @@
   calculations},} \emph{Calphad}, \textbf{38}, pp. 71--80.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0364591612000442}
 
-\bibitem{Liu2009}
-\textsc{Liu, Z.-K.} (2009) \enquote{{First-Principles Calculations and CALPHAD
-  Modeling of Thermodynamics},} \emph{Journal of Phase Equilibria and
-  Diffusion}, \textbf{30}(5), pp. 517--534.
+\bibitem{Andersson2002}
+\textsc{Andersson, J.-O.}, \textsc{T.~Helander}, \textsc{L.~H{\"{o}}glund},
+  \textsc{P.~Shi}, and \textsc{B.~Sundman} (2002) \enquote{{Thermo-Calc {\&}
+  DICTRA, computational tools for materials science},} \emph{Calphad},
+  \textbf{26}(2), pp. 273--312.
+
+\bibitem{Redlich1948b}
+\textsc{Redlich, O.} and \textsc{A.~T. Kister} (1948) \enquote{{Algebraic
+  representation of thermodynamic properties and the classification of
+  solutions},} \emph{Industrial {\&} Engineering Chemistry}, \textbf{40}(2),
+  pp. 345--348.
+
+\bibitem{Shang2010c}
+\textsc{Shang, S.}, \textsc{J.~Saal}, \textsc{Z.~Mei}, \textsc{Y.~Wang}, and
+  \textsc{Z.-K. Liu} (2010) \enquote{{Magnetic thermodynamics of fcc Ni from
+  first-principles partition function approach},} \emph{Journal of Applied
+  Physics}, \textbf{108}(12), p. 123514.
 
 \bibitem{Blochl1994}
 \textsc{Bl{\"{o}}chl, P.} (1994) \enquote{{Projector augmented-wave method},}
@@ -458,6 +471,11 @@
   applications},} \emph{Materials Science and Engineering: C}, \textbf{26}(1),
   pp. 14--19.
 
+\bibitem{Liu2009}
+\textsc{Liu, Z.-K.} (2009) \enquote{{First-Principles Calculations and CALPHAD
+  Modeling of Thermodynamics},} \emph{Journal of Phase Equilibria and
+  Diffusion}, \textbf{30}(5), pp. 517--534.
+
 \bibitem{Okamoto2003}
 \textsc{Okamoto, H.} (2003) \enquote{{Sn-Ta (Tin-Tantalum)},} \emph{Journal of
   Phase Equilibria}, \textbf{24}(5), p. 484.
@@ -531,12 +549,6 @@
   \enquote{{Some new intermetallic compounds with the beta.-wolfram
   structure},} \emph{Journal of the American Chemical Society}, \textbf{77},
   pp. 1502--1504.
-
-\bibitem{Andersson2002}
-\textsc{Andersson, J.-O.}, \textsc{T.~Helander}, \textsc{L.~H{\"{o}}glund},
-  \textsc{P.~Shi}, and \textsc{B.~Sundman} (2002) \enquote{{Thermo-Calc {\&}
-  DICTRA, computational tools for materials science},} \emph{Calphad},
-  \textbf{26}(2), pp. 273--312.
 
 \bibitem{Wang2004a}
 \textsc{Wang, Y.}, \textsc{S.~Curtarolo}, \textsc{C.~Jiang},

@@ -284,7 +284,7 @@ G - H^{SER} = a + bT + cT ln T + d T^2 + \sum_{2}^{n} e_{n} T^{n}
 
 where $H^{SER}$ refers to the elemental enthalpy of an element in the SER state and $a$, $b$, $c$, $d$, $e$ are coefficients. Other themodynamic properties such as, enthalpy, entropy and heat capacity can be derivd from this equation. The parameterized equations for the pure elements have been determined and widely adopted from the SGTE to ensure global compatibility between different databases \cite{Dinsdale1991}. 
 
-\subsection{Order-disorder model}
+\subsection{Solution phases}
 
 The databases are built upon the pure elements and then the effects of the binary and ternary interactions are modeled. Normally, the effects of alloying are modeled as solution phases or stoichiometric phases. The solution phases with one sublattice are described by: 
 
@@ -316,48 +316,41 @@ L_{A,B}^{\phi} = ^{k}a + ^{k}bT
 \noindent in which $^{k}a$ and $^{k}b$ are evaluated model parameters. Eq. \ref{eq: gibbexsol} can be extended to multi-component systems as:
 
 %%
-\begin{equation}
+\begin{multline}
 \label{eq: gibbexsolmulti}
-^{XS}G_m^{\phi} = \sum x_{A} x_{B} \sum_{k=0} ^{k}L_{A,B}^{\phi} (x_{A} - x_{B})^k + \sum x_{A} x_{B} x_{C} \left[ ^{0}L_{A, B, C}^{\phi} (x_{A} + \delta_{A, B, C} + ^{1}L_{A, B, C}^{\phi} (x_{B} + \delta_{A, B, C} + ^{2}L_{A, B, C}^{\phi} (x_{c} + \delta_{A, B, C} ) \right]
-\end{equation}
+^{XS}G_m^{\phi} = \sum x_{A} x_{B} \sum_{k=0} ^{k}L_{A,B}^{\phi} (x_{A} - x_{B})^k + \sum x_{A} x_{B} x_{C} \\ \left[ ^{0}L_{A, B, C}^{\phi} (x_{A} + \delta_{A, B, C} + ^{1}L_{A, B, C}^{\phi} (x_{B} + \delta_{A, B, C} + ^{2}L_{A, B, C}^{\phi} (x_{c} + \delta_{A, B, C} ) \right]
+\end{multline}
 %%
 
 \noindent where the ternary interaction parameters $L_{A, B, C}^{\phi}$ are described the same as the binary interaction parameters in Eq. \ref{eq: binip} and $\delta_{A, B, C}$is defined as $\delta_{A, B, C} = ( 1 - x_{A} - x_{B} - x_{C})/3$
 
-For the stoichiometric compounds ApBq, the Gibbs energy in per mole unit formula used in the present work is of the form [26]: 
-
-Eq. 12
-
-where a and b are model parameters determined from enthalpy and entropy of formation,  is the Gibbs energy of pure element A in the stable element reference (SER) state,   is the Gibbs energy of pure element B in the SER state, p is the number of atoms per unit formula of A, and q is the number of atoms per unit formula B. The data from the DFT calculations and experiments are accounted for in the parameter modeling using the PARROT module in the Thermo-Calc software [27].
-To obtain the elastic properties as a function of composition, the CALPHAD modeling approach fits the Redlich-Kister polynomial to find the binary and ternary interaction parameters [12], [25]. The binary fitting is done by extrapolating a linear relationship between the pure elements Ti and alloying element X of a specific system and estimating the difference between the DFT calculations and the linear extrapolation. The ternary fitting is done similarly but the linear extrapolation is between pure Ti and the X0.5Y0.5 mixture. The differences are then used to find the binary and ternary fitting parameter L0: 
-
-Eq. 13
-
-where xTi, xX, xY, are the mole fractions of Ti and the alloying elements X and Y, respectively, and ETi, EX and EY are the elastic properties of Ti, X, and Y, respectively, in the specific phase being studied. 
-
-
-
-
-
-ADD
+In the present thesis, while no order-disorder modeling is done, the order-disorder model is used in many of the previous models evaluated. At low temperatures in many of the Ti-containing binary alloys, the randomly substituted bcc-A2 phase goes through a second order transition to become the ordered simple cubic B2 phase (CsCl-type). This modeling is discussed extensively in the the COST 507 by Ansara \cite{Ansara1998}. 
 
 \subsection{Stoichiometric compounds}
 
-ADD
+The Gibbs energy of stoichiometric compound are modeled in per mole unit fomula. For the stoichiometric compound, $A_{p}B_{q}$, the Gibbs energy is expressed by \cite{Zacherl2012}: 
+
+%%
+\begin{equation}
+\label{eq: stoichiometric}
+^{0}G_{m}^{A_{p}B_{q}} = a + bT + p * ^{0}G_{A}^{SER} + q * ^{0}G_{B}^{SER}
+\end{equation}
+%%
+
+\noindent where $a$ and $b$ are the evaluated parameters, $^{0}G_{A}^{SER}$ is the Gibbs energy of pure element $A$ in the SER phase, $^{0}G_{B}^{SER}$ is the Gibbs energy of pure element $B$ in the SER phase, $p$ is the number of atoms per unit formula of element $A$ and $q$ is the number of atoms per unit formula of element $B$.
 
 \subsection{Elastic Properties}
 
-ADD
+To obtain the elastic properties as a function of composition, the CALPHAD modeling approach was adopted to fit the Redlich-Kister polynomial \cite{Redlich1948b,Shang2010c}: 
 
-\subsection{Optimization of thermodynamic parameters}
+%%
+\begin{equation}
+\label{eq: elastic}
+E(x) = \sum x_{A} E_{A}^{\phi} + \sum x_{A} x_{B} ^{k}L_{A,B}^{\phi} + \sum x_{A} x_{B} x_{C} ^{0}L_{A, B, C}^{\phi}
+\end{equation}
+%%
 
-\subsubsection{Thermochemical data}
-
-ADD
-
-\subsubsection{Phase equilibria data}
-
-ADD
+\noindent where similar to Eq. \ref{eq: gibbexsol} and \ref{eq: gibbexsolmulti} the $x_A$, $x_B$, and $x_C$ refer to the mole fraction of element $A$, $B$, and $C$ respectively, $E_{A}$ is the elastic property of element $A$, $^{k}L_{A,B}^{\phi}$ and $^{k}L_{A,B,C}^{\phi}$ are the binary and ternary interaction parameters, respectively. The binary and ternary interaction parameters are described in terms of Eq. \ref{eq: binip} but with solely an $a$ cofficient. 
 
 \section{Experimental}
 
