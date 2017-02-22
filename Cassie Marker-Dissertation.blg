@@ -20,45 +20,45 @@ Warning--missing school in Mei2011
 Warning--empty booktitle in Predel1997
 Warning--missing institution in English1961
 Warning--can't use both volume and number fields in Basile1971
-You've used 101 entries,
+You've used 103 entries,
             2552 wiz_defined-function locations,
-            1262 strings with 22404 characters,
-and the built_in function-call counts, 50013 in all, are:
-= -- 3656
-> -- 1388
-< -- 91
-+ -- 403
-- -- 302
-* -- 3690
-:= -- 4917
-add.period$ -- 196
-call.type$ -- 101
+            1277 strings with 22686 characters,
+and the built_in function-call counts, 50863 in all, are:
+= -- 3725
+> -- 1398
+< -- 93
++ -- 407
+- -- 304
+* -- 3742
+:= -- 5003
+add.period$ -- 200
+call.type$ -- 103
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 106
-duplicate$ -- 5413
-empty$ -- 4943
-format.name$ -- 381
-if$ -- 11518
+cite$ -- 108
+duplicate$ -- 5505
+empty$ -- 5032
+format.name$ -- 383
+if$ -- 11720
 int.to.chr$ -- 0
-int.to.str$ -- 101
-missing$ -- 984
-newline$ -- 319
-num.names$ -- 100
-pop$ -- 1285
+int.to.str$ -- 103
+missing$ -- 1000
+newline$ -- 325
+num.names$ -- 102
+pop$ -- 1305
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1827
+skip$ -- 1864
 stack$ -- 0
-substring$ -- 2908
-swap$ -- 3921
-text.length$ -- 91
+substring$ -- 2962
+swap$ -- 3987
+text.length$ -- 93
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 352
-width$ -- 104
-write$ -- 909
+while$ -- 359
+width$ -- 106
+write$ -- 927
 (There were 5 warnings)

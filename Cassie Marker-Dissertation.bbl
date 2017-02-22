@@ -4,6 +4,37 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem{Wu2010a}
+\textsc{Wu, C.}, \textsc{Y.~Xin}, \textsc{X.~Wang}, and \textsc{J.~Lin} (2010)
+  \enquote{{Effects of Ta content on the phase stability and elastic properties
+  of $\beta$ Ti–Ta alloys from first-principles calculations},} \emph{Solid
+  State Sciences}, \textbf{12}(12), pp. 2120--2124.
+
+\bibitem{Ikehata2004}
+\textsc{Ikehata, H.}, \textsc{N.~Nagasako}, \textsc{T.~Furuta},
+  \textsc{A.~Fukumoto}, \textsc{K.~Miwa}, and \textsc{T.~Saito} (2004)
+  \enquote{{First-principles calculations for development of low elastic
+  modulus Ti alloys},} \emph{Physical Review B}, \textbf{70}(17), p. 174113.
+
+\bibitem{Zhou2004a}
+\textsc{Zhou, Y.~L.}, \textsc{M.~Niinomi}, and \textsc{T.~Akahori} (2004)
+  \enquote{{Effects of Ta content on Young's modulus and tensile properties of
+  binary Ti–Ta alloys for biomedical applications},} \emph{Materials Science
+  and Engineering: A}, \textbf{371}(1-2), pp. 283--290.
+
+\bibitem{Zhou2009a}
+\textsc{Zhou, Y.-L.} and \textsc{M.~Niinomi} (2009) \enquote{{Ti–25Ta alloy
+  with the best mechanical compatibility in Ti–Ta alloys for biomedical
+  applications},} \emph{Materials Science and Engineering: C}, \textbf{29}(3),
+  pp. 1061--1065.
+
+\bibitem{Fedotov1985}
+\textsc{Fedotov, S.}, \textsc{T.~Chelidze}, \textsc{Y.~Kovneristyy}, and
+  \textsc{V.~Sanadze} (1985) \enquote{{Phase structure, critical points MS and
+  AS of martensitic transformations and elastic properties of metastable alloys
+  of the Ti-Ta system},} \emph{Phys. Met. Metall.}, \textbf{60}(3), pp.
+  139--143.
+
 \bibitem{Ansara1998}
 \textsc{Ansara, I.}, \textsc{A.~Dinsdale}, and \textsc{M.~Rand} (1998)
   \emph{{COST 507: thermochemical database for light metal alloys}}, vol.~2,
@@ -118,12 +149,6 @@
 \textsc{Dinsdale, A.} (1991) \enquote{{SGTE Data for Pure Elements},}
   \emph{CALPHAD}, \textbf{15}(4), pp. 317--425.
 
-\bibitem{Ikehata2004}
-\textsc{Ikehata, H.}, \textsc{N.~Nagasako}, \textsc{T.~Furuta},
-  \textsc{A.~Fukumoto}, \textsc{K.~Miwa}, and \textsc{T.~Saito} (2004)
-  \enquote{{First-principles calculations for development of low elastic
-  modulus Ti alloys},} \emph{Physical Review B}, \textbf{70}(17), p. 174113.
-
 \bibitem{Zhang2015}
 \textsc{Zhang, W.-D.}, \textsc{Y.~Liu}, \textsc{H.~Wu}, \textsc{M.~Song},
   \textsc{T.-Y. Zhang}, \textsc{X.-D. Lan}, and \textsc{T.-H. Yao} (2015)
@@ -146,37 +171,12 @@
   \textsc{S.~Hanada} (2004) \enquote{{Beta Ti Alloys with Low Young's
   Modulus},} \emph{MATERIALS TRANSACTIONS}, \textbf{45}(8), pp. 2776--2779.
 
-\bibitem{Fedotov1985}
-\textsc{Fedotov, S.}, \textsc{T.~Chelidze}, \textsc{Y.~Kovneristyy}, and
-  \textsc{V.~Sanadze} (1985) \enquote{{Phase structure, critical points MS and
-  AS of martensitic transformations and elastic properties of metastable alloys
-  of the Ti-Ta system},} \emph{Phys. Met. Metall.}, \textbf{60}(3), pp.
-  139--143.
-
-\bibitem{Zhou2009a}
-\textsc{Zhou, Y.-L.} and \textsc{M.~Niinomi} (2009) \enquote{{Ti–25Ta alloy
-  with the best mechanical compatibility in Ti–Ta alloys for biomedical
-  applications},} \emph{Materials Science and Engineering: C}, \textbf{29}(3),
-  pp. 1061--1065.
-
-\bibitem{Zhou2004a}
-\textsc{Zhou, Y.~L.}, \textsc{M.~Niinomi}, and \textsc{T.~Akahori} (2004)
-  \enquote{{Effects of Ta content on Young's modulus and tensile properties of
-  binary Ti–Ta alloys for biomedical applications},} \emph{Materials Science
-  and Engineering: A}, \textbf{371}(1-2), pp. 283--290.
-
 \bibitem{Friak2012}
 \textsc{Fri{\'{a}}k, M.}, \textsc{W.~Counts}, \textsc{D.~Ma},
   \textsc{B.~Sander}, \textsc{D.~Holec}, \textsc{D.~Raabe}, and
   \textsc{J.~Neugebauer} (2012) \enquote{{Theory-guided materials design of
   multi-phase Ti-Nb alloys with bone-matching elastic properties},}
   \emph{Materials}, \textbf{5}(10), pp. 1853--1872.
-
-\bibitem{Wu2010a}
-\textsc{Wu, C.}, \textsc{Y.~Xin}, \textsc{X.~Wang}, and \textsc{J.~Lin} (2010)
-  \enquote{{Effects of Ta content on the phase stability and elastic properties
-  of $\beta$ Ti–Ta alloys from first-principles calculations},} \emph{Solid
-  State Sciences}, \textbf{12}(12), pp. 2120--2124.
 
 \bibitem{Tane2010a}
 \textsc{Tane, M.}, \textsc{S.~Akita}, \textsc{T.~Nakano}, \textsc{K.~Hagihara},
@@ -260,6 +260,15 @@
   \textsc{Y.~Umakoshi}, \textsc{M.~Niinomi}, and \textsc{H.~Nakajima} (2008)
   \enquote{{Peculiar elastic behavior of Ti–Nb–Ta–Zr single crystals},}
   \emph{Acta Materialia}, \textbf{56}(12), pp. 2856--2863.
+
+\bibitem{Khachaturyan1985}
+\textsc{Khachaturyan, A.} (1985) \enquote{{Theory of structural transformations
+  in solids. 1983},} \emph{Wiley, New York, Jacobs AE, Phys. Rev. B},
+  \textbf{31}, p. 5984.
+
+\bibitem{Salje1990}
+\textsc{Salje, E.} (1990) \enquote{{Phase transitions in ferroelastic and
+  co-elastic crystals},} \emph{Ferroelectrics}, \textbf{104}(1), pp. 111--120.
 
 \bibitem{Hohenberg1964}
 \textsc{Hohenberg, P.} and \textsc{W.~Kohn} (1964) \enquote{{Inhomogeneous
