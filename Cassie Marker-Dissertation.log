@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 FEB 2017 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2017 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,8 +652,75 @@ LaTeX Warning: Label `Ch6-table:tixyelasdata' multiply defined.
 LaTeX Warning: Label `Ch6-table:tixyelasdata' multiply defined.
 
 ) (./Chapter-7/Chapter-7.aux) (./Chapter-8/Chapter-8.aux)
-(./Appendix-A/Appendix-A.aux) (./Appendix-B/Appendix-B.aux)
-(./Appendix-C/Appendix-C.aux) (./Appendix-D/Appendix-D.aux))
+(./Appendix-A/Appendix-A.aux
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:timonbtazr1' multiply defined.
+
+) (./Appendix-B/Appendix-B.aux
+
+LaTeX Warning: Label `ab-table:snta1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:snta1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:snta1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:snta1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:snta1' multiply defined.
+
+
+LaTeX Warning: Label `ab-table:snta1' multiply defined.
+
+) (./Appendix-C/Appendix-C.aux) (./Appendix-D/Appendix-D.aux))
 \openout1 = `"Cassie Marker-Dissertation.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 249.
@@ -896,7 +963,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 16.
 
 [2] [3] [4] [5] [6] [7]
-<Chapter-1/Figures/TiTaElastic.png, id=1242, 327.1422pt x 317.0244pt>
+<Chapter-1/Figures/TiTaElastic.png, id=1232, 327.1422pt x 317.0244pt>
 File: Chapter-1/Figures/TiTaElastic.png Graphic file (type png)
 
 <use Chapter-1/Figures/TiTaElastic.png>
@@ -935,7 +1002,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 53.
 
 [11] [12] [13] [14] [15] [16] [17] [18] [19]
-<Chapter-2/Figures/PBEvsPW91.png, id=1406, 493.845pt x 363.2772pt>
+<Chapter-2/Figures/PBEvsPW91.png, id=1396, 493.845pt x 363.2772pt>
 File: Chapter-2/Figures/PBEvsPW91.png Graphic file (type png)
 
 <use Chapter-2/Figures/PBEvsPW91.png>
@@ -1007,98 +1074,98 @@ Overfull \hbox (65.41408pt too wide) in alignment at lines 254--267
  [] [] [] 
  []
 
-[38] [39] [40] <Chapter-3/Figures/TiMo.png, id=1703, 450.483pt x 210.0648pt>
+[38] [39] [40] <Chapter-3/Figures/TiMo.png, id=1693, 450.483pt x 210.0648pt>
 File: Chapter-3/Figures/TiMo.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMo.png>
 Package pdftex.def Info: Chapter-3/Figures/TiMo.png used on input line 276.
 (pdftex.def)             Requested size: 419.16621pt x 195.46402pt.
  [41 <./Chapter-3/Figures/TiMo.png>]
-<Chapter-3/Figures/TiNb.png, id=1714, 475.0548pt x 233.1912pt>
+<Chapter-3/Figures/TiNb.png, id=1704, 475.0548pt x 233.1912pt>
 File: Chapter-3/Figures/TiNb.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNb.png>
 Package pdftex.def Info: Chapter-3/Figures/TiNb.png used on input line 286.
 (pdftex.def)             Requested size: 419.16621pt x 205.76395pt.
  [42 <./Chapter-3/Figures/TiNb.png>]
-<Chapter-3/Figures/TiTa.png, id=1724, 490.9542pt x 242.8272pt>
+<Chapter-3/Figures/TiTa.png, id=1714, 490.9542pt x 242.8272pt>
 File: Chapter-3/Figures/TiTa.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiTa.png>
 Package pdftex.def Info: Chapter-3/Figures/TiTa.png used on input line 296.
 (pdftex.def)             Requested size: 419.16621pt x 207.32669pt.
  [43 <./Chapter-3/Figures/TiTa.png>]
-<Chapter-3/Figures/TiZr.png, id=1734, 455.301pt x 229.8186pt>
+<Chapter-3/Figures/TiZr.png, id=1724, 455.301pt x 229.8186pt>
 File: Chapter-3/Figures/TiZr.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiZr.png>
 Package pdftex.def Info: Chapter-3/Figures/TiZr.png used on input line 306.
 (pdftex.def)             Requested size: 419.16621pt x 211.58647pt.
  [44 <./Chapter-3/Figures/TiZr.png>]
-<Chapter-3/Figures/binary1.png, id=1743, 472.164pt x 487.0998pt>
+<Chapter-3/Figures/binary1.png, id=1732, 472.164pt x 487.0998pt>
 File: Chapter-3/Figures/binary1.png Graphic file (type png)
 
 <use Chapter-3/Figures/binary1.png>
 Package pdftex.def Info: Chapter-3/Figures/binary1.png used on input line 317.
 (pdftex.def)             Requested size: 419.16621pt x 432.42487pt.
  [45 <./Chapter-3/Figures/binary1.png>]
-<Chapter-3/Figures/binary2.png, id=1755, 472.6458pt x 485.6544pt>
+<Chapter-3/Figures/binary2.png, id=1745, 472.6458pt x 485.6544pt>
 File: Chapter-3/Figures/binary2.png Graphic file (type png)
 
 <use Chapter-3/Figures/binary2.png>
 Package pdftex.def Info: Chapter-3/Figures/binary2.png used on input line 327.
 (pdftex.def)             Requested size: 419.16621pt x 430.71931pt.
  [46 <./Chapter-3/Figures/binary2.png>]
-<Chapter-3/Figures/TiMoNb.png, id=1769, 496.254pt x 263.5446pt>
+<Chapter-3/Figures/TiMoNb.png, id=1759, 496.254pt x 263.5446pt>
 File: Chapter-3/Figures/TiMoNb.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMoNb.png>
 Package pdftex.def Info: Chapter-3/Figures/TiMoNb.png used on input line 337.
 (pdftex.def)             Requested size: 419.16621pt x 222.60648pt.
  [47 <./Chapter-3/Figures/TiMoNb.png>]
-<Chapter-3/Figures/TiMoTa1.png, id=1776, 457.2282pt x 248.127pt>
+<Chapter-3/Figures/TiMoTa1.png, id=1766, 457.2282pt x 248.127pt>
 File: Chapter-3/Figures/TiMoTa1.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMoTa1.png>
 Package pdftex.def Info: Chapter-3/Figures/TiMoTa1.png used on input line 347.
 (pdftex.def)             Requested size: 419.16621pt x 227.47314pt.
  [48 <./Chapter-3/Figures/TiMoTa1.png>]
-<Chapter-3/Figures/TiMoTa2.png, id=1782, 498.1812pt x 234.6366pt>
+<Chapter-3/Figures/TiMoTa2.png, id=1772, 498.1812pt x 234.6366pt>
 File: Chapter-3/Figures/TiMoTa2.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMoTa2.png>
 Package pdftex.def Info: Chapter-3/Figures/TiMoTa2.png used on input line 357.
 (pdftex.def)             Requested size: 419.16621pt x 197.42993pt.
  [49 <./Chapter-3/Figures/TiMoTa2.png>]
-<Chapter-3/Figures/TiMoZr.png, id=1790, 475.0548pt x 273.1806pt>
+<Chapter-3/Figures/TiMoZr.png, id=1780, 475.0548pt x 273.1806pt>
 File: Chapter-3/Figures/TiMoZr.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMoZr.png>
 Package pdftex.def Info: Chapter-3/Figures/TiMoZr.png used on input line 367.
 (pdftex.def)             Requested size: 419.16621pt x 241.04993pt.
  [50 <./Chapter-3/Figures/TiMoZr.png>]
-<Chapter-3/Figures/TiNbTa1.png, id=1800, 523.7166pt x 477.9456pt>
+<Chapter-3/Figures/TiNbTa1.png, id=1790, 523.7166pt x 477.9456pt>
 File: Chapter-3/Figures/TiNbTa1.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNbTa1.png>
 Package pdftex.def Info: Chapter-3/Figures/TiNbTa1.png used on input line 377.
 (pdftex.def)             Requested size: 419.16621pt x 382.5466pt.
  [51 <./Chapter-3/Figures/TiNbTa1.png>]
-<Chapter-3/Figures/TiNbTa2.png, id=1808, 533.3526pt x 258.7266pt>
+<Chapter-3/Figures/TiNbTa2.png, id=1798, 533.3526pt x 258.7266pt>
 File: Chapter-3/Figures/TiNbTa2.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNbTa2.png>
 Package pdftex.def Info: Chapter-3/Figures/TiNbTa2.png used on input line 387.
 (pdftex.def)             Requested size: 419.16621pt x 203.33768pt.
  [52 <./Chapter-3/Figures/TiNbTa2.png>]
-<Chapter-3/Figures/TiNbZr.png, id=1816, 479.391pt x 247.6452pt>
+<Chapter-3/Figures/TiNbZr.png, id=1806, 479.391pt x 247.6452pt>
 File: Chapter-3/Figures/TiNbZr.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNbZr.png>
 Package pdftex.def Info: Chapter-3/Figures/TiNbZr.png used on input line 397.
 (pdftex.def)             Requested size: 419.16621pt x 216.53784pt.
  [53 <./Chapter-3/Figures/TiNbZr.png>]
-<Chapter-3/Figures/TiTaZr1.png, id=1825, 551.1792pt x 473.1276pt>
+<Chapter-3/Figures/TiTaZr1.png, id=1815, 551.1792pt x 473.1276pt>
 File: Chapter-3/Figures/TiTaZr1.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiTaZr1.png>
@@ -1149,7 +1216,7 @@ Overfull \hbox (50.30495pt too wide) in paragraph at lines 112--136
 ] [66
 
 ]
-<Chapter-4/Figures/Taphonondos.png, id=2023, 364.7226pt x 229.3368pt>
+<Chapter-4/Figures/Taphonondos.png, id=2013, 364.7226pt x 229.3368pt>
 File: Chapter-4/Figures/Taphonondos.png Graphic file (type png)
 
 <use Chapter-4/Figures/Taphonondos.png>
@@ -1159,7 +1226,7 @@ Package pdftex.def Info: Chapter-4/Figures/Taphonondos.png used on input line 1
  [67
 
  <./Chapter-4/Figures/Taphonondos.png>] <Chapter-4/Figures/Snphonondos.png, id=
-2031, 383.5128pt x 246.6816pt>
+2021, 383.5128pt x 246.6816pt>
 File: Chapter-4/Figures/Snphonondos.png Graphic file (type png)
 
 <use Chapter-4/Figures/Snphonondos.png>
@@ -1167,7 +1234,7 @@ Package pdftex.def Info: Chapter-4/Figures/Snphonondos.png used on input line 1
 71.
 (pdftex.def)             Requested size: 419.16621pt x 269.61911pt.
  [68 <./Chapter-4/Figures/Snphonondos.png>] <Chapter-4/Figures/TaSn2phonondos.p
-ng, id=2041, 388.8126pt x 248.6088pt>
+ng, id=2031, 388.8126pt x 248.6088pt>
 File: Chapter-4/Figures/TaSn2phonondos.png Graphic file (type png)
 
 <use Chapter-4/Figures/TaSn2phonondos.png>
@@ -1175,31 +1242,31 @@ Package pdftex.def Info: Chapter-4/Figures/TaSn2phonondos.png used on input lin
 e 179.
 (pdftex.def)             Requested size: 419.16621pt x 268.03447pt.
  [69 <./Chapter-4/Figures/TaSn2phonondos.png>]
-<Chapter-4/Figures/Ta3Snphonondos.png, id=2047, 382.0674pt x 245.718pt>
+<Chapter-4/Figures/Ta3Snphonondos.png, id=2037, 376.2858pt x 237.0456pt>
 File: Chapter-4/Figures/Ta3Snphonondos.png Graphic file (type png)
 
 <use Chapter-4/Figures/Ta3Snphonondos.png>
 Package pdftex.def Info: Chapter-4/Figures/Ta3Snphonondos.png used on input lin
 e 187.
-(pdftex.def)             Requested size: 419.16621pt x 269.57825pt.
+(pdftex.def)             Requested size: 419.16621pt x 264.06052pt.
  [70 <./Chapter-4/Figures/Ta3Snphonondos.png>]
-<Chapter-4/Figures/Tafinitetemp.png, id=2053, 239.9364pt x 379.6584pt>
+<Chapter-4/Figures/Tafinitetemp.png, id=2043, 211.992pt x 375.3222pt>
 File: Chapter-4/Figures/Tafinitetemp.png Graphic file (type png)
 
 <use Chapter-4/Figures/Tafinitetemp.png>
 Package pdftex.def Info: Chapter-4/Figures/Tafinitetemp.png used on input line 
 195.
-(pdftex.def)             Requested size: 239.9358pt x 379.65747pt.
+(pdftex.def)             Requested size: 211.99147pt x 375.32129pt.
  [71 <./Chapter-4/Figures/Tafinitetemp.png>] <Chapter-4/Figures/Snfinitetemp.pn
-g, id=2062, 236.082pt x 382.5492pt>
+g, id=2052, 215.3646pt x 375.3222pt>
 File: Chapter-4/Figures/Snfinitetemp.png Graphic file (type png)
 
 <use Chapter-4/Figures/Snfinitetemp.png>
 Package pdftex.def Info: Chapter-4/Figures/Snfinitetemp.png used on input line 
 203.
-(pdftex.def)             Requested size: 236.0814pt x 382.54825pt.
+(pdftex.def)             Requested size: 215.36406pt x 375.32129pt.
  [72 <./Chapter-4/Figures/Snfinitetemp.png>]
-<Chapter-4/Figures/TaSn2finitetemp.png, id=2070, 249.5724pt x 521.3076pt>
+<Chapter-4/Figures/TaSn2finitetemp.png, id=2060, 249.5724pt x 521.3076pt>
 File: Chapter-4/Figures/TaSn2finitetemp.png Graphic file (type png)
 
 <use Chapter-4/Figures/TaSn2finitetemp.png>
@@ -1207,7 +1274,7 @@ Package pdftex.def Info: Chapter-4/Figures/TaSn2finitetemp.png used on input li
 ne 211.
 (pdftex.def)             Requested size: 249.57178pt x 521.30632pt.
  [73 <./Chapter-4/Figures/TaSn2finitetemp.png>]
-<Chapter-4/Figures/Ta3Snfinitetemp.png, id=2076, 248.127pt x 531.9072pt>
+<Chapter-4/Figures/Ta3Snfinitetemp.png, id=2066, 248.127pt x 531.9072pt>
 File: Chapter-4/Figures/Ta3Snfinitetemp.png Graphic file (type png)
 
 <use Chapter-4/Figures/Ta3Snfinitetemp.png>
@@ -1215,21 +1282,21 @@ Package pdftex.def Info: Chapter-4/Figures/Ta3Snfinitetemp.png used on input li
 ne 219.
 (pdftex.def)             Requested size: 248.12637pt x 531.90588pt.
  [74 <./Chapter-4/Figures/Ta3Snfinitetemp.png>] <Chapter-4/Figures/HofForm.png,
- id=2082, 359.9046pt x 340.6326pt>
+ id=2072, 359.9046pt x 340.6326pt>
 File: Chapter-4/Figures/HofForm.png Graphic file (type png)
 
 <use Chapter-4/Figures/HofForm.png>
 Package pdftex.def Info: Chapter-4/Figures/HofForm.png used on input line 227.
 (pdftex.def)             Requested size: 419.16621pt x 396.75055pt.
  [75 <./Chapter-4/Figures/HofForm.png>]
-<Chapter-4/Figures/SnTaPD.png, id=2088, 401.3394pt x 363.2772pt>
+<Chapter-4/Figures/SnTaPD.png, id=2078, 401.3394pt x 363.2772pt>
 File: Chapter-4/Figures/SnTaPD.png Graphic file (type png)
 
 <use Chapter-4/Figures/SnTaPD.png>
 Package pdftex.def Info: Chapter-4/Figures/SnTaPD.png used on input line 235.
 (pdftex.def)             Requested size: 419.16621pt x 379.43462pt.
  [76 <./Chapter-4/Figures/SnTaPD.png>]
-<Chapter-4/Figures/HofMix.png, id=2094, 346.896pt x 347.3778pt>
+<Chapter-4/Figures/HofMix.png, id=2084, 346.896pt x 347.3778pt>
 File: Chapter-4/Figures/HofMix.png Graphic file (type png)
 
 <use Chapter-4/Figures/HofMix.png>
@@ -1280,7 +1347,7 @@ Overfull \hbox (46.91734pt too wide) in alignment at lines 158--173
 [88
 
 ] [89] [90] [91]
-<Chapter-5/Figures/Strain.png, id=2282, 493.845pt x 362.3136pt>
+<Chapter-5/Figures/Strain.png, id=2272, 493.845pt x 362.3136pt>
 File: Chapter-5/Figures/Strain.png Graphic file (type png)
 
 <use Chapter-5/Figures/Strain.png>
@@ -1289,7 +1356,7 @@ Package pdftex.def Info: Chapter-5/Figures/Strain.png used on input line 207.
  [92
 
  <./Chapter-5/Figures/Strain.png>]
-<Chapter-5/Figures/tixyoungs.png, id=2288, 494.8086pt x 520.8258pt>
+<Chapter-5/Figures/tixyoungs.png, id=2278, 494.8086pt x 520.8258pt>
 File: Chapter-5/Figures/tixyoungs.png Graphic file (type png)
 
 <use Chapter-5/Figures/tixyoungs.png>
@@ -1297,7 +1364,7 @@ Package pdftex.def Info: Chapter-5/Figures/tixyoungs.png used on input line 215
 .
 (pdftex.def)             Requested size: 419.16621pt x 441.22585pt.
  [93 <./Chapter-5/Figures/tixyoungs.png>]
-<Chapter-5/Figures/emap.png, id=2302, 289.08pt x 247.1634pt>
+<Chapter-5/Figures/emap.png, id=2292, 289.08pt x 247.1634pt>
 File: Chapter-5/Figures/emap.png Graphic file (type png)
 
 <use Chapter-5/Figures/emap.png>
@@ -1313,28 +1380,28 @@ LaTeX Warning: Reference `Ch5-table:elasip' on page 94 undefined on input line
 224.
 
 [94 <./Chapter-5/Figures/emap.png>]
-<Chapter-5/Figures/tixc11.png, id=2308, 494.8086pt x 530.9436pt>
+<Chapter-5/Figures/tixc11.png, id=2298, 494.8086pt x 530.9436pt>
 File: Chapter-5/Figures/tixc11.png Graphic file (type png)
 
 <use Chapter-5/Figures/tixc11.png>
 Package pdftex.def Info: Chapter-5/Figures/tixc11.png used on input line 231.
 (pdftex.def)             Requested size: 419.16621pt x 449.7973pt.
  [95 <./Chapter-5/Figures/tixc11.png>]
-<Chapter-5/Figures/tixc12.png, id=2317, 494.8086pt x 522.2712pt>
+<Chapter-5/Figures/tixc12.png, id=2307, 494.8086pt x 522.2712pt>
 File: Chapter-5/Figures/tixc12.png Graphic file (type png)
 
 <use Chapter-5/Figures/tixc12.png>
 Package pdftex.def Info: Chapter-5/Figures/tixc12.png used on input line 239.
 (pdftex.def)             Requested size: 419.16621pt x 442.45033pt.
  [96 <./Chapter-5/Figures/tixc12.png>]
-<Chapter-5/Figures/tixc44.png, id=2325, 494.8086pt x 535.2798pt>
+<Chapter-5/Figures/tixc44.png, id=2315, 494.8086pt x 535.2798pt>
 File: Chapter-5/Figures/tixc44.png Graphic file (type png)
 
 <use Chapter-5/Figures/tixc44.png>
 Package pdftex.def Info: Chapter-5/Figures/tixc44.png used on input line 247.
 (pdftex.def)             Requested size: 419.16621pt x 453.47078pt.
  [97 <./Chapter-5/Figures/tixc44.png>]
-<Chapter-5/Figures/tixc11-c12.png, id=2333, 272.6988pt x 232.7094pt>
+<Chapter-5/Figures/tixc11-c12.png, id=2323, 272.6988pt x 232.7094pt>
 File: Chapter-5/Figures/tixc11-c12.png Graphic file (type png)
 
 <use Chapter-5/Figures/tixc11-c12.png>
@@ -1342,14 +1409,14 @@ Package pdftex.def Info: Chapter-5/Figures/tixc11-c12.png used on input line 25
 5.
 (pdftex.def)             Requested size: 419.16621pt x 357.70955pt.
  [98 <./Chapter-5/Figures/tixc11-c12.png>] <Chapter-5/Figures/tixbulk.png, id=2
-339, 494.8086pt x 529.0164pt>
+329, 494.8086pt x 529.0164pt>
 File: Chapter-5/Figures/tixbulk.png Graphic file (type png)
 
 <use Chapter-5/Figures/tixbulk.png>
 Package pdftex.def Info: Chapter-5/Figures/tixbulk.png used on input line 263.
 (pdftex.def)             Requested size: 419.16621pt x 448.16464pt.
  [99 <./Chapter-5/Figures/tixbulk.png>]
-<Chapter-5/Figures/tixshear.png, id=2345, 489.027pt x 531.9072pt>
+<Chapter-5/Figures/tixshear.png, id=2335, 489.027pt x 531.9072pt>
 File: Chapter-5/Figures/tixshear.png Graphic file (type png)
 
 <use Chapter-5/Figures/tixshear.png>
@@ -1357,7 +1424,7 @@ Package pdftex.def Info: Chapter-5/Figures/tixshear.png used on input line 271.
 
 (pdftex.def)             Requested size: 419.16621pt x 455.93787pt.
  [100 <./Chapter-5/Figures/tixshear.png>]
-<Chapter-5/Figures/edatabase.png, id=2351, 322.3242pt x 278.4804pt>
+<Chapter-5/Figures/edatabase.png, id=2341, 322.3242pt x 278.4804pt>
 File: Chapter-5/Figures/edatabase.png Graphic file (type png)
 
 <use Chapter-5/Figures/edatabase.png>
@@ -1415,7 +1482,7 @@ Overfull \hbox (81.1285pt too wide) in alignment at lines 100--115
 [110] [111] [112] [113] [114
 
 ]
-<Chapter-6/Figures/tixyyoungs1.png, id=2507, 503.481pt x 542.9886pt>
+<Chapter-6/Figures/tixyyoungs1.png, id=2497, 503.481pt x 542.9886pt>
 File: Chapter-6/Figures/tixyyoungs1.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyyoungs1.png>
@@ -1425,7 +1492,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyyoungs1.png used on input line 1
  [115
 
  <./Chapter-6/Figures/tixyyoungs1.png>] <Chapter-6/Figures/tixyyoungs2.png, id=
-2517, 497.2176pt x 535.7616pt>
+2507, 497.2176pt x 535.7616pt>
 File: Chapter-6/Figures/tixyyoungs2.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyyoungs2.png>
@@ -1433,7 +1500,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyyoungs2.png used on input line 1
 83.
 (pdftex.def)             Requested size: 419.16621pt x 451.67986pt.
  [116 <./Chapter-6/Figures/tixyyoungs2.png>] <Chapter-6/Figures/tixyc11_1.png, 
-id=2527, 515.526pt x 554.07pt>
+id=2517, 515.526pt x 554.07pt>
 File: Chapter-6/Figures/tixyc11_1.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyc11_1.png>
@@ -1441,7 +1508,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyc11_1.png used on input line 191
 .
 (pdftex.def)             Requested size: 419.16621pt x 450.51895pt.
  [117 <./Chapter-6/Figures/tixyc11_1.png>] <Chapter-6/Figures/tixyc11_2.png, id
-=2533, 492.3996pt x 543.9522pt>
+=2523, 492.3996pt x 543.9522pt>
 File: Chapter-6/Figures/tixyc11_2.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyc11_2.png>
@@ -1449,7 +1516,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyc11_2.png used on input line 199
 .
 (pdftex.def)             Requested size: 419.16621pt x 463.06703pt.
  [118 <./Chapter-6/Figures/tixyc11_2.png>] <Chapter-6/Figures/tixyc12_1.png, id
-=2539, 500.5902pt x 543.4704pt>
+=2529, 500.5902pt x 543.4704pt>
 File: Chapter-6/Figures/tixyc12_1.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyc12_1.png>
@@ -1457,7 +1524,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyc12_1.png used on input line 207
 .
 (pdftex.def)             Requested size: 419.16621pt x 455.09396pt.
  [119 <./Chapter-6/Figures/tixyc12_1.png>] <Chapter-6/Figures/tixyc12_2.png, id
-=2546, 481.3182pt x 542.025pt>
+=2536, 481.3182pt x 542.025pt>
 File: Chapter-6/Figures/tixyc12_2.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyc12_2.png>
@@ -1465,7 +1532,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyc12_2.png used on input line 215
 .
 (pdftex.def)             Requested size: 419.16621pt x 472.03763pt.
  [120 <./Chapter-6/Figures/tixyc12_2.png>] <Chapter-6/Figures/tixyc44_1.png, id
-=2552, 481.3182pt x 533.8344pt>
+=2542, 481.3182pt x 533.8344pt>
 File: Chapter-6/Figures/tixyc44_1.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyc44_1.png>
@@ -1473,7 +1540,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyc44_1.png used on input line 223
 .
 (pdftex.def)             Requested size: 419.16621pt x 464.90462pt.
  [121 <./Chapter-6/Figures/tixyc44_1.png>] <Chapter-6/Figures/tixyc44_2.png, id
-=2558, 481.3182pt x 568.524pt>
+=2548, 481.3182pt x 568.524pt>
 File: Chapter-6/Figures/tixyc44_2.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyc44_2.png>
@@ -1481,7 +1548,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyc44_2.png used on input line 231
 .
 (pdftex.def)             Requested size: 419.16621pt x 495.11504pt.
  [122 <./Chapter-6/Figures/tixyc44_2.png>] <Chapter-6/Figures/tixyc11-c12.png, 
-id=2564, 271.7352pt x 233.1912pt>
+id=2554, 271.7352pt x 233.1912pt>
 File: Chapter-6/Figures/tixyc11-c12.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyc11-c12.png>
@@ -1489,7 +1556,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyc11-c12.png used on input line 2
 39.
 (pdftex.def)             Requested size: 419.16621pt x 359.72754pt.
  [123 <./Chapter-6/Figures/tixyc11-c12.png>] <Chapter-6/Figures/tixybulk1.png, 
-id=2570, 481.8pt x 536.7252pt>
+id=2560, 481.8pt x 536.7252pt>
 File: Chapter-6/Figures/tixybulk1.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixybulk1.png>
@@ -1497,7 +1564,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixybulk1.png used on input line 247
 .
 (pdftex.def)             Requested size: 419.16621pt x 466.96353pt.
  [124 <./Chapter-6/Figures/tixybulk1.png>] <Chapter-6/Figures/tixybulk2.png, id
-=2576, 493.845pt x 536.2434pt>
+=2566, 493.845pt x 536.2434pt>
 File: Chapter-6/Figures/tixybulk2.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixybulk2.png>
@@ -1505,7 +1572,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixybulk2.png used on input line 255
 .
 (pdftex.def)             Requested size: 419.16621pt x 455.14626pt.
  [125 <./Chapter-6/Figures/tixybulk2.png>] <Chapter-6/Figures/tixyshear1.png, i
-d=2583, 481.3182pt x 538.1706pt>
+d=2573, 481.3182pt x 538.1706pt>
 File: Chapter-6/Figures/tixyshear1.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyshear1.png>
@@ -1513,7 +1580,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyshear1.png used on input line 26
 3.
 (pdftex.def)             Requested size: 419.16621pt x 468.68092pt.
  [126 <./Chapter-6/Figures/tixyshear1.png>] <Chapter-6/Figures/tixyshear2.png, 
-id=2589, 482.2818pt x 542.5068pt>
+id=2579, 482.2818pt x 542.5068pt>
 File: Chapter-6/Figures/tixyshear2.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixyshear2.png>
@@ -1521,7 +1588,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixyshear2.png used on input line 27
 1.
 (pdftex.def)             Requested size: 419.16621pt x 471.53838pt.
  [127 <./Chapter-6/Figures/tixyshear2.png>] <Chapter-6/Figures/tixymap1.png, id
-=2595, 472.6458pt x 579.1236pt>
+=2585, 472.6458pt x 579.1236pt>
 File: Chapter-6/Figures/tixymap1.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixymap1.png>
@@ -1529,7 +1596,7 @@ Package pdftex.def Info: Chapter-6/Figures/tixymap1.png used on input line 279.
 
 (pdftex.def)             Requested size: 419.16621pt x 513.61569pt.
  [128 <./Chapter-6/Figures/tixymap1.png>]
-<Chapter-6/Figures/tixymap2.png, id=2603, 427.8384pt x 566.115pt>
+<Chapter-6/Figures/tixymap2.png, id=2593, 427.8384pt x 566.115pt>
 File: Chapter-6/Figures/tixymap2.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixymap2.png>
@@ -1541,7 +1608,7 @@ Overfull \vbox (0.7027pt too high) has occurred while \output is active []
 
 
 [129 <./Chapter-6/Figures/tixymap2.png>]
-<Chapter-6/Figures/tixydatabase.png, id=2611, 321.3606pt x 277.5168pt>
+<Chapter-6/Figures/tixydatabase.png, id=2601, 321.3606pt x 277.5168pt>
 File: Chapter-6/Figures/tixydatabase.png Graphic file (type png)
 
 <use Chapter-6/Figures/tixydatabase.png>
@@ -1571,38 +1638,243 @@ Chapter 8.
 
  (./Appendix-A/Appendix-A.tex
 Appendix A.
-) [134
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 21--23
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 23--25
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 25--46
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 46--66
+ [] [] [] 
+ []
+
+[134
 
 
 
 ]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 66--86
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 86--107
+ [] [] [] 
+ []
+
+[135]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 107--128
+ [] [] [] 
+ []
+
+[136]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 128--148
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 148--168
+ [] [] [] 
+ []
+
+[137]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 168--188
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 188--208
+ [] [] [] 
+ []
+
+[138]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 208--228
+ [] [] [] 
+ []
+
+[139]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 228--249
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 249--269
+ [] [] [] 
+ []
+
+[140]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 269--289
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 289--309
+ [] [] [] 
+ []
+
+[141]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 309--329
+ [] [] [] 
+ []
+
+[142]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 329--349
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 349--369
+ [] [] [] 
+ []
+
+[143]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 369--389
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 389--409
+ [] [] [] 
+ []
+
+[144]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 409--429
+ [] [] [] 
+ []
+
+[145]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 429--449
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 449--469
+ [] [] [] 
+ []
+
+[146]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 469--489
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 489--510
+ [] [] [] 
+ []
+
+[147]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 510--530
+ [] [] [] 
+ []
+
+[148]
+Overfull \hbox (38.28894pt too wide) in alignment at lines 530--550
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.28894pt too wide) in alignment at lines 550--561
+ [] [] [] 
+ []
+
+[149]) [150]
 \openout2 = `Appendix-B/Appendix-B.aux'.
 
  (./Appendix-B/Appendix-B.tex
 Appendix B.
-) [135
+
+Overfull \hbox (62.98772pt too wide) in alignment at lines 17--19
+ [] [] [] 
+ []
+
+
+Overfull \hbox (62.98772pt too wide) in alignment at lines 19--21
+ [] [] [] 
+ []
+
+
+Overfull \hbox (62.98772pt too wide) in alignment at lines 21--41
+ [] [] [] 
+ []
+
+
+Overfull \hbox (62.98772pt too wide) in alignment at lines 41--61
+ [] [] [] 
+ []
+
+[151
 
 
 
-] [136]
+]
+Overfull \hbox (62.98772pt too wide) in alignment at lines 61--81
+ [] [] [] 
+ []
+
+
+Overfull \hbox (62.98772pt too wide) in alignment at lines 81--102
+ [] [] [] 
+ []
+
+[152]
+Overfull \hbox (62.98772pt too wide) in alignment at lines 102--122
+ [] [] [] 
+ []
+
+
+Overfull \hbox (62.98772pt too wide) in alignment at lines 122--142
+ [] [] [] 
+ []
+
+[153]
+Overfull \hbox (62.98772pt too wide) in alignment at lines 142--162
+ [] [] [] 
+ []
+
+[154]
+Overfull \hbox (62.98772pt too wide) in alignment at lines 162--182
+ [] [] [] 
+ []
+
+
+Overfull \hbox (62.98772pt too wide) in alignment at lines 182--202
+ [] [] [] 
+ []
+
+[155]
+Overfull \hbox (62.98772pt too wide) in alignment at lines 202--221
+ [] [] [] 
+ []
+
+[156]) [157]
 \openout2 = `Appendix-C/Appendix-C.aux'.
 
  (./Appendix-C/Appendix-C.tex
 Appendix C.
-) [137
+) [158
 
 
 
-] [138]
+] [159]
 \openout2 = `Appendix-D/Appendix-D.aux'.
 
  (./Appendix-D/Appendix-D.tex
 Appendix D.
-) [139
+) [160
 
 
 
-] [140] (./Cassie Marker-Dissertation.bbl
+] [161] (./Cassie Marker-Dissertation.bbl
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1615,7 +1887,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [141
+ [162
 
 
 ]
@@ -1630,7 +1902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--104
  scholar ? hl = en{&}q = ti-[]ta-[]mo +
  []
 
-[142] [143] [144] [145]
+[163] [164] [165] [166]
 Underfull \hbox (badness 10000) in paragraph at lines 364--368
 \T1/lmr/m/n/12 (+20) URL []$\T1/lmtt/m/n/12 http : / / www . sciencedirect . co
 m / science / article / pii /
@@ -1642,9 +1914,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 375--380
 m / science / article / pii /
  []
 
-[146] [147] [148]) [149] (./SupplementaryMaterial/Vita.tex)
+[167] [168] [169]) [170] (./SupplementaryMaterial/Vita.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
- [150
+ [171
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
@@ -1660,7 +1932,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
 Package rerunfilecheck Info: File `"Cassie Marker-Dissertation".out' has not ch
 anged.
-(rerunfilecheck)             Checksum: C98FA9DA3EF207B0AE4C32F73209FDB6;7636.
+(rerunfilecheck)             Checksum: 2DDD940A2595E9BC3761CBF4CB82A4A0;7505.
 
 
 LaTeX Warning: There were undefined references.
@@ -1671,13 +1943,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 393.
  ) 
 Here is how much of TeX's memory you used:
- 13027 strings out of 493014
- 198806 string characters out of 6133351
- 394705 words of memory out of 5000000
- 15328 multiletter control sequences out of 15000+600000
+ 13052 strings out of 493014
+ 199027 string characters out of 6133351
+ 394987 words of memory out of 5000000
+ 15332 multiletter control sequences out of 15000+600000
  143150 words of font info for 265 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,45p,3733b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,45p,3733b,1066s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -1703,10 +1975,10 @@ lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb>
 016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on "Cassie Marker-Dissertation.pdf" (170 pages, 6234175 bytes).
+Output written on "Cassie Marker-Dissertation.pdf" (191 pages, 6245698 bytes).
 PDF statistics:
- 2917 PDF objects out of 2984 (max. 8388607)
- 2536 compressed objects within 26 object streams
- 494 named destinations out of 1000 (max. 500000)
- 37962 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 3001 PDF objects out of 3580 (max. 8388607)
+ 2599 compressed objects within 26 object streams
+ 515 named destinations out of 1000 (max. 500000)
+ 37946 words of extra memory for PDF output out of 42996 (max. 10000000)
 

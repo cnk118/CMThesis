@@ -92,14 +92,12 @@
 \contentsline {section}{\numberline {8.1}Conclusions}{133}{section..8.1}
 \contentsline {section}{\numberline {8.2}Future Work}{133}{section..8.2}
 \renewcommand {\cftchappresnum }{Appendix }
-\contentsline {chapter}{\numberline {A}Sn-Ta Database}{134}{appendix.A}
-\contentsline {chapter}{\numberline {B}Title of the Second Appendix}{135}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{135}{section.B.1}
-\contentsline {section}{\numberline {B.2}More Declaration}{135}{section.B.2}
-\contentsline {chapter}{\numberline {C}Title of the Third Appendix}{137}{appendix.C}
-\contentsline {section}{\numberline {C.1}Introduction}{137}{section.C.1}
-\contentsline {section}{\numberline {C.2}More Declaration}{137}{section.C.2}
-\contentsline {chapter}{\numberline {D}Title of the Fourth Appendix}{139}{appendix.D}
-\contentsline {section}{\numberline {D.1}Introduction}{139}{section.D.1}
-\contentsline {section}{\numberline {D.2}More Declaration}{139}{section.D.2}
-\contentsline {chapter}{Bibliography}{141}{section.D.2}
+\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{134}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sn-Ta Database}{151}{appendix.B}
+\contentsline {chapter}{\numberline {C}Title of the Third Appendix}{158}{appendix.C}
+\contentsline {section}{\numberline {C.1}Introduction}{158}{section.C.1}
+\contentsline {section}{\numberline {C.2}More Declaration}{158}{section.C.2}
+\contentsline {chapter}{\numberline {D}Title of the Fourth Appendix}{160}{appendix.D}
+\contentsline {section}{\numberline {D.1}Introduction}{160}{section.D.1}
+\contentsline {section}{\numberline {D.2}More Declaration}{160}{section.D.2}
+\contentsline {chapter}{Bibliography}{162}{section.D.2}
