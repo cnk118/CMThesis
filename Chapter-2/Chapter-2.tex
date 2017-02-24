@@ -9,11 +9,11 @@ Schr$\ddot{o}$dinger's time-independent non-relativistic equation is a solution 
 %%
 \begin{equation}
 \label{eq: schrodinger}
-\left[ \sum_{i=1}^{N} \left( - \frac{\hbar^2}{2m} \nabla_{i}^2 + V_{ext} (r_{i}) \right) + \sum_{i<j} U (r_{i}, r_{j}) \right] \Psi = E_{i} \Psi
+\left[ \sum_{i=1}^{N} \left( - \frac{\hbar^2}{2m} \nabla_{i}^2 + V_{ext} (r_{i}) \right) + \sum_{i<j} U (r_{i}, r_{j}) \right] \Psi = E_{s} \Psi
 \end{equation}
 %%
 
-\noindent where the first bracketed part represents the Hamiltonian ($\hat{H}$), $\Psi$ describes the wave function of electrons, $E_{i}$ describes the systems energy. The $\hat{H}$ of the system is described by three parts, the first part represents the kinetic energy with $N$ being the total number of electrons in the system, $\hbar$ being Planck's constant and $m$ the mass of an electron. The second term $V_{ext}$ gives the external potential and $U$ is the potential of the electron-electron repulsion.
+\noindent where the first bracketed part represents the Hamiltonian ($\hat{H}$), $\Psi$ describes the wave function of electrons, $E_{s}$ describes the systems energy. The $\hat{H}$ of the system is described by three parts, the first part represents the kinetic energy with $N$ being the total number of electrons in the system, $\hbar$ being Planck's constant and $m$ the mass of an electron. The second term $V_{ext}$ gives the external potential and $U$ is the potential of the electron-electron repulsion.
 
 Eq. \ref{eq: schrodinger} can be solved for $\Psi$ with the lowest energy $E_0$ being the ground state energy, assuming the nuclei-nuclei interactions are neglected due to the Born-Oppenheimer approximation. The Born-Oppenheimer approximation allows us to assume the nuclei are stationary and ignore the motion of the nuclei on the electronic timescale, due to the mass difference, with nuclei being $\sim$ 10$^3$ to 10$^5$ larger than electrons. However, even with this approximation solving Eq. \ref{eq: schrodinger} is difficult to deal with due to the electron-electron Columb interactions making the electronic motion correlated and the fact that the many-body problem results in too many variables because there are 3N degrees of freedom. 
 
@@ -80,11 +80,11 @@ The Helmholtz energy, $F(V,T)$ can be calulated, with DFT, as a function of temp
 %%
 \begin{equation}
 \label{eq: phonon}
-F_{vib}(V,T) = k_{b}T \int_{0}^{\infty} ln \left[ 2sinh \frac{\hbar \omega}{2k_BT} \right] g(\varrho) d\varrho
+F_{vib}(V,T) = k_{b}T \int_{0}^{\infty} ln \left[ 2sinh \frac{\hbar \varrho}{2k_BT} \right] g(\varrho) d\varrho
 \end{equation}
 %%
 
-\noindent where $g(\varrho)$ is the phonon density of states as a function of phonon frequency $\varrho$ at volume $V$.  In addition, the Debye model is used to estimate the vibrational contribution \cite{Shang2010}: 
+\noindent where $g(\varrho)$ is the phonon density of states as a function of phonon frequency $\varrho$ at volume $V$. $\varrho$ is normally expressed in literature as $\omega$, however, due to the extensive discussion of the $\omega$ phase in this work the phonon frequency is expressed as $\varrho$ to avoid confusion. In addition, the Debye model is used to estimate the vibrational contribution \cite{Shang2010}: 
 
 %%
 \begin{equation}
@@ -346,19 +346,55 @@ To study the effect of the metastable phase formation, eight Ti-Nb alloys at fou
 
 \subsection{Ti-Nb sample preparation}
 
-The first set of samples included four Ti-Nb samples made from pieces of titanium (PUT IN WHER) and niobium (PUT IN SIGMA) at 0.1, 0.12, 0.18, 0.2 mole fraction of Nb. The second set of samples included four Ti-Nb samples made from pieces of titanium (PUT IN WHER) and niobium (PUT IN SIGMA) at 0.1, 0.12, 0.18, 0.2 mole fraction of Nb. Two different titanium pieces were used because the SIGMA titnaium pieces were out but they both had the same purity. The alloyed samples were made using the MAM1, Edmund Buhler GmbH arc melter under argon atmosphere. The alloys were machined into a cylindrical shape (XX mm XX mm in diameter and thickness). The samples were then heat treated using the YYYY furance under vaccuum. The samples were annealed at XXXX K for 24 hours. Four samples, one at each composition, were quenched in XXXX. The other fours amples were slow cooled. 
+The first set of samples included four Ti-Nb samples made from pieces of titanium (Alfa Aesar, Stock No. 14004) and niobium (Alfa Aesar, Stock No. 00241) at 0.1, 0.12, 0.18, 0.2 mole fraction of Nb. The second set of samples included four Ti-Nb samples made from pieces of titanium (Sigma Aldrich, Stock No. 305812) and niobium (Alfa Aesar, Stock No. 00241) at 0.1, 0.12, 0.18, 0.2 mole fraction of Nb. Two different titanium pieces were used because the Alfa Aesar titnaium pieces were out of stock but they both had the same purity and thus should not lead to any issues with the data analysis. The alloyed samples were made using the MAM1, Edmund Buhler GmbH arc melter under argon atmosphere. The alloys were machined into a cylindrical shape (0.7 inches in diameter and 0.7 inches in thickenss). The samples were then heat treated using a NAME tube furance under vaccuum. The samples were annealed at 1273 $^\circ$K for 24 hours. Four samples, one at each composition, were quenched in an ice water solution. The other four samples were slow cooled. 
 
 \subsection{Neutron Scattering}
 
-ADD
-
 \subsubsection{ARCS}
 
-ADD
+The inelastic neutron scattering measurements were carried out using the Wide Angular-Range Chopper Spectrometer (ARCS) at the Spallation Nuetron Source (SNS) at Oak Ridge National Laboratory. ARCS is a time-of-flight spectrometer. The samples were loaded into a customized vanadium sample holder, chosen due to the high temperatures measurements. The empty vanadium sample holder was measured at the same conditions at each temperature. The holder was mounted into the furance and kept upder vacuum throughout all measurements. Two incident neutron energies $E_{i} = 25 meV$ and $E_{i} = 50 meV$ were used at each temperature (300, 500, 700, 900, 1110 K). The data was corrected for the empty can scattering as well as the ARCS background. The diffraction patterns and phonon denisty of states were then obtained. 
 
 \subsubsection{Data Analysis}
 
-ADD
+After the empty sample holder and background were subtracted from the data the diffraction patterns and  phonon density of states can be investigated. Diffration is promidently an elastic scattering process and the diffracted intensity is expressed by:
+
+
+EQUATION
+
+\noindent where INFO. The diffraction intensities are the compared with diffraction intensities for Ti and Nb in the expected phases to get the phase fractions. The phonon DOS contains the one-phonon and multi-phonon contributions, however the one-phonon density of states is what is needed. An iterative process is done to starting with a trial phonon DOS until seperate the multi-phonon and one phonon contributions are sepearated. This is accomplished by summing over the entire dector angle range (2 $\theta$ and calculating the total incoherent dynamic structure factor expressed by:
+
+%%
+\begin{equation}
+\label{eq: td_dynstrufac}
+\overline{S}_{calc}^{inc} (\varrho) = \sum_{\theta} \frac{1}{2 \pi \hbar} e^{- Q^{2} (\theta, \varrho) \left<u^{2} \right>} \int_{-\infty}^{\infty} dte^{-i \varrho t} e^{\hbar^{2}Q^{2}(\theta, \varrho) G(t)/2M} \left[ e^{\frac{-t^{2}}{2} \left(\frac{\bigtriangleup E (\varrho)}{2\hbar} \right)^{2}} \right]
+\end{equation}
+%%
+
+where $\left< u^{2} \right>$  is the Debye-Waller factor describing the mean square atomic displacement. The anisotropy in the Debye-Waller factor is negelected because the resulting errors are negligible REF. The $\bigtriangleup E$ is the gaussian instrument energy resolution of variable width. $M$ is the mass of a neutron, $G(t)$ is the time dependent self correlation function which is expressed by: 
+
+%%
+\begin{equation}
+\label{eq: td_selfcorrelation}
+G (t) = \int_{- \infty}^{\infty} d \varrho \frac{Z(\varrho)}{\varrho} n(\varrho) e^{- i \varrho t}
+\end{equation}
+%%
+
+\noindent where $g(\varrho)$ is the phonon density of states as a function of phonon frequency $\varrho$ and $n(\varrho)$ is the thermal occupancy factor. Finally, $Q$ is defined by:
+
+%%
+\begin{equation}
+\label{eq: Q}
+Q(\theta, \varrho) = \sqrt{\frac{2M}{\hbar^{2}} \left( 2E - \hbar \varrho - 2E \sqrt{1-\frac{\hbar \varrho}{E}}cos(2\theta) \right)}
+\end{equation}
+%%
+
+The coherent elastic scattering is expressed by:
+
+EQUATION
+
+\noindent The calcualted $\overline{S}_{0,calc}^{inc}$ and ELAST can then be subtracted from the total scattering which leaves us with the angle-averaged multiphonon structure factor which is a good starting approximation for the multiphonon coherent scattering. 
+
+The elastic peak was then subtracted from the measured total dynamical structure factor.  Then the total dynamical structure factor was averaged over $2\theta$ and scaled so the multiphonon coherent scattering could be subtratcted. After the subtractions the new phonon DOS was determined and was then used to recalculate the multiphonon contribution and the procedure was repeated. The procedure was repeated three times to converge the phonon DOS based on previous recommendations that showed three iterations were enough to converge within statiscal errors REF. 
 
 \pagebreak
 \begin{figure}[H]
