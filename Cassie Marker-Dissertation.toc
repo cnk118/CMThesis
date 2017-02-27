@@ -1,6 +1,6 @@
-\contentsline {chapter}{List of Figures}{viii}{chapter*.3}
-\contentsline {chapter}{List of Tables}{xvi}{chapter*.4}
-\contentsline {chapter}{Acknowledgments}{xix}{chapter*.5}
+\contentsline {chapter}{List of Figures}{ix}{chapter*.3}
+\contentsline {chapter}{List of Tables}{xvii}{chapter*.4}
+\contentsline {chapter}{Acknowledgments}{xx}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter..1}
 \contentsline {section}{\numberline {1.1}\tolerance 9999\emergencystretch 3em\hfuzz .5\p@ \vfuzz \hfuzz Motivation}{1}{section..1.1}
 \contentsline {section}{\numberline {1.2}Overview}{2}{section..1.2}

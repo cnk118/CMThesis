@@ -17,48 +17,49 @@ The style file: GLG-bibstyle.bst
 Database file #1: Thesis.bib
 Warning--there's a number but no volume in Nikitin1971
 Warning--missing school in Mei2011
+Warning--missing publisher in Manley2001
 Warning--empty booktitle in Predel1997
 Warning--missing institution in English1961
 Warning--can't use both volume and number fields in Basile1971
-You've used 103 entries,
+You've used 106 entries,
             2552 wiz_defined-function locations,
-            1277 strings with 22686 characters,
-and the built_in function-call counts, 50863 in all, are:
-= -- 3725
-> -- 1398
-< -- 93
-+ -- 407
-- -- 304
-* -- 3742
-:= -- 5003
-add.period$ -- 200
-call.type$ -- 103
+            1294 strings with 23219 characters,
+and the built_in function-call counts, 51802 in all, are:
+= -- 3789
+> -- 1418
+< -- 94
++ -- 414
+- -- 308
+* -- 3800
+:= -- 5105
+add.period$ -- 205
+call.type$ -- 106
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 5505
-empty$ -- 5032
-format.name$ -- 383
-if$ -- 11720
+cite$ -- 112
+duplicate$ -- 5612
+empty$ -- 5139
+format.name$ -- 388
+if$ -- 11935
 int.to.chr$ -- 0
-int.to.str$ -- 103
-missing$ -- 1000
-newline$ -- 325
-num.names$ -- 102
-pop$ -- 1305
+int.to.str$ -- 106
+missing$ -- 1021
+newline$ -- 335
+num.names$ -- 105
+pop$ -- 1341
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1864
+skip$ -- 1896
 stack$ -- 0
-substring$ -- 2962
-swap$ -- 3987
-text.length$ -- 93
+substring$ -- 2996
+swap$ -- 4049
+text.length$ -- 94
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 359
-width$ -- 106
-write$ -- 927
-(There were 5 warnings)
+warning$ -- 6
+while$ -- 365
+width$ -- 109
+write$ -- 952
+(There were 6 warnings)
