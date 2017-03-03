@@ -346,6 +346,19 @@
   Constants and Calculated Aggregate Properties: A Handbook}}, M.I.T. Press,
   Cambridge.
 
+\bibitem{Zuo1993}
+\textsc{Zuo, Y.} and \textsc{Y.~Chang} (1993) \enquote{{Thermodynamic
+  calculation of the Mg-Cu phase diagram},} \emph{Zeitschrift f{\"{u}}r
+  Metallkunde}, \textbf{84}(10), pp. 662--667.
+
+\bibitem{Chung1967}
+\textsc{Chung, D.~H.} and \textsc{W.~R. Buessem} (1967) \enquote{{The
+  Voigt‐Reuss‐Hill Approximation and Elastic Moduli of Polycrystalline MgO,
+  CaF {\textless}sub{\textgreater}2{\textless}/sub{\textgreater} ,
+  $\beta$‐ZnS, ZnSe, and CdTe},} \emph{Journal of Applied Physics},
+  \textbf{38}(6), pp. 2535--2540.
+\newline\urlprefix\url{http://aip.scitation.org/doi/10.1063/1.1709944}
+
 \bibitem{Born1998}
 \textsc{Born, M.} and \textsc{K.~Huang} (1998) \emph{{Dynamical Theory of
   Crystal Lattices}}, Oxford University Press.
@@ -366,18 +379,6 @@
   \textbf{57}(16), pp. 4716--4726.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1359645409003772}
 
-\bibitem{Liu2013}
-\textsc{Liu, X.~L.}, \textsc{C.~Z. Hargather}, and \textsc{Z.-K. Liu} (2013)
-  \enquote{{First-principles aided thermodynamic modeling of the Nb–Re
-  system},} \emph{Calphad}, \textbf{41}, pp. 119--127.
-
-\bibitem{Zacherl2012}
-\textsc{Zacherl, C.}, \textsc{S.~Shang}, \textsc{A.~Saengdeejing}, and
-  \textsc{Z.-K. Liu} (2012) \enquote{{Phase stability and thermodynamic
-  modeling of the Re–Ti system supplemented by first-principles
-  calculations},} \emph{Calphad}, \textbf{38}, pp. 71--80.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0364591612000442}
-
 \bibitem{Andersson2002}
 \textsc{Andersson, J.-O.}, \textsc{T.~Helander}, \textsc{L.~H{\"{o}}glund},
   \textsc{P.~Shi}, and \textsc{B.~Sundman} (2002) \enquote{{Thermo-Calc {\&}
@@ -389,6 +390,13 @@
   representation of thermodynamic properties and the classification of
   solutions},} \emph{Industrial {\&} Engineering Chemistry}, \textbf{40}(2),
   pp. 345--348.
+
+\bibitem{Zacherl2012}
+\textsc{Zacherl, C.}, \textsc{S.~Shang}, \textsc{A.~Saengdeejing}, and
+  \textsc{Z.-K. Liu} (2012) \enquote{{Phase stability and thermodynamic
+  modeling of the Re–Ti system supplemented by first-principles
+  calculations},} \emph{Calphad}, \textbf{38}, pp. 71--80.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0364591612000442}
 
 \bibitem{Shang2010c}
 \textsc{Shang, S.}, \textsc{J.~Saal}, \textsc{Z.~Mei}, \textsc{Y.~Wang}, and
