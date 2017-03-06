@@ -1,6 +1,6 @@
 \contentsline {chapter}{List of Figures}{x}{chapter*.3}
 \contentsline {chapter}{List of Tables}{xviii}{chapter*.4}
-\contentsline {chapter}{Acknowledgments}{xxi}{chapter*.5}
+\contentsline {chapter}{Acknowledgments}{xxii}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter..1}
 \contentsline {section}{\numberline {1.1}\tolerance 9999\emergencystretch 3em\hfuzz .5\p@ \vfuzz \hfuzz Motivation}{1}{section..1.1}
 \contentsline {section}{\numberline {1.2}Overview}{2}{section..1.2}
@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.1.5}High-throughput partition function}{17}{subsection..2.1.5}
 \contentsline {subsection}{\numberline {2.1.6}First-principles calculation error}{18}{subsection..2.1.6}
 \contentsline {section}{\numberline {2.2}CALPHAD method}{18}{section..2.2}
-\contentsline {subsection}{\numberline {2.2.1}Solution phases}{18}{subsection..2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Solution phases}{19}{subsection..2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Stoichiometric compounds}{20}{subsection..2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Elastic Properties}{20}{subsection..2.2.3}
 \contentsline {section}{\numberline {2.3}Experimental}{21}{section..2.3}
@@ -72,32 +72,32 @@
 \contentsline {section}{\numberline {6.4}Conclusion}{112}{section..6.4}
 \contentsline {chapter}{\numberline {7}Phase stability and elastic properties study of the Ti-Ta and Ti-Nb systems}{135}{chapter..7}
 \contentsline {section}{\numberline {7.1}Introduction}{135}{section..7.1}
-\contentsline {section}{\numberline {7.2}Modeling and Calculations}{135}{section..7.2}
-\contentsline {subsection}{\numberline {7.2.1}Computational details}{135}{subsection..7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Modeling details}{135}{subsection..7.2.2}
-\contentsline {section}{\numberline {7.3}Results and discussion}{135}{section..7.3}
-\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{135}{subsection..7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{136}{subsection..7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{136}{subsection..7.3.3}
-\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{136}{subsubsection..7.3.3.1}
-\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{136}{subsubsection..7.3.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3.3}Temperature dependent phonon density of states }{136}{subsubsection..7.3.3.3}
-\contentsline {subsubsection}{\numberline {7.3.3.4}Temperature dependent diffraction patterns}{136}{subsubsection..7.3.3.4}
-\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{136}{subsection..7.3.4}
-\contentsline {subsubsection}{\numberline {7.3.4.1}Phase fractions}{136}{subsubsection..7.3.4.1}
-\contentsline {subsubsection}{\numberline {7.3.4.2}Mixed force constants}{136}{subsubsection..7.3.4.2}
-\contentsline {subsection}{\numberline {7.3.5}Comparison of elastic properties}{136}{subsection..7.3.5}
-\contentsline {section}{\numberline {7.4}Conclusion}{136}{section..7.4}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{137}{chapter..8}
-\contentsline {section}{\numberline {8.1}Conclusions}{137}{section..8.1}
-\contentsline {section}{\numberline {8.2}Future Work}{137}{section..8.2}
+\contentsline {section}{\numberline {7.2}Modeling and Calculations}{136}{section..7.2}
+\contentsline {subsection}{\numberline {7.2.1}Computational details}{136}{subsection..7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Modeling details}{136}{subsection..7.2.2}
+\contentsline {section}{\numberline {7.3}Results and discussion}{137}{section..7.3}
+\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{137}{subsection..7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{137}{subsection..7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{138}{subsection..7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{138}{subsubsection..7.3.3.1}
+\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{138}{subsubsection..7.3.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3.3}Temperature dependent phonon density of states }{138}{subsubsection..7.3.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.4}Temperature dependent diffraction patterns}{138}{subsubsection..7.3.3.4}
+\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{138}{subsection..7.3.4}
+\contentsline {subsubsection}{\numberline {7.3.4.1}Phase fractions}{138}{subsubsection..7.3.4.1}
+\contentsline {subsubsection}{\numberline {7.3.4.2}Mixed force constants}{138}{subsubsection..7.3.4.2}
+\contentsline {subsection}{\numberline {7.3.5}Comparison of elastic properties}{138}{subsection..7.3.5}
+\contentsline {section}{\numberline {7.4}Conclusion}{138}{section..7.4}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{145}{chapter..8}
+\contentsline {section}{\numberline {8.1}Conclusions}{145}{section..8.1}
+\contentsline {section}{\numberline {8.2}Future Work}{145}{section..8.2}
 \renewcommand {\cftchappresnum }{Appendix }
-\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{138}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sn-Ta Database}{155}{appendix.B}
-\contentsline {chapter}{\numberline {C}Title of the Third Appendix}{162}{appendix.C}
-\contentsline {section}{\numberline {C.1}Introduction}{162}{section.C.1}
-\contentsline {section}{\numberline {C.2}More Declaration}{162}{section.C.2}
-\contentsline {chapter}{\numberline {D}Title of the Fourth Appendix}{164}{appendix.D}
-\contentsline {section}{\numberline {D.1}Introduction}{164}{section.D.1}
-\contentsline {section}{\numberline {D.2}More Declaration}{164}{section.D.2}
-\contentsline {chapter}{Bibliography}{166}{section.D.2}
+\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{146}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sn-Ta Database}{163}{appendix.B}
+\contentsline {chapter}{\numberline {C}Title of the Third Appendix}{170}{appendix.C}
+\contentsline {section}{\numberline {C.1}Introduction}{170}{section.C.1}
+\contentsline {section}{\numberline {C.2}More Declaration}{170}{section.C.2}
+\contentsline {chapter}{\numberline {D}Title of the Fourth Appendix}{172}{appendix.D}
+\contentsline {section}{\numberline {D.1}Introduction}{172}{section.D.1}
+\contentsline {section}{\numberline {D.2}More Declaration}{172}{section.D.2}
+\contentsline {chapter}{Bibliography}{174}{section.D.2}

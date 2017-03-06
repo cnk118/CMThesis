@@ -61,6 +61,9 @@
 \contentsline {figure}{\numberline {6.15}{\ignorespaces The Young's modulus is mapped as a function of composition in GPa for the Ti-Mo-Nb, Ti-Mo-Sn, Ti-Mo-Ta, Ti-Mo-Zr and Ti-Nb-Sn alloy systems using pycalphad \cite {Otis2017}.}}{133}{figure..6.15}
 \contentsline {figure}{\numberline {6.16}{\ignorespaces \textit {E} of multicomponent bcc Ti alloys predicted from the completed database are compared with measured experimental results. Error bars plotted are from the variation in experimentally determined Young’s modulus values for the specific multi-component alloy. The grey region refers to the error in the first-principles calculations. More information on the alloys is Table \ref {Ch6-table:tixydatacomp} \cite {Mohammed2014,Geetha2009,Tane2010a}.}}{134}{figure..6.16}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The relative energy of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Nb system are plotted from 100 at. \% Ti to 100 at. \% Nb.}}{142}{figure..7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces The relative energy of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Ta system are plotted from 100 at. \% Ti to 100 at. \% Ta.}}{143}{figure..7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces The elastic properites of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Nb system calculated from first-principles based on DFT are plotted as symbols. The CALPHAD fitting are plotted as the dashed lines. The figure is plotted from 100 at. \% Ti to 100 at. \% Nb.}}{144}{figure..7.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -235,14 +235,43 @@ To calculate the energies, enthalpies of formation and elastic properties across
 
 \subsection{High-throughput partition function}
 
-As discussed, the potential energy of a structure can be calculated using first-principles calculations based on DFT and the ground state energy will have the lowest potential energy and the metastable or unstable structures will have higher potential energies. In order to predict the formation of the metastable phases the combined potential energy can be calculated REF:
+INTRODUCE THE PARITITION FUNCTION APPROACH. The combined potential energy can be calculated by REF:
 
 %%
 \begin{equation}
 \label{eq: combined_energy}
-E_{c} = E_{g} + \sum p_{i} \left( E_{i} - E_{g} \right) = \frac{A_{g} + \sum p_{i} \left( A_{i} - A_{g} \right)}{r^{12}} - \frac{B_{g} + \sum p_{i} \left( B_{i} - B_{g} \right)}{r^{6}} = \frac{A_{c}}{r^{12}} - \frac{B_{c}}{r^{6}}
+E_{c} = E_{g} + \sum p_{i} \left( E_{i} - E_{g} \right) 
 \end{equation}
 %%
+
+\noindent where $E_{g}$ is the ground state energy and $E_{i}$ is the energy of metastable phase $i$. All of the energies were calculated from first-principles based on DFT using the EOS fitting in Eq. \ref{eq: zeroenergy}. $p_{i}$ is expressed by:
+
+%%
+\begin{equation}
+\label{eq: pi}
+p_{i} = \frac{Z_{i}}{Z_{c}} 
+\end{equation}
+%%
+
+\noindent where $Z_{i}$ and $Z_{c}$ are calculated by:
+
+%%
+\begin{equation}
+\label{eq: zc}
+Z_{c} = \sum_{j} e^{- \frac{E_{c}}{k_{B}T}} 
+\end{equation}
+%%
+
+\noindent From Eq. \ref{eq: combined_energy}-\ref{eq: zc} the combined Helmholtz energy is calculated by:
+
+%%
+\begin{equation}
+\label{eq: combinedhelmholtz}
+F_{c} = - k_{B} T \left( \sum \frac{Z_{i}}{Z_{c}} lnZ_{i} - \sum \frac{Z_{i}}{Z_{c}} ln \frac{Z_{i}}{Z_{c}}  \right)
+\end{equation}
+%%
+
+\noindent From the combined helmholtz the phase fractions MORE
 
 \subsection{First-principles calculation error}
 
@@ -251,7 +280,7 @@ The error between the previous results (experimental or calculation) and present
 %%
 \begin{equation}
 \label{eq: error}
-\sqrt{\frac{\Sigma[(A_{calc}-A{ref})]^{2}}{\kappa}} = Error
+\sqrt{\frac{\Sigma[(A_{calc}-A{ref})]^{2}}{\kappa}} = Difference
 \end{equation}
 %%
 
