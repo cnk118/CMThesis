@@ -13,6 +13,7 @@ A level-1 auxiliary file: Appendix-A/Appendix-A.aux
 A level-1 auxiliary file: Appendix-B/Appendix-B.aux
 A level-1 auxiliary file: Appendix-C/Appendix-C.aux
 A level-1 auxiliary file: Appendix-D/Appendix-D.aux
+A level-1 auxiliary file: Appendix-E/Appendix-E.aux
 The style file: GLG-bibstyle.bst
 Database file #1: Thesis.bib
 Warning--there's a number but no volume in Nikitin1971
@@ -21,45 +22,45 @@ Warning--missing publisher in Manley2001
 Warning--empty booktitle in Predel1997
 Warning--missing institution in English1961
 Warning--can't use both volume and number fields in Basile1971
-You've used 107 entries,
+You've used 111 entries,
             2552 wiz_defined-function locations,
-            1302 strings with 23526 characters,
-and the built_in function-call counts, 52317 in all, are:
-= -- 3834
-> -- 1424
-< -- 95
-+ -- 416
-- -- 309
-* -- 3836
-:= -- 5153
-add.period$ -- 207
-call.type$ -- 107
+            1324 strings with 24234 characters,
+and the built_in function-call counts, 54362 in all, are:
+= -- 4008
+> -- 1480
+< -- 97
++ -- 432
+- -- 321
+* -- 3990
+:= -- 5360
+add.period$ -- 214
+call.type$ -- 111
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 5664
-empty$ -- 5191
-format.name$ -- 390
-if$ -- 12056
+cite$ -- 117
+duplicate$ -- 5856
+empty$ -- 5393
+format.name$ -- 406
+if$ -- 12520
 int.to.chr$ -- 0
-int.to.str$ -- 107
-missing$ -- 1029
-newline$ -- 339
-num.names$ -- 106
-pop$ -- 1350
+int.to.str$ -- 111
+missing$ -- 1065
+newline$ -- 350
+num.names$ -- 110
+pop$ -- 1402
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1919
+skip$ -- 1983
 stack$ -- 0
-substring$ -- 3037
-swap$ -- 4091
-text.length$ -- 95
+substring$ -- 3219
+swap$ -- 4217
+text.length$ -- 97
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 369
-width$ -- 110
-write$ -- 962
+while$ -- 386
+width$ -- 114
+write$ -- 995
 (There were 6 warnings)

@@ -35,6 +35,37 @@
   of the Ti-Ta system},} \emph{Phys. Met. Metall.}, \textbf{60}(3), pp.
   139--143.
 
+\bibitem{Timoshevskii2011}
+\textsc{Timoshevskii, A.}, \textsc{S.~Yablonovskii}, and \textsc{O.~Ivasishin}
+  (2011) \enquote{{First-principles calculations atomic structure and elastic
+  properties of Ti-Nb alloys},} \emph{arXiv preprint arXiv:1111.7182}.
+
+\bibitem{Ozaki2004}
+\textsc{Ozaki, T.}, \textsc{H.~Matsumoto}, \textsc{S.~Watanabe}, and
+  \textsc{S.~Hanada} (2004) \enquote{{Beta Ti Alloys with Low Young's
+  Modulus},} \emph{MATERIALS TRANSACTIONS}, \textbf{45}(8), pp. 2776--2779.
+
+\bibitem{Friak2012}
+\textsc{Fri{\'{a}}k, M.}, \textsc{W.~Counts}, \textsc{D.~Ma},
+  \textsc{B.~Sander}, \textsc{D.~Holec}, \textsc{D.~Raabe}, and
+  \textsc{J.~Neugebauer} (2012) \enquote{{Theory-guided materials design of
+  multi-phase Ti-Nb alloys with bone-matching elastic properties},}
+  \emph{Materials}, \textbf{5}(10), pp. 1853--1872.
+
+\bibitem{Karre2015}
+\textsc{Karre, R.}, \textsc{M.~Niranjan}, and \textsc{S.~Dey} (2015)
+  \enquote{{First principles theoretical investigations of low Young's modulus
+  beta Ti–Nb and Ti–Nb–Zr alloys compositions for biomedical
+  applications},} \emph{Materials Science and Engineering: C}, \textbf{50}, pp.
+  52--58.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0928493115000715}
+
+\bibitem{Matsumoto2006}
+\textsc{Matsumoto, H.}, \textsc{S.~Watanabe}, \textsc{N.~Masahashi}, and
+  \textsc{S.~Hanada} (2006) \enquote{{Composition dependence of Young's modulus
+  in Ti-V, Ti-Nb, and Ti-V-Sn alloys},} \emph{Metallurgical and Materials
+  Transactions A}, \textbf{37}(11), pp. 3239--3249.
+
 \bibitem{Ansara1998}
 \textsc{Ansara, I.}, \textsc{A.~Dinsdale}, and \textsc{M.~Rand} (1998)
   \emph{{COST 507: thermochemical database for light metal alloys}}, vol.~2,
@@ -166,18 +197,6 @@
   biomaterials},} \emph{Advances in Materials Science and Engineering},
   \textbf{2015}(Article ID 872730), pp. 1--7.
 
-\bibitem{Ozaki2004}
-\textsc{Ozaki, T.}, \textsc{H.~Matsumoto}, \textsc{S.~Watanabe}, and
-  \textsc{S.~Hanada} (2004) \enquote{{Beta Ti Alloys with Low Young's
-  Modulus},} \emph{MATERIALS TRANSACTIONS}, \textbf{45}(8), pp. 2776--2779.
-
-\bibitem{Friak2012}
-\textsc{Fri{\'{a}}k, M.}, \textsc{W.~Counts}, \textsc{D.~Ma},
-  \textsc{B.~Sander}, \textsc{D.~Holec}, \textsc{D.~Raabe}, and
-  \textsc{J.~Neugebauer} (2012) \enquote{{Theory-guided materials design of
-  multi-phase Ti-Nb alloys with bone-matching elastic properties},}
-  \emph{Materials}, \textbf{5}(10), pp. 1853--1872.
-
 \bibitem{Tane2010a}
 \textsc{Tane, M.}, \textsc{S.~Akita}, \textsc{T.~Nakano}, \textsc{K.~Hagihara},
   \textsc{Y.~Umakoshi}, \textsc{M.~Niinomi}, \textsc{H.~Mori}, and
@@ -288,7 +307,7 @@
 \bibitem{Perdew1996a}
 \textsc{Perdew, J.}, \textsc{K.~Burke}, and \textsc{M.~Ernzerhof} (1996)
   \enquote{{Generalized gradient approximation made simple},} \emph{Physical
-  Review Letters}, \textbf{77}(18), p. 3865.
+  Review Letters}, \textbf{77}(18), pp. 3865--3868.
 
 \bibitem{Ceperley1980}
 \textsc{Ceperley, D.~M.} and \textsc{B.~J. Alder} (1980) \enquote{{Ground state
@@ -339,7 +358,7 @@
 \bibitem{Shang2007c}
 \textsc{Shang, S.}, \textsc{Y.~Wang}, and \textsc{Z.-K. Liu} (2007)
   \enquote{{First-principles elastic constants of alpha- and theta-Al2O3},}
-  \emph{Applied Physics Letters}, \textbf{90}(10), p. 101909.
+  \emph{Applied Physics Letters}, \textbf{90}(10), pp. 101909--1--101909--3.
 
 \bibitem{Simmons1971b}
 \textsc{Simmons, G.} and \textsc{H.~Wang} (1971) \emph{{Single Crystal Elastic
@@ -354,10 +373,8 @@
 \bibitem{Chung1967}
 \textsc{Chung, D.~H.} and \textsc{W.~R. Buessem} (1967) \enquote{{The
   Voigt‐Reuss‐Hill Approximation and Elastic Moduli of Polycrystalline MgO,
-  CaF {\textless}sub{\textgreater}2{\textless}/sub{\textgreater} ,
-  $\beta$‐ZnS, ZnSe, and CdTe},} \emph{Journal of Applied Physics},
+  CaF2 , $\beta$‐ZnS, ZnSe, and CdTe},} \emph{Journal of Applied Physics},
   \textbf{38}(6), pp. 2535--2540.
-\newline\urlprefix\url{http://aip.scitation.org/doi/10.1063/1.1709944}
 
 \bibitem{Born1998}
 \textsc{Born, M.} and \textsc{K.~Huang} (1998) \emph{{Dynamical Theory of
@@ -371,13 +388,16 @@
 \textsc{Jiang, C.}, \textsc{C.~Wolverton}, \textsc{J.~Sofo}, \textsc{L.-Q.
   Chen}, and \textsc{Z.-K. Liu} (2004) \enquote{{First-principles study of
   binary bcc alloys using special quasirandom structures},} \emph{Physical
-  Review B}, \textbf{69}(21), p. 214202.
+  Review B}, \textbf{69}(21), pp. 214202--1--214202--10.
 
 \bibitem{Jiang2009}
 \textsc{Jiang, C.} (2009) \enquote{{First-principles study of ternary bcc
   alloys using special quasi-random structures},} \emph{Acta Materialia},
   \textbf{57}(16), pp. 4716--4726.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1359645409003772}
+
+\bibitem{Liu2016}
+\textsc{Liu, Z.~K.} and \textsc{Y.~Wang} (2016) \emph{{Computational
+  Thermodynamics of Materials}}, Cambridge University Press.
 
 \bibitem{Andersson2002}
 \textsc{Andersson, J.-O.}, \textsc{T.~Helander}, \textsc{L.~H{\"{o}}glund},
