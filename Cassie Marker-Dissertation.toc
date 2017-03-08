@@ -4,9 +4,9 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter..1}
 \contentsline {section}{\numberline {1.1}\tolerance 9999\emergencystretch 3em\hfuzz .5\p@ \vfuzz \hfuzz Motivation}{1}{section..1.1}
 \contentsline {section}{\numberline {1.2}Overview}{2}{section..1.2}
-\contentsline {subsubsection}{\numberline {1.2.0.1}Equilibrium Phases}{2}{subsubsection..1.2.0.1}
-\contentsline {subsection}{\numberline {1.2.1}Elastic Properties}{3}{subsection..1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Metastable Phases}{3}{subsection..1.2.2}
+\contentsline {subsection}{\numberline {1.2.1}Equilibrium Phases}{2}{subsection..1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Elastic Properties}{3}{subsection..1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Metastable Phases}{3}{subsection..1.2.3}
 \contentsline {chapter}{\numberline {2}Methodology}{11}{chapter..2}
 \contentsline {section}{\numberline {2.1}First-Principles Calculations}{11}{section..2.1}
 \contentsline {subsection}{\numberline {2.1.1}Density Functional Theory at 0 $^\circ $K}{13}{subsection..2.1.1}
