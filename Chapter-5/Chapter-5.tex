@@ -19,7 +19,7 @@ For the Ti-X binary systems, calculations for both dilute and SQS solutions were
 
 \subsection{Evaluation of calculation settings}
 
-The X-C functionals of PW91 and PBE were tested on the Ti-Ta binary system. The results are plotted in Figure \ref{Ch5-figure:PBEvsPW91}. It is shown that the c$_{44}$ values of Ti-Ta alloys consistently differ around 10 GPa or less between the PW91 and PBE calculations. The c$_{11}$ and c$_{12}$ calculations differ less than 5 GPa. The c$_{11}$ and c$_{12}$ values with 25 at.$\%$ Ta from SQS calculations vary by 26 GPa and 13 GPa, respectively. Since overall the values vary by an error of less than 0.2 (calculated with Eq. Y), it is concluded that the X-C functional choice does not make a significant difference in the results. The PBE functional was created after PW91 and meant to be an improvement on the PW91 and was chosen for the present work. 
+The X-C functionals of PW91 and PBE were tested on the Ti-Ta binary system. The results are plotted in Figure \ref{Ch5-figure:PBEvsPW91}. It is shown that the c$_{44}$ values of Ti-Ta alloys consistently differ around 10 GPa or less between the PW91 and PBE calculations. The c$_{11}$ and c$_{12}$ calculations differ less than 5 GPa. The c$_{11}$ and c$_{12}$ values with 25 at.$\%$ Ta from SQS calculations vary by 26 GPa and 13 GPa, respectively. Since overall the values vary by an error of less than 0.2 (calculated with Eq. \ref{eq: error}), it is concluded that the X-C functional choice does not make a significant difference in the results. The PBE functional was created after PW91 and meant to be an improvement on the PW91, discussed in more detail in Chapter 2, and was chosen for the present work. 
 
 Three magnitudes of strain were tested on the Ti-Mo binary system and plotted in \ref{Ch5-figure:Strain}. The results show that the different strain magnitudes do not affect the results. For example, the data calculated using $\pm$0.01, $\pm$0.013, and $\pm$0.007 strains at Mo$_{15}$Ti for c$_{11}$ was 451 GPa, 450 GPa, and 450 GPa, respectively, varying within 1 GPa (< 1$\%$), similar to the variance in the c$_{12}$ and c$_{44}$ results. Overall, the variance in the c$_{11}$ and c$_{12}$ is less than 0.02 (Eq. Y). The largest variance is seen in the Ti$_{50}$Mo$_{50}$, the c$_{44}$ values are 42 GPa, 42 GPa, and 65 GPa calculated with $\pm$0.01, $\pm$0.013, and $\pm$0.007 strains, respectively. Overall, the strain magnitude does not seem to affect the calculated results, and the $\pm$0.01 strain magnitude is thus used for all the calculations.
 
@@ -200,6 +200,14 @@ The effects of five alloying elements on the elastic properties of bcc Ti-X (X =
 \end{table}
 \clearpage
 %%%
+
+\pagebreak
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Chapter-5/Figures/PBEvsPW91.png}
+	\caption{Elastic stiffness constants of the bcc Ti-Ta binary system calculated with the GGA and PBE exchange correction functions, respectively.}
+	\label{Ch5-figure:PBEvsPW91}
+\end{figure}
 
 \pagebreak
 \begin{figure}[H]
