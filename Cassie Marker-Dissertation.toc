@@ -6,97 +6,97 @@
 \contentsline {section}{\numberline {1.2}Overview}{2}{section..1.2}
 \contentsline {subsection}{\numberline {1.2.1}Equilibrium Phases}{2}{subsection..1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Metastable Phases}{3}{subsection..1.2.2}
-\contentsline {chapter}{\numberline {2}Methodology}{11}{chapter..2}
-\contentsline {section}{\numberline {2.1}First-Principles Calculations}{11}{section..2.1}
-\contentsline {subsection}{\numberline {2.1.1}Density Functional Theory at 0 $^\circ $K}{13}{subsection..2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Finite-temperature thermodynamics}{14}{subsection..2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Elastic stiffness calculations}{16}{subsection..2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Special quasirandom structures (SQS)}{18}{subsection..2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}High-throughput partition function}{18}{subsection..2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}First-principles calculation error}{19}{subsection..2.1.6}
-\contentsline {section}{\numberline {2.2}CALPHAD method}{19}{section..2.2}
-\contentsline {subsection}{\numberline {2.2.1}Solution phases}{20}{subsection..2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Stoichiometric compounds}{21}{subsection..2.2.2}
+\contentsline {chapter}{\numberline {2}Methodology}{10}{chapter..2}
+\contentsline {section}{\numberline {2.1}First-Principles Calculations}{10}{section..2.1}
+\contentsline {subsection}{\numberline {2.1.1}Density Functional Theory at 0 $^\circ $K}{12}{subsection..2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Finite-temperature thermodynamics}{13}{subsection..2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Elastic stiffness calculations}{15}{subsection..2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Special quasirandom structures (SQS)}{17}{subsection..2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}High-throughput partition function}{17}{subsection..2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}First-principles calculation error}{18}{subsection..2.1.6}
+\contentsline {section}{\numberline {2.2}CALPHAD method}{18}{section..2.2}
+\contentsline {subsection}{\numberline {2.2.1}Solution phases}{19}{subsection..2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Stoichiometric compounds}{20}{subsection..2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Elastic Properties}{21}{subsection..2.2.3}
-\contentsline {section}{\numberline {2.3}Experimental}{22}{section..2.3}
-\contentsline {subsection}{\numberline {2.3.1}Ti-Nb sample preparation}{22}{subsection..2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Neutron Scattering}{23}{subsection..2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}ARCS}{23}{subsubsection..2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Data Analysis}{23}{subsubsection..2.3.2.2}
-\contentsline {chapter}{\numberline {3}Ti-Mo-Nb-Sn-Ta-Zr \\Thermodynamic Database}{26}{chapter..3}
-\contentsline {section}{\numberline {3.1}Introduction}{26}{section..3.1}
-\contentsline {section}{\numberline {3.2}Computational details}{27}{section..3.2}
-\contentsline {section}{\numberline {3.3}Pure element calculation results}{28}{section..3.3}
-\contentsline {section}{\numberline {3.4}Enthalpy of formation of bcc phase from first-principles}{28}{section..3.4}
-\contentsline {section}{\numberline {3.5}Thermodynamic modeling of the ten binary systems}{29}{section..3.5}
-\contentsline {subsection}{\numberline {3.5.1}Mo-Nb, Mo-Ta, Nb-Ta}{29}{subsection..3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Mo-Zr, Nb-Zr and Ta-Zr}{30}{subsection..3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Ti-Mo}{31}{subsection..3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Ti-Nb}{32}{subsection..3.5.4}
-\contentsline {subsection}{\numberline {3.5.5}Ti-Ta}{33}{subsection..3.5.5}
-\contentsline {subsection}{\numberline {3.5.6}Ti-Zr}{34}{subsection..3.5.6}
-\contentsline {section}{\numberline {3.6}Thermodynamic modeling of six Ti-containing ternary systems}{34}{section..3.6}
-\contentsline {subsection}{\numberline {3.6.1}Ti-Mo-Nb}{34}{subsection..3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Ti-Mo-Ta}{35}{subsection..3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Ti-Mo-Zr}{36}{subsection..3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Ti-Nb-Ta}{37}{subsection..3.6.4}
-\contentsline {subsection}{\numberline {3.6.5}Ti-Nb-Zr}{37}{subsection..3.6.5}
-\contentsline {subsection}{\numberline {3.6.6}Ti-Ta-Zr}{38}{subsection..3.6.6}
-\contentsline {section}{\numberline {3.7}Conclusion}{38}{section..3.7}
-\contentsline {chapter}{\numberline {4}First-principles aided thermodynamic modeling of the Sn-Ta system}{64}{chapter..4}
-\contentsline {section}{\numberline {4.1}Introduction}{64}{section..4.1}
-\contentsline {section}{\numberline {4.2}Literature Review}{65}{section..4.2}
-\contentsline {section}{\numberline {4.3}Modeling and Calculations}{66}{section..4.3}
-\contentsline {subsection}{\numberline {4.3.1}First-principles details}{66}{subsection..4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}CALPHAD}{67}{subsection..4.3.2}
-\contentsline {section}{\numberline {4.4}Results and discussion}{67}{section..4.4}
-\contentsline {subsection}{\numberline {4.4.1}First-principles}{67}{subsection..4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}CALPHAD}{69}{subsection..4.4.2}
-\contentsline {section}{\numberline {4.5}Conclusion}{71}{section..4.5}
-\contentsline {chapter}{\numberline {5}Effects of alloying elements on the elastic properties of bcc Ti-X alloys}{87}{chapter..5}
-\contentsline {section}{\numberline {5.1}Introduction}{87}{section..5.1}
-\contentsline {section}{\numberline {5.2}Modeling and Calculations}{88}{section..5.2}
-\contentsline {subsection}{\numberline {5.2.1}Calculation details}{88}{subsection..5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Modeling details}{88}{subsection..5.2.2}
-\contentsline {section}{\numberline {5.3}Results and discussion}{89}{section..5.3}
-\contentsline {subsection}{\numberline {5.3.1}Evaluation of calculation settings}{89}{subsection..5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Calculations of the Ti-X elastic properties}{89}{subsection..5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Extrapolation to ternary and higher ordered systems}{93}{subsection..5.3.3}
-\contentsline {section}{\numberline {5.4}Conclusion}{94}{section..5.4}
-\contentsline {chapter}{\numberline {6}Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{111}{chapter..6}
-\contentsline {section}{\numberline {6.1}Introduction}{111}{section..6.1}
-\contentsline {section}{\numberline {6.2}Modeling and Calculations}{112}{section..6.2}
-\contentsline {subsection}{\numberline {6.2.1}Calculation details}{112}{subsection..6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Modeling details}{112}{subsection..6.2.2}
-\contentsline {section}{\numberline {6.3}Results and discussion}{113}{section..6.3}
-\contentsline {subsection}{\numberline {6.3.1}Elastic calculation results}{113}{subsection..6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Extrapolation to higher ordered systems}{116}{subsection..6.3.2}
-\contentsline {section}{\numberline {6.4}Conclusion}{117}{section..6.4}
-\contentsline {chapter}{\numberline {7}Phase stability and elastic properties study of the Ti-Ta and Ti-Nb systems}{139}{chapter..7}
-\contentsline {section}{\numberline {7.1}Introduction}{139}{section..7.1}
-\contentsline {section}{\numberline {7.2}Modeling and Calculations}{140}{section..7.2}
-\contentsline {subsection}{\numberline {7.2.1}Computational details}{140}{subsection..7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Modeling details}{140}{subsection..7.2.2}
-\contentsline {section}{\numberline {7.3}Results and discussion}{141}{section..7.3}
-\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{141}{subsection..7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{141}{subsection..7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{142}{subsection..7.3.3}
-\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{142}{subsubsection..7.3.3.1}
-\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{142}{subsubsection..7.3.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3.3}Temperature dependent phonon density of states }{142}{subsubsection..7.3.3.3}
-\contentsline {subsubsection}{\numberline {7.3.3.4}Temperature dependent diffraction patterns}{142}{subsubsection..7.3.3.4}
-\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{142}{subsection..7.3.4}
-\contentsline {subsubsection}{\numberline {7.3.4.1}Phase fractions}{142}{subsubsection..7.3.4.1}
-\contentsline {subsubsection}{\numberline {7.3.4.2}Mixed force constants}{142}{subsubsection..7.3.4.2}
-\contentsline {subsection}{\numberline {7.3.5}Comparison of elastic properties}{142}{subsection..7.3.5}
-\contentsline {section}{\numberline {7.4}Conclusion}{142}{section..7.4}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{153}{chapter..8}
-\contentsline {section}{\numberline {8.1}Conclusions}{153}{section..8.1}
-\contentsline {section}{\numberline {8.2}Future Work}{153}{section..8.2}
+\contentsline {section}{\numberline {2.3}Experimental}{21}{section..2.3}
+\contentsline {subsection}{\numberline {2.3.1}Ti-Nb sample preparation}{21}{subsection..2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Neutron Scattering}{22}{subsection..2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}ARCS}{22}{subsubsection..2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Data Analysis}{22}{subsubsection..2.3.2.2}
+\contentsline {chapter}{\numberline {3}Ti-Mo-Nb-Sn-Ta-Zr \\Thermodynamic Database}{25}{chapter..3}
+\contentsline {section}{\numberline {3.1}Introduction}{25}{section..3.1}
+\contentsline {section}{\numberline {3.2}Computational details}{26}{section..3.2}
+\contentsline {section}{\numberline {3.3}Pure element calculation results}{27}{section..3.3}
+\contentsline {section}{\numberline {3.4}Enthalpy of formation of bcc phase from first-principles}{27}{section..3.4}
+\contentsline {section}{\numberline {3.5}Thermodynamic modeling of the ten binary systems}{28}{section..3.5}
+\contentsline {subsection}{\numberline {3.5.1}Mo-Nb, Mo-Ta, Nb-Ta}{28}{subsection..3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Mo-Zr, Nb-Zr and Ta-Zr}{29}{subsection..3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Ti-Mo}{30}{subsection..3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Ti-Nb}{31}{subsection..3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Ti-Ta}{32}{subsection..3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Ti-Zr}{33}{subsection..3.5.6}
+\contentsline {section}{\numberline {3.6}Thermodynamic modeling of six Ti-containing ternary systems}{33}{section..3.6}
+\contentsline {subsection}{\numberline {3.6.1}Ti-Mo-Nb}{33}{subsection..3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Ti-Mo-Ta}{34}{subsection..3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Ti-Mo-Zr}{35}{subsection..3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Ti-Nb-Ta}{36}{subsection..3.6.4}
+\contentsline {subsection}{\numberline {3.6.5}Ti-Nb-Zr}{36}{subsection..3.6.5}
+\contentsline {subsection}{\numberline {3.6.6}Ti-Ta-Zr}{37}{subsection..3.6.6}
+\contentsline {section}{\numberline {3.7}Conclusion}{37}{section..3.7}
+\contentsline {chapter}{\numberline {4}First-principles aided thermodynamic modeling of the Sn-Ta system}{63}{chapter..4}
+\contentsline {section}{\numberline {4.1}Introduction}{63}{section..4.1}
+\contentsline {section}{\numberline {4.2}Literature Review}{64}{section..4.2}
+\contentsline {section}{\numberline {4.3}Modeling and Calculations}{65}{section..4.3}
+\contentsline {subsection}{\numberline {4.3.1}First-principles details}{65}{subsection..4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}CALPHAD}{66}{subsection..4.3.2}
+\contentsline {section}{\numberline {4.4}Results and discussion}{66}{section..4.4}
+\contentsline {subsection}{\numberline {4.4.1}First-principles}{66}{subsection..4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}CALPHAD}{68}{subsection..4.4.2}
+\contentsline {section}{\numberline {4.5}Conclusion}{70}{section..4.5}
+\contentsline {chapter}{\numberline {5}Effects of alloying elements on the elastic properties of bcc Ti-X alloys}{86}{chapter..5}
+\contentsline {section}{\numberline {5.1}Introduction}{86}{section..5.1}
+\contentsline {section}{\numberline {5.2}Modeling and Calculations}{87}{section..5.2}
+\contentsline {subsection}{\numberline {5.2.1}Calculation details}{87}{subsection..5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Modeling details}{87}{subsection..5.2.2}
+\contentsline {section}{\numberline {5.3}Results and discussion}{88}{section..5.3}
+\contentsline {subsection}{\numberline {5.3.1}Evaluation of calculation settings}{88}{subsection..5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Calculations of the Ti-X elastic properties}{88}{subsection..5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Extrapolation to ternary and higher ordered systems}{92}{subsection..5.3.3}
+\contentsline {section}{\numberline {5.4}Conclusion}{93}{section..5.4}
+\contentsline {chapter}{\numberline {6}Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{110}{chapter..6}
+\contentsline {section}{\numberline {6.1}Introduction}{110}{section..6.1}
+\contentsline {section}{\numberline {6.2}Modeling and Calculations}{111}{section..6.2}
+\contentsline {subsection}{\numberline {6.2.1}Calculation details}{111}{subsection..6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Modeling details}{111}{subsection..6.2.2}
+\contentsline {section}{\numberline {6.3}Results and discussion}{112}{section..6.3}
+\contentsline {subsection}{\numberline {6.3.1}Elastic calculation results}{112}{subsection..6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Extrapolation to higher ordered systems}{117}{subsection..6.3.2}
+\contentsline {section}{\numberline {6.4}Conclusion}{118}{section..6.4}
+\contentsline {chapter}{\numberline {7}Phase stability and elastic properties study of the Ti-Ta and Ti-Nb systems}{142}{chapter..7}
+\contentsline {section}{\numberline {7.1}Introduction}{142}{section..7.1}
+\contentsline {section}{\numberline {7.2}Modeling and Calculations}{143}{section..7.2}
+\contentsline {subsection}{\numberline {7.2.1}Computational details}{143}{subsection..7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Modeling details}{143}{subsection..7.2.2}
+\contentsline {section}{\numberline {7.3}Results and discussion}{144}{section..7.3}
+\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{144}{subsection..7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{144}{subsection..7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{145}{subsection..7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{145}{subsubsection..7.3.3.1}
+\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{145}{subsubsection..7.3.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3.3}Temperature dependent phonon density of states }{145}{subsubsection..7.3.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.4}Temperature dependent diffraction patterns}{145}{subsubsection..7.3.3.4}
+\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{145}{subsection..7.3.4}
+\contentsline {subsubsection}{\numberline {7.3.4.1}Phase fractions}{145}{subsubsection..7.3.4.1}
+\contentsline {subsubsection}{\numberline {7.3.4.2}Mixed force constants}{145}{subsubsection..7.3.4.2}
+\contentsline {subsection}{\numberline {7.3.5}Comparison of elastic properties}{145}{subsection..7.3.5}
+\contentsline {section}{\numberline {7.4}Conclusion}{145}{section..7.4}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{156}{chapter..8}
+\contentsline {section}{\numberline {8.1}Conclusions}{156}{section..8.1}
+\contentsline {section}{\numberline {8.2}Future Work}{156}{section..8.2}
 \renewcommand {\cftchappresnum }{Appendix }
-\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{154}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sn-Ta Database}{171}{appendix.B}
-\contentsline {chapter}{\numberline {C}Mathematica \\ Interaction Parameter Fitting}{179}{appendix.C}
-\contentsline {chapter}{\numberline {D}Ti Elastic Database}{181}{appendix.D}
-\contentsline {chapter}{\numberline {E}Pycalphad script}{188}{appendix.E}
-\contentsline {chapter}{Bibliography}{198}{lstnumber.-1.380}
+\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{157}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sn-Ta Database}{174}{appendix.B}
+\contentsline {chapter}{\numberline {C}Mathematica \\ Interaction Parameter Fitting}{182}{appendix.C}
+\contentsline {chapter}{\numberline {D}Ti Elastic Database}{184}{appendix.D}
+\contentsline {chapter}{\numberline {E}Pycalphad script}{191}{appendix.E}
+\contentsline {chapter}{Bibliography}{201}{lstnumber.-1.380}

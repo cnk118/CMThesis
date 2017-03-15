@@ -230,14 +230,14 @@
 \bibitem{Nozoe2007}
 \textsc{Nozoe, F.}, \textsc{H.~Matsumoto}, \textsc{T.~K. Jung},
   \textsc{S.~Watanabe}, \textsc{T.~Saburi}, and \textsc{S.~Hanada} (2007)
-  \enquote{{Effect of Low Temperature Aging on Superelastic Behavior in
-  Biocompatible. BETA. TiNbSn Alloy},} \emph{Materials transactions},
+  \enquote{{Effect of low temperature aging on superelastic behavior in
+  biocompatible beta TiNbSn Alloy},} \emph{Materials transactions},
   \textbf{48}(11), pp. 3007--3013.
 
 \bibitem{Otis2017}
 \textsc{Otis, R.} and \textsc{Z.-K. Liu} (2017) \enquote{{pycalphad:
-  CALPHAD-based Computational Thermodynamics in Python},} \emph{Journal of Open
-  Research Software}, \textbf{5}(1).
+  CALPHAD-based computational thermodynamics in Python},} \emph{Journal of Open
+  Research Software}, \textbf{5}(1), pp. 1--11.
 
 \bibitem{Long1998a}
 \textsc{Long, M.} and \textsc{H.~Rack} (1998) \enquote{{Titanium alloys in
@@ -280,7 +280,7 @@
   phases},} \emph{Physical Review B}, \textbf{86}(5), p. 54119.
 
 \bibitem{Mei2011}
-\textsc{Mei, Z.~G.} (2011) \emph{{First-principles Thermodynamics of Phase
+\textsc{Mei, Z. Z.~G.} (2011) \emph{{First-principles Thermodynamics of Phase
   Transition: from Metal to Oxide}}, Ph.D. thesis.
 
 \bibitem{Brailovski2011b}
@@ -373,7 +373,8 @@
 
 \bibitem{Shang2007c}
 \textsc{Shang, S.}, \textsc{Y.~Wang}, and \textsc{Z.-K. Liu} (2007)
-  \enquote{{First-principles elastic constants of alpha- and theta-Al2O3},}
+  \enquote{{First-principles elastic constants of alpha- and
+  theta-Al{\textless}sub{\textgreater}2{\textless}/sub{\textgreater}O{\textless}sub{\textgreater}3{\textless}/sub{\textgreater}},}
   \emph{Applied Physics Letters}, \textbf{90}(10), pp. 101909--1--101909--3.
 
 \bibitem{Simmons1971b}
@@ -383,14 +384,15 @@
 
 \bibitem{Zuo1993}
 \textsc{Zuo, Y.} and \textsc{Y.~Chang} (1993) \enquote{{Thermodynamic
-  calculation of the Mg-Cu phase diagram},} \emph{Zeitschrift f{\"{u}}r
-  Metallkunde}, \textbf{84}(10), pp. 662--667.
+  calculation of the Mg-Cu phase diagram},} \emph{Zeit. Metall.},
+  \textbf{84}(10), pp. 662--667.
 
 \bibitem{Chung1967}
 \textsc{Chung, D.~H.} and \textsc{W.~R. Buessem} (1967) \enquote{{The
-  Voigt‐Reuss‐Hill Approximation and Elastic Moduli of Polycrystalline MgO,
-  CaF2 , $\beta$‐ZnS, ZnSe, and CdTe},} \emph{Journal of Applied Physics},
-  \textbf{38}(6), pp. 2535--2540.
+  Voigt‐Reuss‐Hill approximation and elastic moduli of Polycrystalline MgO,
+  CaF{\textless}sub{\textgreater}2{\textless}/sub{\textgreater}, $\beta$‐ZnS,
+  ZnSe, and CdTe},} \emph{Journal of Applied Physics}, \textbf{38}(6), pp.
+  2535--2540.
 
 \bibitem{Born1998}
 \textsc{Born, M.} and \textsc{K.~Huang} (1998) \emph{{Dynamical Theory of
@@ -444,6 +446,21 @@
   \textsc{Z.-K. Liu} (2010) \enquote{{Magnetic thermodynamics of fcc Ni from
   first-principles partition function approach},} \emph{Journal of Applied
   Physics}, \textbf{108}(12), p. 123514.
+
+\bibitem{Liu2009}
+\textsc{Liu, Z.-K.} (2009) \enquote{{First-principles calculations and CALPHAD
+  modeling of thermodynamics},} \emph{Journal of Phase Equilibria and
+  Diffusion}, \textbf{30}(5), pp. 517--534.
+
+\bibitem{Saunders1998}
+\textsc{Saunders, N.} and \textsc{A.~Miodownik} (1998) \emph{{CALPHAD
+  (Calculation of Phase Diagrams): A Comprehensive Guide: A Comprehensive
+  Guide}}, vol.~1, Elsevier.
+
+\bibitem{Lukas2007}
+\textsc{Lukas, H.}, \textsc{S.~Fries}, and \textsc{B.~Sundman} (2007)
+  \emph{{Computational Thermodynamics: the CALPHAD Method}}, vol. 131,
+  Cambridge University Press, Cambridge.
 
 \bibitem{Young1998}
 \textsc{Young, R.} and \textsc{A.~Larson} (1998) \enquote{{Rietveld analysis of
@@ -510,7 +527,7 @@
 
 \bibitem{Neuburger1936_127}
 \textsc{Neuburger, M.~C.} (1936) \enquote{{Praezisionsmessung der
-  Gitterkonstante von sehr reinem Niob},} \emph{Zeitschrift fuer
+  Gitterkonstante von sehr reinem Tantal},} \emph{Zeitschrift fuer
   Kristallographie, Kristallgeometrie, Kristallphysik, Kristallchemie
   (-144,1977)}, \textbf{93}, pp. 158--159.
 
@@ -551,11 +568,6 @@
 ---{}---{}--- (2006) \enquote{{Ti alloy design strategy for biomedical
   applications},} \emph{Materials Science and Engineering: C}, \textbf{26}(1),
   pp. 14--19.
-
-\bibitem{Liu2009}
-\textsc{Liu, Z.-K.} (2009) \enquote{{First-Principles Calculations and CALPHAD
-  Modeling of Thermodynamics},} \emph{Journal of Phase Equilibria and
-  Diffusion}, \textbf{30}(5), pp. 517--534.
 
 \bibitem{Okamoto2003}
 \textsc{Okamoto, H.} (2003) \enquote{{Sn-Ta (Tin-Tantalum)},} \emph{Journal of

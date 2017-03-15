@@ -2,9 +2,9 @@
 
 \section{First-Principles Calculations}
 
-In this dissertation, the ground state energy structures, thermodynamic properties and mechanical properties were calculated using first-principles based on Density Functional Theory. The first-principles refers to the calculations originating from "first-principles", meaning that the inputs were the atomic coordinates and atomic numbers. This method computes the interactions between atoms in a periodic supercell. This was determined using quantum mechanical electronic theory that is based on the electronic charge density and does not rely on any empirical data. This section provides a description of the DFT methodology.
+In this dissertation, the ground state energy structures, thermodynamic properties and mechanical properties of Ti and Ti-alloys were calculated using first-principles based on Density Functional Theory. The first-principles refers to the calculations originating from "first-principles", meaning that the inputs were the atomic coordinates and atomic numbers. The first-prinicples method computes the interactions between atoms in a periodic supercell. This was determined using quantum mechanical electronic theory that is based on the electronic charge density and does not rely on any empirical data. This section provides a description of the DFT methodology.
 
-Schr$\ddot{o}$dinger's time-independent non-relativistic equation is a solution to the many-body problem of calculating the interactions of positively charged nuclei and negatively charged electrons. The Schr$\ddot{o}$dinger equation is:
+Schr\"odinger's time-independent non-relativistic equation is a solution to the many-body problem of calculating the interactions of positively charged nuclei and negatively charged electrons. The Schr\"odinger equation is:
 
 %%
 \begin{equation}
@@ -13,9 +13,9 @@ Schr$\ddot{o}$dinger's time-independent non-relativistic equation is a solution 
 \end{equation}
 %%
 
-\noindent where the first bracketed part represents the Hamiltonian ($\hat{H}$), $\Psi$ describes the wave function of electrons, $E_{s}$ describes the systems energy. The $\hat{H}$ of the system is described by three parts, the first part represents the kinetic energy with $N$ being the total number of electrons in the system, $\hbar$ being Planck's constant and $m$ the mass of an electron. The second term $V_{ext}$ gives the external potential and $U$ is the potential of the electron-electron repulsion.
+\noindent where the first bracketed part represents the Hamiltonian ($\hat{H}$), $\Psi$ describes the wave function of electrons, and $E_{s}$ describes the systems energy. The $\hat{H}$ of the system is described by three parts, the first part represents the kinetic energy with $N$ being the total number of electrons in the system, $\hbar$ being Planck's constant and $m$ the mass of an electron. The second term $V_{ext}$ is the external potential and $U$ is the potential of the electron-electron repulsion.
 
-Eq. \ref{eq: schrodinger} can be solved for $\Psi$ with the lowest energy $E_s$ being the ground state energy, assuming the nuclei-nuclei interactions are neglected due to the Born-Oppenheimer approximation. The Born-Oppenheimer approximation allows us to assume the nuclei are stationary and ignore the motion of the nuclei on the electronic timescale, due to the mass difference, with nuclei being $\sim$ 10$^3$ to 10$^5$ larger than electrons. However, even with this approximation solving Eq. \ref{eq: schrodinger} is difficult to deal with due to the electron-electron Columb interactions making the electronic motion correlated and the fact that the many-body problem results in too many variables because there are 3N degrees of freedom. 
+Eq. \ref{eq: schrodinger} can be solved for $\Psi$ assuming the nuclei-nuclei interactions can be neglected due to the Born-Oppenheimer approximation. The Born-Oppenheimer approximation allows the assumption the nuclei are stationary and ignore the motion of the nuclei on the electronic timescale, due to the mass difference, with the nuclei being $\sim$ 10$^3$ to 10$^5$ larger than electrons. However, even with this approximation solving Eq. \ref{eq: schrodinger} is difficult due to the electron-electron Columb interactions making the electronic motion correlated and the fact that the many-body problem results in too many variables because there are 3N degrees of freedom. 
 
 Hohenberg-Kohn formulated two theorems to simplify this problem \cite{Hohenberg1964}. The first theorem states that the external potential is a unique functional of the electron density. The second theorem states that the density that minimizes the total energy is the exact ground state density and thus the ground state is obtained variationaly. With these theorems, Kohn-Sham proved that the problem can be solved as if the electrons are not interacting and still obtain the density as if they were, by \cite{Kohn1965}:
  
@@ -48,11 +48,11 @@ V_{Hartree} (r) = e^{2} \int \frac {\rho(r)}{|r - r_{j}|} d^3r
 \end{equation}
 %%
 
-\noindent The final term of $V_{xc}$ is the exchange correlation potential that is described in terms of an exchange-correlation energy. While there is no exact solution to the exchange-correlation (X-C) energy available, there are multiple different approximations. Each approximation is done to account for different things. In the present work, the generalized gradient approximation by Perdew and Wang (PW91) \cite{Perdew1992} and the generalized gradient approximation by Perdew, Burke and Ernzerhoff (PBE) \cite{Perdew1996a} where used. The generalized gradient approach improves the total energies, atomization energies as opposed to other methods such as the local density approximation \cite{Ceperley1980} but can over-correct for the expansion and softening of bonds. The generalized gradient approximation (GGA) is favored for densities that are inhomogeneous. Based on previous research done by Perdew et al. \cite{Perdew1996a}, GGA's are considered to be adequate approximations for calculating metals \cite{Perdew1996a}. The use of PW91 vs PBE was compared on the elastic results of the Ti-Ta system in Chapter 5. The results are discussed in detail in Chapter 5 but based on the results and the fact that PW91 X-C functional was designed to satisfy as many exact conditions as possible and thus has some issues. Perdew introduced the PBE X-C functional as an improvement to PW91 which satisfied less exact conditions and only looked at the ones that were energetically significant for metals. Due to this and the fact the results vary so little, the PBE X-C functional was chosen to be used for the present thesis work. By implementing the theorems and the Kohn-Sham equation, the energy of the system can thus be calculated.
+\noindent The final term, $V_{xc}$, is the exchange correlation potential that is described in terms of an exchange-correlation energy. While there is no exact solution to the exchange-correlation (X-C) energy available, there are multiple different approximations. Each approximation is done to account for different things. In the present work, the generalized gradient approximation by Perdew and Wang (PW91) \cite{Perdew1992} and the generalized gradient approximation by Perdew, Burke and Ernzerhoff (PBE) \cite{Perdew1996a} were used. The generalized gradient approach improves the total energies and atomization energies compared to other methods such as the local density approximation \cite{Ceperley1980} but can over-correct for the expansion and softening of bonds. The generalized gradient approximation (GGA) is favored for inhomogeneous densities. Based on previous research by Perdew et al. \cite{Perdew1996a}, GGA's are considered to be adequate approximations for calculating metals. The use of PW91 vs PBE was compared for the elastic results of the Ti-Ta system. The results are discussed in detail in Chapter 5 but based on the results and the fact that PW91 X-C functional was designed to satisfy as many exact conditions as possible and thus has some issues. Perdew introduced the PBE X-C functional as an improvement to PW91 to satisfy less exact conditions and only looked at the ones that were energetically significant for metals. Therefore, the PBE X-C functional was chosen in the present thesis work. By implementing the theorems and the Kohn-Sham equation, the energy of the system can thus be calculated.
 
 \subsection{Density Functional Theory at 0 $^\circ$K}
 
- The ground state energy at 0 $^\circ$K without the contribution of zero-point vibrational energy was calculated by using the equation of states (EOS) fitting for the relationship between the energy and volume of the structure. The EOS fitting was achieved through an energy-volume ($E_{0}-V$) curve of 5 or more relaxed volumes and using the four-parameter Birch-Murnaghan (BM4) EOS \cite{Shang2010}:
+The ground state energy at 0 $^\circ$K without the contribution of zero-point vibrational energy was calculated by using the equation of states (EOS) fitting for the relationship between the energy and volume of the structure. The EOS fitting was achieved through an energy-volume ($E_{0}-V$) curve of 5 or more relaxed volumes and using the four-parameter Birch-Murnaghan (BM4) EOS \cite{Shang2010}:
 
 %%
 \begin{equation}
@@ -61,7 +61,7 @@ E_{0}(V) = a + bV^{\frac{-2}{3}} + cV^{{-4}{3}} + dV^{-2}
 \end{equation}
 %%
 
-\noindent where $a$, $b$, $c$ and $d$ are fitting parameters. From this, the volume $V_0$, ground state energy $E_{0}$, bulk modulus $B_{EOS}$, and first derivative with respect to pressure $B'_{EOS}$ can be calculated. 
+\noindent where $a$, $b$, $c$ and $d$ are fitting parameters. From this equation the equilibrium propertites of a structure can be obtained such as, volume $V_0$, ground state energy $E_{0}$, bulk modulus $B$, and first derivative with respect to pressure $B'$ can be calculated. 
 
 From the ground state energies, the energy of formation and enthalpy of formation at 0 $^\circ$K was calculated by:
 
@@ -72,11 +72,11 @@ H_{Form} = H_{X_{s}Y_{r}} - \left( s H_{X}^{SER} + rH_{Y}^{SER} \right)
 \end{equation}
 %%
 
-where $H_{X_{s}Y_{r}}$ is the enthalpy of a specific structure at a specific composition of $X_{s}Y_{r}$ in the specific phase, bcc phase in this case, $s$ and $r$ are the mole fractions of elements $X$ and $Y$, respectively. $H_{X}^{SER}$ and $H_{Y}^{SER}$ are the enthalpies of the pure elements $X$ and $Y$ in their standard element reference (SER) at standard temperature and pressure. The SER states of the pure elements are hcp Ti, bcc Mo, bcc Nb, bcc Ta, and hcp Zr.  The valance configuration for each element was selected based on the VASP recommendations. The p electrons were treated as valance for the Mo and Ta, the d electrons were treated as valance for Sn and the s electrons were treated as valance for Ti, Nb, and Zr \cite{Kresse1996,Kresse1999}.
+where $H_{X_{s}Y_{r}}$ is the enthalpy of a specific structure at a specific composition of $X_{s}Y_{r}$ in the specific phase, bcc phase in this case, $s$ and $r$ are the mole fractions of elements $X$ and $Y$, respectively. $H_{X}^{SER}$ and $H_{Y}^{SER}$ are the enthalpies of the pure elements $X$ and $Y$ in their standard element reference (SER) at standard temperature and pressure. The SER states of the pure elements are hcp Ti, bcc Mo, bcc Nb, bcc Ta, and hcp Zr.  The valance configuration for each element was selected based on the Vienna Ab-initio Software Package (VASP) recommendations \cite{Kresse1996}. The p electrons were treated as valance electrons for the Mo and Ta, the d electrons were treated as valance electrons for Sn and the s electrons were treated as valance electrons for Ti, Nb, and Zr \cite{Kresse1996,Kresse1999}.
 
 \subsection{Finite-temperature thermodynamics}
 
-The Helmholtz energy, $F(V,T)$ was calulated, with DFT, as a function of temperature $T$ and volume $V$:
+The Helmholtz energy, $F(V,T)$, was calulated, as a function of temperature $T$ and volume $V$ using first-principles based on DFT:
  %%
  \begin{equation}
  \label{eq: helmholtz}
@@ -84,7 +84,7 @@ The Helmholtz energy, $F(V,T)$ was calulated, with DFT, as a function of tempera
  \end{equation}
  %%
  
-\noindent where $E_0$ is the static contribution at 0 $^\circ$K calculated from Eq. \ref{eq: zeroenergy}, $F_{vib}$ is the temperature-dependent vibrational contribution, and $F_{T-el}$ is the thermal electronic contribution. At ambient pressure, the Helmholtz energy of the system is equal to the Gibbs energy, which is used in the CALPHAD modeling. The vibrational contribution was obtained through the phonon quasiharmonic supercell (phonon approach) or the Debye-Gr\"uneisen method (Debye). The phonon approach is a more accurate approach compared to the Debye model but it is also more computationally expensive. In the present work, both the phonon and Debye models are used in different sections. The vibrational contribution obtained through phonon calculations of at least five different volumes is expressed by \cite{Wang2012}:
+\noindent where $E_0$ is the static contribution at 0 $^\circ$K calculated from Eq. \ref{eq: zeroenergy}, $F_{vib}$ is the temperature-dependent vibrational contribution, and $F_{T-el}$ is the thermal electronic contribution. At ambient pressure, the Helmholtz energy of the system is equal to the Gibbs energy, which is used in the CALPHAD modeling. The vibrational contribution was obtained through the phonon quasiharmonic supercell (phonon approach) or the Debye-Gr\"uneisen method (Debye). The phonon approach is a more accurate approach than the Debye model but it is also more computationally expensive. In the present work, both the phonon and Debye models are used in different sections. The vibrational contribution obtained through phonon calculations of at least five different volumes is expressed by \cite{Wang2012}:
 
 %%
 \begin{equation}
@@ -93,7 +93,7 @@ F_{vib}(V,T) = k_{b}T \int_{0}^{\infty} ln \left[ 2sinh \frac{\hbar \varrho}{2k_
 \end{equation}
 %%
 
-\noindent where $g(\varrho)$ is the phonon density of states as a function of phonon frequency $\varrho$ at volume $V$. $\varrho$ is normally expressed in literature as $\omega$, however, due to the extensive discussion of the $\omega$ phase in this work the phonon frequency is expressed as $\varrho$ to avoid confusion. In addition, the Debye model is used to estimate the vibrational contribution \cite{Shang2010}: 
+\noindent where $g(\varrho)$ is the phonon density of states as a function of phonon frequency $\varrho$ at volume $V$. $\varrho$ is normally expressed in the literature as $\omega$, however, due to the extensive discussion of the $\omega$ phase in this work the phonon frequency is expressed as $\varrho$ to avoid confusion. In addition, the Debye model is used to estimate the vibrational contribution \cite{Shang2010}: 
 
 %%
 \begin{equation}
@@ -102,7 +102,7 @@ F_{vib}(V,T) = \frac{9}{8} k_{b} \theta_{D}(V) + k_{B}T \left[ 3 ln \left( 1 - e
 \end{equation}
 %%
 
-\noindent where $\theta_{D}$ is the Debye temperature, $T$ is the temperature, and $D \left[ \frac{\theta_{D}}{T} \right] $ is the Debye function. $\theta_{D}$ is calculated through: 
+\noindent where $\theta_{D}$ is the Debye temperature, $T$ is the temperature, and $D \left( \frac{\theta_{D}}{T} \right) $ is the Debye function. $\theta_{D}$ is calculated through: 
 
 %%
 \begin{equation}
@@ -111,7 +111,7 @@ F_{vib}(V,T) = \frac{9}{8} k_{b} \theta_{D}(V) + k_{B}T \left[ 3 ln \left( 1 - e
 \end{equation}
 %%
 
-\noindent where $s$ is the Debye temperature scaling factor, $\gamma$ is the Gr$\ddot{u}$neisen parameter determined by the pressure derivative of bulk modulus ($B'_{EOS}$), $B_{EOS}$ is the bulk modulus, $M$ is the atomic mass, and $V_0$ is the equilibrium volume. Here the equilibrium properties $V_0$, $B_{EOS}$, and $B'_{EOS}$ are estimated from the EOS of Eq. \ref{eq: zeroenergy}. The Debye temperature scaling factor was determined by Moruzzi et al. \cite{Moruzzi1988} to be 0.617 for nonmagnetic metals. However, this value has been shown to be less accurate for other materials. Liu et al. extensively looked at the Debye scaling factor and how to calculate the scaling factor based on the Poisson's ratio of a material \cite{Liu2015}. The methodology by Liu et al. \cite{Liu2015} was used for the present work to calculate the scaling factor: 
+\noindent where $s$ is the Debye temperature scaling factor, $\gamma$ is the Gr\"uneisen parameter determined by the pressure derivative of the bulk modulus ($B'$), $B$ is the bulk modulus, $M$ is the atomic mass, and $V_0$ is the equilibrium volume. Here the $V_0$, $B$, and $B'$ are estimated from the EOS of Eq. \ref{eq: zeroenergy}. The Debye temperature scaling factor was determined by Moruzzi et al. \cite{Moruzzi1988} to be 0.617 for nonmagnetic metals. However, this value has been shown to be less accurate for all materials. Liu et al. extensively studied the Debye scaling factor and how to calculate the scaling factor based on the Poisson's ratio of a material \cite{Liu2015}. The methodology by Liu et al. \cite{Liu2015} was used for the present work to calculate the scaling factor: 
 
 %%
 \begin{equation}
@@ -163,7 +163,7 @@ f (\epsilon,T) = \left[ exp \left( \frac{\epsilon - \mu}{k_{B} T} \right) + 1 \r
 
 \subsection{Elastic stiffness calculations}
 
-The single crystal elastic stiffness constants ($c_{ij}$$'s$) were calculated from the ground state energy structure using a stress-strain method developed by Shang et al. \cite{Shang2007c}. With this method, a set of independent strains $\varepsilon = (\varepsilon_{1}, \varepsilon_{2}, \varepsilon_{3}, \varepsilon_{4}, \varepsilon_{5}, \varepsilon_{6})$ were imposed on the crystal lattice, where $\varepsilon_{1}$, $\varepsilon_{2}$, and $\varepsilon_{3}$ are the normal strains, $\varepsilon_{4}$, $\varepsilon_{5}$, and $\varepsilon_{6}$ the shear strains, and a set of stresses $\sigma = (\sigma_{1}, \sigma_{2}, \sigma_{3}, \sigma_{4}, \sigma_{5},\sigma_{6})$ were generated. Hooke's law is then used to calculate the elastic stiffness constants: 
+The single crystal elastic stiffness constants ($c_{ij}$$'s$) were calculated from the ground state energy structure using a stress-strain method developed by Shang et al. \cite{Shang2007c}. With this method, a set of independent strains $\varepsilon = (\varepsilon_{1}, \varepsilon_{2}, \varepsilon_{3}, \varepsilon_{4}, \varepsilon_{5}, \varepsilon_{6})$ were imposed on the crystal lattice, where $\varepsilon_{1}$, $\varepsilon_{2}$, and $\varepsilon_{3}$ are the normal strains, $\varepsilon_{4}$, $\varepsilon_{5}$, and $\varepsilon_{6}$ are the shear strains, generating a set of stresses $\sigma = (\sigma_{1}, \sigma_{2}, \sigma_{3}, \sigma_{4}, \sigma_{5},\sigma_{6})$. Hooke's law is then used to calculate the elastic stiffness constants: 
 
 %%
 \begin{equation}
@@ -195,7 +195,7 @@ The single crystal elastic stiffness constants ($c_{ij}$$'s$) were calculated fr
 \end{equation}
 %%
 
-\noindent where "-1" represents the pseudo-inverse. Due to symmetry, the bcc structure only has three independent elastic stiffness constants. However, with a lack of bcc stability for some of the calculations, all of the elastic stiffness constants were calculated and the average $\overline{C}_{11}$, $\overline{C}_{12}$ and $\overline{C}_{44}$ values were used:
+\noindent where "-1" represents the pseudo-inverse. Due to symmetry, the bcc structure has only three independent elastic stiffness constants. However, with a lack of bcc stability for some of the calculations, all of the elastic stiffness constants were calculated and the average $\overline{C}_{11}$, $\overline{C}_{12}$ and $\overline{C}_{44}$ values were used:
 
 %%
 \begin{equation}
@@ -218,9 +218,9 @@ The single crystal elastic stiffness constants ($c_{ij}$$'s$) were calculated fr
 \end{equation}
 %%
 
-\noindent This case is for the unstable bcc elastic calculations to mimic the behavior of a cubic structure. The largest variance between the similar elastic stiffness constants, when calculating the average, was used to show the deviation from the bcc symmetry in the calculations, shown as error bars. The stable bcc structures show no variance and thus no error bars. To examine the effects of different strain on the elastic properties, three groups of non-zero strain magnitudes, $\pm$0.01, $\pm$0.03, and $\pm$0.07, were tested and discussed in chapter 5. After testing, the $\pm$0.01 was used for all the calculations. The polycrystalline elastic properties including bulk ($B$), shear ($G$), and $E$ modulus were calculated from the elastic stiffness constants, based on the Voigt-Reuss-Hill approach \cite{Simmons1971b}. The Voigt gives the upper elastic bound due to the assumption of constant strain in all grains, the Reuss gives the lower elastic bound due to the assumption of constant stress in all grains, and the Hill approach is the average of Voigt and Reuss and is closer to real case \cite{Zuo1993,Chung1967}. The Hill approach is hence what is listed in the results section. The Voigt and Reuss bounds were also plotted in the figures to give the bounds of the moduli values.
+\noindent This case is for the unstable bcc elastic calculations to mimic the behavior of a cubic structure. The largest variance between the similar elastic stiffness constants, when calculating the average, was used to show the deviation from the bcc symmetry in the calculations, shown as error bars. The stable bcc structures show no variance and thus no error bars. To examine the effects of different strain on the elastic properties, three groups of non-zero strain magnitudes, $\pm$0.01, $\pm$0.03, and $\pm$0.07, were tested and the results are discussed in chapter 5. After testing, the $\pm$0.01 was used for all the calculations. The polycrystalline elastic properties including bulk ($B$), shear ($G$), and $E$ modulus were calculated from the elastic stiffness constants, based on the Voigt-Reuss-Hill approach \cite{Simmons1971b}. The Voigt gives the upper elastic bound due to the assumption of constant strain in all grains, the Reuss gives the lower elastic bound due to the assumption of constant stress in all grains, and the Hill approach is the average of Voigt and Reuss and is closer to real values \cite{Zuo1993,Chung1967}. The Hill approach is hence what is listed in the results section. The Voigt and Reuss bounds were also plotted in the figures to give the bounds of the moduli values.
 
-In order to fully investigate the effects of the alloying elements on the Ti-alloys, the mechanical stability of the bcc phase was studied. The mechanical stability was given by on Born's criteria for a cubic crystal  \cite{Born1998,Nye1985}:
+In order to fully investigate the effects of the alloying elements on the Ti-alloys, the mechanical stability of the bcc phase was studied. The mechanical stability is given by Born's criteria for a cubic crystal  \cite{Born1998,Nye1985}:
 
 
 \begin{equation}
@@ -236,11 +236,11 @@ In order to fully investigate the effects of the alloying elements on the Ti-all
 \overline{C}_{44} > 0
 \end{equation}
 
-\noindent Based on Born's criteria, when$\overline{C}_{11} - \overline{C}_{12}$ becomes negative then the phase, bcc in this case, loses mechanical stability and thus $\overline{C}_{11} - \overline{C}_{12}$ is plotted in the results section.
+\noindent Based on Born's criteria, when $\overline{C}_{11} - \overline{C}_{12}$ becomes negative then the phase, bcc in this case, loses its mechanical stability and thus $\overline{C}_{11} - \overline{C}_{12}$ is plotted in the results section.
 
 \subsection{Special quasirandom structures (SQS)}
 
-To calculate the energies, enthalpies of formation and elastic properties across the entire binary and ternary composition range, varying compositions of special quasirandom structures (SQS) were used. The SQS are small supercells used to mimic randomly substituted structures in terms of correlation functions. The binary and ternary bcc SQS, used in the present work, were previously generated by Jiang et al.\cite{Jiang2004,Jiang2009}. The relaxation of these SQS structures is complicated because local atomic relaxations can cause the structure to lose the desired lattice symmetry which is far from the original bcc lattice. To preserve symmetry, the calculations were carried out with three different relaxation schemes: 1) the cell volume, cell shape, and ionic positions are simultaneously relaxed, 2) the cell volume and shape are simultaneously relaxed, and 3) only the cell volume is relaxed. The relaxed structure with the lowest energy that preserved the bcc symmetry was used. There are two ways to verify that whether the SQS is still bcc or not after the relaxations. The first is to merge different elements into one element for the SQS structure, and then, use codes available to check the symmetry or space group (such as VASP \cite{Kresse1999} and phonopy \cite{Togo2008}). The second is to visualize the structure directly using a visualization software and compare the symmetry to the unrelaxed bcc structure. For the present work, the relaxed structures were plotted in visualization software using and compared to the unrelaxed structure. After the relaxation, at least five different volume structures are generated and the ions were allowed to relax. This yields the different volumes needed for the EOS fitting described above, which allows a better prediction of the different properties as a function of composition. 
+To calculate the energies, enthalpies of formation and elastic properties across the entire binary and ternary composition range, varying compositions of special quasirandom structures (SQS) were used. The SQS are small supercells used to mimic randomly substituted structures in terms of correlation functions. The binary and ternary bcc SQS, used in the present work, were previously generated by Jiang et al.\cite{Jiang2004,Jiang2009}. The relaxation of these SQS structures is complicated because local atomic relaxations can cause the structure to lose the desired lattice symmetry which is far from the original bcc lattice. To preserve symmetry, the calculations were carried out with three different relaxation schemes: 1) the cell volume, cell shape, and ionic positions are simultaneously relaxed, 2) the cell volume and shape are simultaneously relaxed, and 3) only the cell volume is relaxed. The relaxed structure with the lowest energy that preserved the bcc symmetry was used. There are two ways to verify that whether the SQS is still bcc or not after the relaxations. The first is to merge different elements into one element for the SQS structure, and then, use codes available to check the symmetry or space group (such as VASP \cite{Kresse1999} and phonopy \cite{Togo2008}). The second is to visualize the structure directly using a visualization software and compare the symmetry to the unrelaxed bcc structure. For the present work, the relaxed structures were plotted in visualization software using and compared to the unrelaxed structure. After the relaxation, at least five different volume structures were generated and the ions were allowed to relax. This yields the different volumes needed for the EOS fitting described above, which allows a better prediction of the different properties as a function of composition. 
 
 \subsection{High-throughput partition function}
 
@@ -315,11 +315,11 @@ G - H^{SER} = a + bT + cT ln T + d T^2 + \sum_{2}^{n} e_{n} T^{n}
 \end{equation}
 %%
 
-\noindent where $H^{SER}$ refers to the elemental enthalpy in the SER state and $a$, $b$, $c$, $d$, $e$ are coefficients. Other thermodynamic properties such as, enthalpy, entropy and heat capacity can be derived from this equation. The parameterized equations for the pure elements have been determined and widely adopted from the SGTE to ensure global compatibility between different databases \cite{Dinsdale1991}.
+\noindent where $H^{SER}$ refers to the elemental enthalpy in the SER state and $a$, $b$, $c$, $d$, $e$ are coefficients. Other thermodynamic properties such as enthalpy, entropy and heat capacity can be derived from this equation. The parameterized equations for the pure elements have been determined and widely adopted from the SGTE to ensure global compatibility between different databases \cite{Dinsdale1991}.
 
 \subsection{Solution phases}
 
-The databases were built upon the pure elements and then the effects of the binary and ternary interactions are modeled. Normally, the effects of alloying are modeled as solution phases or stoichiometric phases. The solution phases with one sublattice were described by: 
+The databases were built upon the pure elements and then the effects of the binary and ternary interactions are modeled. Normally, the effects of alloying are modeled as solution phases or stoichiometric phases. The solution phases with one sublattice are described by: 
 
 %%
 \begin{equation}
@@ -328,7 +328,7 @@ G_m^{\phi} = \sum x_{A} ^{0}G_{A}^{\phi} + R T \sum x_{A} ln x_{A} + ^{XS}G_{m}^
 \end{equation}
 %%
 
-\noindent where $x_{A}$ is the mole fraction of element $A$ and $^{0}G_{A}^{\phi}$ is the molar Gibbs energy of pure element $A$ in the specific phase ($\phi$) being modeled, the second term describes the ideal interaction between elements. The last term represents the excess mixing energy, representing the non-ideal interactions between species $A$ and $B$. The excess mixing energy can be expressed by the Redlich-Kister polynomial as \cite{Redlich1948b}: 
+\noindent where $x_{A}$ is the mole fraction of element $A$ and $^{0}G_{A}^{\phi}$ is the molar Gibbs energy of pure element $A$ in the specific phase ($\phi$) being modeled and this is summed for all elements in the alloy system of interest. The second term describes the ideal interaction between elements and is again summed for every element in the alloy system of interest. The last term represents the excess mixing energy, representing the non-ideal interactions between different species $A$ and $B$. The non-ideal interactions are modeled between every set of binary and ternary elements in the system of interest. The excess mixing energy can be expressed by the Redlich-Kister polynomial as \cite{Redlich1948b}: 
 
 %%
 \begin{equation}
@@ -346,7 +346,7 @@ L_{A,B}^{\phi} = ^{k}a + ^{k}bT
 \end{equation}
 %%
 
-\noindent in which $^{k}a$ and $^{k}b$ are evaluated model parameters. Eq. \ref{eq: gibbexsol} can be extended to multi-component systems as:
+\noindent where $^{k}a$ and $^{k}b$ are evaluated model parameters. Eq. \ref{eq: gibbexsol} can be extended to multi-component systems as:
 
 %%
 \begin{multline}
@@ -355,9 +355,9 @@ L_{A,B}^{\phi} = ^{k}a + ^{k}bT
 \end{multline}
 %%
 
-\noindent where the ternary interaction parameters $L_{A, B, C}^{\phi}$ are described the same as the binary interaction parameters in Eq. \ref{eq: binip} and $\delta_{A, B, C}$ is defined as $\delta_{A, B, C} = ( 1 - x_{A} - x_{B} - x_{C})/3$
+\noindent where the ternary interaction parameters $L_{A, B, C}^{\phi}$ are described the same as the binary interaction parameters in Eq. \ref{eq: binip} and $\delta_{A, B, C}$ is defined as $\delta_{A, B, C} = ( 1 - x_{A} - x_{B} - x_{C})/3$.
 
-In the present thesis, while no order-disorder modeling was done, the order-disorder model was used in many of the previous models evaluated. At low temperatures in many of the Ti-containing binary alloys, the randomly substituted bcc-A2 phase goes through a second order transition to become the ordered simple cubic B2 phase (CsCl-type). This modeling was discussed extensively in the COST 507 by Ansara \cite{Ansara1998}. 
+Many alloys go through a disorder to order transition within a phase which requires modeling both the ordered and disordered part. For example, at low temperatures in many of the Ti-containing binary alloys, the randomly substituted bcc phase goes through a second order transition to become the ordered bcc\#2 phase (CsCl-type). In the present work no modeling is done for the ordered bcc\#2 phase. However, previous modeling of the bcc\#2 phase is incorporated in to the database. The modeling of ordered phases was discussed extensively by Ansara \cite{Ansara1998}. 
 
 \subsection{Stoichiometric compounds}
 
@@ -370,7 +370,7 @@ The Gibbs energy of stoichiometric compounds was modeled in per mole unit formul
 \end{equation}
 %%
 
-\noindent where $a$ and $b$ are the evaluated parameters, $^{0}G_{A}^{SER}$ is the Gibbs energy of pure element $A$ in the SER phase, $^{0}G_{B}^{SER}$ is the Gibbs energy of pure element $B$ in the SER phase, $p$ is the number of atoms per unit formula of element $A$ and $q$ is the number of atoms per unit formula of element $B$.
+\noindent where $a$ and $b$ are the evaluated parameters, $^{0}G_{A}^{SER}$ is the Gibbs energy of pure element $A$ in the SER phase, $^{0}G_{B}^{SER}$ is the Gibbs energy of pure element $B$ in the SER phase, $p$ is the number of atoms per unit formula of element $A$, and $q$ is the number of atoms per unit formula of element $B$.
 
 \subsection{Elastic Properties}
 
@@ -383,16 +383,14 @@ E(x) = \sum x_{A} E_{A}^{\phi} + \sum x_{A} x_{B} ^{k}L_{A,B}^{\phi} + \sum x_{A
 \end{equation}
 %%
 
-\noindent where similar to Eq. \ref{eq: gibbexsol} and \ref{eq: gibbexsolmulti} the $x_A$, $x_B$, and $x_C$ refer to the mole fraction of element $A$, $B$, and $C$ respectively, $E_{A}$ is the elastic property of element $A$, $^{k}L_{A,B}^{\phi}$ and $^{k}L_{A,B,C}^{\phi}$ are the binary and ternary interaction parameters, respectively. The binary and ternary interaction parameters were described in terms of Eq. \ref{eq: binip} but with solely an $a$ coefficient. For the binary modeling, the addition of one and two interaction parameters were studied to ensure the best fit. For the ternary systems, only one interaction parameter was introduced. This is due to the fact that only one ternary interaction parameter is needed to describe the interaction between the ternary systems on the Ti-rich side. The fittings of the binary and ternary interaction parameters were completed using the Mathematica code in Appendix C. The binary interaction parameters were fit using the difference between the pure elements extrapolation and the first-principles results for each Ti-X (X= Mo, Nb, Sn, Ta, Zr). The ternary interaction were fit using the difference between the interpolaiton calculated from the pure elements and binary interaction parameters and the results. The interaction parameters determined to describe the elastic stiffness constants were incorporated into a database. Pycalphd \cite{Otis2017} was then used to calculate the moduli values as a function of compostion based on the Voigt-Reuss-Hill approach.
+\noindent where similar to Eq. \ref{eq: gibbexsol} and \ref{eq: gibbexsolmulti} the $x_A$, $x_B$, and $x_C$ refer to the mole fraction of element $A$, $B$, and $C$ respectively, $E_{A}$ is the elastic property of element $A$, $^{k}L_{A,B}^{\phi}$ and $^{k}L_{A,B,C}^{\phi}$ are the binary and ternary interaction parameters, respectively. The binary and ternary interaction parameters were described in terms of Eq. \ref{eq: binip} but with solely an $a$ coefficient. For the binary modeling, the addition of one or two interaction parameters were studied to ensure the best fit. For the ternary systems, only one interaction parameter is needed \cite{Liu2009,Saunders1998,Lukas2007}. The fittings of the binary and ternary interaction parameters were completed using the Mathematica code in appendix C. The binary interaction parameters were fitted using the difference between the pure elements extrapolation and the first-principles results for each Ti-X (X= Mo, Nb, Sn, Ta, Zr) composition. The ternary interaction parameters were fitted using the difference between the interpolaiton calculated from the pure elements and binary interaction parameters and the first-principles based on DFT results. The interaction parameters determined to describe the elastic stiffness constants were incorporated into a database. Pycalphad \cite{Otis2017} was then used to calculate the moduli values as a function of compostion based on the Voigt-Reuss-Hill approach.
 
 
 \section{Experimental}
 
-To study the effect of the metastable phase formation, Ti-Nb alloys at different compositions were made by arc melting. Two samples were made at each composition. One set of samples was quenched to form the $\alpha"$ and the second set of samples was slow cooled to form the $\omega$ phase. The samples were then studied using inelastic neutron scattering. 
-
 \subsection{Ti-Nb sample preparation}
 
-The first set of samples, which hereafter be referred to as set 1, included four Ti-Nb samples made from pieces of titanium (Alfa Aesar, Stock No. 14004) and niobium (Alfa Aesar, Stock No. 00241) at 0.1, 0.12, 0.18, 0.2 mole fraction of Nb. The second set of samples, which hereafter will be reffered to as set 2, included four Ti-Nb samples made from pieces of titanium (Sigma Aldrich, Stock No. 305812) and niobium (Alfa Aesar, Stock No. 00241) at 0.1, 0.12, 0.18, 0.2 mole fraction of Nb. Two different titanium pieces were used because the Alfa Aesar titnaium pieces were out of stock but they both had the same purity and thus should not lead to any issues with the data analysis. The alloyed samples were made using the MAM1, Edmund Buhler GmbH arc melter under argon atmosphere. The alloys were machined into a cylindrical shape (0.7 inches in diameter and 0.7 inches in thickenss). The samples were then heat treated using a Lindberg 59544 tube furance. The tube was made of Al$_{2}$O$_{3}$ and was under vaccuum. The samples were annealed at 1273 $^\circ$K for 24 hours. The samples from set 1 were quenched in a water solution. The samples in set 2 were slow cooled. 
+To study the effect of the metastable phase formation, two sets of Ti-Nb alloy samples at 0.1, 0.12, 0.18, and 0.2 mole fraction of Nb using pieces of Ti (99.8 \% Ti Alfa Aesar, Stock No. 00241 for set one, and 99.8 \% Sigma Aldrich, Stock No. 305812 HELP) and Nb (99.8 \% Sigma Aldrich, HELP, for set one and set two). Two different titanium pieces were used because the Alfa Aesar titnaium pieces were out of stock but they both had the same purity and thus should not lead to any issues with the data analysis. The alloyed samples were arc melted (MAM1, Edmund Buhler GmbH, Germany) under argon atmosphere. The alloys were machined into a cylindrical shape (0.7 inches in diameter and 0.7 inches in thickenss). The samples were then heat treated using a Lindberg 59544 tube furance. The tube was made of Al$_{2}$O$_{3}$ and was under vaccuum. The samples were annealed at 1273 $^\circ$K for 24 hours. The samples from set 1 were quenched in water to form the $\alpha"$ phase. The samples in set 2 were slow cooled to form the $\omega$ phase. 
 
 \subsection{Neutron Scattering}
 
