@@ -84,11 +84,11 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 
 \newpage
 \begin{table}[H]
-	\caption{Equilibrium volume $V_{0}$, bulk modulus $B_{EOS}$, and the first derivative of bulk modulus with respect to pressure $B'_{EOS}$, from fitted equilibrium properties from the EOS at 0 $^\circ$K compared to experimental work and previous DFT studies.}
+	\caption{Equilibrium volume $V_{0}$, bulk modulus $B$, and the first derivative of bulk modulus with respect to pressure $B'$, from fitted equilibrium properties from the EOS at 0 $^\circ$K compared to experimental work and previous DFT studies.}
 	\centering
 	\begin{tabular}{ c c c c c }
 		\hline
-		Phase & $V_{0}$ ($\AA^3$/atom) & $B_{EOS}$ (GPa) & $B'_{EOS}$ & Reference\\
+		Phase & $V_{0}$ ($\AA^3$/atom) & $B$ (GPa) & $B'$ & Reference\\
 		\hline
 		bcc-Ta & 18.241 & 193.7 & 3.84 & This work\\
 		            & 17.9685 & 200 &  & Expt. \cite{Predmore1970}\\
@@ -112,7 +112,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 	\begin{tabular}{ c c c c c c }
 		\hline
 		  & \multicolumn{2}{c}{TaSn$_2$} & \multicolumn{3}{c}{Ta$_3$Sn}\\
-		  & Present Work & FP & Present Work & Present Work  & FP\\
+		  & This Work & FP & This Work & This Work  & FP\\
 		  & & \cite{Jouault1967_611,Bergerhoff1983,Karlsruhe,MaterialsProject} & 8 atoms & 32 atoms & \cite{Bergerhoff1983,Geller1955_165,Karlsruhe,MaterialsProject}\\
 		  \hline
 		  C$_{11}$ (GPa) & 166 & 161 & 297 & 310 & 226\\
@@ -128,7 +128,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 		  \textit{G} (GPa) & 53 & 51 & 80 & 76 & 27\\
 		  Poisson Ratio & 0.288 & 0.29 & 0.32 & 0.32 & 0.43\\
 		  Scaling factor & 0.789 & & 0.71 & 0.71 & \\
-		  $B$ (GPa) & 107 & 107 & 184 & 190 & 179\\
+		  $B_{cij}$ (GPa) & 107 & 107 & 184 & 190 & 179\\
 		  $B_{EOS}$ (GPa) & 104 & & 182 & & \\
 		\hline
 	\end{tabular}
@@ -145,7 +145,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
  		\hline
  		Phase (model) & Modeled Paramters\\
  		\hline
- 		bcc-A2(Sn,Ta) & $^0$L$_{Ta,Sn}^bcc$ = + 70451\\
+ 		bcc (Sn,Ta) & $^0$L$_{Ta,Sn}^bcc$ = + 70451\\
  		 & $^1$L$_{Ta,Sn}^bcc$ = + 112237\\
  		 Liquid (Sn,Ta) & $^0$L$_{Ta,Sn}^Liq$ = =17118\\
  		 TaSn$_2$ & $G^{TaSn_{2}} = 2^0G_{Sn}^{bct} + ^{0}G_{Ta}^{bcc} = -29678 - 4.202T$ \\
@@ -160,7 +160,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{Chapter-4/Figures/Taphonondos.png}
+	\includegraphics[width=\textwidth]{Chapter-4/Figures/Taphonondos.pdf}
 	\caption{Calculated phonon dispersion curve of bcc-Ta, compared with neutron diffraction experiments ($\circ$) \cite{Taioli2007a} along with the phonon DOS. }
 	\label{Ch4-figure:Taphonon}
 \end{figure}
@@ -168,7 +168,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{Chapter-4/Figures/Snphonondos.png}
+	\includegraphics[width=\textwidth]{Chapter-4/Figures/Snphonondos.pdf}
 	\caption{Calculated phonon dispersion curve of bct-Sn on the left and phonon DOS on the right. The open squares ($\square$) are the LO and TO modes from Raman \cite{Olijnyk1992} and the filled squares the theoretical prediction of the LO and TO modes at the M point \cite{Olijnyk1992}.}
 	\label{Ch4-figure:Snphonon}
 \end{figure}
@@ -176,7 +176,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{Chapter-4/Figures/TaSn2phonondos.png}
+	\includegraphics[width=\textwidth]{Chapter-4/Figures/TaSn2phonondos.pdf}
 	\caption{Calculated phonon dispersion curve for TaSn$_2$ at 0 $^\circ$K and the phonon DOS.}
 	\label{Ch4-figure:TaSn2phonon}
 \end{figure}
@@ -184,7 +184,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{Chapter-4/Figures/Ta3Snphonondos.png}
+	\includegraphics[width=\textwidth]{Chapter-4/Figures/Ta3Snphonondos.pdf}
 	\caption{Calculated phonon dispersion curve of Ta$_3$Sn at 0 $^\circ$K on the left and the phonon DOS on the right.}
 	\label{Ch4-figure:Ta3Snphonon}
 \end{figure}
@@ -192,7 +192,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.0]{Chapter-4/Figures/Tafinitetemp.png}
+	\includegraphics[scale=1.0]{Chapter-4/Figures/Tafinitetemp.pdf}
 	\caption{Comparison of the enthalpy and entropy of bcc-Ta from the Debye model (solid line) and the quasiharmonic phonon calculations (red dotted line) to the SGTE data (blue dashed line) \cite{Dinsdale1991}.}
 	\label{Ch4-figure:Tafinitetemp}
 \end{figure}
@@ -200,7 +200,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.0]{Chapter-4/Figures/Snfinitetemp.png}
+	\includegraphics[scale=1.0]{Chapter-4/Figures/Snfinitetemp.pdf}
 	\caption{Comparison of the Gibbs energy of bct-Sn from the Debye model (solid line) and the quasiharmonic phonon calculations (red dotted line) to the SGTE data (blue dashed line) \cite{Dinsdale1991}.}
 	\label{Ch4-figure:Snfinitetemp}
 \end{figure}
@@ -208,7 +208,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.0]{Chapter-4/Figures/TaSn2finitetemp.png}
+	\includegraphics[scale=1.0]{Chapter-4/Figures/TaSn2finitetemp.pdf}
 	\caption{Heat capacity, enthalpy and entropy of TaSn$_2$ using the Debye model (solid line) and the quasiharmonic phonon calculation (red dotted line) from first-principles calculations, compared with those from the current CALPHAD modeling (blue dashed line).}
 	\label{Ch4-figure:TaSn2finitetemp}
 \end{figure}
@@ -216,7 +216,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.0]{Chapter-4/Figures/Ta3Snfinitetemp.png}
+	\includegraphics[scale=1.0]{Chapter-4/Figures/Ta3Snfinitetemp.pdf}
 	\caption{Heat capacity, enthalpy and entropy of Ta$_3$Sn using the Debye model (solid line) and the quasiharmonic phonon calculation (red dotted line) compared with those from the current CALPHAD modeling (blue dashed line).}
 	\label{Ch4-figure:Ta3Snfinitetemp}
 \end{figure}
@@ -224,15 +224,15 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{Chapter-4/Figures/HofForm.png}
-	\caption{Heat capacity, enthalpy and entropy of Ta$_3$Sn using the Debye model (solid line) and the quasiharmonic phonon calculation (red dotted line) compared with those from the current CALPHAD modeling (blue dashed line).}
+	\includegraphics[width=\textwidth]{Chapter-4/Figures/HofForm.pdf}
+	\caption{Enthalpy of formation of the bcc phase of the Sn-Ta system as a function of composition at 298 $^{\circ}$K and ambient pressure from the current CALPHAD modeling (solid line) and from the first-principles calculations (dots), showing asymmetric behavior. This was compared with data of the Nb-Sn system from Toffolon et al. \cite{Toffolon1998} (dashed red line) which was modeled using experimental data, showing similar asymmetric behavior.}
 	\label{Ch4-figure:HofForm}
 \end{figure}
 
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{Chapter-4/Figures/SnTaPD.png}
+	\includegraphics[width=\textwidth]{Chapter-4/Figures/SnTaPD.pdf}
 	\caption{Calculated Sn-Ta phase diagram using the present thermodynamic description.}
 	\label{Ch4-figure:SnTaPD}
 \end{figure}
@@ -240,7 +240,7 @@ The present work incorporates the thermodynamic data from DFT-based first-princi
 \pagebreak
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{Chapter-4/Figures/HofMix.png}
+	\includegraphics{Chapter-4/Figures/HofMix.pdf}
 	\caption{Enthalpy of mixing of the liquid phase as a function of composition at 298 $^\circ$K and ambient pressure in the Sn-Ta system.}
 	\label{Ch4-figure:HofMix}
 \end{figure}
