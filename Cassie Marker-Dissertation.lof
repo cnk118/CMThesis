@@ -64,17 +64,23 @@
 \contentsline {figure}{\numberline {6.15}{\ignorespaces $G$ calculations of five of the Ti-X-Y ternary systems (X $\not =$ Y = Mo, Nb, Ta, Sn, Zr). The present calculations are plotted as the filled circles with error bars as well as the interpolation from the binary interaction parameters (red dashed line). The dotted purple line is the Voigt upper shear modulus bound, the gold dashed line is the lower Reuss shear modulus bound and the black line is the Hill shear modulus average plotted from a 50-50 mixture of the alloying elements X and Y to Ti.}}{140}{figure..6.15}
 \contentsline {figure}{\numberline {6.16}{\ignorespaces $E$ of multicomponent bcc Ti alloys predicted from the database are compared with measured experimental results. Error bars plotted are from the variation in experimentally determined Young's moduli values for the specific multi-component alloy. The grey region refers to the error in the first-principles calculations. More information on the alloys is Table \ref {Ch6-table:tixydatacomp} \cite {Mohammed2014,Geetha2009,Tane2010a}.}}{141}{figure..6.16}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces The relative energy of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Nb system are plotted from 100 at. \% Ti to 100 at. \% Nb.}}{149}{figure..7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces The relative energy of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Ta system are plotted from 100 at. \% Ti to 100 at. \% Ta.}}{150}{figure..7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces The elastic properites of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Nb system calculated from first-principles based on DFT are plotted as symbols. The CALPHAD fitting are plotted as the dashed lines. The figure is plotted from 100 at. \% Ti to 100 at. \% Nb.}}{151}{figure..7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces The phonon density of states is plotted for the TiNb alloy at 20 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{152}{figure..7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces The phonon density of states is plotted for the TiNb alloy at 18 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{153}{figure..7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces The phonon density of states is plotted for the TiNb alloy at 12 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{154}{figure..7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces The phonon density of states is plotted for the TiNb alloy at 10 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{155}{figure..7.7}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Relative energy of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Nb system are plotted from 100 at. \% Ti to 100 at. \% Nb.}}{153}{figure..7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Relative energy of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Ta system are plotted from 100 at. \% Ti to 100 at. \% Ta.}}{154}{figure..7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Martensitic transformation temperature is plotted versus the Ti-Nb composition.}}{155}{figure..7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Eelastic properites of the bcc, hcp, $\omega $, $\alpha "$ phases in the Ti-Nb system calculated from first-principles based on DFT are plotted as symbols. The CALPHAD fitting are plotted as the dashed lines. The figure is plotted from 100 at. \% Ti to 100 at. \% Nb.}}{156}{figure..7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Phonon density of states is plotted for the TiNb alloy at 20 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{157}{figure..7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Phonon density of states is plotted for the TiNb alloy at 18 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{158}{figure..7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Phonon density of states is plotted for the TiNb alloy at 12 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{159}{figure..7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Phonon density of states is plotted for the TiNb alloy at 10 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{160}{figure..7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Entropy difference between the Ti-Nb alloys with the same alloy composition is plotted as a function of temperature.}}{161}{figure..7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Diffraction pattern of the Ti-Nb alloy at 20 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{162}{figure..7.10}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Diffraction pattern of the Ti-Nb alloy at 18 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{163}{figure..7.11}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Diffraction pattern of the Ti-Nb alloy at 12 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{164}{figure..7.12}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Diffraction pattern of the Ti-Nb alloy at 10 at. \% Nb. The dashed line represents the slow cooled sample while the solid line represents the quenched sample.}}{165}{figure..7.13}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces }}{183}{figure.C.1}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces }}{196}{figure.C.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

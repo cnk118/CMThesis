@@ -1,6 +1,108 @@
-\Appendix{Mathematica \\ Interaction Parameter Fitting}
+\Appendix{Calculation and Fitting Details}
 
+\section{Calculation Details for Chapter 3, 5, and 6}
+As discussed in each chapter the Monkhorst-Pack scheme is used for Brillouin zone sampling \cite{Kresse1996,Monkhorst1976a}. The k-points grid used for each calculation done in chapter 3, 5 and 6 are listed in the table. The k-points grids are listed as AxAxA. In some cases the automated k-point mesh generator in VASP was used and the length of the subdivisions specified are specified as number such as 50. 
 
+\begin{longtable}[H]{ c c c }
+	\caption{The k-points grids used for each calculation done in chapter 3, 5 and 6.} \label{apc-table:kpoints}\\
+	\hline
+	Structure & Type of Calc & relaxation k-points\\
+	\hline
+	\endhead
+	\hline
+	\endfoot
+	hcp-Ti & Elemental & 30 \\
+	bcc-Ti & Elemental & 50 \\
+	bcc-Mo & Elemental & 50 \\
+	bcc-Nb & Elemental & 50 \\
+	bcc-Ta & Elemental & 50 \\
+	hcp-Zr & Elemental & 30 \\
+	bcc-Zr & Elemental & 4x4x4 \\
+	bcc-Ti$_{15}$Mo & Dilute & 5x5x5 \\
+	bcc-Ti$_{7}$Mo & Dilute & 4x4x4\\
+	bcc-Ti$_{75}$Mo$_{25}$ & SQS & 4x4x4\\
+	bcc-Ti$_{50}$Mo$_{50}$ & SQS & 4x4x4\\
+	bcc-Ti$_{25}$Mo$_{75}$ & SQS & 4x4x4\\
+	bcc-TiMo$_{15}$ & Dilute & 80\\
+	bcc-TiMo$_{53}$ & Dilute & 50\\
+	bcc-Ti$_{53}$Nb & Dilute & 4x4x4\\
+	bcc-Ti$_{7}$Nb & Dilute & 4x4x4\\ 
+	bcc-Ti$_{75}$Nb$_{25}$ & SQS & 4x4x4\\
+	bcc-Ti$_{50}$Nb$_{50}$ & SQS & 4x4x4\\
+	bcc-Ti$_{25}$Nb$_{75}$ & SQS & 4x4x4\\
+	bcc-TiNb$_{15}$ & Dilute & 80\\
+	bcc-TiNb$_{53}$ & Dilute & 80\\
+	bcc-Ti$_{15}$Sn & Dilute & 80\\
+	bcc-Ti$_{75}$Sn$_{25}$ & SQS & 4x4x4\\
+	bcc-Ti$_{50}$Sn$_{50}$ & SQS & 80\\
+	bcc-Ti$_{25}$Sn$_{75}$ & SQS & 4x4x4\\
+	bcc-Ti$_{53}$Ta & Dilute & 50\\
+	bcc-Ti$_{15}$Ta & Dilute & 80\\
+	bcc-Ti$_{7}$Ta & Dilute & 80\\
+	bcc-Ti$_{75}$Ta$_{25}$ & SQS & 80\\
+	bcc-Ti$_{50}$Ta$_{50}$ & SQS & 80\\
+	bcc-Ti$_{25}$Ta$_{75}$ & SQS & 4x4x4\\
+	bcc-TiTa$_{15}$ & Dilute & 80\\
+	bcc-TiTa$_{53}$ & Dilute & 80\\
+	bcc-Ti$_{53}$Zr & Dilute & 3x3x3\\
+	bcc-Ti$_{75}$Zr$_{25}$ & SQS & 4x4x4\\
+	bcc-Ti$_{50}$Zr$_{50}$ & SQS & 4x4x4\\
+	bcc-Ti$_{25}$Zr$_{75}$ & SQS & 4x4x4\\
+	bcc-TiZr$_{15}$ & Dilute & 80\\
+	bcc-Mo$_{50}$Nb$_{50}$ & SQS & 3x3x3\\
+	bcc-Mo$_{50}$Sn$_{50}$ & SQS & 80\\
+	bcc-Mo$_{50}$Ta$_{50}$ & SQS & 80\\
+	bcc-Mo$_{50}$Zr$_{50}$ & SQS & 80\\
+	bcc-Nb$_{50}$Sn$_{50}$ & SQS & 80\\
+	bcc-Nb$_{50}$Ta$_{50}$ & SQS & 80\\
+	bcc-Nb$_{50}$Zr$_{50}$ & SQS & 80\\
+	bcc-Sn$_{50}$Ta$_{50}$ & SQS & 80\\
+	bcc-Sn$_{50}$Zr$_{50}$ & SQS & 80\\
+	bcc-Ta$_{50}$Zr$_{50}$ & SQS & 80\\
+	bcc-TiMoNb & SQS & 4x4x4\\
+	bcc-Ti$_{2}$MoNb & SQS & 4x4x4\\
+	bcc-Ti$_{6}$MoNb & SQS & 4x4x4\\
+	bcc-TiMoSn & SQS & 4x4x4\\
+	bcc-Ti$_{2}$MoSn & SQS & 4x4x4\\
+	bcc-Ti$_{6}$MoSn & SQS & 4x4x4\\
+	bcc-TiMoTa & SQS & 4x4x4\\
+	bcc-Ti$_{2}$MoTa & SQS & 4x4x4\\
+	bcc-Ti$_{6}$MoTa & SQS & 4x4x4\\
+	bcc-TiMoZr & SQS & 4x4x4\\
+	bcc-Ti$_{2}$MoZr & SQS & 4x4x4\\
+	bcc-Ti$_{6}$MoZr & SQS & 4x4x4\\
+	bcc-TiNbSn & SQS & 4x4x4\\
+	bcc-Ti$_{2}$NbSn & SQS & 4x4x4\\
+	bcc-Ti$_{6}$NbSn & SQS & 4x4x4\\
+	bcc-TiNbSn & SQS & 4x4x4\\
+	bcc-Ti$_{2}$NbSn & SQS & 4x4x4\\
+	bcc-Ti$_{6}$NbSn & SQS & 4x4x4\\
+	bcc-TiNbTa & SQS & 4x4x4\\
+	bcc-Ti$_{2}$NbTa & SQS & 4x4x4\\
+	bcc-Ti$_{6}$NbTa & SQS & 4x4x4\\
+	bcc-TiNbZr & SQS & 4x4x4\\
+	bcc-Ti$_{2}$NbZr & SQS & 4x4x4\\
+	bcc-Ti$_{6}$NbZr & SQS & 4x4x4\\
+	bcc-TiNbZr & SQS & 4x4x4\\
+	bcc-Ti$_{2}$NbZr & SQS & 4x4x4\\
+	bcc-Ti$_{6}$NbZr & SQS & 4x4x4\\
+	bcc-TiSnTa & SQS & 4x4x4\\
+	bcc-Ti$_{2}$SnTa & SQS & 4x4x4\\
+	bcc-Ti$_{6}$SnTa & SQS & 4x4x4\\
+	bcc-TiSnZr & SQS & 4x4x4\\
+	bcc-Ti$_{2}$SnZr & SQS & 4x4x4\\
+	bcc-Ti$_{6}$SnZr & SQS & 4x4x4\\
+	bcc-TiTaZr & SQS & 4x4x4\\
+	bcc-Ti$_{2}$TaZr & SQS & 4x4x4\\
+	bcc-Ti$_{6}$TaZr & SQS & 4x4x4\\
+	\hline
+\end{longtable}
+%%%
+\clearpage
+%%%
+
+\section{Fitting Code for Chapter 5 and 6}
+The code used in Mathematica to fit the binary and ternary interaction parameters is listed below.
 
 input: n = {{0, 0}, {0.019, -2.81}, {0.019, -2.81}, {0.019, -2.81}, {0.019, \
 		-2.81}, {0.019, -2.81}, {0.019, -2.81}, {0.125, 4.00}, {0.125, 

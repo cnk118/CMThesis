@@ -183,6 +183,11 @@
 \textsc{Dinsdale, A.} (1991) \enquote{{SGTE Data for Pure Elements},}
   \emph{CALPHAD}, \textbf{15}(4), pp. 317--425.
 
+\bibitem{Toffolon1998}
+\textsc{Toffolon, C.}, \textsc{C.~Servant}, and \textsc{B.~Sundman} (1998)
+  \enquote{{Thermodynamic assessment of the Nb-Sn system},} \emph{Journal of
+  Phase Equilibria}, \textbf{19}(5), pp. 479--485.
+
 \bibitem{Zhang2015}
 \textsc{Zhang, W.-D.}, \textsc{Y.~Liu}, \textsc{H.~Wu}, \textsc{M.~Song},
   \textsc{T.-Y. Zhang}, \textsc{X.-D. Lan}, and \textsc{T.-H. Yao} (2015)
@@ -478,6 +483,10 @@
   microstructures: The thermodynamics of metals and alloys across length
   scales}}.
 
+\bibitem{Squires2012}
+\textsc{Squires, G.~L.} (2012) \emph{{Introduction to the theory of thermal
+  neutron scattering}}, Cambridge university press.
+
 \bibitem{Blochl1994}
 \textsc{Bl{\"{o}}chl, P.} (1994) \enquote{{Projector augmented-wave method},}
   \emph{Physical Review B}, \textbf{50}(24), p. 17953.
@@ -527,7 +536,7 @@
 
 \bibitem{Neuburger1936_127}
 \textsc{Neuburger, M.~C.} (1936) \enquote{{Praezisionsmessung der
-  Gitterkonstante von sehr reinem Tantal},} \emph{Zeitschrift fuer
+  Gitterkonstante von sehr reinem Niob},} \emph{Zeitschrift fuer
   Kristallographie, Kristallgeometrie, Kristallphysik, Kristallchemie
   (-144,1977)}, \textbf{93}, pp. 158--159.
 
@@ -587,11 +596,6 @@
 \textsc{Yue, Q.}, \textsc{Y.~Liu}, \textsc{M.~Chu}, and \textsc{J.~Shen} (2009)
   \enquote{{Thermodynamic modeling of the Sn–V binary system},}
   \emph{Calphad}, \textbf{33}(3), pp. 539--544.
-
-\bibitem{Toffolon1998}
-\textsc{Toffolon, C.}, \textsc{C.~Servant}, and \textsc{B.~Sundman} (1998)
-  \enquote{{Thermodynamic assessment of the Nb-Sn system},} \emph{Journal of
-  Phase Equilibria}, \textbf{19}(5), pp. 479--485.
 
 \bibitem{Toffolon2002}
 \textsc{Toffolon, C.}, \textsc{C.~Servant}, \textsc{J.~Gachon}, and
@@ -665,5 +669,11 @@
 \textsc{Dickinson, J.} and \textsc{P.~Armstrong} (1967) \enquote{{Temperature
   dependence of the elastic constants of molybdenum},} \emph{Journal of Applied
   Physics}, \textbf{38}(2), pp. 602--606.
+
+\bibitem{Kim2006}
+\textsc{Kim, H.}, \textsc{Y.~Ikehara}, \textsc{J.~Kim}, \textsc{H.~Hosoda}, and
+  \textsc{S.~Miyazaki} (2006) \enquote{{Martensitic transformation, shape
+  memory effect and superelasticity of Ti–Nb binary alloys},} \emph{Acta
+  Materialia}, \textbf{54}(9), pp. 2419--2429.
 
 \end{thebibliography}

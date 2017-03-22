@@ -83,19 +83,16 @@
 \BOOKMARK [2][-]{subsection..7.3.3}{Neutron scattering results}{section..7.3}% 83
 \BOOKMARK [3][-]{subsubsection..7.3.3.1}{Phonon density of states at 300 K}{subsection..7.3.3}% 84
 \BOOKMARK [3][-]{subsubsection..7.3.3.2}{Diffraction patterns at 300 K}{subsection..7.3.3}% 85
-\BOOKMARK [3][-]{subsubsection..7.3.3.3}{Temperature dependent phonon density of states }{subsection..7.3.3}% 86
-\BOOKMARK [3][-]{subsubsection..7.3.3.4}{Temperature dependent diffraction patterns}{subsection..7.3.3}% 87
-\BOOKMARK [2][-]{subsection..7.3.4}{Partition function approach results}{section..7.3}% 88
-\BOOKMARK [3][-]{subsubsection..7.3.4.1}{Phase fractions}{subsection..7.3.4}% 89
-\BOOKMARK [3][-]{subsubsection..7.3.4.2}{Mixed force constants}{subsection..7.3.4}% 90
-\BOOKMARK [2][-]{subsection..7.3.5}{Comparison of elastic properties}{section..7.3}% 91
-\BOOKMARK [1][-]{section..7.4}{Conclusion}{chapter..7}% 92
-\BOOKMARK [0][-]{chapter..8}{Conclusions and Future Work}{}% 93
-\BOOKMARK [1][-]{section..8.1}{Conclusions}{chapter..8}% 94
-\BOOKMARK [1][-]{section..8.2}{Future Work}{chapter..8}% 95
-\BOOKMARK [0][-]{appendix.A}{Ti-Mo-Nb-Ta-Zr Database}{}% 96
-\BOOKMARK [0][-]{appendix.B}{Sn-Ta Database}{}% 97
-\BOOKMARK [0][-]{appendix.C}{Mathematica \040Interaction Parameter Fitting}{}% 98
-\BOOKMARK [0][-]{appendix.D}{Ti Elastic Database}{}% 99
-\BOOKMARK [0][-]{appendix.E}{Pycalphad script}{}% 100
-\BOOKMARK [0][-]{lstnumber.-1.380}{Bibliography}{}% 101
+\BOOKMARK [2][-]{subsection..7.3.4}{Partition function approach results}{section..7.3}% 86
+\BOOKMARK [1][-]{section..7.4}{Conclusion}{chapter..7}% 87
+\BOOKMARK [0][-]{chapter..8}{Conclusions and Future Work}{}% 88
+\BOOKMARK [1][-]{section..8.1}{Conclusions}{chapter..8}% 89
+\BOOKMARK [1][-]{section..8.2}{Future Work}{chapter..8}% 90
+\BOOKMARK [0][-]{appendix.A}{Ti-Mo-Nb-Ta-Zr Database}{}% 91
+\BOOKMARK [0][-]{appendix.B}{Sn-Ta Database}{}% 92
+\BOOKMARK [0][-]{appendix.C}{Calculation and Fitting Details}{}% 93
+\BOOKMARK [1][-]{section.C.1}{Calculation Details for Chapter 3, 5, and 6}{appendix.C}% 94
+\BOOKMARK [1][-]{section.C.2}{Fitting Code for Chapter 5 and 6}{appendix.C}% 95
+\BOOKMARK [0][-]{appendix.D}{Ti Elastic Database}{}% 96
+\BOOKMARK [0][-]{appendix.E}{Pycalphad script}{}% 97
+\BOOKMARK [0][-]{lstnumber.-1.380}{Bibliography}{}% 98

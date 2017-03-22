@@ -396,22 +396,15 @@ To study the effect of the metastable phase formation, two sets of Ti-Nb alloy s
 
 \subsubsection{ARCS}
 
-The inelastic neutron scattering measurements were carried out using the Wide Angular-Range Chopper Spectrometer (ARCS) at the Spallation Neutron Source (SNS) at Oak Ridge National Laboratory. ARCS is a time-of-flight spectrometer so the neutrons original position and energy are fixed and neutrons final position and the time elapse are recorded. From this information, the momentum and energy of the neutrons was calculated and plotted. The samples were loaded into a customized vanadium sample holder. Vanadium was chosen due to the high temperatures measured. The empty vanadium sample holder was measured at the same conditions at each temperature. The holder was mounted into the furnace and kept under vacuum throughout all measurements. Two incident neutron energies, $E_{i} = 25 meV$ and $E_{i} = 50 meV$, were used at each temperature (300, 500, 700, 900, 1110 K). The data was corrected for the empty can scattering as well as the ARCS background. The diffraction patterns and phonon density of states were then obtained.
+The inelastic neutron scattering measurements were carried out using the Wide Angular-Range Chopper Spectrometer (ARCS) at the Spallation Neutron Source (SNS) at Oak Ridge National Laboratory. ARCS is a time-of-flight spectrometer meaning that the neutron beam's original position and energy are fixed and the ARCS detectors measure the neutrons final position and the time elapse. From this information, the data output on ARCS is a plot of the momentum and energy of the neutrons. The measurements were taken with the samples loaded in a customized vanadium sample holder. The holder was mounted into the furnace and kept under vacuum throughout all measurements. Two incident neutron energies, $E_{i} = 25 meV$ and $E_{i} = 50 meV$, were used at each temperature (300, 500, 700, 900, 1110 K). Vanadium was chosen for the sample holders because vanadium has a very low coherent scattering length for neutrons and would not interact with the samples at the high temperatures being measured. The empty vanadium sample holder was measured at the same conditions at each temperature. The output of momentum and energy of the neutrons was corrected for the empty can scattering as well as the ARCS background. 
 
 \subsubsection{Data Analysis}
 
-After the empty sample holder and background were subtracted from the data, the diffraction patterns and phonon density of states were investigated. Diffraction is prominently an elastic scattering process. The intensity of the diffraction patterns obtained were compared with intensities of Ti and Nb single-phase diffraction patterns in the $\alpha"$, $\omega$, bcc and hcp from literature. The single-phase diffraction patterns from literature are not always at the right compositions, but by comparing the intensities the phase fractions can be predicted fairly accurately. First the distance between scattering planes is taken into account for each phase. The intensity at each momentum was calculated and modeled as a Gaussian function for each phase and then the data was fitted with the literature data \cite{Young1998,Toraya1986}. 
+From the corrected momentum and energy plots of the samples, the diffraction patterns and phonon density of states can be obtained.
 
-The phonon DOS contains the one-phonon and multi-phonon contributions; however, the one-phonon density of states is what is needed. An iterative process was done starting with a trial phonon DOS to separate the multi-phonon and one phonon contributions. This is accomplished by summing over the entire detector angle range (2 $\theta$) and calculating the total incoherent dynamic structure factor expressed by \cite{Manley2001}:
+Diffraction is prominently an elastic scattering process. So the intensities of neutrons, with no change in energy, at each momenta are calculated and modeled as a Guassian function \cite{Young1998,Toraya1986}. In the present work, each alloy sample contained some combination of the bcc, hcp, $\alpha"$ and $\omega$ phases. In order to obtain the phase fractions, diffraction patterns, from the literature, of Ti and Nb in each of the individual phases are combined and fit to the diffraction pattern of the alloy in question. In order to do the fitting, the distance between scattering planes is taken into account for each phase. By fitting the literature diffraction patternsto the diffraction pattern of the alloy being studied the phase fractions are obtained. 
 
-%%
-\begin{equation}
-\label{eq: td_dynstrufac}
-\overline{S}_{calc}^{inc} (\varrho) = \sum_{\theta} \frac{1}{2 \pi \hbar} e^{- Q^{2} (\theta, \varrho) \left<u^{2} \right>} \int_{-\infty}^{\infty} dte^{-i \varrho t} e^{\hbar^{2}Q^{2}(\theta, \varrho) G(t)/2M} \left[ e^{\frac{-t^{2}}{2} \left(\frac{\bigtriangleup E (\varrho)}{2\hbar} \right)^{2}} \right]
-\end{equation}
-%%
-
-\noindent where $\left< u^{2} \right>$  is the Debye-Waller factor describing the mean square atomic displacement. The anisotropy in the Debye-Waller factor was neglected because the resulting errors were negligible \cite{Manley2001}. The $\bigtriangleup E$ is the Gaussian instrument energy resolution of variable width. $M$ is the mass of a neutron, $G(t)$ is the time dependent self-correlation function which is expressed by \cite{Manley2001}:
+From the energy vs momentum plots the phonon DOS of states can be obtained. The phonon DOS contains the one-phonon and multi-phonon contributions; however, the one-phonon density of states is what is needed. In order to obtain the one-phonon DOS, an iterative process was done that approximates the multi-phonon contribution and subtracts that and the elastic contribution from the total scattering to obtain the single-phonon DOS. First, a trial phonon DOS from the momenta vs energy plots was used to calculate the time dependent self-correlation function ($G(t)$) and the mean square atomic displacement $\left< u^{2} \right>$. $G(t)$ was expressed by \cite{Manley2001}:
 
 %%
 \begin{equation}
@@ -420,7 +413,17 @@ G (t) = \int_{- \infty}^{\infty} d \varrho \frac{Z(\varrho)}{\varrho} n(\varrho)
 \end{equation}
 %%
 
-\noindent where $g(\varrho)$ is the phonon density of states as a function of phonon frequency $\varrho$ and $n(\varrho)$ is the thermal occupancy factor. Finally, $Q$ is defined by \cite{Manley2001}:
+
+\noindent where $Z(\varrho)$ is the phonon density of states as a function of phonon frequency $\varrho$ and $n(\varrho)$ is the thermal occupancy factor. From $G(t)$  the dynamic structure factor from the incoherent scattering was calculated by \cite{Manley2001}:
+
+%%
+\begin{equation}
+\label{eq: S_total_inc}
+\overline{S}_{total}^{inc} (\varrho) = \sum_{\theta} \frac{1}{2 \pi \hbar} e^{- Q^{2} (\theta, \varrho) \left<u^{2} \right>} \int_{-\infty}^{\infty} dte^{-i \varrho t} e^{\hbar^{2}Q^{2}(\theta, \varrho) G(t)/2M} \left[ e^{\frac{-t^{2}}{2} \left(\frac{\bigtriangleup E (\varrho)}{2\hbar} \right)^{2}} \right]
+\end{equation}
+%%
+
+\noindent where $e^{-Q^{2}\left(\theta,\rho \right) }\left< u^{2} \right>$ is the Debye-Waller factor described the mean square atomic displacement \cite{Squires2012}. The anisotropy in the Debye-Waller factor was neglected because the resulting errors were negligible \cite{Manley2001}.  $M$ is the mass of a neutron, $\hbar$ is Planck's constant and the bracked area has the $\bigtriangleup E$ which is the Gaussian instrument energy resolution of variable width. $Q$ is defined by \cite{Manley2001}:
 
 %%
 \begin{equation}
@@ -429,8 +432,12 @@ Q(\theta, \varrho) = \sqrt{\frac{2M}{\hbar^{2}} \left( 2E - \hbar \varrho - 2E \
 \end{equation}
 %%
 
-\noindent The calculated $\overline{S}_{0,calc}^{inc}$ and the elastic scattering was then subtracted from the total scattering which leaves us with the angle-averaged multiphonon structure factor which is a good starting approximation for the multiphonon coherent scattering \cite{Manley2001}. 
+\noindent From $G(t)$, the incoherent one-phonon $\overline{S}_{1}^{inc}$ and elastic scattering $\overline{S}_{0}^{inc}$ were determined and the multi-phonon incoherent scattering ($S_{m}^{inc}$)contribution can be calculated by:
 
-The elastic peak was then subtracted from the measured total dynamical structure factor.  Then the total dynamical structure factor was averaged over $2\theta$ and scaled so the multiphonon coherent scattering could be subtracted. After the subtractions, the new phonon DOS was determined and was then used to recalculate the multiphonon contribution and the procedure was repeated. The procedure was repeated three times to converge the phonon DOS based on previous recommendations that showed three iterations were enough to converge within statistical errors \cite{Manley2001}.
+\begin{equation}
+\label{eq: S_inco}
+\overline{S}_{m}^{inc} = \overline{S}_{total}^{inc}-\overline{S}_{0}^{inc}-\overline{S}_{1}^{inc}
+\end{equation}
+%%
 
-
+\noindent The calculated $\overline{S}_{m}^{inc}$ is then a good approximation for the multiphonon coherent scattering contribution as well. The elastic contribution was then total dynamical structure factor was scaled to match the incoherent dynamical structure factor and the elastic contribution was subtracted. From there the multiphonon contribution was subtacted leaving the new one-phonon DOS. This new one-phonon DOS was used to recalculate the multiphonon contribution. The procedure was repeated three times to converge the phonon DOS based on previous recommendations that showed three iterations were enough to converge within statistical errors \cite{Manley2001}.

@@ -16,7 +16,7 @@ A level-1 auxiliary file: Appendix-D/Appendix-D.aux
 A level-1 auxiliary file: Appendix-E/Appendix-E.aux
 The style file: GLG-bibstyle.bst
 Database file #1: Thesis.bib
-Repeated entry---line 707 of file Thesis.bib
+Repeated entry---line 394 of file Thesis.bib
  : @article{Neuburger1936_127
  :                           ,
 I'm skipping whatever remains of this entry
@@ -26,45 +26,45 @@ Warning--missing publisher in Manley2001
 Warning--empty booktitle in Predel1997
 Warning--missing institution in English1961
 Warning--can't use both volume and number fields in Basile1971
-You've used 121 entries,
+You've used 123 entries,
             2552 wiz_defined-function locations,
-            1376 strings with 25810 characters,
-and the built_in function-call counts, 59290 in all, are:
-= -- 4361
-> -- 1622
-< -- 108
-+ -- 473
-- -- 352
-* -- 4337
-:= -- 5841
-add.period$ -- 232
-call.type$ -- 121
+            1387 strings with 26188 characters,
+and the built_in function-call counts, 60140 in all, are:
+= -- 4417
+> -- 1649
+< -- 109
++ -- 481
+- -- 358
+* -- 4397
+:= -- 5927
+add.period$ -- 235
+call.type$ -- 123
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 127
-duplicate$ -- 6396
-empty$ -- 5883
-format.name$ -- 445
-if$ -- 13669
+cite$ -- 129
+duplicate$ -- 6489
+empty$ -- 5975
+format.name$ -- 452
+if$ -- 13866
 int.to.chr$ -- 0
-int.to.str$ -- 121
-missing$ -- 1168
-newline$ -- 374
-num.names$ -- 120
-pop$ -- 1541
+int.to.str$ -- 123
+missing$ -- 1186
+newline$ -- 380
+num.names$ -- 122
+pop$ -- 1567
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2170
+skip$ -- 2198
 stack$ -- 0
-substring$ -- 3486
-swap$ -- 4604
-text.length$ -- 108
+substring$ -- 3527
+swap$ -- 4666
+text.length$ -- 109
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 420
-width$ -- 124
-write$ -- 1079
+while$ -- 425
+width$ -- 126
+write$ -- 1096
 (There was 1 error message)

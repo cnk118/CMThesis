@@ -82,21 +82,18 @@
 \contentsline {subsection}{\numberline {7.3.2}Elastic properties}{144}{subsection..7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{145}{subsection..7.3.3}
 \contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{145}{subsubsection..7.3.3.1}
-\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{145}{subsubsection..7.3.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3.3}Temperature dependent phonon density of states }{145}{subsubsection..7.3.3.3}
-\contentsline {subsubsection}{\numberline {7.3.3.4}Temperature dependent diffraction patterns}{145}{subsubsection..7.3.3.4}
-\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{145}{subsection..7.3.4}
-\contentsline {subsubsection}{\numberline {7.3.4.1}Phase fractions}{145}{subsubsection..7.3.4.1}
-\contentsline {subsubsection}{\numberline {7.3.4.2}Mixed force constants}{145}{subsubsection..7.3.4.2}
-\contentsline {subsection}{\numberline {7.3.5}Comparison of elastic properties}{145}{subsection..7.3.5}
-\contentsline {section}{\numberline {7.4}Conclusion}{145}{section..7.4}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{156}{chapter..8}
-\contentsline {section}{\numberline {8.1}Conclusions}{156}{section..8.1}
-\contentsline {section}{\numberline {8.2}Future Work}{156}{section..8.2}
+\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{146}{subsubsection..7.3.3.2}
+\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{147}{subsection..7.3.4}
+\contentsline {section}{\numberline {7.4}Conclusion}{147}{section..7.4}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{166}{chapter..8}
+\contentsline {section}{\numberline {8.1}Conclusions}{166}{section..8.1}
+\contentsline {section}{\numberline {8.2}Future Work}{166}{section..8.2}
 \renewcommand {\cftchappresnum }{Appendix }
-\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{157}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sn-Ta Database}{174}{appendix.B}
-\contentsline {chapter}{\numberline {C}Mathematica \\ Interaction Parameter Fitting}{182}{appendix.C}
-\contentsline {chapter}{\numberline {D}Ti Elastic Database}{184}{appendix.D}
-\contentsline {chapter}{\numberline {E}Pycalphad script}{191}{appendix.E}
-\contentsline {chapter}{Bibliography}{201}{lstnumber.-1.380}
+\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr \\Database}{167}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sn-Ta Database}{184}{appendix.B}
+\contentsline {chapter}{\numberline {C}Calculation and Fitting Details}{192}{appendix.C}
+\contentsline {section}{\numberline {C.1}Calculation Details for Chapter 3, 5, and 6}{192}{section.C.1}
+\contentsline {section}{\numberline {C.2}Fitting Code for Chapter 5 and 6}{196}{section.C.2}
+\contentsline {chapter}{\numberline {D}Ti Elastic Database}{197}{appendix.D}
+\contentsline {chapter}{\numberline {E}Pycalphad script}{204}{appendix.E}
+\contentsline {chapter}{Bibliography}{214}{lstnumber.-1.380}
