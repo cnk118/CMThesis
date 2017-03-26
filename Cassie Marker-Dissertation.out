@@ -26,73 +26,72 @@
 \BOOKMARK [0][-]{chapter..3}{Ti-Mo-Nb-Sn-Ta-Zr Thermodynamic Database}{}% 26
 \BOOKMARK [1][-]{section..3.1}{Introduction}{chapter..3}% 27
 \BOOKMARK [1][-]{section..3.2}{Computational details}{chapter..3}% 28
-\BOOKMARK [1][-]{section..3.3}{Pure element calculation results}{chapter..3}% 29
-\BOOKMARK [1][-]{section..3.4}{Enthalpy of formation of bcc phase from first-principles}{chapter..3}% 30
-\BOOKMARK [1][-]{section..3.5}{Thermodynamic modeling of the ten binary systems}{chapter..3}% 31
-\BOOKMARK [2][-]{subsection..3.5.1}{Mo-Nb, Mo-Ta, Nb-Ta}{section..3.5}% 32
-\BOOKMARK [2][-]{subsection..3.5.2}{Mo-Zr, Nb-Zr and Ta-Zr}{section..3.5}% 33
-\BOOKMARK [2][-]{subsection..3.5.3}{Ti-Mo}{section..3.5}% 34
-\BOOKMARK [2][-]{subsection..3.5.4}{Ti-Nb}{section..3.5}% 35
-\BOOKMARK [2][-]{subsection..3.5.5}{Ti-Ta}{section..3.5}% 36
-\BOOKMARK [2][-]{subsection..3.5.6}{Ti-Zr}{section..3.5}% 37
-\BOOKMARK [1][-]{section..3.6}{Thermodynamic modeling of six Ti-containing ternary systems}{chapter..3}% 38
-\BOOKMARK [2][-]{subsection..3.6.1}{Ti-Mo-Nb}{section..3.6}% 39
-\BOOKMARK [2][-]{subsection..3.6.2}{Ti-Mo-Ta}{section..3.6}% 40
-\BOOKMARK [2][-]{subsection..3.6.3}{Ti-Mo-Zr}{section..3.6}% 41
-\BOOKMARK [2][-]{subsection..3.6.4}{Ti-Nb-Ta}{section..3.6}% 42
-\BOOKMARK [2][-]{subsection..3.6.5}{Ti-Nb-Zr}{section..3.6}% 43
-\BOOKMARK [2][-]{subsection..3.6.6}{Ti-Ta-Zr}{section..3.6}% 44
-\BOOKMARK [1][-]{section..3.7}{Conclusion}{chapter..3}% 45
-\BOOKMARK [0][-]{chapter..4}{First-principles aided thermodynamic modeling of the Sn-Ta system}{}% 46
-\BOOKMARK [1][-]{section..4.1}{Introduction}{chapter..4}% 47
-\BOOKMARK [1][-]{section..4.2}{Literature Review}{chapter..4}% 48
-\BOOKMARK [1][-]{section..4.3}{Modeling and Calculations}{chapter..4}% 49
-\BOOKMARK [2][-]{subsection..4.3.1}{First-principles details}{section..4.3}% 50
-\BOOKMARK [2][-]{subsection..4.3.2}{CALPHAD}{section..4.3}% 51
-\BOOKMARK [1][-]{section..4.4}{Results and discussion}{chapter..4}% 52
-\BOOKMARK [2][-]{subsection..4.4.1}{First-principles}{section..4.4}% 53
-\BOOKMARK [2][-]{subsection..4.4.2}{CALPHAD}{section..4.4}% 54
-\BOOKMARK [1][-]{section..4.5}{Conclusion}{chapter..4}% 55
-\BOOKMARK [0][-]{chapter..5}{Effects of alloying elements on the elastic properties of bcc Ti-X alloys}{}% 56
-\BOOKMARK [1][-]{section..5.1}{Introduction}{chapter..5}% 57
-\BOOKMARK [1][-]{section..5.2}{Modeling and Calculations}{chapter..5}% 58
-\BOOKMARK [2][-]{subsection..5.2.1}{Calculation details}{section..5.2}% 59
-\BOOKMARK [2][-]{subsection..5.2.2}{Modeling details}{section..5.2}% 60
-\BOOKMARK [1][-]{section..5.3}{Results and discussion}{chapter..5}% 61
-\BOOKMARK [2][-]{subsection..5.3.1}{Evaluation of calculation settings}{section..5.3}% 62
-\BOOKMARK [2][-]{subsection..5.3.2}{Calculations of the Ti-X elastic properties}{section..5.3}% 63
-\BOOKMARK [2][-]{subsection..5.3.3}{Extrapolation to ternary and higher ordered systems}{section..5.3}% 64
-\BOOKMARK [1][-]{section..5.4}{Conclusion}{chapter..5}% 65
-\BOOKMARK [0][-]{chapter..6}{Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{}% 66
-\BOOKMARK [1][-]{section..6.1}{Introduction}{chapter..6}% 67
-\BOOKMARK [1][-]{section..6.2}{Modeling and Calculations}{chapter..6}% 68
-\BOOKMARK [2][-]{subsection..6.2.1}{Calculation details}{section..6.2}% 69
-\BOOKMARK [2][-]{subsection..6.2.2}{Modeling details}{section..6.2}% 70
-\BOOKMARK [1][-]{section..6.3}{Results and discussion}{chapter..6}% 71
-\BOOKMARK [2][-]{subsection..6.3.1}{Elastic calculation results}{section..6.3}% 72
-\BOOKMARK [2][-]{subsection..6.3.2}{Extrapolation to higher ordered systems}{section..6.3}% 73
-\BOOKMARK [1][-]{section..6.4}{Conclusion}{chapter..6}% 74
-\BOOKMARK [0][-]{chapter..7}{Phase stability and elastic properties study of the Ti-Ta and Ti-Nb systems}{}% 75
-\BOOKMARK [1][-]{section..7.1}{Introduction}{chapter..7}% 76
-\BOOKMARK [1][-]{section..7.2}{Modeling and Calculations}{chapter..7}% 77
-\BOOKMARK [2][-]{subsection..7.2.1}{Computational details}{section..7.2}% 78
-\BOOKMARK [2][-]{subsection..7.2.2}{Modeling details}{section..7.2}% 79
-\BOOKMARK [1][-]{section..7.3}{Results and discussion}{chapter..7}% 80
-\BOOKMARK [2][-]{subsection..7.3.1}{First-principles calculations at 0 K}{section..7.3}% 81
-\BOOKMARK [2][-]{subsection..7.3.2}{Elastic properties}{section..7.3}% 82
-\BOOKMARK [2][-]{subsection..7.3.3}{Neutron scattering results}{section..7.3}% 83
-\BOOKMARK [3][-]{subsubsection..7.3.3.1}{Phonon density of states at 300 K}{subsection..7.3.3}% 84
-\BOOKMARK [3][-]{subsubsection..7.3.3.2}{Diffraction patterns at 300 K}{subsection..7.3.3}% 85
-\BOOKMARK [2][-]{subsection..7.3.4}{Partition function approach results}{section..7.3}% 86
-\BOOKMARK [1][-]{section..7.4}{Conclusion}{chapter..7}% 87
-\BOOKMARK [0][-]{chapter..8}{Conclusions and Future Work}{}% 88
-\BOOKMARK [1][-]{section..8.1}{Conclusions}{chapter..8}% 89
-\BOOKMARK [1][-]{section..8.2}{Future Work}{chapter..8}% 90
-\BOOKMARK [0][-]{appendix.A}{Ti-Mo-Nb-Ta-Zr Database}{}% 91
-\BOOKMARK [0][-]{appendix.B}{Sn-Ta Database}{}% 92
-\BOOKMARK [0][-]{appendix.C}{Calculation and Fitting Details}{}% 93
-\BOOKMARK [1][-]{section.C.1}{Calculation Details for Chapter 3, 5, and 6}{appendix.C}% 94
-\BOOKMARK [1][-]{section.C.2}{Fitting Code for Chapter 5 and 6}{appendix.C}% 95
-\BOOKMARK [0][-]{appendix.D}{Ti Elastic Database}{}% 96
-\BOOKMARK [0][-]{appendix.E}{Pycalphad script}{}% 97
-\BOOKMARK [0][-]{lstnumber.-1.380}{Bibliography}{}% 98
+\BOOKMARK [2][-]{subsection..3.2.1}{Sn binaries and ternaries}{section..3.2}% 29
+\BOOKMARK [1][-]{section..3.3}{Pure element calculation results}{chapter..3}% 30
+\BOOKMARK [1][-]{section..3.4}{Enthalpy of formation of bcc phase from first-principles}{chapter..3}% 31
+\BOOKMARK [1][-]{section..3.5}{Thermodynamic modeling of the ten binary systems}{chapter..3}% 32
+\BOOKMARK [2][-]{subsection..3.5.1}{Mo-Nb, Mo-Ta, Nb-Ta}{section..3.5}% 33
+\BOOKMARK [2][-]{subsection..3.5.2}{Mo-Zr, Nb-Zr and Ta-Zr}{section..3.5}% 34
+\BOOKMARK [2][-]{subsection..3.5.3}{Ti-Mo}{section..3.5}% 35
+\BOOKMARK [2][-]{subsection..3.5.4}{Ti-Nb}{section..3.5}% 36
+\BOOKMARK [2][-]{subsection..3.5.5}{Ti-Ta}{section..3.5}% 37
+\BOOKMARK [2][-]{subsection..3.5.6}{Ti-Zr}{section..3.5}% 38
+\BOOKMARK [1][-]{section..3.6}{Thermodynamic modeling of six Ti-containing ternary systems}{chapter..3}% 39
+\BOOKMARK [2][-]{subsection..3.6.1}{Ti-Mo-Nb}{section..3.6}% 40
+\BOOKMARK [2][-]{subsection..3.6.2}{Ti-Mo-Ta}{section..3.6}% 41
+\BOOKMARK [2][-]{subsection..3.6.3}{Ti-Mo-Zr}{section..3.6}% 42
+\BOOKMARK [2][-]{subsection..3.6.4}{Ti-Nb-Ta}{section..3.6}% 43
+\BOOKMARK [2][-]{subsection..3.6.5}{Ti-Nb-Zr}{section..3.6}% 44
+\BOOKMARK [2][-]{subsection..3.6.6}{Ti-Ta-Zr}{section..3.6}% 45
+\BOOKMARK [1][-]{section..3.7}{Conclusion}{chapter..3}% 46
+\BOOKMARK [0][-]{chapter..4}{First-principles aided thermodynamic modeling of the Sn-Ta system}{}% 47
+\BOOKMARK [1][-]{section..4.1}{Introduction}{chapter..4}% 48
+\BOOKMARK [1][-]{section..4.2}{Literature Review}{chapter..4}% 49
+\BOOKMARK [1][-]{section..4.3}{Modeling and Calculations}{chapter..4}% 50
+\BOOKMARK [2][-]{subsection..4.3.1}{First-principles details}{section..4.3}% 51
+\BOOKMARK [2][-]{subsection..4.3.2}{CALPHAD}{section..4.3}% 52
+\BOOKMARK [1][-]{section..4.4}{Results and discussion}{chapter..4}% 53
+\BOOKMARK [2][-]{subsection..4.4.1}{First-principles}{section..4.4}% 54
+\BOOKMARK [2][-]{subsection..4.4.2}{CALPHAD}{section..4.4}% 55
+\BOOKMARK [1][-]{section..4.5}{Conclusion}{chapter..4}% 56
+\BOOKMARK [0][-]{chapter..5}{Effects of alloying elements on the elastic properties of bcc Ti-X alloys}{}% 57
+\BOOKMARK [1][-]{section..5.1}{Introduction}{chapter..5}% 58
+\BOOKMARK [1][-]{section..5.2}{Modeling and Calculations}{chapter..5}% 59
+\BOOKMARK [2][-]{subsection..5.2.1}{Calculation details}{section..5.2}% 60
+\BOOKMARK [2][-]{subsection..5.2.2}{Modeling details}{section..5.2}% 61
+\BOOKMARK [1][-]{section..5.3}{Results and discussion}{chapter..5}% 62
+\BOOKMARK [2][-]{subsection..5.3.1}{Evaluation of calculation settings}{section..5.3}% 63
+\BOOKMARK [2][-]{subsection..5.3.2}{Calculations of the Ti-X elastic properties}{section..5.3}% 64
+\BOOKMARK [2][-]{subsection..5.3.3}{Extrapolation to ternary and higher ordered systems}{section..5.3}% 65
+\BOOKMARK [1][-]{section..5.4}{Conclusion}{chapter..5}% 66
+\BOOKMARK [0][-]{chapter..6}{Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{}% 67
+\BOOKMARK [1][-]{section..6.1}{Introduction}{chapter..6}% 68
+\BOOKMARK [1][-]{section..6.2}{Modeling and Calculations}{chapter..6}% 69
+\BOOKMARK [2][-]{subsection..6.2.1}{Calculation details}{section..6.2}% 70
+\BOOKMARK [2][-]{subsection..6.2.2}{Modeling details}{section..6.2}% 71
+\BOOKMARK [1][-]{section..6.3}{Results and discussion}{chapter..6}% 72
+\BOOKMARK [2][-]{subsection..6.3.1}{Elastic calculation results}{section..6.3}% 73
+\BOOKMARK [2][-]{subsection..6.3.2}{Extrapolation to higher ordered systems}{section..6.3}% 74
+\BOOKMARK [1][-]{section..6.4}{Conclusion}{chapter..6}% 75
+\BOOKMARK [0][-]{chapter..7}{Phase stability and elastic properties study of the Ti-Ta and Ti-Nb systems}{}% 76
+\BOOKMARK [1][-]{section..7.1}{Introduction}{chapter..7}% 77
+\BOOKMARK [1][-]{section..7.2}{Modeling and Calculations}{chapter..7}% 78
+\BOOKMARK [2][-]{subsection..7.2.1}{Computational details}{section..7.2}% 79
+\BOOKMARK [2][-]{subsection..7.2.2}{Modeling details}{section..7.2}% 80
+\BOOKMARK [1][-]{section..7.3}{Results and discussion}{chapter..7}% 81
+\BOOKMARK [2][-]{subsection..7.3.1}{First-principles calculations at 0 K}{section..7.3}% 82
+\BOOKMARK [2][-]{subsection..7.3.2}{Elastic properties}{section..7.3}% 83
+\BOOKMARK [2][-]{subsection..7.3.3}{Neutron scattering results}{section..7.3}% 84
+\BOOKMARK [3][-]{subsubsection..7.3.3.1}{Phonon density of states at 300 K}{subsection..7.3.3}% 85
+\BOOKMARK [3][-]{subsubsection..7.3.3.2}{Diffraction patterns at 300 K}{subsection..7.3.3}% 86
+\BOOKMARK [2][-]{subsection..7.3.4}{Partition function approach results}{section..7.3}% 87
+\BOOKMARK [1][-]{section..7.4}{Conclusion}{chapter..7}% 88
+\BOOKMARK [0][-]{chapter..8}{Conclusions and Future Work}{}% 89
+\BOOKMARK [1][-]{section..8.1}{Conclusions}{chapter..8}% 90
+\BOOKMARK [1][-]{section..8.2}{Future Work}{chapter..8}% 91
+\BOOKMARK [0][-]{appendix.A}{Ti-Mo-Nb-Ta-Zr Database}{}% 92
+\BOOKMARK [0][-]{appendix.B}{Sn-Ta Database}{}% 93
+\BOOKMARK [0][-]{appendix.C}{Mathematica \040Interaction Parameter Fitting}{}% 94
+\BOOKMARK [0][-]{appendix.D}{Ti Elastic Database}{}% 95
+\BOOKMARK [0][-]{appendix.E}{Pycalphad script}{}% 96
+\BOOKMARK [0][-]{lstnumber.-1.380}{Bibliography}{}% 97
