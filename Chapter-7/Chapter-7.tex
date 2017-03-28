@@ -12,7 +12,7 @@ In the present work the Vienna ab-initio Simulation Package (VASP) \cite{Kresse1
 
 \subsection{Modeling details}
 
-The elastic stiffness constants were modeled using the first-principles based DFT results. The modeling was completed by calculating the difference between the first-principles calculations and a linear extrapolation between pure elements. The differences were then used to fit to the interaction parameters. Due to the limitations within the PARROT module, a mathmatica script was used to fit the interaction parameters. The mathematica script is appended in appendix C. The same modeling procedure used for the bcc phase, in Chapter 5 and 6, was used in the prsent work. The first-principles results with 70 at. \% Ti or higher were weighted heavier (x6, according to the authors' practices) than the other points for the fittings. The best fit was found by comparing the fittings obtained with one interaction parameter or with two interaction parameters. The moduli values were than calculated using pycalphad and the code in appendix D and E \cite{Otis2017}.
+The elastic stiffness constants were modeled using the first-principles based DFT results. The modeling was completed by calculating the difference between the first-principles calculations and a linear extrapolation between pure elements. The differences were then used to fit to the interaction parameters. Due to the limitations within the PARROT module, a mathmatica script was used to fit the interaction parameters. The mathematica script is appended in appendix C. The best fit was found by comparing the fittings obtained with one interaction parameter or with two interaction parameters. The moduli values were than calculated using pycalphad and the code in appendix D and E \cite{Otis2017}.
 
 \section{Results and discussion}
 
@@ -30,9 +30,9 @@ Figure \ref{Ch7-figure:omegae1} plots the elastic stiffness constants, $C_{11}$,
 
 Figure \ref{Ch7-figure:hcpe1} plots the elastic stiffness constants, $C_{11}$, $C_{12}$, $C_{13}$, $C_{33}$, and $C_{44}$, for the hcp phase. The $C_{12}$, $C_{13}$ and $C_{33}$ values all start off decreasing, then increase and then decrease from pure Ti to pure Nb. The $C_{11}$ values decrease from pure Ti to pure Nb. The $C_{44}$ values increase, decrease and then increase from pure Ti to pure Nb. 
 
-The calculated elastic stiffness constants are listed in Table \ref{Ch7-table:tinbdata}. From the elastic stiffness constants, the Young's moduli values are calculated as a function of composition and are plotted in Figure \ref{Ch7-figure:tinbelastic}. The dotted lines are the fittings that use the interaction parameters in Table \ref{Ch7-table:intpara}. The calculations show that the hcp elastic properites go from being positive at 100 at. \% Ti to negative at 100 at. \% Nb and vice versa for the bcc phase. A negative Young's modulus can indicate that the phase is not stable at that composition. From Figure \ref{Ch7-figure:tinbelastic}, it can be seen that the Young's moduli of the $\omega$ and $\alpha"$ phases are higher than the Young's moduli of the bcc phase for all the compositions. The Young's moduli of the $\omega$ and $\alpha"$ phases are also higher than the Young's moduli of the hcp phase at almost all compositions. This would explain why in Figure \ref{Ch1-figure:tinbelasitc} the experimental Young's moduli increase in value with the formation of the metastable. 
+The calculated elastic stiffness constants are listed in Table \ref{Ch7-table:tinbdata}. From the elastic stiffness constants, the Young's moduli values are calculated as a function of composition and are plotted in Figure \ref{Ch7-figure:tinbelastic}. The dotted lines are the fittings that use the interaction parameters in Table \ref{Ch7-table:intpara}. The calculations show that the Young's moduli, for the hcp phase, decrease in value until around 80 at. \% Nb and then increase from 80 at. \% Nb to pure Nb. The Young's moduli, for the omega phase, follows the same trend as the hcp phase. The $E$ vlaues decrease from putre Ti to around 60 at. \% Nb and then increase from 60 at. \% Nb to pure Nb. The $E$ values, for the bcc phase, increase from pure Ti to pure Nb. The $E$ values, for the $\alpha"$ phase, decrease from pure Ti to around 20 at. \% Nb, then increase from 10 at. \% Nb to 70 at. \% Nb and then decrease from 70 at. \% Nb to pure Nb. The $E$ values for the hcp, $\omega$, and bcc phases all go negative at some point. Based on Born's criteria, a negative Young's modulus can indicate that the phase is not stable at that composition. From Figure \ref{Ch7-figure:tinbelastic}, it can be seen that the $E$ values of the $alpha"$ phase are higher than the hcp or bcc pahses. This explains why in Figure \ref{Ch1-figure:tinbelasitc} the experimental Young's moduli increase in value with the formation of the metastable. 
 
-Using experiments in that are plotted in Figure \ref{Ch1-figure:tinbelasitc}, Friak et al. \cite{Friak2012} measured the volume fraction of the bcc phase. Based on these experimentally determined volume fractions and the interaction parameters in Table \ref{Ch7-table:intpara}, the rule of mixtures predicted the Young's moduli. The rule of mixtures is experssed by: 
+At least four different authors have experimentally determined the $E$ of various Ti-Nb alloys at different compositions, which are plotted in Figure \ref{Ch1-figure:tinbelasitc}, \cite{Friak2012,Timoshevskii2011,Friak2012,Karre2015}. Ozaki et al. \cite{Ozaki2004} showed the same results discussed earlier that at certain compositions quenched samples formed bcc and $\alpha"$ while the cooled samples formed bcc and $\omega$. There was more experimental results for the quenched samples which is why present work reviewed this data and averaged the $E$ values at the same compositions. The full experimental results reviewed are listed in appendix F and the averaged experimental values are listed in Table \ref{Ch7-table:elasexptdata}. From these experiments, some of the phase fractions were determined \cite{Friak2012} and those phase fractions are listed in Table \ref{Ch7-table:elasexptdata}. For the compositions were the phase fractions were not determined, we extrapolated an estimated phase fractions, those phase fractions are in italics in order to differentiate from a prediction and a measure phase fraction.  Based on these phase fractions and the interaction parameters in Table \ref{Ch7-table:intpara}, the rule of mixtures is used to predict the Young's moduli and compared with the experimentally determined $E$. The rule of mixtures is experssed by: 
 
 %%
 \begin{equation}
@@ -41,7 +41,7 @@ E_{c}=x_{p1}E_{p1}+x_{p2}E_{p2}
 \end{equation}
 %%
 
-\noindent where $x_{p1}$ and $x_{p2}$ are the phase fractions of phase 1 and phase 2. $E_{p1}$ and $E_{p2}$ are the elastic modulus of the alloys in phase 1 and phase 2. After using Eq. \ref{eq:ruleofmix}, the predicted Young's moduli are compared with the experimentally determined Young's moduli. The predicted Young's moduli vary by less than XX from the experimentally determined Young's moduli. Based on the comparison, it is seen that if the phase fraction of the metastable phases can be predicted than the database can be used with the rule of mixtures to accurately predict the elastic properites. 
+\noindent where $x_{p1}$ and $x_{p2}$ are the phase fractions of phase 1 and phase 2. $E_{p1}$ and $E_{p2}$ are the elastic modulus of the alloys in phase 1 and phase 2. Based on the data up until 10 at. \% Nb the samples are 100 \% hcp and the predicted $E$ vary, on average, from the experimental $E$ by 7.7 GPa. From 10 at. \% Nb to 30 at. \% Nb the $\alpha"$ and bcc phases formed. The exact phase fraction of the bcc phase was measured by Friak et al. for the 10, 20, 25, and 30 at. \% Nb samples. An extrapolation from these values is used for the phase fractions of the remaining alloys in this composition range. Using the phase fractions and rule of mixtures, the prediced $E$ varies, on average, from the experimental $E$ by 0.52 GPa. If the alloys had been assumed to be a bcc and hcp mixture, as the CALPHAD predictions tell us, the predicted $E$ would vary, on average, from the experimental $E$ by 22 GPa. Above 33 at. \% Nb the samples are all bcc phase. The predicted $E$ vary, on average, from the experimental $E$ by 7 GPa. Overall, the variances are quite small when compared to the variance seen in the experiments. As seen in appendix F, the experimental $E$ values of pure Ti in the hcp phase vary by 24 GPa. The variance between the predicted $E$ and experimental $E$ can be attributed to the fact that the predicted $E$ are at 0 $^\circ$K and the experimental $E$ are at 300 $^\circ$K. Based on the comparison, it is seen that if the phase fraction of the metastable phases can be predicted than the database can be used with the rule of mixtures to accurately predict the elastic properites. 
 
 \subsection{Neutron scattering results}
 
@@ -56,23 +56,19 @@ S_{vib} = 3 k_{B} \int_{0}^{E_{max}} \left[ \left( n+1 \right) ln\left(n+1\right
 \end{equation}
 %%
 
-\noindent where $n$ is the Bose-Einstien occupation factor \cite{Budai2014}. The entropy difference between the alloys at the same compositions is plotted in \ref{Ch7-figure:ediff}. The figure shows that the entropy difference increases from 10 mol \% Nb to 20 mol \% Nb. The increase in entropy with increasing Nb content makes sense when looking at Figure \ref{Ch1-figure:tinbelasitc}. The figure and previous research shows that the $\alpha"$ and $\omega$ phases form from approximately 10 mol \% to 35 mol \% Nb. At 10 mol \% Nb, only a small amount of the metastable phases form which is why the experimentally determined elastic properties still line up well with the theoretically obtained elastic properites. This is supported by the lower entropy difference between the two 10 mol \% Nb alloys. However, closer to 20 mol \% Nb, Figure \ref{Ch7-figure:tinbelastic} shows that the experimental Young's moduli is higher than computationally determined Young's moduli. Research showed that the phase fractions of the metastable phase is larger at this composition than the three other compositions studied in this work. This is supported by the larger difference in entropy at 20 mol \% Nb.
+\noindent where $n$ is the Bose-Einstein occupation factor \cite{Budai2014}. The entropy difference between the alloys at the same compositions is plotted in \ref{Ch7-figure:ediff}. The figure shows that the entropy difference increases from 10 mol \% Nb to 20 mol \% Nb. The increase in entropy with increasing Nb content makes sense when looking at Figure \ref{Ch1-figure:tinbelasitc}. The figure and previous research shows that the $\alpha"$ and $\omega$ phases form from approximately 10 mol \% to 35 mol \% Nb. At 10 mol \% Nb, only a small amount of the metastable phases form which is why the experimentally determined elastic properties still line up well with the theoretically obtained elastic properites. This is supported by the lower entropy difference between the two 10 mol \% Nb alloys. However, closer to 20 mol \% Nb, Figure \ref{Ch7-figure:tinbelastic} shows that the experimental Young's moduli is higher than computationally determined Young's moduli. Research showed that the phase fractions of the metastable phase is larger at this composition than the three other compositions studied in this work. This is supported by the larger difference in entropy at 20 mol \% Nb.
 
 \subsubsection{Diffraction patterns at 300 K}
 
-The diffraction patterns for each alloy are plotted in Figure \ref{Ch7-figure:50diff20}, \ref{Ch7-figure:50diff18}, \ref{Ch7-figure:50diff12} \ref{Ch7-figure:50diff10}. The slow cooled samples are plotted as solid lines and the quenched samples are plotted as dashed lines. The diffraction patterns plot the Q vs. the intensity. The plots are compared with known diffraction patterns of Ti and Nb in the four phases to determine the phase fractions. The determined phase fractions of each alloy are listed in Table \ref{Ch7-table:phasefrac}. The analysis shows that the samples at XX mol \% Nb have the XXX 
-
-With the implementation of the theoretic framework still ongoing we compared the phase fractions obtained by the neutron scattering experiments with previous experiments also shown in Table \ref{Ch7-table:elasexptdata} \cite{Ozaki2004,Timoshevskii2011,Friak2012,Karre2015}. The determined phase fractions compare well with the previously determined phase fractions. XXXX
+The diffraction patterns for each alloy are plotted in Figure \ref{Ch7-figure:50diff20}, \ref{Ch7-figure:50diff18}, \ref{Ch7-figure:50diff12} \ref{Ch7-figure:50diff10}. The slow cooled samples are plotted as solid lines and the quenched samples are plotted as dashed lines. The diffraction patterns plot the Q vs. the intensity. Using a different neutron scattering technique or x-ray diffraction would lead to better diffraction patterns and more accurate predictions of the phase stability. The plots are compared with known diffraction patterns of Ti and Nb in the four phases to determine an approximation of the phase fractions. The determined phase fractions of each alloy are listed in Table \ref{Ch7-table:phasefrac}. The analysis shows that the quenched samples formed 0.12, 0.20, 0.57 and 0.70 phase fraction of bcc for the 10, 12, 18 and 20 at. \% Nb samples, respectively. The slow cooled samples showed 0.2, 0.3, 0.6, 0.7 phase fraction of the bcc phase for the 10, 12, 18, and 20 at. \% Nb samples, respectively. The phase fractions for the 10 and 20 at. \% Nb quenched samples compares well with the fractions determined by Friak et al. \cite{Friak2012} shown in Table \ref{Ch7-table:elasexptdata}. 
 
 \subsection{Partition function approach results}
 
-The implementation of the new theoretical framework is ongoing. Due to the difficulty of implementing a new theoretic framework, we began by calculating pure Ti. The energy was mapped for Ti in the bcc, $\omega$, and hcp phases looking for the energy minima. The quasiharmonic phonon calculations will be completed on the structures at the lowest energy minima points. The 
-
-The continued work 
+The implementation of the new theoretical framework is ongoing. Due to the difficulty of implementing the theoretic framework, we began by calculating pure Ti. The energy is being mapped for Ti in the bcc, $\omega$, $\alpha"$ and hcp phases looking for the energy minima. Quasiharmonic phonon calculations will be completed on the structures at the lowest energy minima points. The helmholtz energy results and eigenvalues from these calcualtions will be used in Eq. \ref{eq: combinedhelmholtz}, \ref{eq: combinedhelmholtz2}, \ref{eq: zc}, and \ref{eq: zi}. Using the calculation of entropy, from the combined helmholtz, this work should more accurately predict Ti in the bcc phase. Once the work has been shown to be accurate for pure Ti, it will be extended to the Ti-Nb binary system and compared to the neutron scattering results.
 
 \section{Conclusion}
 
-Based on the research done up to this point, the elastic 
+The present study systematically calculates the elastic stiffness constants and Young's moduli of the Ti-Nb system in the bcc, hcp, $\omega$, and $\alpha"$ phases. The general CALPHAD modeling approach is used to fit binary interaction parameters. The $E$ values were similar for the hcp and $\omega$ phase which makes sense since they both have hexagonal symmetry. The $\alpha"$ phase has $E$ values that are higher than the other three phase which explains why when formed the $E$ increases. Experiments showed that up to 10 at. \% Nb the samples formed solely the hcp phase and the database predicts the $E$ values by an average variance of 8 GPa from the experimental $E$. The samples from 10 at. \% Nb to 30 at. \% Nb formed both the bcc and $\alpha"$ or $\omega$ phases. If the samples are slow cooled then the samples form the bcc and $\omega$ phases. If the samples are quenched they form the bcc and $\alpha"$ phases. Using experimentally determined phase fractions and the rule of mixtures, the database accurately predicts the $E$ values by an average variance of 0.52 GPa when compared with the experimental $E$ values. At Nb concentrations greater than 30 at. \% Nb form solely the bcc phase and the database predicts the $E$ values by an average variance of 7 GPa from the experimental $E$ values. The phonon DOS at 300 $^\circ$K differences between the slow cooled and quenced samples especially when looking at the entropy difference between the samples. Diffraction patterns from ARCS are diffcult to fit but the phase fractions are approximated. The implementation of the new theoretic framework is ongoing but from the results here, if the phase fractions of the metastable phases can be predicted then the elastic database can accurately assess the Young's moduli and elastic stiffness constants. 
 
 \newpage
 \begin{longtable}[H]{ c c c c c c c c c c }
@@ -166,12 +162,33 @@ Based on the research done up to this point, the elastic
 \begin{table}[H]
 	\caption{Phase fractions and experimetally determined $E$ compared with the predicted $E$ using the rule of mixtures and interaction parameters in Table \ref{Ch7-table:intpara} for the Ti-Nb system.}
 	\centering
-	\begin{tabular}{ c c c c c c }
+	\begin{tabular}{ c c c c}
 		\hline
-		Alloy & x(Nb) & Phase Fraction & Expt $E$ & Calc $E$ & Reference \\
+		x(Nb) & Phase Fraction & Expt $E$ & Calc $E$\\
 		\hline
-		c$_{11}$ & $L_{0}$ & A & B & C & D \\
-		
+		0.00 & all hcp & 118.31 & 123.8\\
+		0.01 & all hcp & 112.52 & 117.7\\
+		0.02 & all hcp & 108.33 & 112.0\\
+		0.05 & all hcp & 79.47 & 94.9\\
+		0.08 & all hcp & 66.41 & 78.4\\
+		0.09 & all hcp & 68.73 & 73.1\\
+		0.10 & 0.06 BCC/0.94 $\alpha"$ & 84.64 & 95.89\\
+		0.11 & $0.15 BCC/0.94 \alpha"$ & 78.72 & 88.19\\
+		0.18 & $0.45 BCC/0.94 \alpha"$ & 93.02 & 70.08\\
+		0.19 & $0.49 BCC/0.94 \alpha"$ & 64.26 & 68.65\\
+		0.20 & 0.60 BCC/0.94 $\alpha"$ & 77.62 & 65.74\\
+		0.22 & $0.63 BCC/0.94 \alpha"$ & 70.90 & 67.44\\
+		0.23 & $0.67 BCC/0.94 \alpha"$ & 75.85 & 67.00\\
+		0.24 & $0.71 BCC/0.94 \alpha"$ & 61.11 & 66.63\\
+		0.25 & 0.81 BCC/0.94 $\alpha"$ & 72.52 & 66.10\\
+		0.26 & $0.80 BCC/0.94 \alpha"$ & 66.61 & 66.23\\
+		0.27 & $0.84 BCC/0.94 \alpha"$ & 54.61 & 66.98\\
+		0.29 & $0.91 BCC/0.94 \alpha"$ & 62.13 & 66.16\\
+		0.30 & 0.90 BCC/0.94 $\alpha"$ & 68.11 & 68.21\\
+		0.34 & all bcc & 77.47 & 66.69\\
+		0.36 & all bcc & 73.78 & 69.00\\
+		0.39 & all bcc & 76.62 & 69.81\\
+		0.43 & all bcc & 84.05 & 69.77\\
 		\hline
 	\end{tabular}
 	\label{Ch7-table:elasexptdata}
@@ -183,15 +200,19 @@ Based on the research done up to this point, the elastic
 \begin{table}[H]
 	\caption{Phase fractions determined from the diffraction patterns for the Ti-Nb alloys.}
 	\centering
-	\begin{tabular}{ c c c c c c }
+	\begin{tabular}{ c c c c c }
 		\hline
-		Alloy & x(Nb) & \multicolumn{4}{c}{Phase Fraction} \\
-		&  & bcc & hcp & $\omega$ & $\alpha"$ \\
+		Alloy & x(Nb) & \multicolumn{3}{c}{Phase Fraction} \\
+		&  & bcc & $\omega$ & $\alpha"$ \\
 		\hline
-		TiNb$_{20}$ & 0.2 & A & B & C & D \\
-		TiNb$_{18}$ & 0.2 & A & B & C & D \\
-		TiNb$_{12}$ & 0.2 & A & B & C & D \\
-		TiNb$_{10}$ & 0.2 & A & B & C & D \\
+		Q-TiNb$_{10}$ & 0.10 & 0.12 & - & 0.88 \\
+		Q-TiNb$_{12}$ & 0.12 & 0.20 & - & 0.80 \\
+		Q-TiNb$_{18}$ & 0.18 & 0.57 & - & 0.43 \\
+		Q-TiNb$_{20}$ & 0.20 & 0.70 & - & 0.3 \\
+		SC-TiNb$_{10}$ & 0.10 & 0.20 & 0.8 & - \\
+		SC-TiNb$_{12}$ & 0.12 & 0.30 & 0.7 & - \\
+		SC-TiNb$_{18}$ & 0.18 & 0.60 & 0.4 & - \\
+		SC-TiNb$_{20}$ & 0.20 & 0.70 & 0.3 & - \\
 		\hline
 	\end{tabular}
 	\label{Ch7-table:phasefrac}

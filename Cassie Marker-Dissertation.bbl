@@ -478,10 +478,29 @@
   Reference to a Structural Model: Application to X-ray Powder Diffractometer
   Data},} \emph{J. Appl. Cryst}, \textbf{19}, pp. 440--447.
 
+\bibitem{Fultz2009}
+\textsc{Fultz, B.}, \textsc{T.~Kelley}, \textsc{M.~McKerns}, \textsc{J.~Lin},
+  \textsc{J.~Lee}, \textsc{O.~Delaire}, \textsc{M.~Kresch}, and
+  \textsc{M.~Aivazis} (2009), \enquote{{Experimental inelastic neutron
+  scattering},} .
+
+\bibitem{Squires2012}
+\textsc{Squires, G.~L.} (2012) \emph{{Introduction to the theory of thermal
+  neutron scattering}}, Cambridge university press.
+
 \bibitem{Manley2001}
 \textsc{Manley, M.~E.} (2001) \emph{{From elementary excitations to
   microstructures: The thermodynamics of metals and alloys across length
   scales}}.
+
+\bibitem{Manley2002}
+\textsc{Manley, M.~E.}, \textsc{R.~J. McQueeney}, \textsc{B.~Fultz},
+  \textsc{R.~Osborn}, \textsc{G.~H. Kwei}, and \textsc{P.~D. Bogdanoff} (2002)
+  \enquote{{Vibrational and electronic entropy of
+  $\backslash$ensuremath{\{}$\backslash$beta{\}}-cerium and
+  $\backslash$ensuremath{\{}$\backslash$gamma{\}}-cerium measured by inelastic
+  neutron scattering},} \emph{Physical Review B}, \textbf{65}(14), p. 144111.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevB.65.144111}
 
 \bibitem{Blochl1994}
 \textsc{Bl{\"{o}}chl, P.} (1994) \enquote{{Projector augmented-wave method},}
@@ -532,7 +551,7 @@
 
 \bibitem{Neuburger1936_127}
 \textsc{Neuburger, M.~C.} (1936) \enquote{{Praezisionsmessung der
-  Gitterkonstante von sehr reinem Tantal},} \emph{Zeitschrift fuer
+  Gitterkonstante von sehr reinem Niob},} \emph{Zeitschrift fuer
   Kristallographie, Kristallgeometrie, Kristallphysik, Kristallchemie
   (-144,1977)}, \textbf{93}, pp. 158--159.
 
@@ -665,5 +684,22 @@
 \textsc{Dickinson, J.} and \textsc{P.~Armstrong} (1967) \enquote{{Temperature
   dependence of the elastic constants of molybdenum},} \emph{Journal of Applied
   Physics}, \textbf{38}(2), pp. 602--606.
+
+\bibitem{Kim2006}
+\textsc{Kim, H.}, \textsc{Y.~Ikehara}, \textsc{J.~Kim}, \textsc{H.~Hosoda}, and
+  \textsc{S.~Miyazaki} (2006) \enquote{{Martensitic transformation, shape
+  memory effect and superelasticity of Ti–Nb binary alloys},} \emph{Acta
+  Materialia}, \textbf{54}(9), pp. 2419--2429.
+
+\bibitem{Budai2014}
+\textsc{Budai, J.~D.}, \textsc{J.~Hong}, \textsc{M.~E. Manley}, \textsc{E.~D.
+  Specht}, \textsc{C.~W. Li}, \textsc{J.~Z. Tischler}, \textsc{D.~L.
+  Abernathy}, \textsc{A.~H. Said}, \textsc{B.~M. Leu}, \textsc{L.~A. Boatner},
+  \textsc{R.~J. McQueeney}, and \textsc{O.~Delaire} (2014)
+  \enquote{{Metallization of vanadium dioxide driven by large phonon entropy},}
+  \emph{Nature}, \textbf{515}(7528), pp. 535--539.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nature13865
+  http://10.0.4.14/nature13865
+  http://www.nature.com/nature/journal/v515/n7528/abs/nature13865.html{\#}supplementary-information}
 
 \end{thebibliography}
