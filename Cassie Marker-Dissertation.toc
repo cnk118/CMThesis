@@ -44,56 +44,56 @@
 \contentsline {subsection}{\numberline {3.6.5}Ti-Nb-Zr}{37}{subsection..3.6.5}
 \contentsline {subsection}{\numberline {3.6.6}Ti-Ta-Zr}{37}{subsection..3.6.6}
 \contentsline {section}{\numberline {3.7}Conclusion}{38}{section..3.7}
-\contentsline {chapter}{\numberline {4}First-principles aided thermodynamic modeling of the Sn-Ta system}{63}{chapter..4}
-\contentsline {section}{\numberline {4.1}Introduction}{63}{section..4.1}
-\contentsline {section}{\numberline {4.2}Literature Review}{64}{section..4.2}
-\contentsline {section}{\numberline {4.3}Modeling and Calculations}{65}{section..4.3}
-\contentsline {subsection}{\numberline {4.3.1}First-principles details}{65}{subsection..4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}CALPHAD}{66}{subsection..4.3.2}
-\contentsline {section}{\numberline {4.4}Results and discussion}{66}{section..4.4}
-\contentsline {subsection}{\numberline {4.4.1}First-principles}{66}{subsection..4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}CALPHAD}{68}{subsection..4.4.2}
-\contentsline {section}{\numberline {4.5}Conclusion}{70}{section..4.5}
-\contentsline {chapter}{\numberline {5}Effects of alloying elements on the elastic properties of bcc Ti-X alloys}{86}{chapter..5}
-\contentsline {section}{\numberline {5.1}Introduction}{86}{section..5.1}
-\contentsline {section}{\numberline {5.2}Modeling and Calculations}{87}{section..5.2}
-\contentsline {subsection}{\numberline {5.2.1}Calculation details}{87}{subsection..5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Modeling details}{87}{subsection..5.2.2}
-\contentsline {section}{\numberline {5.3}Results and discussion}{88}{section..5.3}
-\contentsline {subsection}{\numberline {5.3.1}Evaluation of calculation settings}{88}{subsection..5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Calculations of the Ti-X elastic properties}{88}{subsection..5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Extrapolation to ternary and higher ordered systems}{92}{subsection..5.3.3}
-\contentsline {section}{\numberline {5.4}Conclusion}{93}{section..5.4}
-\contentsline {chapter}{\numberline {6}Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{110}{chapter..6}
-\contentsline {section}{\numberline {6.1}Introduction}{110}{section..6.1}
-\contentsline {section}{\numberline {6.2}Modeling and Calculations}{111}{section..6.2}
-\contentsline {subsection}{\numberline {6.2.1}Calculation details}{111}{subsection..6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Modeling details}{111}{subsection..6.2.2}
-\contentsline {section}{\numberline {6.3}Results and discussion}{112}{section..6.3}
-\contentsline {subsection}{\numberline {6.3.1}Elastic calculation results}{112}{subsection..6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Extrapolation to higher ordered systems}{117}{subsection..6.3.2}
-\contentsline {section}{\numberline {6.4}Conclusion}{118}{section..6.4}
-\contentsline {chapter}{\numberline {7}Phase stability and elastic properties study of the Ti-Ta and Ti-Nb systems}{142}{chapter..7}
-\contentsline {section}{\numberline {7.1}Introduction}{142}{section..7.1}
-\contentsline {section}{\numberline {7.2}Modeling and Calculations}{143}{section..7.2}
-\contentsline {subsection}{\numberline {7.2.1}Computational details}{143}{subsection..7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Modeling details}{143}{subsection..7.2.2}
-\contentsline {section}{\numberline {7.3}Results and discussion}{144}{section..7.3}
-\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{144}{subsection..7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{144}{subsection..7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{147}{subsection..7.3.3}
-\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{147}{subsubsection..7.3.3.1}
-\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{147}{subsubsection..7.3.3.2}
-\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{148}{subsection..7.3.4}
-\contentsline {section}{\numberline {7.4}Conclusion}{148}{section..7.4}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{172}{chapter..8}
-\contentsline {section}{\numberline {8.1}Conclusions}{172}{section..8.1}
-\contentsline {section}{\numberline {8.2}Future Work}{175}{section..8.2}
+\contentsline {chapter}{\numberline {4}First-principles aided thermodynamic modeling of the Sn-Ta system}{64}{chapter..4}
+\contentsline {section}{\numberline {4.1}Introduction}{64}{section..4.1}
+\contentsline {section}{\numberline {4.2}Literature Review}{65}{section..4.2}
+\contentsline {section}{\numberline {4.3}Modeling and Calculations}{66}{section..4.3}
+\contentsline {subsection}{\numberline {4.3.1}First-principles details}{66}{subsection..4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}CALPHAD}{67}{subsection..4.3.2}
+\contentsline {section}{\numberline {4.4}Results and discussion}{67}{section..4.4}
+\contentsline {subsection}{\numberline {4.4.1}First-principles}{67}{subsection..4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}CALPHAD}{69}{subsection..4.4.2}
+\contentsline {section}{\numberline {4.5}Conclusion}{71}{section..4.5}
+\contentsline {chapter}{\numberline {5}Effects of alloying elements on the elastic properties of bcc Ti-X alloys}{87}{chapter..5}
+\contentsline {section}{\numberline {5.1}Introduction}{87}{section..5.1}
+\contentsline {section}{\numberline {5.2}Modeling and Calculations}{88}{section..5.2}
+\contentsline {subsection}{\numberline {5.2.1}Calculation details}{88}{subsection..5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Modeling details}{88}{subsection..5.2.2}
+\contentsline {section}{\numberline {5.3}Results and discussion}{89}{section..5.3}
+\contentsline {subsection}{\numberline {5.3.1}Evaluation of calculation settings}{89}{subsection..5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Calculations of the Ti-X elastic properties}{89}{subsection..5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Extrapolation to ternary and higher ordered systems}{93}{subsection..5.3.3}
+\contentsline {section}{\numberline {5.4}Conclusion}{94}{section..5.4}
+\contentsline {chapter}{\numberline {6}Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{111}{chapter..6}
+\contentsline {section}{\numberline {6.1}Introduction}{111}{section..6.1}
+\contentsline {section}{\numberline {6.2}Modeling and Calculations}{112}{section..6.2}
+\contentsline {subsection}{\numberline {6.2.1}Calculation details}{112}{subsection..6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Modeling details}{112}{subsection..6.2.2}
+\contentsline {section}{\numberline {6.3}Results and discussion}{113}{section..6.3}
+\contentsline {subsection}{\numberline {6.3.1}Elastic calculation results}{113}{subsection..6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Extrapolation to higher ordered systems}{118}{subsection..6.3.2}
+\contentsline {section}{\numberline {6.4}Conclusion}{119}{section..6.4}
+\contentsline {chapter}{\numberline {7}Metastable phase study in the Ti-Ta and Ti-Nb systems}{143}{chapter..7}
+\contentsline {section}{\numberline {7.1}Introduction}{143}{section..7.1}
+\contentsline {section}{\numberline {7.2}Modeling and Calculations}{144}{section..7.2}
+\contentsline {subsection}{\numberline {7.2.1}Computational details}{144}{subsection..7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Modeling details}{144}{subsection..7.2.2}
+\contentsline {section}{\numberline {7.3}Results and discussion}{145}{section..7.3}
+\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{145}{subsection..7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{145}{subsection..7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{148}{subsection..7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{148}{subsubsection..7.3.3.1}
+\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{149}{subsubsection..7.3.3.2}
+\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{150}{subsection..7.3.4}
+\contentsline {section}{\numberline {7.4}Conclusion}{150}{section..7.4}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{174}{chapter..8}
+\contentsline {section}{\numberline {8.1}Conclusions}{174}{section..8.1}
+\contentsline {section}{\numberline {8.2}Future Work}{178}{section..8.2}
 \renewcommand {\cftchappresnum }{Appendix }
-\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{177}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sn-Ta Database}{194}{appendix.B}
-\contentsline {chapter}{\numberline {C}Mathematica \\ Interaction Parameter Fitting}{202}{appendix.C}
-\contentsline {chapter}{\numberline {D}Ti Elastic Database}{204}{appendix.D}
-\contentsline {chapter}{\numberline {E}Pycalphad script}{211}{appendix.E}
-\contentsline {chapter}{\numberline {F}Ti-Nb Experimental Elastic Data}{221}{appendix.F}
-\contentsline {chapter}{Bibliography}{224}{table.F.1}
+\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{179}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sn-Ta Database}{196}{appendix.B}
+\contentsline {chapter}{\numberline {C}Mathematica \\ Interaction Parameter Fitting}{204}{appendix.C}
+\contentsline {chapter}{\numberline {D}Ti Elastic Database}{206}{appendix.D}
+\contentsline {chapter}{\numberline {E}Pycalphad script}{213}{appendix.E}
+\contentsline {chapter}{\numberline {F}Ti-Nb Experimental Elastic Data}{223}{appendix.F}
+\contentsline {chapter}{Bibliography}{226}{table.F.1}

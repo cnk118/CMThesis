@@ -262,7 +262,7 @@ Z_{i} = e^{- \frac{F_{i}}{k_{B}T}} = \sum_{k} e^{- \frac{E_{ik}}{k_{B}T}}
 \end{equation}
 %%
 
-where $F_{i}$ is the helmholtz energy of state $i$ and $E_{ik}$ is the energy eignevalues of microstate $k$ in the $i$ state. $Z_{c}$ represents the combined system expressed by:
+\noindent where $F_{i}$ is the helmholtz energy of state $i$ and $E_{ik}$ is the energy eignevalues of microstate $k$ in the $i$ state. $Z_{c}$ represents the combined system expressed by:
 
 %%
 \begin{equation}
@@ -271,7 +271,7 @@ Z_{c} = e^{-\frac{F_{c}}{k_{B}T}} = \sum_{j} e^{- \frac{E_{cj}}{k_{B}T}}
 \end{equation}
 %%
 
-where $F_{c}$ is the Helmholtz energy of the system and $E_{cj}$ is the energy eigenvalues of microstate $j$ in the combined state, $c$. Another way to write the combined helmholtz energy, based on these equations, is:
+\noindent where $F_{c}$ is the Helmholtz energy of the system and $E_{cj}$ is the energy eigenvalues of microstate $j$ in the combined state, $c$. Another way to write the combined helmholtz energy, based on these equations, is:
 
 %%
 \begin{equation}
@@ -414,15 +414,15 @@ To study the effect of the metastable phase formation, two sets of Ti-Nb alloy s
 
 \subsubsection{ARCS}
 
-The inelastic neutron scattering measurements were carried out using the Wide Angular-Range Chopper Spectrometer (ARCS) at the Spallation Neutron Source (SNS) at Oak Ridge National Laboratory. ARCS is a time-of-flight spectrometer meaning that the neutron beam's original position and energy are fixed and the ARCS detectors measure the neutrons final position and the time elapse. From this information, the data output on ARCS is a plot of the momentum and energy of the neutrons. The measurements were taken with the samples loaded in a customized vanadium sample holder. The holder was mounted into the furnace and kept under vacuum throughout all measurements. Two incident neutron energies, $E_{i} = 25 meV$ and $E_{i} = 50 meV$, were used at each temperature (300, 500, 700, 900, 1110 K). Vanadium was chosen for the sample holders because vanadium has a very low coherent scattering length for neutrons and would not interact with the samples at the high temperatures being measured. The empty vanadium sample holder was measured at the same conditions at each temperature. The output of momentum and energy of the neutrons was corrected for the empty can scattering as well as the ARCS background. 
+The inelastic neutron scattering measurements were carried out using the Wide Angular-Range Chopper Spectrometer (ARCS) at the Spallation Neutron Source (SNS) at Oak Ridge National Laboratory. ARCS is a time-of-flight spectrometer meaning that the neutron beam and energy are fixed and the ARCS detectors measure the neutrons final position and the time elapse. From this information, the data output on ARCS is a plot of the momentum and energy of the neutrons. The measurements were taken with the samples loaded in a customized vanadium sample holder. The holder was mounted into the furnace and kept under vacuum throughout all measurements. Two incident neutron energies, $E_{i} = 25 meV$ and $E_{i} = 50 meV$, were used at each temperature (300, 500, 700, 900, 1110 K). Vanadium was chosen for the sample holders because vanadium has a very low coherent scattering for neutrons. The empty vanadium sample holder was measured at the same conditions at each temperature. The measurements of the scattering from the empty sample holder and a linear background from the ARCS instrument were subtracted from the data of the sample. 
 
 \subsubsection{Data Analysis}
 
-From the corrected momentum and energy plots of the samples, the diffraction patterns and phonon density of states can be obtained.
+From the corrected momentum and energy plots of the samples, the diffraction patterns and phonon density of states were obtained.
 
-Diffraction is prominently an elastic scattering process. So the intensities of neutrons, with no change in energy, at each momenta are calculated and modeled as a Guassian function \cite{Young1998,Toraya1986}. In the present work, each alloy sample contained some combination of the bcc, hcp, $\alpha"$ and $\omega$ phases. In order to obtain the phase fractions, diffraction patterns, from the literature, of Ti and Nb in each of the individual phases are combined and fit to the diffraction pattern of the alloy in question. In order to do the fitting, the distance between scattering planes is taken into account for each phase. By fitting the literature diffraction patternsto the diffraction pattern of the alloy being studied the phase fractions are obtained. 
+Diffraction is prominently an elastic scattering process. So the intensities of neutrons, with no change in energy, at each momenta are calculated and modeled as a Gaussian function \cite{Young1998,Toraya1986}. In the present work, each alloy sample contained some combination of the bcc, hcp, $\alpha"$ and $\omega$ phases. In order to obtain the phase fractions, diffraction patterns, from the literature, of Ti and Nb in each of the individual phases were combined and fit to the diffraction pattern of the alloy in question. In order to do the fitting, the distance between scattering planes was taken into account for each phase. By fitting the literature diffraction patterns to the diffraction pattern of the alloys being studied the phase fractions were obtained. 
 
-From the energy vs momentum plots the phonon DOS of states can be obtained in a few different ways. In the present work an iterative method is used to remove the elastic and multi-phonon contributions to the phonon DOS and thus plot just the one-phonon DOS \cite{Fultz2009,Squires2012}. In order to obtain the one-phonon DOS, an iterative process was done that approximates the multi-phonon contribution and subtracts that and the elastic contribution from the total scattering to obtain the single-phonon DOS. First, a trial phonon DOS from the momenta vs energy plots was used to calculate the time dependent self-correlation function ($G(t)$) and the mean square atomic displacement $\left< u^{2} \right>$. $G(t)$ was expressed by \cite{Manley2001,Manley2002}:
+From the energy vs momentum plots the phonon DOS of states was obtained using an iterative method to remove the elastic and multi-phonon contributions to the phonon DOS and thus plot just the one-phonon DOS \cite{Fultz2009,Squires2012}. First, a trial phonon DOS from the momenta vs energy plots was used to calculate the time dependent self-correlation function ($G(t)$) and the mean square atomic displacement $\left< u^{2} \right>$. The trial single-phonon DOS (S'(p)) was obtained by modifying the measured signal (S(p)) by suppressing the elastic peak and contraining S(p) such that dS(p)/dp=0 when p $\rightarrow$ 0 according to the hydrodynamic limit. Using the trial phonon DOS, $G(t)$ was expressed by \cite{Manley2001,Manley2002}:
 
 %%
 \begin{equation}
@@ -441,7 +441,7 @@ G (t) = \int_{- \infty}^{\infty} d \varrho \frac{Z(\varrho)}{\varrho} n(\varrho)
 \end{equation}
 %%
 
-\noindent where $e^{-Q^{2}\left(\theta,\rho \right) }\left< u^{2} \right>$ is the Debye-Waller factor described the mean square atomic displacement \cite{Squires2012}. The anisotropy in the Debye-Waller factor was neglected because the resulting errors were negligible \cite{Manley2001}.  $M$ is the mass of a neutron, $\hbar$ is Planck's constant and the bracked area has the $\bigtriangleup E$ which is the Gaussian instrument energy resolution of variable width. $Q$ is defined by \cite{Manley2001,Manley2002}:
+\noindent where $e^{-Q^{2}\left(\theta,\rho \right) \left< u^{2} \right>}$ is the Debye-Waller factor described the mean square atomic displacement \cite{Squires2012}. The anisotropy in the Debye-Waller factor was neglected because the resulting errors were negligible \cite{Manley2001}.  $M$ is the mass of a neutron, $\hbar$ is Planck's constant and the bracketed area is the Gaussian instrument energy resolution. $Q$ is defined by \cite{Manley2001,Manley2002}:
 
 %%
 \begin{equation}
@@ -450,7 +450,7 @@ Q(\theta, \varrho) = \sqrt{\frac{2M}{\hbar^{2}} \left( 2E - \hbar \varrho - 2E \
 \end{equation}
 %%
 
-\noindent From $G(t)$, the incoherent one-phonon $\overline{S}_{1}^{inc}$ and elastic scattering $\overline{S}_{0}^{inc}$ were determined and the multi-phonon incoherent scattering ($S_{m}^{inc}$)contribution can be calculated by \cite{Manley2001,Manley2002}:
+\noindent From $G(t)$, the incoherent one-phonon $\overline{S}_{1}^{inc}$ and elastic scattering $\overline{S}_{0}^{inc}$ were determined.  $\overline{S}_{0}^{inc}$ and $\overline{S}_{1}^{inc}$ are the zeroth and first order terms in the Taylor expansion of the $\overline{S}_{total}^{inc}$ when $G(t)=0$ and the multi-phonon incoherent scattering ($S_{m}^{inc}$)contribution can be calculated by \cite{Manley2001,Manley2002}:
 
 \begin{equation}
 \label{eq: S_inco}
@@ -458,4 +458,12 @@ Q(\theta, \varrho) = \sqrt{\frac{2M}{\hbar^{2}} \left( 2E - \hbar \varrho - 2E \
 \end{equation}
 %%
 
-\noindent The calculated $\overline{S}_{m}^{inc}$ is then a good approximation for the multiphonon coherent scattering contribution as well. The elastic contribution was then total dynamical structure factor was scaled to match the incoherent dynamical structure factor and the elastic contribution was subtracted. From there the multiphonon contribution was subtacted leaving the new one-phonon DOS. This new one-phonon DOS was used to recalculate the multiphonon contribution. The procedure was repeated three times to converge the phonon DOS based on previous recommendations that showed three iterations were enough to converge within statistical errors \cite{Manley2001,Manley2002}.
+\noindent The calculated $\overline{S}_{m}^{inc}$ is then a good approximation for the multiphonon coherent scattering contribution and the single phonon DOS was calculated by:
+
+\begin{equation}
+\label{eq: onephonon}
+Z(\rho) = S_{1}(\rho)* \frac{\rho}{n(\rho)}
+\end{equation}
+%%
+
+\noindent The procedure was repeated three times to converge the phonon DOS based on previous recommendations that showed three iterations were enough to converge within statistical errors \cite{Manley2001,Manley2002}.
