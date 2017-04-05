@@ -7,7 +7,7 @@ The present chapter is aimed at studying the effects of alloying elements on the
 \section{Modeling and Calculations}
 
 \subsection{Calculation details}
-In the present work the Vienna ab-initio Simulation Package (VASP) \cite{Kresse1996} was employed to calculate the elastic properties of pure elements and Ti-containing binary systems in the bcc phase. The ion-electron interactions were described using the projector augmented wave (PAW) \cite{Kresse1999,Blochl1994} method. As discussed previously, the use of two X-C functionals were compared in this chapterand and based on the results the generalized gradient approach depicted by Perdew, Burke, and Ernzerhof (PBE-GGA) was employed \cite{Perdew1996a}. For consistency, a 310 eV energy cutoff was adopted for all calculations, which is roughly 1.3 times higher than the default value. The energy convergence criterion was 10$^{-6}$ eV/atom, and the Monkhorst-Pack scheme is used for Brillouin zone sampling \cite{Kresse1996,Monkhorst1976a}. The k-points grid for each calculation are listed in Appendix D.
+In the present work the Vienna ab-initio Simulation Package (VASP) \cite{Kresse1996} was employed to calculate the elastic properties of pure elements and Ti-containing binary systems in the bcc phase. The ion-electron interactions were described using the projector augmented wave (PAW) \cite{Kresse1999,Blochl1994} method. As discussed previously, the use of two X-C functionals were compared in this chapterand and based on the results the generalized gradient approach depicted by Perdew, Burke, and Ernzerhof (PBE-GGA) was employed \cite{Perdew1996a}. For consistency, a 310 eV energy cutoff was adopted for all calculations, which is roughly 1.3 times higher than the default value. The energy convergence criterion was 10$^{-6}$ eV/atom, and the Monkhorst-Pack scheme is used for Brillouin zone sampling \cite{Kresse1996,Monkhorst1976a}. The k-points grid for each calculation are listed in Appendix C.
 
 For the Ti-X binary systems, calculations for both dilute and SQS solutions were carried out. Three SQS cells with mole fractions of X atoms at 0.25, 0.5, and 0.75 were employed. Five dilute solutions were calculated for each Ti-X binary alloy using supercell sizes, i.e., Ti$_{53}$X (54-atom), Ti$_{15}$X (16-atom), Ti$_{7}$X (8-atom), X$_{15}$Ti (16-atom), and X$_{53}$Ti (54-atom). The interaction paramters for the  elastic stiffness constants were then determined according to the methodology laid out in chapter 2. 
 
@@ -19,42 +19,43 @@ The first-principles results were then used to model the elastic stiffness const
 
 \subsection{Evaluation of calculation settings}
 
-The X-C functionals of PW91 and PBE were tested on the Ti-Ta binary system. The results are plotted in Figure \ref{Ch5-figure:PBEvsPW91}. It is shown that the c$_{44}$ values of Ti-Ta alloys consistently differ around 10 GPa or less between the PW91 and PBE calculations. The c$_{11}$ and c$_{12}$ calculations differ less than 5 GPa. The c$_{11}$ and c$_{12}$ values with 25 at.$\%$ Ta from SQS calculations vary by 26 GPa and 13 GPa, respectively. Since overall the values vary by an error of less than 0.2 (calculated with Eq. \ref{eq: error}), it is concluded that the X-C functional choice does not make a significant difference in the results. The PBE functional was created after PW91 and meant to be an improvement on the PW91, discussed in more detail in Chapter 2, and was chosen for the present work. 
+The X-C functionals of PW91 and PBE were tested in the Ti-Ta binary system. The results are plotted in Figure \ref{Ch5-figure:PBEvsPW91}, showing the c$_{44}$ values differing by 10 GPa or less and the c$_{11}$ and c$_{12}$ values by less than 5 GPa for high Ta contents and by 26 GPa and 13 GPa with 25 at. \% Ta, respectively. Since overall the values vary by an error of less than 0.2 (calculated with Eq. \ref{eq: error}), and the PBE functional was developed as an improvement of the PW91 functional for metals, the PBE functional was chosen for the present work. 
 
-Three magnitudes of strain were tested on the Ti-Mo binary system and plotted in \ref{Ch5-figure:Strain}. The results show that the different strain magnitudes do not affect the results. For example, the data calculated using $\pm$0.01, $\pm$0.013, and $\pm$0.007 strains at Mo$_{15}$Ti for c$_{11}$ was 451 GPa, 450 GPa, and 450 GPa, respectively, varying within 1 GPa (< 1$\%$), similar to the variance in the c$_{12}$ and c$_{44}$ results. Overall, the variance in the c$_{11}$ and c$_{12}$ is less than 0.02 (Eq. \ref{eq: error}). The largest variance is seen in the Ti$_{50}$Mo$_{50}$, the c$_{44}$ values are 42 GPa, 42 GPa, and 65 GPa calculated with $\pm$0.01, $\pm$0.013, and $\pm$0.007 strains, respectively. Overall, the strain magnitude does not seem to affect the calculated results, and the $\pm$0.01 strain magnitude is thus used for all the calculations.
+Three magnitudes of strain are tested in the Ti-Mo binary system and plotted in Figure \ref{Ch5-figure:Strain}. The different strain magnitudes do not affect the results significantly. For example, the c$_{11}$ values calculated using $\pm$0.01, $\pm$0.013, and $\pm$0.007 strains at Mo$_{0.94}$Ti$_{0.06}$ are 451 GPa, 450 GPa, and 450 GPa, respectively, varying within 1 GPa (< 0.01). The variances in the c$_{12}$ and c$_{44}$ results are similar. Overall, the variances in the c$_{11}$ and c$_{12}$ are less than 0.02 (Eq. \ref{eq: error}). The largest variance is in the Ti$_{0.50}$Mo$_{0.50}$ where the c$_{44}$ values are 42 GPa, 42 GPa, and 65 GPa calculated with $\pm$0.01, $\pm$0.013, and $\pm$0.007 strains, respectively. Overall, the strain magnitude does not affect the calculated results significantly, and thus the $\pm$0.01 strain magnitude is used for all the calculations.
 
-\subsection{Calculations of the Ti-X elastic properties}
+\subsection{1.1	Calculations of elastic coefficients in Ti-X binary systems}
 
-The elastic stiffness constants and bulk modulus $B$ are calculated from c$_{ij}$ of pure elements in the bcc structure and reported in \ref{Ch5-table:pureeleelas}. The results in the present work were all obtained at 0 $^\circ$K without considering the effect of zero-point vibrational energy as discussed in the section of methodology. The results for Mo, Nb and Ta, which are stable in the bcc structure at low temperatures, are compared with experimental data at temperatures specified in the table \ref{Ch5-table:pureeleelas} \cite{Dickinson1967a,Bolef1961}. The error (Eq. \ref{eq: error}) between the present results and previous results for Mo, Nb and Ta are 0.0261, 0.075, and 0.0425, respectively \cite{Simmons1971b,Dickinson1967a,Bolef1961}. This discrepancy is partially due to the experimental values being obtained at higher temperatures than the calculations at 0 $^\circ$K. 
+The elastic stiffness coefficients and bulk moduli ($B$) are calculated for the pure elements in the bcc structure and reported in Table \ref{Ch5-table:pureeleelas}. The results in the present work are all obtained at 0 $^\circ$K without considering the effect of zero-point vibrational energy as discussed in the section of methodology. The results for Mo, Nb and Ta, which are stable in the bcc structure at low temperatures, are compared with experimental data at temperatures shown in Table \ref{Ch5-table:pureeleelas} \cite{Dickinson1967a,Bolef1961}. The error (Eq. \ref{eq: error}) between the present results and previous results for Mo, Nb and Ta are 0.0261, 0.075, and 0.0425, respectively \cite{Simmons1971b,Dickinson1967a,Bolef1961}. This discrepancy is due to the temperature difference between the experiments and calculations. The calculations are at 0 $^\circ$K while the experimental values were measured at higher temperatures. 
 
-Ti and Zr are stable in the hcp structure at low temperatures, and Sn is stable in the body centered tetragonal and diamond structures at low temperatures. Due to the instability of Ti, Sn and Zr in the bcc structure at low temperatures, their elastic stiffness coefficients are compared with previous first-principles calculations at 0 $^\circ$K \cite{Shang2010b} used the PW91 functional, and the errors are 0.024, 0.528 and 0.051, respectively. The differences are related to the instability of the bcc structure, the different exchange correlation functionals and the different input parameters chosen. Due to the bcc instability, multiple relaxation schemes were run in the present work to find the lowest energy structure retaining the bcc symmetry, making the results the most accurate representation of the bcc pure elements. 
- 
-Figure \ref{Ch5-figure:tixyoungs} summarizes the present Young's modulus results for each Ti-X binary system (circles). The solid lines are from the Voigt-Reuss-Hill approach with the elastic coefficients from the current modeling using Eq. \ref{eq: error} and the model parameters shown in Table \ref{Ch5-table:tixelasip}. The Hill average is plotted as a solid black line while the Voigt (high bound) and Reuss (low bound) are plotted as dotted lines and dashed lines, respectively. When the structures are stable the Voigt and Reuss do not vary drastically but when the structures is unstable the Voigt and Reuss show the high and low bounds of the modulus calculations with the Hill average being what the database will predict. The results calculated for the Ti-Mo, Ti-Nb, and Ti-Ta systems are compared with previous calculated results from Ikehata et al. \cite{Ikehata2004}, and the difference is due to the different input parameters and structures used at each composition. Ikehata et al. used the s electrons as the valance electrons for Ti and used the B2 structure for their Ti$_{0.5}$X$_{0.5}$ with Ti at the body centered site and X at the corner site. For the Ti$_{0.25}$X$_{0.75}$ and Ti$_{0.75}$X$_{0.25}$ structures they used the DO$_3$ structure with space group $Fm\overline{3}m$, as opposed to the BCC space group of $Im\overline{3}m$. While the present work used the p electrons as valance for Ti based on updated work and new recommendations by VASP and 16-atom SQS structures from Jiang et al. \cite{Jiang2004}. The SQS structures mimic the random substitution of elements that represent the atomic structures of solution phases better. The Ti-Mo, Ti-Nb and Ti-Ta alloy results are also compared with available experimental results \cite{Zhang2015,Boyer1994,Sung2015,Ozaki2004,Fedotov1985,Zhou2009a,Zhou2004a} in Table \ref{Ch5-table:tixelasdata}. 
+Ti and Zr are stable in the hcp structure at low temperatures, and Sn is stable in the body centered tetragonal and diamond structures at low temperatures. Due to the instability of Ti, Sn and Zr in the bcc structure at low temperatures, their elastic stiffness coefficients are compared to previous first-principles calculations at 0 $^\circ$K \cite{Shang2010b} that used the PW91 functional, and the errors are 0.024, 0.528 and 0.051, respectively. The differences are related to the instability of the bcc structure, the different exchange correlation functionals and the different input parameters chosen. Due to the bcc instability, multiple relaxation schemes are compared in the present work to find the lowest energy structure retaining the bcc symmetry, making the results the most accurate representation of the bcc pure elements.  
 
-Figure \ref{Ch5-figure:tixyoungs}a compares the present results for the Ti-Mo alloy system with experimental data from Zhang et al. \cite{Zhang2015}, Collings et al. \cite{Boyer1994}, and Sung et al. \cite{Sung2015}. It can be seen that the Young's modulus increases from pure Ti to pure Mo. The results from Sung et al. \cite{Sung2015} differ by about 60 GPa from the present work. However, during the x-ray diffraction and transmission electron microscopy investigations by Sung et al, one of the metastable phases, $\alpha$" and $\omega$, in addition to the bcc phase was observed in the samples. The $\omega$ phase is a hexagonal phase (space group P6/mmm) with lattice parameters closely matching those of the bcc phase, and the $\alpha$" phase is a martensitic orthorhombic phase (space group Cmcm). The formation of the $\alpha$" and $\omega$ phases causes variations in the mechanical properties and thus the mechanical properties are expected to vary from the elastic properties of the single bcc phase. Zhang et al. \cite{Zhang2015} and Collings et al. \cite{Boyer1994} did not observe the formation of either metastable phase. The Young's modulus determined by Zhang et al. and Collings et al. are predicted with the present Voigt-Reuss bounds but have an error of 0.39 (Eq. \ref{eq: error}) from the Hill average Young's modulus. 
+Figure \ref{Ch5-figure:tixyoungs} summarizes the present Young's modulus results for each Ti-X binary system (circles). The solid lines are estimated using the Voigt-Reuss-Hill approach with the elastic coefficients calculated from Eq. \ref{eq: elastic}. The model parameters are shown in Table \ref{Ch5-table:tixelasip}. The average from the Hill approach is plotted as a solid black line while those from the Voigt (high bound) and Reuss (low bound) approaches are plotted as dotted and dashed lines, respectively. For stable structures the Voigt and Reuss approaches do not vary drastically but when the structures are unstable the they show the high and low bounds of the modulus calculations, respectively, with the average from the Hill approach being the value that the database will predict. The results calculated for the Ti-Mo, Ti-Nb, and Ti-Ta systems are compared with previous calculated results from Ikehata et al. \cite{Ikehata2004}, and the differences are due to the different input parameters and structures used at each composition. Ikehata et al. used the s orbital electrons as the valance electrons for Ti and used the B2 structure for their Ti$_{0.5}$X$_{0.5}$ compositions with Ti at the body centered site and X at the corner sites. For the Ti$_{0.25}$X$_{0.75}$ and Ti$_{0.75}$X$_{0.25}$ structures they used the DO$_{3}$ structure with space group $Fm\overline{3}m$, and not the bcc space group of $Im\overline{3}m$. The present work uses the p electrons as valance electrons for Ti based on updated recommendations by VASP and 16-atom SQS from Jiang et al. \cite{Jiang2004}. The SQS mimic the random substitution of elements with less error and represent the atomic structures of solution phases better than ordered structures. The results for the Ti-Mo, Ti-Nb and Ti-Ta systems are compared to available experimental results \cite{Zhang2015,Boyer1994,Sung2015,Ozaki2004,Fedotov1985,Zhou2009a,Zhou2004a} in Table \ref{Ch5-table:tixelasdata}. 
 
-The present Young's moduli of the Ti-Nb alloy system are compared with data from Ozaki et al. \cite{Ozaki2004} and Collings et al. \cite{Boyer1994} in Figure \ref{Ch5-figure:tixyoungs}b, showing an increase in Young's modulus with an increase in Nb concentration. The analyses of the samples from the work by Ozaki et al. and Collings et al. showed that the alloys all contained the single bcc phase. The Young's modulus from the present first-principles calculations show an error of 0.09 (Eq. \ref{eq: error}) from the Young's modulus determined by Ozaki et al. and Collings et al. 
+Figure \ref{Ch5-figure:tixyoungs}a compares the present results for the Ti-Mo alloy system with experimental data from Zhang et al. \cite{Zhang2015}, Collings et al. \cite{Boyer1994} and Sung et al. \cite{Sung2015}. It can be seen that the Young's modulus increases from pure Ti to pure Mo. The results from Sung et al. \cite{Sung2015} differ by about 60 GPa from the present work. However, during the XRD and TEM investigations by Sung et al., one of the metastable phases, $\alpha"$ and $\omega$, was observed in the samples in addition to the bcc phase. The $\omega$ phase is a hexagonal phase (space group P6/mmm) with lattice parameters closely matching those of the bcc phase, and the $\alpha"$ phase is a martensitic orthorhombic phase (space group Cmcm). The formation of the $\alpha"$ and $\omega$ phases causes variations in the elastic properties from those of the single bcc phase. Zhang et al. \cite{Zhang2015} and Collings et al. \cite{Boyer1994} did not observe the formation of either metastable phase. The Young's modulus determined by Zhang et al. and Collings et al. agree with the present Voigt-Reuss bounds but have an error of 0.39 (Eq. \ref{eq: error}) from the Hill average Young's modulus. 
 
-Figure \ref{Ch5-figure:tixyoungs}d shows the Young's modulus calculation results for the Ti-Ta alloy system and compares them to the experimental Young's modulus values determined by Fedotov et al. \cite{Fedotov1985} and Zhou et al. \cite{Zhou2004a,Zhou2009a}. The Young's modulus in the Ti-Ta system increases from pure Ti to pure Ta, and the calculated Yougn's moduli have an error of 0.19 (Eq. \ref{eq: error}) compared to the experimental Young's moduli \cite{Fedotov1985,Zhou2004a,Zhou2009a}. 
+The present Young's modulus of the Ti-Nb system are compared with data from Ozaki et al. \cite{Ozaki2004} and Collings et al. \cite{Boyer1994} in Figure \ref{Ch5-figure:tixyoungs}b, showing an increase in Young's modulus with an increase in the Nb concentration. The analyses of the samples from the work by Ozaki et al. and Collings et al. depict that all alloys contained the single bcc phase. The Young's modulus from the present first-principles calculations show an error of 0.09 (Eq. \ref{eq: error}) compared to the Young's modulus determined by Ozaki et al. and Collings et al. 
 
-The error between the experimentally determined Young's moduli and the calculated Young's moduli is expected due to the temperature difference (calculations at 0 $^{\circ}$K and experiments at 298 $^{\circ}$K). The experimentally determined Young's moduli fit well within the Voigt and Reuss bounds and the present calculations provide good prediction of the elastic properties of the Ti-Mo, Ti-Nb and Ti-Ta alloys as a function of composition.
+Figure \ref{Ch5-figure:tixyoungs}d shows the calculated Young's modulus for the Ti-Ta system in comparison with the experimental values determined by Fedotov et al. \cite{Fedotov1985} and Zhou et al. \cite{Zhou2004a,Zhou2009a}. The Young's modulus in the Ti-Ta alloy system increases from pure Ti to pure Ta, and the calculated Young's moduli have an error of 0.19 (Eq. \ref{eq: error}) compared to the experimental Young’s moduli \cite{Fedotov1985,Zhou2004a,Zhou2009a}.  
 
-The calculated Young's moduli for the Ti-Sn (Figure \ref{Ch5-figure:tixyoungs}c) and Ti-Zr (Figure \ref{Ch5-figure:tixyoungs}e)  systems cannot be compared to experimental data because the bcc phase is not stable in these systems at low temperatures. For the Ti-Sn alloy system the Young's modulus increases from 0  to ~35 at. \% Sn and then decreases from ~35 to 100 at. \% Sn. The Young's modulus data, for the Ti-Zr alloy system, increases from 0 to 40 at. \% Zr, and then decreases from 40 to 100 at. \% Zr. Figure \ref{Ch5-figure:tixmap} plots the Young's modulus as a function of composition from pure Ti in the bcc structure to the alloying element (X = Mo, Nb, Sn, Ta, Zr) and compares the effects of each alloying element on the Young's modulus.
+The error between the experimentally determined Young's moduli and the calculated Young's moduli is expected due to the temperature difference (calculations at 0 $^\circ$K and experiments at 298 $^\circ$K). The experimentally determined Young's moduli agree well within the Voigt and Reuss bounds, and the present calculations provide good prediction of the elastic properties of the Ti-Mo, Ti-Nb and Ti-Ta alloys as a function of composition.
 
-Figure \ref{Ch5-figure:tixc11} to Figure \ref{Ch5-figure:tixc44} plots the calculated elastic stiffness constants, $\overline{C}_{11}$, $\overline{C}_{12}$, $\overline{C}_{44}$ (circles) and compares them with the elastic stiffness constants fitting (solid line) and linear extrapolation between the pure elements for each binary alloy, Ti-Mo, Ti-Nb, Ti-Sn, Ti-Ta, and Ti-Zr. The previous results from Ikehata et al. \cite{Ikehata2004} are plotted for comparison for the Ti-Mo, Ti-Nb, and Ti-Ta alloys. It can be seen that Mo, Nb, and Ta effect the elastic stiffness constants in a similar fashion. As shown in Figure \ref{Ch5-figure:tixc11}a, \ref{Ch5-figure:tixc11}b and \ref{Ch5-figure:tixc11}d the $\overline{C}_{11}$ increases from Ti to X (Mo, Nb, Ta). Figure \ref{Ch5-figure:tixc44}a, \ref{Ch5-figure:tixc44}b and \ref{Ch5-figure:tixc44}d show that the $\overline{C}_{44}$ values first decrease and then increase with the addition of the alloying element X (X = Mo, Nb, and Ta). The calculated $\overline{C}_{12}$ increases by the addition of Mo or Ta (Figure \ref{Ch5-figure:tixc12}a and Figure \ref{Ch5-figure:tixc12}d, respectively), and the $\overline{C}_{12}$ first decreases and then increases by the addition of Nb (Figure \ref{Ch5-figure:tixc12}b). A similar trend is shown in the $\overline{C}_{11}$ and $\overline{C}_{12}$ data for the Ti-Sn system (Figure \ref{Ch5-figure:tixc11} and Figure \ref{Ch5-figure:tixc12}c). The $\overline{C}_{11}$ and $\overline{C}_{12}$ values first increase and then decrease from pure Ti to pure Sn. As seen in Figure \ref{Ch5-figure:tixc44}c, the $\overline{C}_{44}$ first increases, then decreases, and then increases again from pure Ti to pure Sn. In the Ti-Zr system, the $\overline{C}_{11}$ and $\overline{C}_{44}$ values first increase and then decrease with increasing Zr concentration (Figure \ref{Ch5-figure:tixc11}e and Figure \ref{Ch5-figure:tixc44}e). For the Ti-Zr system, the calculated $\overline{C}_{12}$ values first decrease and then increase, as shown in Figure \ref{Ch5-figure:tixc12}e.
+The calculated Young's moduli for the Ti-Sn (Figure \ref{Ch5-figure:tixyoungs}c) and Ti-Zr (Figure \ref{Ch5-figure:tixyoungs}e) systems cannot be compared to experimental data because the bcc phase is not stable in these systems at low temperatures. For the Ti-Sn alloy system the Young's modulus increases from 0 to ~35 at. \% Sn and then decreases from ~35 to 100 at. \% Sn. The Young's modulus data of the Ti-Zr alloy system increases from 0 to 40 at. \% Zr, and then decreases from 40 to 100 at. \% Zr. Figure \ref{Ch5-figure:tixmap} plots the Young's modulus as a function of composition from pure Ti in the bcc structure to the alloying element (X = Mo, Nb, Sn, Ta, Zr) and compares the effects of each alloying element on the Young's modulus.
 
-As discussed in the methodology (chapter 2), the instability of the bcc phase can be determined by Born's criteria (Eq. \ref{eq: born1}-\ref{eq: born3}). The look at the bcc stability the $\overline{C}_{11}$ - $\overline{C}_{12}$ values from the first-principles calculations and modeling are plotted in Figure \ref{Ch5-figure:tixc11-c12}. When the $\overline{C}_{11}$ - $\overline{C}_{12}$ is positive the bcc phase is mechanically stable and when the $\overline{C}_{11}$ - $\overline{C}_{12}$ is negative the bcc phase is mechanically unstable. The bcc phase is mechanically unstable at Mo, Nb, Sn, Ta, and Zr concentrations of less than 5.5, 11.5, 51.5, 9.5 and 4.0 at. \%, respectively. Figure \ref{Ch5-figure:tixbulk} and Figure \ref{Ch5-figure:tixshear} show the shear ($G$) and bulk moduli ($B$) of the Ti-X (X = Mo, Nb, Sn, Ta, Zr) systems, with the present results (circles), the Hill average (solid black line), and Voigt (purple dashed line) and Reuss (yellow dashed line) bounds plotted. Similar trends in the $B$ and $G$ data are seen for the Ti-Mo, Ti-Nb and Ti-Ta systems. The $B$ and $G$ increase with increasing Mo, Nb and Ta concentration, as shown in Figure \ref{Ch5-figure:tixbulk} and Figure \ref{Ch5-figure:tixshear}, respectively.  The bulk and shear moduli values increase and then decrease from pure Ti to pure Sn in the Ti-Sn system (Figure \ref{Ch5-figure:tixbulk}c and Figure \ref{Ch5-figure:tixshear}c). In the Ti-Zr system, the $B$ decreases from pure Ti to pure Zr (Figure \ref{Ch5-figure:tixbulk}e) and the $G$ first increases and then decreases from pure Ti to pure Zr (Figure \ref{Ch5-figure:tixshear}e). 
+Figure \ref{Ch5-figure:tixc11} to Figure \ref{Ch5-figure:tixc44} compare the calculated elastic stiffness coefficients, $\overline{C}_{11}$, $\overline{C}_{12}$, $\overline{C}_{44}$ (circles) with the currently modeled elastic stiffness coefficients (solid line) and linear combination from the pure elements for Ti-Mo, Ti-Nb, Ti-Sn, Ti-Ta, and Ti-Zr binary alloys. The previous results from Ikehata et al. \cite{Ikehata2004} are plotted for comparison for the Ti-Mo, Ti-Nb, and Ti-Ta alloys. It can be seen that Mo, Nb, and Ta affect the elastic stiffness coefficients in a similar fashion. As shown in Figure \ref{Ch5-figure:tixc11}a, \ref{Ch5-figure:tixc11}b and \ref{Ch5-figure:tixc11}d the $\overline{C}_{11}$ increases from Ti to X (X = Mo, Nb, Ta). \ref{Ch5-figure:tixc44}a, \ref{Ch5-figure:tixc44}b and \ref{Ch5-figure:tixc44}d show that the $\overline{C}_{44}$ values first decrease and then increase with the addition of the alloying element X (X = Mo, Nb and Ta). The calculated $\overline{C}_{12}$ increases by the addition of Mo or Ta (Figure \ref{Ch5-figure:tixc12}a and Figure \ref{Ch5-figure:tixc12}d, respectively), and the $\overline{C}_{12}$ first decreases and then increases by the addition of Nb (Figure \ref{Ch5-figure:tixc12}b). A similar trend is shown in the $\overline{C}_{11}$ and $\overline{C}_{12}$ data for the Ti-Sn system (Figure \ref{Ch5-figure:tixc11} and Figure \ref{Ch5-figure:tixc12}c). The $\overline{C}_{11}$ and $\overline{C}_{12}$ values first increase and then decrease from pure Ti to pure Sn. As seen in Figure \ref{Ch5-figure:tixc44}c, $\overline{C}_{44}$ first increases, then decreases, and then increases again from pure Ti to pure Sn. In the Ti-Zr system, the $\overline{C}_{11}$ and $\overline{C}_{44}$ values first increase and then decrease with increasing Zr concentration (Figure \ref{Ch5-figure:tixc11}e and Figure \ref{Ch5-figure:tixc44}e). For the Ti-Zr system, the calculated $\overline{C}_{12}$ values first decrease and then increase, as shown in Figure \ref{Ch5-figure:tixc12}e. The calculated values are listed in Table \ref{Ch5-table:tixelasdata}.
+
+As discussed in the methodology (chapter 2), the instability of the bcc phase can be determined by Born's criteria (Eq. \ref{eq: born1}-\ref{eq: born3}). Figure \ref{Ch5-figure:tixc11-c12} shows the $\overline{C}_{11}$ - $\overline{C}_{12}$ values from first-principles calculations and the present modeling, indicating the stability and instability regions of the bcc phase in different Ti-alloys. When the $\overline{C}_{11}$ - $\overline{C}_{12}$ is positive the bcc phase is mechanically stable and when the $\overline{C}_{11}$ - $\overline{C}_{12}$ is negative the bcc phase is mechanically unstable. The bcc phase is mechanically unstable at Mo, Nb, Sn, Ta, and Zr concentrations of less than 5.5, 11.5, 51.5, 9.5 and 4.0 at. \%, respectively. Alloying with only 4.0 at. \% Zr stabilizes the bcc phase, which is the lowest alloying concentration of any of the alloying elements even though it is known as a weak $\beta$-stabilizer. 5.5, 9.5 and 11.5 at. \% of Mo, Ta and Nb, respectively, are needed to alloy with Ti in order to stabilize the bcc phase. Mo, Nb, and Ta are similar elements that are all stable in the bcc phase and known to be $\beta$-stabilizers. 51.5 at. \% of Sn is needed to stabilize the bcc phase when alloyed with Ti. Sn is not stable in the bcc phase and is not a $\beta$-stabilizer. Based on the $E$ mapping in Figure \ref{Ch5-figure:tixmap}, the compositions that fall into the target $E$ range for the biomedical application (10-40 GPa) are targeted. However, the bcc phase of the targeted alloy compositions needs to be stable, which is determined by Figure \ref{Ch5-figure:tixc11-c12}. Using these results, the composition range for each Ti-X alloy that has the target $E$ and the bcc phase stable are listed in Table \ref{Ch5-table:targetalloys}. The Ti-Mo, Ti-Nb, Ti-Ta and Ti-Zr alloys show small compositions ranges where both the criteria are met while Ti-Sn has no composition range that stabilizes the bcc phase and has the target $E$. From these results, alloying with more than one element is probably required to reach the properties desired. 
+
+Figure \ref{Ch5-figure:tixbulk} and Figure \ref{Ch5-figure:tixshear} show the shear ($G$) and bulk moduli ($B$) of the Ti-X (X = Mo, Nb, Sn, Ta, Zr) systems, with the present results (circles), the Hill average (solid black line), and Voigt (purple dashed line) and Reuss (yellow dashed line) bounds plotted. Similar trends in the $B$ and $G$ data are seen for the Ti-Mo, Ti-Nb and Ti-Ta systems. The $B$ and $G$ increase with increasing Mo, Nb and Ta concentration, as shown in Figure \ref{Ch5-figure:tixbulk} and Figure \ref{Ch5-figure:tixshear}, respectively. The bulk and shear moduli values increase and then decrease from pure Ti to pure Sn in the Ti-Sn system (Figure 9c and Figure 10c). In the Ti-Zr system, the $B$ decreases from pure Ti to pure Zr (Figure \ref{Ch5-figure:tixbulk}e) and the $G$ first increases and then decreases from pure Ti to pure Zr (Figure \ref{Ch5-figure:tixshear}e). The calculated values are listed in Table \ref{Ch5-table:tixelasdata}. 
 
 \subsection{Extrapolation to ternary and higher ordered systems}
 
-The interaction parameters in Table \ref{Ch5-table:tixelasip} can be used to predict the elastic stiffness constants of higher order Ti-alloys by summing the interaction parameters of each binary alloy contained in the multi-component alloy from Eq. \ref{eq: elastic}. The predicted elastic stiffness constants of the multi-component alloys can be used to calculate the Young's modulus as a function of composition, as shown in Figure \ref{Ch5-figure:tixmap}. The Hill average is plotted as a solid line while the Voigt and Reuss bounds are plotted as dotted and dashed lines, respectively. The accuracy of prediction of the elastic properties of higher ordered Ti alloys are evaluated by comparing the predicted results with previous experimental results \cite{Niinomi2012,Tane2010a,Geetha2009,Mohammed2014} as shown in Figure \ref{Ch5-figure:tixdatabase} and Table \ref{Ch5-table:tixdatacomp}. The black diagonal line represents a perfect correlation between the predicted and experimental Young's modulus. The grey region is the error (3 GPa) in the first-principles calculations, which is the average variance in $\overline{C}_{11}$, $\overline{C}_{12}$ and $\overline{C}_{44}$ from Eq. \ref{eq: averagec11}-\ref{eq: averagec44}. 
+The interaction parameters in Table \ref{Ch5-table:tixelasip} can be used to predict the elastic stiffness coefficients of higher order Ti-alloys by summing the interaction parameters of each binary alloy contained in the multi-component alloy from Eq. \ref{eq: elastic}. The predicted elastic stiffness coefficients of the multi-component alloys can be used to calculate the Young's modulus as a function of composition, as shown in Figure \ref{Ch5-figure:tixmap}. The average from the Hill approach is plotted as a solid line while the Voigt and Reuss bounds are plotted as dotted and dashed lines, respectively. The accuracy of prediction of the elastic properties of higher ordered Ti alloys are evaluated by comparing the predicted results with previous experimental results \cite{Niinomi2012,Tane2010a,Geetha2009,Mohammed2014} as shown in Figure \ref{Ch5-figure:tixdatabase} and Table \ref{Ch5-table:tixdatacomp}. The black diagonal line represents a perfect correlation between the predicted and experimental Young's moduli. The grey region indicates the error (3 GPa) in the first-principles calculations, which is the average variance in $\overline{C}_{11}$, $\overline{C}_{12}$ and $\overline{C}_{44}$ from Eq. \ref{eq: averagec11}-\ref{eq: averagec44}. 
 
-It  can be seen that, the difference between experimental $E$ at the same composition from Niinomi et al. \cite{Niinomi2012}, Geetha et al. \cite{Geetha2009}, Tane et al. \cite{Tane2010a} and Mohammad et al. \cite{Mohammed2014} varies from 2 GPa to 46 GPa, based on the heat treatments and measuring techniques. The scattering in the Young's moduli among experimental measurements is denoted by the vertical error bars in Figure \ref{Ch5-figure:tixdatabase}. The horizontal error bars show the Reuss and Voigt Young's moduli ranges with the Hill average marked by the circle. The experimental Young's moduli deviate from the present predictions by 0.69 to 14 GPa. This difference is due to the temperature difference between the first-principles data and the experimental results. Considering the fact that the experimental results from the literature at the same composition vary drastically, the present first-principles calculations give a good representation of the elastic properties of higher order Ti-alloys. Introducing the binary interaction parameters of non-Ti containing alloys in the system and the ternary interaction parameters can further improve the database predictions. 
-
+It can be seen that the difference between experimental Young's moduli at the same composition from Niinomi et al. \cite{Niinomi2012}, Geetha et al. \cite{Geetha2009}, Tane et al. \cite{Tane2010a} and Mohammad et al. \cite{Mohammed2014} varies from 2 GPa to 46 GPa with different heat treatments and measuring techniques. The scattering in the Young's moduli among experimental measurements is denoted by the vertical error bars in Figure \ref{Ch5-figure:tixdatabase}. The horizontal error bars show the Young's moduli ranges from the Reuss and Voigt bonds with the average from the Hill approach marked by the circle. The experimental Young's moduli deviate from the present predictions by 0.69 to 14 GPa. This difference can be contributed to the temperature difference between the first-principles data and the experimental results and uncertainties in calculations and experiments. Considering the fact that the experimental results from the literature at the same composition vary drastically, the present first-principles calculations give a good representation of the elastic properties of higher order Ti-alloys. Introducing the binary interaction parameters of non-Ti containing alloys in the system and the ternary interaction parameters can further improve the database predictions. 
 
 \section{Conclusion}
 
-The effects of five alloying elements on the elastic properties of bcc Ti-X (X = Mo, Nb, Sn, Ta, Zr) alloys, including the elastic stiffness constants, bulk modulus, shear modulus, and Young's modulus, were systematically studied using first-principles calculations. The CALPAHD methodology was used to evaluate interaction parameters to predict the elastic properties as a function of composition. The present calculations show that 5.5, 11.5, 51.5, 9.5, and 4.0 at. \% of Mo, Nb, Sn, Ta and Zr, respectively, was required to stabilize the bcc phase according to the Born criteria. The trends observed were summarized for each Ti-X (X= Mo, Nb, Sn, Ta, Zr) binary system. Alloying with Mo, Nb, and Ta results in similar trends, which is probably because Mo, Nb, and Ta are strong bcc stabilizers and stable in the bcc structure at room temperature. The interaction parameters determined in the current work were used to predict the elastic properties of higher order alloys. The accuracy of database predictions of the Young's modulus was evaluated by comparing the calculated and experimental Young's moduli. Overall, the database provides good predictions of the elastic properties of Ti-alloys in the bcc phase as a function of composition. 
+The elastic properties of five bcc Ti-X (X = Mo, Nb, Sn, Ta, Zr) systems, including the elastic stiffness coefficients, bulk modulus, shear modulus, and Young's modulus, were systematically studied using first-principles calculations at different compositions. The CALPAHD methodology was used to evaluate interaction parameters of the elastic properties as a function of composition. The present calculations showed that 5.5, 11.5, 51.5, 9.5, and 4.0 at. \% of Mo, Nb, Sn, Ta and Zr, respectively, are required to stabilize the bcc sutrcture according to the Born criteria. The trends observed were summarized for each Ti-X (X= Mo, Nb, Sn, Ta, Zr) binary system. Alloying with Mo, Nb, and Ta resulted in similar trends, which is probably because Mo, Nb, and Ta are strong bcc stabilizers and stable in the bcc structure at room temperature. The interaction parameters determined in the current work were used to predict the elastic properties of higher order alloys. The accuracy of database predictions of the Young's modulus was evaluated by comparing the calculated and experimental Young's moduli. Overall, the database provided good predictions of the elastic properties of Ti-alloys in the bcc phase as a function of composition. 
 
 \newpage
 \begin{table}[H]
@@ -64,21 +65,21 @@ The effects of five alloying elements on the elastic properties of bcc Ti-X (X =
 		\hline
 		Pure Elements & & $\bar{C}_{11}$ & $\bar{C}_{11}$  & $\bar{C}_{11}$ & \textit{B}\\
 		\hline
-		Ti$\_$sv & This work 0 K & 93 & 115 & 41 & 108\\
-		& Calc 0 K \cite{Shang2010b} & 96 & 116 & 40 & 107\\
-		Mo$\_$pv & This work 0 K & 475 & 164 & 108 & 268\\
-		& Expt 73 K \cite{Simmons1971b} & 473 & 156 & 111 &\\
-		& Expt 300 K \cite{Dickinson1967a} & 473 & 160 & 109 & 261\\
-		Nb$\_$sv & This work 0 K & 245 & 144 & 27 & 178\\
-		& Expt 4 K \cite{Simmons1971b} & 253 & 133 & 31 & \\
-		& Expt 300 K \cite{Bolef1961} & 247 & 135 & 29 & 172\\
-		Sn$\_$d & This work 0 K & 50 & 52 & 29 & 51\\
-		& Calc 0 K \cite{Shang2010b} & 30 & 60 & 18 & 48\\
-		Ta$\_$pv & This work 0 K & 278 & 164 & 81 & 202\\
-		& Expt 0 K \cite{Simmons1971b} & 266 & 158 & 87 & \\
-		& Expt 300 K \cite{Bolef1961} & 267 & 161 & 83 & 196\\
-		Zr$\_$sv & This work 0 K & 86 & 91 & 32 & 89\\
-		& Calc 0 K \cite{Shang2010b} & 82 & 94 & 30 & 90\\
+		Ti$\_$sv & This work 0 $^\circ$K & 93 & 115 & 41 & 108\\
+		& Calc 0 $^\circ$K \cite{Shang2010b} & 96 & 116 & 40 & 107\\
+		Mo$\_$pv & This work 0 $^\circ$K & 475 & 164 & 108 & 268\\
+		& Expt 73 $^\circ$K \cite{Simmons1971b} & 473 & 156 & 111 &\\
+		& Expt 300 $^\circ$K \cite{Dickinson1967a} & 473 & 160 & 109 & 261\\
+		Nb$\_$sv & This work 0 $^\circ$K & 245 & 144 & 27 & 178\\
+		& Expt 4 $^\circ$K \cite{Simmons1971b} & 253 & 133 & 31 & \\
+		& Expt 300 $^\circ$K \cite{Bolef1961} & 247 & 135 & 29 & 172\\
+		Sn$\_$d & This work 0 $^\circ$K & 50 & 52 & 29 & 51\\
+		& Calc 0 $^\circ$K \cite{Shang2010b} & 30 & 60 & 18 & 48\\
+		Ta$\_$pv & This work 0 $^\circ$K & 278 & 164 & 81 & 202\\
+		& Expt 0 $^\circ$K \cite{Simmons1971b} & 266 & 158 & 87 & \\
+		& Expt 300 $^\circ$K \cite{Bolef1961} & 267 & 161 & 83 & 196\\
+		Zr$\_$sv & This work 0 $^\circ$K & 86 & 91 & 32 & 89\\
+		& Calc 0 $^\circ$K \cite{Shang2010b} & 82 & 94 & 30 & 90\\
 		\hline
 	\end{tabular}
 	\label{Ch5-table:pureeleelas}
@@ -111,67 +112,87 @@ The effects of five alloying elements on the elastic properties of bcc Ti-X (X =
 \begin{longtable}[H]{ c c c c c c c c}
 	\caption{First-principles calculations of the elastic stiffness constants, bulk modulus $B$, shear modulus $G$, and Young's modulus $E$ in GPa for different atomic percent compositions of the bcc Ti-X binary systems at 0 $^\circ$K. As well as experimental data for the Young's modulus obtained at 300 $^\circ$K by the reference stated.} 	\label{Ch5-table:tixelasdata} \\
 	\hline
-	Reference & Ti$_{100-b}$X$_b$ & $\overline{C}_{11}$ & $\overline{C}_{12}$ & $\overline{C}_{44}$ & \textit{B} & \textit{G} & \textit{E}\\
+	Reference & Ti$_{1-b}$X$_b$ & $\overline{C}_{11}$ & $\overline{C}_{12}$ & $\overline{C}_{44}$ & \textit{B} & \textit{G} & \textit{E}\\
 	\hline
 	\endhead
 	\hline
 	\endfoot
 	This work & Ti & 93 & 115 & 41 & 108 & -12.91 & -40.34\\
-	This work & TiMo$_{6.3}$ & 124 & 111 & 38 & 115 & 20 & 54\\
-	This work & TiMo$_{12.5}$ & 146 & 113 & 29 & 124 & 23 & 65\\
-	This work & TiMo$_{25}$ & 178 $\pm$3 & 123 $\pm$15 & 32 $\pm$11 & 141 $\pm$15 & 30 $\pm$15 & 84 $\pm$15\\
-	This work & TiMo$_{50}$ & 268 $\pm$9 & 136 $\pm$19 & 42 $\pm$9 & 180 $\pm$19 & 51 $\pm$19 & 138 $\pm$19\\
-	This work & TiMo$_{75}$ & 385 $\pm$9 & 146 $\pm$6 & 66 $\pm$6 & 226 $\pm$9 & 84 $\pm$9 & 224 $\pm$9\\
-	This work & TiMo$_{93.8}$ & 451 & 158 & 96 & 256 & 114 & 397\\
-	This work & TiMo$_{98.1}$ & 464 & 163 & 100 & 263 & 118 & 308\\
+	This work & Ti$_{0.94}$Mo$_{0.06}$ & 124 & 111 & 38 & 115 & 20 & 54\\
+	This work & Ti$_{0.87}$Mo$_{0.13}$ & 146 & 113 & 29 & 124 & 23 & 65\\
+	This work & Ti$_{0.75}$Mo$_{0.25}$ & 178 $\pm$3 & 123 $\pm$15 & 32 $\pm$11 & 141 $\pm$15 & 30 $\pm$15 & 84 $\pm$15\\
+	This work & Ti$_{0.50}$Mo$_{0.50}$ & 268 $\pm$9 & 136 $\pm$19 & 42 $\pm$9 & 180 $\pm$19 & 51 $\pm$19 & 138 $\pm$19\\
+	This work & Ti$_{0.25}$Mo$_{0.75}$ & 385 $\pm$9 & 146 $\pm$6 & 66 $\pm$6 & 226 $\pm$9 & 84 $\pm$9 & 224 $\pm$9\\
+	This work & Ti$_{0.06}$Mo$_{0.94}$ & 451 & 158 & 96 & 256 & 114 & 397\\
+	This work & Ti$_{0.02}$Mo$_{0.98}$ & 464 & 163 & 100 & 263 & 118 & 308\\
 	This work & Mo & 475 & 164 & 108 & 268 & 125 & 325\\
-	Expt 300 K \cite{Zhang2015} & TiMo$_8$ & & & & & & 83\\
-	Expt 300 K \cite{Zhang2015} & TiMo$_{12}$ & & & & & & 90\\
-	Expt 300 K \cite{Boyer1994} & TiMo$_{8}$ & & & & & & 84\\
-	Expt 300 K \cite{Boyer1994} & TiMo$_{11}$ & & & & & & 89\\
-	Expt 300 K \cite{Boyer1994} & TiMo$_{18}$ & & & & & & 101\\
-	This work & TiNb$_{1.9}$ & 93 & 115 & 35 & 108 & -18 & -56\\
-	This work & TiNb$_{12.5}$ & 116 & 116 & 37 & 116 & 11 & 31\\
-	This work & TiNb$_{25}$ & 140 $\pm$11 & 116 $\pm$13 & 34 $\pm$10 & 124 $\pm$13 & 22 $\pm$13 & 63 $\pm$13\\
-	This work & TiNb$_{50}$ & 181 $\pm$9 & 121 $\pm$2 & 31 $\pm$10 & 141 $\pm$9 & 31 $\pm$10 & 86 $\pm$10\\
-	This work & TiNb$_{75}$ & 208 $\pm$3 & 130 $\pm$4 & 15 $\pm$10 & 156 $\pm$4 & 22 $\pm$10 & 64 $\pm$10\\
-	This work & TiNb$_{93.8}$ & 242 & 134 & 18 & 170 & 28 & 81\\
-	This work & TiNb$_{98.1}$ & 242 & 134 & 18 & 170 & 28 & 81\\
+	Expt 300 K \cite{Zhang2015} & Ti$_{0.92}$Mo$_{0.08}$ & & & & & & 83\\
+	Expt 300 K \cite{Zhang2015} & Ti$_{0.88}$Mo$_{0.12}$ & & & & & & 90\\
+	Expt 300 K \cite{Boyer1994} & Ti$_{0.92}$Mo$_{0.08}$ & & & & & & 84\\
+	Expt 300 K \cite{Boyer1994} & Ti$_{0.89}$Mo$_{0.11}$ & & & & & & 89\\
+	Expt 300 K \cite{Boyer1994} & Ti$_{0.82}$Mo$_{0.18}$ & & & & & & 101\\
+	This work & Ti$_{0.98}$Nb$_{0.02}$ & 93 & 115 & 35 & 108 & -18 & -56\\
+	This work & Ti$_{0.87}$Nb$_{0.13}$ & 116 & 116 & 37 & 116 & 11 & 31\\
+	This work & Ti$_{0.75}$Nb$_{0.25}$ & 140 $\pm$11 & 116 $\pm$13 & 34 $\pm$10 & 124 $\pm$13 & 22 $\pm$13 & 63 $\pm$13\\
+	This work & Ti$_{0.50}$Nb$_{0.50}$ & 181 $\pm$9 & 121 $\pm$2 & 31 $\pm$10 & 141 $\pm$9 & 31 $\pm$10 & 86 $\pm$10\\
+	This work & Ti$_{0.25}$Nb$_{0.75}$ & 208 $\pm$3 & 130 $\pm$4 & 15 $\pm$10 & 156 $\pm$4 & 22 $\pm$10 & 64 $\pm$10\\
+	This work & Ti$_{0.06}$Nb$_{0.94}$ & 242 & 134 & 18 & 170 & 28 & 81\\
+	This work & Ti$_{0.02}$Nb$_{0.98}$ & 242 & 134 & 18 & 170 & 28 & 81\\
 	This work & Nb & 245 & 144 & 27 & 178 & 35 & 98\\
-	Expt 300 K \cite{Ozaki2004} & TiNb$_{29}$ & & & & & & 67\\
-	Expt 300 K \cite{Ozaki2004} & TiNb$_{34}$ & & & & & & 74\\
-	Expt 300 K \cite{Ozaki2004} & TiNb$_{44}$ & & & & & & 84\\
-	Expt 300 K \cite{Boyer1994} & TiNb$_{26}$ & & & & & & 64\\
-	Expt 300 K \cite{Boyer1994} & TiNb$_{30}$ & & & & & & 65\\
-	Expt 300 K \cite{Boyer1994} & TiNb$_{34}$ & & & & & & 73\\
-	Expt 300 K \cite{Boyer1994} & TiNb$_{44}$ & & & & & & 83\\
-	This work & TiSn$_{6.3}$ & 100 & 122 & 46 & 115 & -10 & -30\\
-	This work & TiSn$_{25}$ & 105 $\pm$5 & 114 $\pm$2 & 60 $\pm$4 & 111 $\pm$5 & 11 $\pm$5 & 31 $\pm$5\\
-	This work & TiSn$_{50}$ & 88 $\pm$9 & 93 $\pm$9 & 46 $\pm$4 & 91 $\pm$9 & 10 $\pm$9 & 29 $\pm$9\\
-	This work & TiSn$_{75}$ & 92 $\pm$9 & 55 $\pm$7 & 35 $\pm$8 & 67 $\pm$9 & 27 $\pm$9 & 72 $\pm$9\\
+	Expt 300 K \cite{Ozaki2004} & Ti$_{0.71}$Nb$_{0.29}$ & & & & & & 67\\
+	Expt 300 K \cite{Ozaki2004} & Ti$_{0.66}$Nb$_{0.34}$ & & & & & & 74\\
+	Expt 300 K \cite{Ozaki2004} & Ti$_{0.56}$Nb$_{0.44}$ & & & & & & 84\\
+	Expt 300 K \cite{Boyer1994} & Ti$_{0.74}$Nb$_{0.26}$ & & & & & & 64\\
+	Expt 300 K \cite{Boyer1994} & Ti$_{0.70}$Nb$_{0.30}$ & & & & & & 65\\
+	Expt 300 K \cite{Boyer1994} & Ti$_{0.66}$Nb$_{0.34}$ & & & & & & 73\\
+	Expt 300 K \cite{Boyer1994} & Ti$_{0.56}$Nb$_{0.44}$ & & & & & & 83\\
+	This work & Ti$_{0.94}$Sn$_{0.06}$ & 100 & 122 & 46 & 115 & -10 & -30\\
+	This work & Ti$_{0.75}$Sn$_{0.25}$ & 105 $\pm$5 & 114 $\pm$2 & 60 $\pm$4 & 111 $\pm$5 & 11 $\pm$5 & 31 $\pm$5\\
+	This work & Ti$_{0.50}$Sn$_{0.50}$ & 88 $\pm$9 & 93 $\pm$9 & 46 $\pm$4 & 91 $\pm$9 & 10 $\pm$9 & 29 $\pm$9\\
+	This work & Ti$_{0.25}$Sn$_{0.75}$ & 92 $\pm$9 & 55 $\pm$7 & 35 $\pm$8 & 67 $\pm$9 & 27 $\pm$9 & 72 $\pm$9\\
 	This work & Sn & 50 & 52 & 29 & 51 & 7 & 21\\
-	This work & TiTa$_{1.9}$ & 100 & 115 & 39 & 110 & -3 & -9\\
-	This work & TiTa$_{6.3}$ & 116 & 113 & 30 & 114 & 11 & 32\\
-	This work & TiTa$_{12.5}$ & 120 & 121 & 39 & 121 & 11 & 32\\
-	This work & TiTa$_{25}$ & 167 $\pm$1 & 140 $\pm$3 & 45 & 149 $\pm$3 & 28 $\pm$3 & 78 $\pm$3\\
-	This work & TiTa$_{50}$ & 208 $\pm$1 & 159 & 51 $\pm$3 & 175 $\pm$1 & 38 $\pm$3 & 106 $\pm$3\\
-	This work & TiTa$_{75}$ & 239 $\pm$7 & 143 $\pm$5 & 62 $\pm$3 & 175 $\pm$7 & 56 $\pm$7 & 152 $\pm$7\\
-	This work & TiTa$_{93.8}$ & 257 & 158 & 72 & 191 & 62 & 168\\
-	This work & TiTa$_{98.1}$ & 264 & 163 & 72 & 197 & 62 & 169\\
+	This work & Ti$_{0.98}$Ta$_{0.02}$ & 100 & 115 & 39 & 110 & -3 & -9\\
+	This work & Ti$_{0.94}$Ta$_{0.06}$ & 116 & 113 & 30 & 114 & 11 & 32\\
+	This work & Ti$_{0.87}$Ta$_{0.13}$ & 120 & 121 & 39 & 121 & 11 & 32\\
+	This work & Ti$_{0.75}$Ta$_{0.25}$ & 167 $\pm$1 & 140 $\pm$3 & 45 & 149 $\pm$3 & 28 $\pm$3 & 78 $\pm$3\\
+	This work & Ti$_{0.50}$Ta$_{0.50}$ & 208 $\pm$1 & 159 & 51 $\pm$3 & 175 $\pm$1 & 38 $\pm$3 & 106 $\pm$3\\
+	This work & Ti$_{0.25}$Ta$_{0.75}$ & 239 $\pm$7 & 143 $\pm$5 & 62 $\pm$3 & 175 $\pm$7 & 56 $\pm$7 & 152 $\pm$7\\
+	This work & Ti$_{0.06}$Ta$_{0.94}$ & 257 & 158 & 72 & 191 & 62 & 168\\
+	This work & Ti$_{0.02}$Ta$_{0.98}$ & 264 & 163 & 72 & 197 & 62 & 169\\
 	This work & Ta & 278 & 164 & 81 & 202 & 70 & 189\\
-	Expt 300 K \cite{Fedotov1985} & TiTa$_{38}$ & & & & & & 62\\
-	Expt 300 K \cite{Fedotov1985} & TiTa$_{42}$ & & & & & & 79\\
-	Expt 300 K \cite{Fedotov1985} & TiTa$_{48}$ & & & & & & 95\\
-	Expt 300 K \cite{Zhou2004a} & TiTa$_{38}$ & & & & & & 67\\
-	Expt 300 K \cite{Zhou2004a} & TiTa$_{51}$ & & & & & & 105\\
-	This work & TiZr$_{1.9}$ & 112 & 106 & 43 & 108 & 17 & 48\\
-	This work & TiZr$_{25}$ & 148 $\pm$14 & 82 $\pm$7 & 54 $\pm$7 & 104 $\pm$14 & 44 $\pm$14 & 116 $\pm$14\\
-	This work & TiZr$_{50}$ & 152 $\pm$17 & 76 $\pm$12 & 48 $\pm$12 & 101 $\pm$17 & 44 $\pm$17 & 115 $\pm$17\\
-	This work & TiZr$_{75}$ & 126 $\pm$12 & 82 $\pm$3 & 45 $\pm$3 & 97 $\pm$12 & 34 $\pm$12 & 91 $\pm$12\\
-	This work & TiZr$_{93.8}$ & 89 & 90 & 34 & 90 & 9 & 27\\
+	Expt 300 K \cite{Fedotov1985} & Ti$_{0.62}$Ta$_{0.38}$ & & & & & & 62\\
+	Expt 300 K \cite{Fedotov1985} & Ti$_{0.58}$Ta$_{0.42}$ & & & & & & 79\\
+	Expt 300 K \cite{Fedotov1985} & Ti$_{0.52}$Ta$_{0.48}$ & & & & & & 95\\
+	Expt 300 K \cite{Zhou2004a} & Ti$_{0.62}$Ta$_{0.38}$ & & & & & & 67\\
+	Expt 300 K \cite{Zhou2004a} & Ti$_{0.49}$Ta$_{0.51}$ & & & & & & 105\\
+	This work & Ti$_{0.98}$Zr$_{0.02}$ & 112 & 106 & 43 & 108 & 17 & 48\\
+	This work & Ti$_{0.75}$Zr$_{0.25}$ & 148 $\pm$14 & 82 $\pm$7 & 54 $\pm$7 & 104 $\pm$14 & 44 $\pm$14 & 116 $\pm$14\\
+	This work & Ti$_{0.50}$Zr$_{0.50}$ & 152 $\pm$17 & 76 $\pm$12 & 48 $\pm$12 & 101 $\pm$17 & 44 $\pm$17 & 115 $\pm$17\\
+	This work & Ti$_{0.25}$Zr$_{0.75}$ & 126 $\pm$12 & 82 $\pm$3 & 45 $\pm$3 & 97 $\pm$12 & 34 $\pm$12 & 91 $\pm$12\\
+	This work & Ti$_{0.06}$Zr$_{0.94}$ & 89 & 90 & 34 & 90 & 9 & 27\\
 	This work & Zr & 86 & 91 & 32 & 89 & 6 & 16\\
 	\hline
 \end{longtable}
+%%%
+
+\newpage
+\begin{table}[H]
+	\caption{Predicted Young's modulus (in GPa) of higher order alloys in the bcc phase compared to experimental values found with both the weight percent and atomic percent listed.}
+	\centering
+	\begin{tabular}{ c c c c }
+		\hline
+		Alloy & at Target $E$ & bcc stabilized & Target Compositions\\
+		\hline
+		Ti-Mo & Pure Ti to 0.10 mol Mo & > 0.055 mol Mo & 0.055 to 0.10 mol Mo\\
+		Ti-Nb & Pure Ti to 0.20 mol Nb & > 0.115 mol Nb & 0.115 to 0.20 mol Nb\\		
+		Ti-Sn & Pure Ti to 0.40 mol Sn & > 0.515 mol Sn & N/A\\		
+		Ti-Ta & Pure Ti to 0.15 mol Ta & > 0.095 mol Ta & 0.095 to 0.15 mol Ta\\
+		Ti-Zr & Pure Ti to 0.05 mol Zr & > 0.040 mol Zr & 0.040 to 0.05 mol Zr\\		
+		\hline
+	\end{tabular}
+	\label{Ch5-table:targetalloys}
+\end{table}
+\clearpage
 %%%
 
 \newpage

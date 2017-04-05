@@ -14,9 +14,10 @@ A level-1 auxiliary file: Appendix-B/Appendix-B.aux
 A level-1 auxiliary file: Appendix-C/Appendix-C.aux
 A level-1 auxiliary file: Appendix-D/Appendix-D.aux
 A level-1 auxiliary file: Appendix-E/Appendix-E.aux
+A level-1 auxiliary file: Appendix-F/Appendix-F.aux
 The style file: GLG-bibstyle.bst
 Database file #1: Thesis.bib
-Repeated entry---line 1148 of file Thesis.bib
+Repeated entry---line 762 of file Thesis.bib
  : @article{Neuburger1936_127
  :                           ,
 I'm skipping whatever remains of this entry
@@ -28,43 +29,43 @@ Warning--missing institution in English1961
 Warning--can't use both volume and number fields in Basile1971
 You've used 126 entries,
             2552 wiz_defined-function locations,
-            1410 strings with 27382 characters,
-and the built_in function-call counts, 62007 in all, are:
-= -- 4509
+            1411 strings with 27408 characters,
+and the built_in function-call counts, 61988 in all, are:
+= -- 4508
 > -- 1759
 < -- 111
 + -- 510
 - -- 384
-* -- 4567
+* -- 4569
 := -- 6107
 add.period$ -- 241
 call.type$ -- 126
 change.case$ -- 1
 chr.to.int$ -- 0
 cite$ -- 132
-duplicate$ -- 6704
-empty$ -- 6142
+duplicate$ -- 6700
+empty$ -- 6141
 format.name$ -- 481
-if$ -- 14275
+if$ -- 14267
 int.to.chr$ -- 0
 int.to.str$ -- 126
 missing$ -- 1229
 newline$ -- 391
 num.names$ -- 125
-pop$ -- 1624
+pop$ -- 1623
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2245
+skip$ -- 2240
 stack$ -- 0
-substring$ -- 3592
-swap$ -- 4823
+substring$ -- 3594
+swap$ -- 4819
 text.length$ -- 111
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 433
+while$ -- 434
 width$ -- 129
 write$ -- 1123
 (There was 1 error message)

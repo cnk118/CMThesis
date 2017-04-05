@@ -61,39 +61,41 @@
 \contentsline {subsection}{\numberline {5.2.2}Modeling details}{88}{subsection..5.2.2}
 \contentsline {section}{\numberline {5.3}Results and discussion}{89}{section..5.3}
 \contentsline {subsection}{\numberline {5.3.1}Evaluation of calculation settings}{89}{subsection..5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Calculations of the Ti-X elastic properties}{89}{subsection..5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}1.1 Calculations of elastic coefficients in Ti-X binary systems}{89}{subsection..5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Extrapolation to ternary and higher ordered systems}{93}{subsection..5.3.3}
 \contentsline {section}{\numberline {5.4}Conclusion}{94}{section..5.4}
-\contentsline {chapter}{\numberline {6}Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{111}{chapter..6}
-\contentsline {section}{\numberline {6.1}Introduction}{111}{section..6.1}
-\contentsline {section}{\numberline {6.2}Modeling and Calculations}{112}{section..6.2}
-\contentsline {subsection}{\numberline {6.2.1}Calculation details}{112}{subsection..6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Modeling details}{112}{subsection..6.2.2}
-\contentsline {section}{\numberline {6.3}Results and discussion}{113}{section..6.3}
-\contentsline {subsection}{\numberline {6.3.1}Elastic calculation results}{113}{subsection..6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Extrapolation to higher ordered systems}{118}{subsection..6.3.2}
-\contentsline {section}{\numberline {6.4}Conclusion}{119}{section..6.4}
-\contentsline {chapter}{\numberline {7}Metastable phase study in the Ti-Ta and Ti-Nb systems}{143}{chapter..7}
-\contentsline {section}{\numberline {7.1}Introduction}{143}{section..7.1}
-\contentsline {section}{\numberline {7.2}Modeling and Calculations}{144}{section..7.2}
-\contentsline {subsection}{\numberline {7.2.1}Computational details}{144}{subsection..7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Modeling details}{144}{subsection..7.2.2}
-\contentsline {section}{\numberline {7.3}Results and discussion}{145}{section..7.3}
-\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{145}{subsection..7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{145}{subsection..7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{148}{subsection..7.3.3}
-\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{148}{subsubsection..7.3.3.1}
-\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{149}{subsubsection..7.3.3.2}
-\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{150}{subsection..7.3.4}
-\contentsline {section}{\numberline {7.4}Conclusion}{150}{section..7.4}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{174}{chapter..8}
-\contentsline {section}{\numberline {8.1}Conclusions}{174}{section..8.1}
-\contentsline {section}{\numberline {8.2}Future Work}{178}{section..8.2}
+\contentsline {chapter}{\numberline {6}Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{113}{chapter..6}
+\contentsline {section}{\numberline {6.1}Introduction}{113}{section..6.1}
+\contentsline {section}{\numberline {6.2}Modeling and Calculations}{114}{section..6.2}
+\contentsline {subsection}{\numberline {6.2.1}Calculation details}{114}{subsection..6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Modeling details}{114}{subsection..6.2.2}
+\contentsline {section}{\numberline {6.3}Results and discussion}{115}{section..6.3}
+\contentsline {subsection}{\numberline {6.3.1}Elastic calculation results}{115}{subsection..6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Extrapolation to higher ordered systems}{121}{subsection..6.3.2}
+\contentsline {section}{\numberline {6.4}Conclusion}{122}{section..6.4}
+\contentsline {chapter}{\numberline {7}Metastable phase study in the Ti-Ta and Ti-Nb systems}{146}{chapter..7}
+\contentsline {section}{\numberline {7.1}Introduction}{146}{section..7.1}
+\contentsline {section}{\numberline {7.2}Modeling and Calculations}{147}{section..7.2}
+\contentsline {subsection}{\numberline {7.2.1}Computational details}{147}{subsection..7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Modeling details}{147}{subsection..7.2.2}
+\contentsline {section}{\numberline {7.3}Results and discussion}{148}{section..7.3}
+\contentsline {subsection}{\numberline {7.3.1}First-principles calculations at 0 K}{148}{subsection..7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Elastic properties}{148}{subsection..7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Neutron scattering results}{151}{subsection..7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{151}{subsubsection..7.3.3.1}
+\contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{152}{subsubsection..7.3.3.2}
+\contentsline {subsection}{\numberline {7.3.4}Partition function approach results}{153}{subsection..7.3.4}
+\contentsline {section}{\numberline {7.4}Conclusion}{153}{section..7.4}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{177}{chapter..8}
+\contentsline {section}{\numberline {8.1}Conclusions}{177}{section..8.1}
+\contentsline {section}{\numberline {8.2}Future Work}{181}{section..8.2}
 \renewcommand {\cftchappresnum }{Appendix }
-\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{179}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sn-Ta Database}{196}{appendix.B}
-\contentsline {chapter}{\numberline {C}Mathematica \\ Interaction Parameter Fitting}{204}{appendix.C}
-\contentsline {chapter}{\numberline {D}Ti Elastic Database}{206}{appendix.D}
-\contentsline {chapter}{\numberline {E}Pycalphad script}{213}{appendix.E}
-\contentsline {chapter}{\numberline {F}Ti-Nb Experimental Elastic Data}{223}{appendix.F}
-\contentsline {chapter}{Bibliography}{226}{table.F.1}
+\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{182}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sn-Ta Database}{199}{appendix.B}
+\contentsline {chapter}{\numberline {C}Calculation and Fitting Details}{207}{appendix.C}
+\contentsline {section}{\numberline {C.1}Calculation Details for Chapter 3, 5, and 6}{207}{section.C.1}
+\contentsline {section}{\numberline {C.2}Fitting Code for Chapter 5 and 6}{211}{section.C.2}
+\contentsline {chapter}{\numberline {D}Ti Elastic Database}{212}{appendix.D}
+\contentsline {chapter}{\numberline {E}Pycalphad script}{219}{appendix.E}
+\contentsline {chapter}{\numberline {F}Ti-Nb Experimental Elastic Data}{229}{appendix.F}
+\contentsline {chapter}{Bibliography}{232}{table.F.1}

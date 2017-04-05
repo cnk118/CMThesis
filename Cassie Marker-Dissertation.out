@@ -61,7 +61,7 @@
 \BOOKMARK [2][-]{subsection..5.2.2}{Modeling details}{section..5.2}% 61
 \BOOKMARK [1][-]{section..5.3}{Results and discussion}{chapter..5}% 62
 \BOOKMARK [2][-]{subsection..5.3.1}{Evaluation of calculation settings}{section..5.3}% 63
-\BOOKMARK [2][-]{subsection..5.3.2}{Calculations of the Ti-X elastic properties}{section..5.3}% 64
+\BOOKMARK [2][-]{subsection..5.3.2}{1.1 Calculations of elastic coefficients in Ti-X binary systems}{section..5.3}% 64
 \BOOKMARK [2][-]{subsection..5.3.3}{Extrapolation to ternary and higher ordered systems}{section..5.3}% 65
 \BOOKMARK [1][-]{section..5.4}{Conclusion}{chapter..5}% 66
 \BOOKMARK [0][-]{chapter..6}{Effects of alloying elements on the elastic properties of bcc ternary and higher ordered Ti-alloys}{}% 67
@@ -91,8 +91,10 @@
 \BOOKMARK [1][-]{section..8.2}{Future Work}{chapter..8}% 91
 \BOOKMARK [0][-]{appendix.A}{Ti-Mo-Nb-Ta-Zr Database}{}% 92
 \BOOKMARK [0][-]{appendix.B}{Sn-Ta Database}{}% 93
-\BOOKMARK [0][-]{appendix.C}{Mathematica \040Interaction Parameter Fitting}{}% 94
-\BOOKMARK [0][-]{appendix.D}{Ti Elastic Database}{}% 95
-\BOOKMARK [0][-]{appendix.E}{Pycalphad script}{}% 96
-\BOOKMARK [0][-]{appendix.F}{Ti-Nb Experimental Elastic Data}{}% 97
-\BOOKMARK [0][-]{table.F.1}{Bibliography}{}% 98
+\BOOKMARK [0][-]{appendix.C}{Calculation and Fitting Details}{}% 94
+\BOOKMARK [1][-]{section.C.1}{Calculation Details for Chapter 3, 5, and 6}{appendix.C}% 95
+\BOOKMARK [1][-]{section.C.2}{Fitting Code for Chapter 5 and 6}{appendix.C}% 96
+\BOOKMARK [0][-]{appendix.D}{Ti Elastic Database}{}% 97
+\BOOKMARK [0][-]{appendix.E}{Pycalphad script}{}% 98
+\BOOKMARK [0][-]{appendix.F}{Ti-Nb Experimental Elastic Data}{}% 99
+\BOOKMARK [0][-]{table.F.1}{Bibliography}{}% 100
