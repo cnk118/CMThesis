@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 APR 2017 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 APR 2017 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,51 +1060,47 @@ Overfull \hbox (38.43097pt too wide) in paragraph at lines 103--124
  [][] 
  []
 
-[40]
-Overfull \vbox (32.92499pt too high) has occurred while \output is active []
-
-
-[41] [42
+[40] [41] [42
 
 ]
-Overfull \hbox (65.41408pt too wide) in alignment at lines 214--219
+Overfull \hbox (65.41408pt too wide) in alignment at lines 212--217
  [] [] [] 
  []
 
 
-Overfull \hbox (65.41408pt too wide) in alignment at lines 219--221
+Overfull \hbox (65.41408pt too wide) in alignment at lines 217--219
  [] [] [] 
  []
 
 
-Overfull \hbox (65.41408pt too wide) in alignment at lines 221--242
+Overfull \hbox (65.41408pt too wide) in alignment at lines 219--240
  [] [] [] 
  []
 
 
-Overfull \hbox (65.41408pt too wide) in alignment at lines 242--262
+Overfull \hbox (65.41408pt too wide) in alignment at lines 240--260
  [] [] [] 
  []
 
 
-Overfull \hbox (65.41408pt too wide) in alignment at lines 262--282
+Overfull \hbox (65.41408pt too wide) in alignment at lines 260--280
  [] [] [] 
  []
 
 [43
 
 ]
-Overfull \hbox (65.41408pt too wide) in alignment at lines 282--302
+Overfull \hbox (65.41408pt too wide) in alignment at lines 280--300
  [] [] [] 
  []
 
 [44]
-Overfull \hbox (65.41408pt too wide) in alignment at lines 302--322
+Overfull \hbox (65.41408pt too wide) in alignment at lines 300--320
  [] [] [] 
  []
 
 
-Overfull \hbox (65.41408pt too wide) in alignment at lines 322--335
+Overfull \hbox (65.41408pt too wide) in alignment at lines 320--333
  [] [] [] 
  []
 
@@ -1112,112 +1108,112 @@ Overfull \hbox (65.41408pt too wide) in alignment at lines 322--335
 File: Chapter-3/Figures/binary1.png Graphic file (type png)
 
 <use Chapter-3/Figures/binary1.png>
-Package pdftex.def Info: Chapter-3/Figures/binary1.png used on input line 344.
+Package pdftex.def Info: Chapter-3/Figures/binary1.png used on input line 342.
 (pdftex.def)             Requested size: 419.16621pt x 419.59648pt.
  [48 <./Chapter-3/Figures/binary1.png>]
 <Chapter-3/Figures/binary2.png, id=2049, 481.8pt x 483.7272pt>
 File: Chapter-3/Figures/binary2.png Graphic file (type png)
 
 <use Chapter-3/Figures/binary2.png>
-Package pdftex.def Info: Chapter-3/Figures/binary2.png used on input line 354.
+Package pdftex.def Info: Chapter-3/Figures/binary2.png used on input line 352.
 (pdftex.def)             Requested size: 419.16621pt x 420.85402pt.
  [49 <./Chapter-3/Figures/binary2.png>]
 <Chapter-3/Figures/TiMo.png, id=2064, 464.937pt x 218.2554pt>
 File: Chapter-3/Figures/TiMo.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMo.png>
-Package pdftex.def Info: Chapter-3/Figures/TiMo.png used on input line 364.
+Package pdftex.def Info: Chapter-3/Figures/TiMo.png used on input line 362.
 (pdftex.def)             Requested size: 419.16621pt x 196.78104pt.
  [50 <./Chapter-3/Figures/TiMo.png>]
 <Chapter-3/Figures/TiNb.png, id=2076, 475.0548pt x 233.1912pt>
 File: Chapter-3/Figures/TiNb.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNb.png>
-Package pdftex.def Info: Chapter-3/Figures/TiNb.png used on input line 374.
+Package pdftex.def Info: Chapter-3/Figures/TiNb.png used on input line 372.
 (pdftex.def)             Requested size: 419.16621pt x 205.76395pt.
  [51 <./Chapter-3/Figures/TiNb.png>]
 <Chapter-3/Figures/TiTa.png, id=2088, 491.436pt x 245.2362pt>
 File: Chapter-3/Figures/TiTa.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiTa.png>
-Package pdftex.def Info: Chapter-3/Figures/TiTa.png used on input line 384.
+Package pdftex.def Info: Chapter-3/Figures/TiTa.png used on input line 382.
 (pdftex.def)             Requested size: 419.16621pt x 209.18144pt.
  [52 <./Chapter-3/Figures/TiTa.png>]
 <Chapter-3/Figures/TiZr.png, id=2098, 455.301pt x 229.8186pt>
 File: Chapter-3/Figures/TiZr.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiZr.png>
-Package pdftex.def Info: Chapter-3/Figures/TiZr.png used on input line 394.
+Package pdftex.def Info: Chapter-3/Figures/TiZr.png used on input line 392.
 (pdftex.def)             Requested size: 419.16621pt x 211.58647pt.
  [53 <./Chapter-3/Figures/TiZr.png>]
 <Chapter-3/Figures/TiMoNb.png, id=2106, 493.845pt x 263.0628pt>
 File: Chapter-3/Figures/TiMoNb.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMoNb.png>
-Package pdftex.def Info: Chapter-3/Figures/TiMoNb.png used on input line 404.
+Package pdftex.def Info: Chapter-3/Figures/TiMoNb.png used on input line 402.
 (pdftex.def)             Requested size: 419.16621pt x 223.2793pt.
  [54 <./Chapter-3/Figures/TiMoNb.png>]
 <Chapter-3/Figures/TiMoTa1.png, id=2113, 457.2282pt x 225.9642pt>
 File: Chapter-3/Figures/TiMoTa1.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMoTa1.png>
-Package pdftex.def Info: Chapter-3/Figures/TiMoTa1.png used on input line 414.
+Package pdftex.def Info: Chapter-3/Figures/TiMoTa1.png used on input line 412.
 (pdftex.def)             Requested size: 419.16621pt x 207.15517pt.
  [55 <./Chapter-3/Figures/TiMoTa1.png>]
 <Chapter-3/Figures/TiMoTa2.png, id=2120, 498.1812pt x 234.6366pt>
 File: Chapter-3/Figures/TiMoTa2.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMoTa2.png>
-Package pdftex.def Info: Chapter-3/Figures/TiMoTa2.png used on input line 424.
+Package pdftex.def Info: Chapter-3/Figures/TiMoTa2.png used on input line 422.
 (pdftex.def)             Requested size: 419.16621pt x 197.42993pt.
  [56 <./Chapter-3/Figures/TiMoTa2.png>]
 <Chapter-3/Figures/TiMoZr.png, id=2128, 476.0184pt x 263.5446pt>
 File: Chapter-3/Figures/TiMoZr.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiMoZr.png>
-Package pdftex.def Info: Chapter-3/Figures/TiMoZr.png used on input line 434.
+Package pdftex.def Info: Chapter-3/Figures/TiMoZr.png used on input line 432.
 (pdftex.def)             Requested size: 419.16621pt x 232.07678pt.
  [57 <./Chapter-3/Figures/TiMoZr.png>]
 <Chapter-3/Figures/TiNbTa1.png, id=2138, 523.7166pt x 264.0264pt>
 File: Chapter-3/Figures/TiNbTa1.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNbTa1.png>
-Package pdftex.def Info: Chapter-3/Figures/TiNbTa1.png used on input line 444.
+Package pdftex.def Info: Chapter-3/Figures/TiNbTa1.png used on input line 442.
 (pdftex.def)             Requested size: 419.16621pt x 211.32614pt.
  [58 <./Chapter-3/Figures/TiNbTa1.png>]
 <Chapter-3/Figures/TiNbTa2.png, id=2148, 243.7908pt x 202.8378pt>
 File: Chapter-3/Figures/TiNbTa2.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNbTa2.png>
-Package pdftex.def Info: Chapter-3/Figures/TiNbTa2.png used on input line 454.
+Package pdftex.def Info: Chapter-3/Figures/TiNbTa2.png used on input line 452.
 (pdftex.def)             Requested size: 243.7902pt x 202.8373pt.
  [59 <./Chapter-3/Figures/TiNbTa2.png>]
 <Chapter-3/Figures/TiNbTa3.png, id=2154, 509.2626pt x 255.8358pt>
 File: Chapter-3/Figures/TiNbTa3.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNbTa3.png>
-Package pdftex.def Info: Chapter-3/Figures/TiNbTa3.png used on input line 464.
+Package pdftex.def Info: Chapter-3/Figures/TiNbTa3.png used on input line 462.
 (pdftex.def)             Requested size: 419.16621pt x 210.57916pt.
  [60 <./Chapter-3/Figures/TiNbTa3.png>]
 <Chapter-3/Figures/TiNbZr.png, id=2164, 478.4274pt x 267.8808pt>
 File: Chapter-3/Figures/TiNbZr.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiNbZr.png>
-Package pdftex.def Info: Chapter-3/Figures/TiNbZr.png used on input line 474.
+Package pdftex.def Info: Chapter-3/Figures/TiNbZr.png used on input line 472.
 (pdftex.def)             Requested size: 419.16621pt x 234.70576pt.
  [61 <./Chapter-3/Figures/TiNbZr.png>]
 <Chapter-3/Figures/TiTaZr1.png, id=2173, 505.4082pt x 261.1356pt>
 File: Chapter-3/Figures/TiTaZr1.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiTaZr1.png>
-Package pdftex.def Info: Chapter-3/Figures/TiTaZr1.png used on input line 484.
+Package pdftex.def Info: Chapter-3/Figures/TiTaZr1.png used on input line 482.
 (pdftex.def)             Requested size: 419.16621pt x 216.57512pt.
  [62 <./Chapter-3/Figures/TiTaZr1.png>]
 <Chapter-3/Figures/TiTaZr2.png, id=2187, 244.7544pt x 202.8378pt>
 File: Chapter-3/Figures/TiTaZr2.png Graphic file (type png)
 
 <use Chapter-3/Figures/TiTaZr2.png>
-Package pdftex.def Info: Chapter-3/Figures/TiTaZr2.png used on input line 494.
+Package pdftex.def Info: Chapter-3/Figures/TiTaZr2.png used on input line 492.
 (pdftex.def)             Requested size: 244.75378pt x 202.8373pt.
 ) [63 <./Chapter-3/Figures/TiTaZr2.png>]
 \openout2 = `Chapter-4/Chapter-4.aux'.
@@ -2017,7 +2013,7 @@ Appendix C.
 
 
 ] [208] [209] [210]
-<Appendix-C/Figures/fitting.png, id=3713, 361.35pt x 227.85126pt>
+<Appendix-C/Figures/fitting.png, id=3714, 361.35pt x 227.85126pt>
 File: Appendix-C/Figures/fitting.png Graphic file (type png)
 
 <use Appendix-C/Figures/fitting.png>
@@ -2337,9 +2333,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 395.
  ) 
 Here is how much of TeX's memory you used:
- 14242 strings out of 493014
- 216724 string characters out of 6133351
- 458304 words of memory out of 5000000
+ 14243 strings out of 493014
+ 216731 string characters out of 6133351
+ 457303 words of memory out of 5000000
  15921 multiletter control sequences out of 15000+600000
  157611 words of font info for 286 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2370,10 +2366,10 @@ lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb>
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on "Cassie Marker-Dissertation.pdf" (267 pages, 8527254 bytes).
+Output written on "Cassie Marker-Dissertation.pdf" (267 pages, 8527443 bytes).
 PDF statistics:
- 4642 PDF objects out of 5155 (max. 8388607)
- 4044 compressed objects within 41 object streams
- 1046 named destinations out of 1200 (max. 500000)
+ 4643 PDF objects out of 5155 (max. 8388607)
+ 4045 compressed objects within 41 object streams
+ 1047 named destinations out of 1200 (max. 500000)
  42131 words of extra memory for PDF output out of 42996 (max. 10000000)
 

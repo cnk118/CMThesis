@@ -200,7 +200,7 @@ The single crystal elastic stiffness constants ($c_{ij}$$'s$) were calculated fr
 %%
 \begin{equation}
 \label{eq: averagec11}
-\overline{C}_{11} = \frac{(c_{11} + c_{12} + c_{44})}{3}
+\overline{C}_{11} = \frac{(c_{11} + c_{22} + c_{33})}{3}
 \end{equation}
 %%
 
@@ -422,7 +422,7 @@ From the corrected momentum and energy plots of the samples, the diffraction pat
 
 Diffraction is prominently an elastic scattering process. So the intensities of neutrons, with no change in energy, at each momenta are calculated and modeled as a Gaussian function \cite{Young1998,Toraya1986}. In the present work, each alloy sample contained some combination of the bcc, hcp, $\alpha"$ and $\omega$ phases. In order to obtain the phase fractions, diffraction patterns, from the literature, of Ti and Nb in each of the individual phases were combined and fit to the diffraction pattern of the alloy in question. In order to do the fitting, the distance between scattering planes was taken into account for each phase. By fitting the literature diffraction patterns to the diffraction pattern of the alloys being studied the phase fractions were obtained. 
 
-From the energy vs momentum plots the phonon DOS of states was obtained using an iterative method to remove the elastic and multi-phonon contributions to the phonon DOS and thus plot just the one-phonon DOS \cite{Fultz2009,Squires2012}. First, a trial phonon DOS from the momenta vs energy plots was used to calculate the time dependent self-correlation function ($G(t)$) and the mean square atomic displacement $\left< u^{2} \right>$. The trial single-phonon DOS (S'(p)) was obtained by modifying the measured signal (S(p)) by suppressing the elastic peak and contraining S(p) such that dS(p)/dp=0 when p $\rightarrow$ 0 according to the hydrodynamic limit. Using the trial phonon DOS, $G(t)$ was expressed by \cite{Manley2001,Manley2002}:
+From the energy vs momentum plots the phonon DOS of states was obtained using an iterative method to remove the elastic and multi-phonon contributions to the phonon DOS and thus plot just the one-phonon DOS \cite{Fultz2009,Squires2012}. First, a trial phonon DOS from the momenta vs energy plots was used to calculate the time dependent self-correlation function ($G(t)$) and the mean square atomic displacement $\left< u^{2} \right>$. The trial single-phonon DOS (S'($\varrho$)) was obtained by modifying the measured signal (S($\varrho$)) by suppressing the elastic peak and contraining S($\varrho$) such that dS($\rho$)/d$\rho$=0 when $\varrho$ $\rightarrow$ 0 according to the hydrodynamic limit. Using the trial phonon DOS, $G(t)$ was expressed by \cite{Manley2001,Manley2002}:
 
 %%
 \begin{equation}
@@ -441,7 +441,7 @@ G (t) = \int_{- \infty}^{\infty} d \varrho \frac{Z(\varrho)}{\varrho} n(\varrho)
 \end{equation}
 %%
 
-\noindent where $e^{-Q^{2}\left(\theta,\rho \right) \left< u^{2} \right>}$ is the Debye-Waller factor described the mean square atomic displacement \cite{Squires2012}. The anisotropy in the Debye-Waller factor was neglected because the resulting errors were negligible \cite{Manley2001}.  $M$ is the mass of a neutron, $\hbar$ is Planck's constant and the bracketed area is the Gaussian instrument energy resolution. $Q$ is defined by \cite{Manley2001,Manley2002}:
+\noindent where $e^{-Q^{2}\left(\theta,\varrho \right) \left< u^{2} \right>}$ is the Debye-Waller factor described the mean square atomic displacement \cite{Squires2012}. The anisotropy in the Debye-Waller factor was neglected because the resulting errors were negligible \cite{Manley2001}.  $M$ is the mass of a neutron, $\hbar$ is Planck's constant and the bracketed area is the Gaussian instrument energy resolution. $Q$ is defined by \cite{Manley2001,Manley2002}:
 
 %%
 \begin{equation}
@@ -462,7 +462,7 @@ Q(\theta, \varrho) = \sqrt{\frac{2M}{\hbar^{2}} \left( 2E - \hbar \varrho - 2E \
 
 \begin{equation}
 \label{eq: onephonon}
-Z(\rho) = S_{1}(\rho)* \frac{\rho}{n(\rho)}
+Z(\varrho) = S_{1}(\varrho)* \frac{\varrho}{n(\varrho)}
 \end{equation}
 %%
 
