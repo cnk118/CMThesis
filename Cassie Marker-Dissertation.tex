@@ -102,6 +102,7 @@
 \usepackage{float}
 \usepackage{gensymb}
 \usepackage{longtable}
+\usepackage{caption}
 \usepackage{wasysym}
 % http://www.tex.ac.uk/cgi-bin/texfaq2html?label=citesort
 \usepackage{cite}
@@ -222,7 +223,9 @@
 
 \titleformat{\section}[block]{\Large\bfseries\sffamily}{\thesection}{12pt}{}{}
 \titleformat{\subsection}[block]{\large\bfseries\sffamily}{\thesubsection}{12pt}{}{}
-
+\captionsetup[longtable]{labelfont=bf}
+\captionsetup[table]{labelfont=bf}
+\captionsetup[figure]{labelfont=bf}
 
 % Makes use of LaTeX's include facility. Add as many chapters
 % and appendices as you like.

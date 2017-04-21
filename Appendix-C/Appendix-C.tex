@@ -1,10 +1,9 @@
 \Appendix{Calculation and Fitting Details}
 
-\section{Calculation Details for Chapter 3, 5, and 6}
+\section*{Calculation Details for Chapter 3, 5, and 6}
 As discussed in each chapter the Monkhorst-Pack scheme is used for Brillouin zone sampling \cite{Kresse1996,Monkhorst1976a}. The k-points grid used for each calculation done in chapter 3, 5 and 6 are listed in the table. The k-points grids are listed as AxAxA. In some cases the automated k-point mesh generator in VASP was used and the length of the subdivisions specified are specified as number such as 50. 
 
 \begin{longtable}[H]{ c c c }
-	\caption{The k-points grids used for each calculation done in chapter 3, 5 and 6.} \label{apc-table:kpoints}\\
 	\hline
 	Structure & Type of Calc & relaxation k-points\\
 	\hline
@@ -101,7 +100,7 @@ As discussed in each chapter the Monkhorst-Pack scheme is used for Brillouin zon
 \clearpage
 %%%
 
-\section{Fitting Code for Chapter 5 and 6}
+\section*{Fitting Code for Chapter 5 and 6}
 The code used in Mathematica to fit the binary and ternary interaction parameters is listed below.
 
 input: n = {{0, 0}, {0.019, -2.81}, {0.019, -2.81}, {0.019, -2.81}, {0.019, \
@@ -127,6 +126,4 @@ input: n = {{0, 0}, {0.019, -2.81}, {0.019, -2.81}, {0.019, -2.81}, {0.019, \
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{Appendix-C/Figures/fitting.png}
-	\caption{}
-	\label{appendixC:fitting}
 \end{figure}
