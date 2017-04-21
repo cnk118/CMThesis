@@ -93,7 +93,7 @@
 \contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{183}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sn-Ta Database}{200}{appendix.B}
 \contentsline {chapter}{\numberline {C}Calculation and Fitting Details}{208}{appendix.C}
-\contentsline {chapter}{\numberline {D}Ti Elastic Database}{213}{appendix.D}
-\contentsline {chapter}{\numberline {E}Pycalphad script}{220}{appendix.E}
-\contentsline {chapter}{\numberline {F}Ti-Nb Experimental Elastic Data}{230}{appendix.F}
-\contentsline {chapter}{Bibliography}{233}{table.F.1}
+\contentsline {chapter}{\numberline {D}Ti Elastic Database}{212}{appendix.D}
+\contentsline {chapter}{\numberline {E}Pycalphad script}{219}{appendix.E}
+\contentsline {chapter}{\numberline {F}Ti-Nb Experimental Elastic Data}{229}{appendix.F}
+\contentsline {chapter}{Bibliography}{232}{table.F.1}
