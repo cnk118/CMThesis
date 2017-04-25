@@ -7,7 +7,7 @@
 \bibitem{Wu2010a}
 \textsc{Wu, C.}, \textsc{Y.~Xin}, \textsc{X.~Wang}, and \textsc{J.~Lin} (2010)
   \enquote{{Effects of Ta content on the phase stability and elastic properties
-  of $\beta$ Ti–Ta alloys from first-principles calculations},} \emph{Solid
+  of $\beta$ Ti-Ta alloys from first-principles calculations},} \emph{Solid
   State Sciences}, \textbf{12}(12), pp. 2120--2124.
 
 \bibitem{Ikehata2004}
@@ -19,12 +19,12 @@
 \bibitem{Zhou2004a}
 \textsc{Zhou, Y.~L.}, \textsc{M.~Niinomi}, and \textsc{T.~Akahori} (2004)
   \enquote{{Effects of Ta content on Young's modulus and tensile properties of
-  binary Ti–Ta alloys for biomedical applications},} \emph{Materials Science
+  binary Ti-Ta alloys for biomedical applications},} \emph{Materials Science
   and Engineering: A}, \textbf{371}(1-2), pp. 283--290.
 
 \bibitem{Zhou2009a}
-\textsc{Zhou, Y.-L.} and \textsc{M.~Niinomi} (2009) \enquote{{Ti–25Ta alloy
-  with the best mechanical compatibility in Ti–Ta alloys for biomedical
+\textsc{Zhou, Y.-L.} and \textsc{M.~Niinomi} (2009) \enquote{{Ti-25Ta alloy
+  with the best mechanical compatibility in Ti-Ta alloys for biomedical
   applications},} \emph{Materials Science and Engineering: C}, \textbf{29}(3),
   pp. 1061--1065.
 
@@ -55,10 +55,8 @@
 \bibitem{Karre2015}
 \textsc{Karre, R.}, \textsc{M.~Niranjan}, and \textsc{S.~Dey} (2015)
   \enquote{{First principles theoretical investigations of low Young's modulus
-  beta Ti–Nb and Ti–Nb–Zr alloys compositions for biomedical
-  applications},} \emph{Materials Science and Engineering: C}, \textbf{50}, pp.
-  52--58.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0928493115000715}
+  beta Ti-Nb and Ti-Nb-Zr alloys compositions for biomedical applications},}
+  \emph{Materials Science and Engineering: C}, \textbf{50}, pp. 52--58.
 
 \bibitem{Matsumoto2006}
 \textsc{Matsumoto, H.}, \textsc{S.~Watanabe}, \textsc{N.~Masahashi}, and
@@ -85,8 +83,8 @@
   \emph{Zeitschrift Fur Metallkunde}, \textbf{82}(6), pp. 478--487.
 
 \bibitem{Abriata1982}
-\textsc{Abriata, J.~P.} and \textsc{J.~C. Bolcich} (1982) \enquote{{The Nb−
-  Zr (Niobium− Zirconium) system},} \emph{Bulletin of alloy phase diagrams},
+\textsc{Abriata, J.~P.} and \textsc{J.~C. Bolcich} (1982) \enquote{{The Nb-Zr
+  (Niobium-Zirconium) system},} \emph{Bulletin of alloy phase diagrams},
   \textbf{3}(1), pp. 34--44.
 
 \bibitem{Guillermet1995}
@@ -101,13 +99,12 @@
   European Communities, Brussels and Luxembourg.
 
 \bibitem{Murray1981}
-\textsc{Murray, J.} (1981) \enquote{{The Mo−Ti (Molybdenum-Titanium)
-  system},} \emph{Bulletin of Alloy Phase Diagrams}, \textbf{2}(2), pp.
-  185--192.
+\textsc{Murray, J.} (1981) \enquote{{The Mo-Ti (Molybdenum-Titanium) system},}
+  \emph{Bulletin of Alloy Phase Diagrams}, \textbf{2}(2), pp. 185--192.
 
 \bibitem{Uesugi2013}
 \textsc{Uesugi, T.}, \textsc{S.~Miyamae}, and \textsc{K.~Higashi} (2013)
-  \enquote{{Enthalpies of Solution in Ti–X (X= Mo, Nb, V and W) Alloys from
+  \enquote{{Enthalpies of Solution in Ti-X (X= Mo, Nb, V and W) Alloys from
   First-Principles Calculations},} \emph{Materials Transactions},
   \textbf{54}(4), pp. 484--492.
 
@@ -129,7 +126,7 @@
 
 \bibitem{Murray1987}
 \textsc{Murray, J.~L.} (1987) \enquote{{Phase diagrams of binary titanium
-  alloys},} \emph{ASM International, 1987,}, p. 354.
+  alloys},} \emph{ASM International}, p. 354.
 
 \bibitem{Nikitin1971}
 \textsc{Nikitin, P.} and \textsc{V.~Mikheyev} (1971) \enquote{{Examination of
@@ -191,7 +188,7 @@
 \bibitem{Zhang2015}
 \textsc{Zhang, W.-D.}, \textsc{Y.~Liu}, \textsc{H.~Wu}, \textsc{M.~Song},
   \textsc{T.-Y. Zhang}, \textsc{X.-D. Lan}, and \textsc{T.-H. Yao} (2015)
-  \enquote{{Elastic modulus of phases in Ti–Mo alloys},} \emph{Materials
+  \enquote{{Elastic modulus of phases in Ti-Mo alloys},} \emph{Materials
   Characterization}, \textbf{106}, pp. 302--307.
 
 \bibitem{Boyer1994}
@@ -208,17 +205,16 @@
 \bibitem{Tane2010a}
 \textsc{Tane, M.}, \textsc{S.~Akita}, \textsc{T.~Nakano}, \textsc{K.~Hagihara},
   \textsc{Y.~Umakoshi}, \textsc{M.~Niinomi}, \textsc{H.~Mori}, and
-  \textsc{H.~Nakajima} (2010) \enquote{{Low Young's modulus of
-  Ti–Nb–Ta–Zr alloys caused by softening in shear moduli c′ and
-  c{\textless}sub{\textgreater}44{\textless}/sub{\textgreater} near lower limit
+  \textsc{H.~Nakajima} (2010) \enquote{{Low Young's modulus of Ti-Nb-Ta-Zr
+  alloys caused by softening in shear moduli c' and c$_{44}$ near lower limit
   of body-centered cubic phase stability},} \emph{Acta Materialia},
   \textbf{58}(20), pp. 6790--6798.
 
 \bibitem{Geetha2009}
 \textsc{Geetha, M.}, \textsc{A.~Singh}, \textsc{R.~Asokamani}, and
   \textsc{A.~Gogia} (2009) \enquote{{Ti based biomaterials, the ultimate choice
-  for orthopaedic implants – A review},} \emph{Progress in Materials
-  Science}, \textbf{54}(3), pp. 397--425.
+  for orthopaedic implants - A review},} \emph{Progress in Materials Science},
+  \textbf{54}(3), pp. 397--425.
 
 \bibitem{Mohammed2014}
 \textsc{Mohammed, M.}, \textsc{Z.~Khan}, and \textsc{A.~Siddiquee} (2014)
@@ -246,7 +242,7 @@
 
 \bibitem{Long1998a}
 \textsc{Long, M.} and \textsc{H.~Rack} (1998) \enquote{{Titanium alloys in
-  total joint replacement—a materials science perspective},}
+  total joint replacement-a materials science perspective},}
   \emph{Biomaterials}, \textbf{19}(18), pp. 1621--1639.
 
 \bibitem{Kurtz2007}
@@ -291,20 +287,20 @@
 \bibitem{Brailovski2011b}
 \textsc{Brailovski, V.}, \textsc{S.~Prokoshkin}, \textsc{M.~Gauthier},
   \textsc{K.~Inaekyan}, \textsc{S.~Dubinskiy}, \textsc{M.~Petrzhik}, and
-  \textsc{M.~Filonov} (2011) \enquote{{Bulk and porous metastable beta
-  Ti–Nb–Zr (Ta) alloys for biomedical applications},} \emph{Materials
-  Science and Engineering: C}, \textbf{31}(3), pp. 643--657.
+  \textsc{M.~Filonov} (2011) \enquote{{Bulk and porous metastable beta Ti-Nb-Zr
+  (Ta) alloys for biomedical applications},} \emph{Materials Science and
+  Engineering: C}, \textbf{31}(3), pp. 643--657.
 
 \bibitem{Tane2008a}
 \textsc{Tane, M.}, \textsc{S.~Akita}, \textsc{T.~Nakano}, \textsc{K.~Hagihara},
   \textsc{Y.~Umakoshi}, \textsc{M.~Niinomi}, and \textsc{H.~Nakajima} (2008)
-  \enquote{{Peculiar elastic behavior of Ti–Nb–Ta–Zr single crystals},}
+  \enquote{{Peculiar elastic behavior of Ti-Nb-Ta-Zr single crystals},}
   \emph{Acta Materialia}, \textbf{56}(12), pp. 2856--2863.
 
 \bibitem{Khachaturyan1985}
 \textsc{Khachaturyan, A.} (1985) \enquote{{Theory of structural transformations
-  in solids. 1983},} \emph{Wiley, New York, Jacobs AE, Phys. Rev. B},
-  \textbf{31}, p. 5984.
+  in solids},} \emph{Wiley, New York, Jacobs AE, Phys. Rev. B}, \textbf{31}, p.
+  5984.
 
 \bibitem{Salje1990}
 \textsc{Salje, E.} (1990) \enquote{{Phase transitions in ferroelastic and
@@ -313,7 +309,6 @@
 \bibitem{Hohenberg1964}
 \textsc{Hohenberg, P.} and \textsc{W.~Kohn} (1964) \enquote{{Inhomogeneous
   Electron Gas},} \emph{Physical Review}, \textbf{136}(3B), pp. B864--B871.
-\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRev.136.B864}
 
 \bibitem{Kohn1965}
 \textsc{Kohn, W.} and \textsc{L.~Sham} (1965) \enquote{{Self-Consistent
@@ -367,8 +362,8 @@
 \bibitem{Liu2015}
 \textsc{Liu, X.~L.}, \textsc{B.~K. VanLeeuwen}, \textsc{S.~Shang},
   \textsc{Y.~Du}, and \textsc{Z.-K. Liu} (2015) \enquote{{On the scaling factor
-  in Debye–Gr{\"{u}}neisen model: A case study of the Mg–Zn binary
-  system},} \emph{Computational Materials Science}, \textbf{98}, pp. 34--41.
+  in Debye-Gr{\"{u}}neisen model: A case study of the Mg-Zn binary system},}
+  \emph{Computational Materials Science}, \textbf{98}, pp. 34--41.
 
 \bibitem{Wang2004}
 \textsc{Wang, Y.}, \textsc{Z.-K. Liu}, and \textsc{L.-Q. Chen} (2004)
@@ -379,8 +374,8 @@
 \bibitem{Shang2007c}
 \textsc{Shang, S.}, \textsc{Y.~Wang}, and \textsc{Z.-K. Liu} (2007)
   \enquote{{First-principles elastic constants of alpha- and
-  theta-Al{\textless}sub{\textgreater}2{\textless}/sub{\textgreater}O{\textless}sub{\textgreater}3{\textless}/sub{\textgreater}},}
-  \emph{Applied Physics Letters}, \textbf{90}(10), pp. 101909--1--101909--3.
+  theta-Al$_{2}$O$_{3}$},} \emph{Applied Physics Letters}, \textbf{90}(10), pp.
+  101909--1--101909--3.
 
 \bibitem{Simmons1971b}
 \textsc{Simmons, G.} and \textsc{H.~Wang} (1971) \emph{{Single Crystal Elastic
@@ -394,10 +389,9 @@
 
 \bibitem{Chung1967}
 \textsc{Chung, D.~H.} and \textsc{W.~R. Buessem} (1967) \enquote{{The
-  Voigt‐Reuss‐Hill approximation and elastic moduli of Polycrystalline MgO,
-  CaF{\textless}sub{\textgreater}2{\textless}/sub{\textgreater}, $\beta$‐ZnS,
-  ZnSe, and CdTe},} \emph{Journal of Applied Physics}, \textbf{38}(6), pp.
-  2535--2540.
+  Voigt-Reuss-Hill approximation and elastic moduli of Polycrystalline MgO,
+  CaF$_{2}$, $\beta$-ZnS, ZnSe, and CdTe},} \emph{Journal of Applied Physics},
+  \textbf{38}(6), pp. 2535--2540.
 
 \bibitem{Born1998}
 \textsc{Born, M.} and \textsc{K.~Huang} (1998) \emph{{Dynamical Theory of
@@ -421,8 +415,8 @@
 \bibitem{Togo2008}
 \textsc{Togo, A.}, \textsc{F.~Oba}, and \textsc{I.~Tanaka} (2008)
   \enquote{{First-principles calculations of the ferroelastic transition
-  between rutile-type and CaCl2-type SiO2 at high pressures},} \emph{Physical
-  Review B}, \textbf{78}(13), p. 134106.
+  between rutile-type and CaCl$_{2}$-type SiO$_{2}$ at high pressures},}
+  \emph{Physical Review B}, \textbf{78}(13), p. 134106.
 
 \bibitem{Liu2016}
 \textsc{Liu, Z.~K.} and \textsc{Y.~Wang} (2016) \emph{{Computational
@@ -443,8 +437,8 @@
 \bibitem{Zacherl2012}
 \textsc{Zacherl, C.}, \textsc{S.~Shang}, \textsc{A.~Saengdeejing}, and
   \textsc{Z.-K. Liu} (2012) \enquote{{Phase stability and thermodynamic
-  modeling of the Re–Ti system supplemented by first-principles
-  calculations},} \emph{Calphad}, \textbf{38}, pp. 71--80.
+  modeling of the Re-Ti system supplemented by first-principles calculations},}
+  \emph{Calphad}, \textbf{38}, pp. 71--80.
 
 \bibitem{Liu2009}
 \textsc{Liu, Z.-K.} (2009) \enquote{{First-principles calculations and CALPHAD
@@ -471,7 +465,6 @@
 \textsc{Young, R.} and \textsc{A.~Larson} (1998) \enquote{{Rietveld analysis of
   X-ray and neutron powder diffraction patterns},} \emph{Atlanta (GA): School
   of}.
-\newline\urlprefix\url{http://debian.ccp14.ac.uk/ccp/web-mirrors/dbws/downloads/young/guide99.pdf}
 
 \bibitem{Toraya1986}
 \textsc{Toraya, H.} (1986) \enquote{{Whole-Powder-Pattern Fitting Without
@@ -496,11 +489,9 @@
 \bibitem{Manley2002}
 \textsc{Manley, M.~E.}, \textsc{R.~J. McQueeney}, \textsc{B.~Fultz},
   \textsc{R.~Osborn}, \textsc{G.~H. Kwei}, and \textsc{P.~D. Bogdanoff} (2002)
-  \enquote{{Vibrational and electronic entropy of
-  $\backslash$ensuremath{\{}$\backslash$beta{\}}-cerium and
-  $\backslash$ensuremath{\{}$\backslash$gamma{\}}-cerium measured by inelastic
-  neutron scattering},} \emph{Physical Review B}, \textbf{65}(14), p. 144111.
-\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevB.65.144111}
+  \enquote{{Vibrational and electronic entropy of $\beta$-cerium and
+  $\gamma$-cerium measured by inelastic neutron scattering},} \emph{Physical
+  Review B}, \textbf{65}(14), p. 144111.
 
 \bibitem{Blochl1994}
 \textsc{Bl{\"{o}}chl, P.} (1994) \enquote{{Projector augmented-wave method},}
@@ -512,8 +503,9 @@
   5188--5192.
 
 \bibitem{Predel1997}
-\textsc{Predel, B.} (1997) \enquote{{Mo-Ti (Molybdenum-Titanium) BT - Li-Mg –
-  Nd-Zr},} Springer Berlin Heidelberg, Berlin, Heidelberg, pp. 1--3.
+\textsc{Predel, B.} (1997) \enquote{{Mo-Ti (Molybdenum-Titanium)},} in
+  \emph{Li-Mg--Nd-Zr} (O.~Madelung, ed.), Springer Berlin Heidelberg, Berlin,
+  Heidelberg, pp. 1--3.
 
 \bibitem{Hoffman1967}
 \textsc{Hoffman, J.~R.}, \textsc{E.~Rudy}, \textsc{S.~T. Windisch}, and
@@ -536,8 +528,11 @@
 \enquote{{Materials Project},} .
 \newline\urlprefix\url{http://www.materialsproject.org}
 
-\bibitem{WolframResearch}
-\textsc{{Wolfram Research}, I.}, \enquote{{Matematica},} .
+\bibitem{Lame2011}
+\textsc{Lame, M.~J.}, \textsc{N.~Zarifi}, \textsc{M.~Nobakhti},
+  \textsc{A.~Jahandoost}, and \textsc{Maryam} (2011) \enquote{{Pseudopotential
+  calculation of the bulk modulus and phonon dispersion of the bcc and hcp
+  structures of titanium},} \emph{Physica Scripta}, \textbf{83}(6), p. 65603.
 
 \bibitem{Chen_Y2009_794}
 \textsc{Yi, C.}, \textsc{S.~Jiang}, and \textsc{C.~Nanxian} (2009)
@@ -551,7 +546,7 @@
 
 \bibitem{Neuburger1936_127}
 \textsc{Neuburger, M.~C.} (1936) \enquote{{Praezisionsmessung der
-  Gitterkonstante von sehr reinem Niob},} \emph{Zeitschrift fuer
+  Gitterkonstante von sehr reinem Tantal},} \emph{Zeitschrift fuer
   Kristallographie, Kristallgeometrie, Kristallphysik, Kristallchemie
   (-144,1977)}, \textbf{93}, pp. 158--159.
 
@@ -575,6 +570,12 @@
 \bibitem{Karlsruhe}
 \textsc{Karlsruhe, F. I.~Z.}, \enquote{{Inorganic Crystal Structure Database},}
   .
+
+\bibitem{Peng2014}
+\textsc{Peng, Q.}, \textsc{W.~Ji}, \textsc{J.~Lian}, \textsc{X.-J. Chen},
+  \textsc{H.~Huang}, \textsc{F.~Gao}, and \textsc{S.~De} (2014)
+  \enquote{{Pressure effect on stabilities of self-Interstitials in
+  HCP-Zirconium},} \emph{Scientific Reports}, \textbf{4}, p. 5735.
 
 \bibitem{Kuroda1998}
 \textsc{Kuroda, D.}, \textsc{M.~Niinomi}, \textsc{M.~Morinaga},
@@ -604,13 +605,13 @@
 
 \bibitem{Basile1971}
 \textsc{Basile, F.} (1971) \enquote{{Cristallogrpahic study and supraconductive
-  properties of compounds V3Sn and Ta2Sn3},} in \emph{Annales de chimie},
-  vol.~6, pp. 241--244.
+  properties of compounds V$_{3}$Sn and Ta$_{2}$Sn$_{3}$},} in \emph{Annales de
+  chimie}, vol.~6, pp. 241--244.
 
 \bibitem{Yue2009}
 \textsc{Yue, Q.}, \textsc{Y.~Liu}, \textsc{M.~Chu}, and \textsc{J.~Shen} (2009)
-  \enquote{{Thermodynamic modeling of the Sn–V binary system},}
-  \emph{Calphad}, \textbf{33}(3), pp. 539--544.
+  \enquote{{Thermodynamic modeling of the Sn-V binary system},} \emph{Calphad},
+  \textbf{33}(3), pp. 539--544.
 
 \bibitem{Toffolon2002}
 \textsc{Toffolon, C.}, \textsc{C.~Servant}, \textsc{J.~Gachon}, and
@@ -620,7 +621,7 @@
 \bibitem{Courtney1965}
 \textsc{Courtney, T.}, \textsc{G.~Pearsall}, and \textsc{J.~Wulff} (1965)
   \enquote{{Effect of Processing History on the Superconducting Properties and
-  Long‐Range Order of Ta3Sn},} \emph{Journal of Applied Physics},
+  Long-Range Order of Ta$_{3}$Sn},} \emph{Journal of Applied Physics},
   \textbf{36}(10), pp. 3256--3260.
 
 \bibitem{Predmore1970}
@@ -678,7 +679,7 @@
 
 \bibitem{Arroyave2006}
 \textsc{Arroyave, R.} and \textsc{Z.-K. Liu} (2006) \enquote{{Thermodynamic
-  modelling of the Zn–Zr system},} \emph{Calphad}, \textbf{30}(1), pp. 1--13.
+  modelling of the Zn-Zr system},} \emph{Calphad}, \textbf{30}(1), pp. 1--13.
 
 \bibitem{Dickinson1967a}
 \textsc{Dickinson, J.} and \textsc{P.~Armstrong} (1967) \enquote{{Temperature
@@ -688,7 +689,7 @@
 \bibitem{Kim2006}
 \textsc{Kim, H.}, \textsc{Y.~Ikehara}, \textsc{J.~Kim}, \textsc{H.~Hosoda}, and
   \textsc{S.~Miyazaki} (2006) \enquote{{Martensitic transformation, shape
-  memory effect and superelasticity of Ti–Nb binary alloys},} \emph{Acta
+  memory effect and superelasticity of Ti-Nb binary alloys},} \emph{Acta
   Materialia}, \textbf{54}(9), pp. 2419--2429.
 
 \bibitem{Budai2014}
@@ -698,8 +699,5 @@
   \textsc{R.~J. McQueeney}, and \textsc{O.~Delaire} (2014)
   \enquote{{Metallization of vanadium dioxide driven by large phonon entropy},}
   \emph{Nature}, \textbf{515}(7528), pp. 535--539.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/nature13865
-  http://10.0.4.14/nature13865
-  http://www.nature.com/nature/journal/v515/n7528/abs/nature13865.html{\#}supplementary-information}
 
 \end{thebibliography}
