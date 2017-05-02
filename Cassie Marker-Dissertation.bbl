@@ -418,14 +418,6 @@
   between rutile-type and CaCl$_{2}$-type SiO$_{2}$ at high pressures},}
   \emph{Physical Review B}, \textbf{78}(13), p. 134106.
 
-\bibitem{Liu2016}
-\textsc{Liu, Z.~K.} and \textsc{Y.~Wang} (2016) \emph{{Computational
-  Thermodynamics of Materials}}, Cambridge University Press.
-
-\bibitem{Liu2017}
-\textsc{Liu, Z.-K.}, \textsc{S.-L. Shang}, and \textsc{Y.~Wang} (2017),
-  \enquote{{Fundamentals of Thermal Expansion and Thermal Contraction},} .
-
 \bibitem{Andersson2002}
 \textsc{Andersson, J.-O.}, \textsc{T.~Helander}, \textsc{L.~H{\"{o}}glund},
   \textsc{P.~Shi}, and \textsc{B.~Sundman} (2002) \enquote{{Thermo-Calc {\&}
@@ -690,6 +682,10 @@
   dependence of the elastic constants of molybdenum},} \emph{Journal of Applied
   Physics}, \textbf{38}(2), pp. 602--606.
 
+\bibitem{Denton1991}
+\textsc{Denton, A.~R.} and \textsc{N.~W. Ashcroft} (1991) \enquote{{Vegard's
+  law},} \emph{Physical Review A}, \textbf{43}(6), pp. 3161--3164.
+
 \bibitem{Kim2006}
 \textsc{Kim, H.}, \textsc{Y.~Ikehara}, \textsc{J.~Kim}, \textsc{H.~Hosoda}, and
   \textsc{S.~Miyazaki} (2006) \enquote{{Martensitic transformation, shape
@@ -703,5 +699,13 @@
   \textsc{R.~J. McQueeney}, and \textsc{O.~Delaire} (2014)
   \enquote{{Metallization of vanadium dioxide driven by large phonon entropy},}
   \emph{Nature}, \textbf{515}(7528), pp. 535--539.
+
+\bibitem{Liu2016}
+\textsc{Liu, Z.~K.} and \textsc{Y.~Wang} (2016) \emph{{Computational
+  Thermodynamics of Materials}}, Cambridge University Press.
+
+\bibitem{Liu2017}
+\textsc{Liu, Z.-K.}, \textsc{S.-L. Shang}, and \textsc{Y.~Wang} (2017),
+  \enquote{{Fundamentals of Thermal Expansion and Thermal Contraction},} .
 
 \end{thebibliography}

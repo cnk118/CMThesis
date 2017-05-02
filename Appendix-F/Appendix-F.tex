@@ -75,3 +75,59 @@ The experimentally determined $E$ values for the Ti-Nb system reviewed and avera
 	 0.43 & 0.57 & 84.00 & \cite{Ozaki2004}\\
 \end{longtable}
 %%%
+
+This section introduces a theoretic framework to predict the formation of a solid with a mixture of multiple states. Our theoretic framework implies that the competition of stable and metastable states, results in an increase of entropy as a function of temperature. The increased entropy is what stabilizes the statistic existance of the metastable states similarly to how entropy stabilizes Ti in the bcc structure. The combined Helmholtz energy can be expressed by \cite{Liu2016}:
+
+%%
+\begin{equation}
+\label{eq: combinedhelmholtz}
+F_{c} = - k_{B} T \left( \sum \frac{Z_{i}}{Z_{c}} lnZ_{i} - \sum \frac{Z_{i}}{Z_{c}} ln \frac{Z_{i}}{Z_{c}}  \right) 
+\end{equation}
+%%
+
+\noindent where $Z_{i}$ represents the canonical partition function of a state:
+
+%%
+\begin{equation}
+\label{eq: zi}
+Z_{i} = e^{- \frac{F_{i}}{k_{B}T}} = \sum_{k} e^{- \frac{E_{ik}}{k_{B}T}}
+\end{equation}
+%%
+
+\noindent where $F_{i}$ is the Helmholtz energy of state $i$ and $E_{ik}$ is the energy eigenvalues of microstate $k$ in the $i$ state. $Z_{c}$ represents the combined system expressed by \cite{Liu2017}:
+
+%%
+\begin{equation}
+\label{eq: zc}
+Z_{c} = e^{-\frac{F_{c}}{k_{B}T}} = \sum_{j} e^{- \frac{E_{cj}}{k_{B}T}} 
+\end{equation}
+%%
+
+\noindent where $F_{c}$ is the Helmholtz energy of the system and $E_{cj}$ is the energy eigenvalues of microstate $j$ in the combined state, $c$. Another way to write the combined Helmholtz energy, based on these equations, is:
+
+%%
+\begin{equation}
+\label{eq: combinedhelmholtz2}
+F_{c} = \sum p_{i} F_{i} - TS_{SCE}
+\end{equation}
+%%
+
+\noindent where $p_{i}$ is:
+
+%%
+\begin{equation}
+\label{pi}
+p_{i} = \frac{Z_{i}}{Z_{c}}
+\end{equation}
+%%
+
+\noindent and $S_{SCE}$ is the state configurational entropy. The $S_{SCE}$ is what stabilizes the phase formation and is predicted by:
+
+%%
+\begin{equation}
+\label{SSCE}
+S_{SCE} = -k_{B} \sum p_{i} lnp_{i}
+\end{equation}
+%%
+
+\noindent This entropy takes into account the statistical competition between the states making the combined Helmholtz energy more accurate.
