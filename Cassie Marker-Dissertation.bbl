@@ -530,26 +530,56 @@
   calculation of the bulk modulus and phonon dispersion of the bcc and hcp
   structures of titanium},} \emph{Physica Scripta}, \textbf{83}(6), p. 65603.
 
+\bibitem{Dobromyslov1987}
+\textsc{Dobromyslov, A.~V.} and \textsc{N.~I. Taluts} (1987)
+  \enquote{{Structure Investigation of Quenched and Tempered Alloys of the
+  Zr-Ti System},} \emph{Phys. Met. Metallogr.(USSR)}, \textbf{63}(1), pp.
+  114--120.
+
 \bibitem{Chen_Y2009_794}
 \textsc{Yi, C.}, \textsc{S.~Jiang}, and \textsc{C.~Nanxian} (2009)
   \enquote{{The effect of Mo atoms in ternary nitrides with eta-type
   structure},} \emph{Solid State Communications}, \textbf{149}, pp. 121--125.
+
+\bibitem{Dickinson1967a}
+\textsc{Dickinson, J.} and \textsc{P.~Armstrong} (1967) \enquote{{Temperature
+  dependence of the elastic constants of molybdenum},} \emph{Journal of Applied
+  Physics}, \textbf{38}(2), pp. 602--606.
+
+\bibitem{Tsai1992}
+\textsc{Tsai, H.~T.} and \textsc{A.~Muan} (1992) \enquote{{Activity-Composition
+  Relations in Refractory Oxide Solid Solutions at High Temperatures: The
+  System Cr$_{2}$O$_{3}$-Al$_{2}$O$_{3}$},} \emph{Journal of the American
+  Ceramic Society}, \textbf{75}(6), pp. 1412--1415.
+
+\bibitem{Neuburger1936_127}
+\textsc{Neuburger, M.~C.} (1936) \enquote{{Praezisionsmessung der
+  Gitterkonstante von sehr reinem Niob},} \emph{Zeitschrift fuer
+  Kristallographie, Kristallgeometrie, Kristallphysik, Kristallchemie
+  (-144,1977)}, \textbf{93}, pp. 158--159.
 
 \bibitem{Bolef1961}
 \textsc{Bolef, D.} (1961) \enquote{{Elastic constants of single crystals of the
   bcc transition elements V, Nb, and Ta},} \emph{Journal of Applied Physics},
   \textbf{32}(1), pp. 100--105.
 
-\bibitem{Neuburger1936_127}
+\bibitem{Steinbinder1988}
+\textsc{Steinbinder, D.}, \textsc{H.~Wipf}, \textsc{A.~Magerl},
+  \textsc{D.~Richter}, \textsc{A.-J. Dianoux}, and \textsc{K.~Neumaier} (1988)
+  \enquote{{Nonadiabatic low-temperature quantum diffusion of hydrogen in
+  Nb(OH)$_{x}$},} \emph{EPL (Europhysics Letters)}, \textbf{6}(6), p. 535.
+
+\bibitem{Neuburger1936_262}
 \textsc{Neuburger, M.~C.} (1936) \enquote{{Praezisionsmessung der
   Gitterkonstante von sehr reinem Tantal},} \emph{Zeitschrift fuer
   Kristallographie, Kristallgeometrie, Kristallphysik, Kristallchemie
-  (-144,1977)}, \textbf{93}, pp. 158--159.
+  (-144,1977)}, \textbf{93}, pp. 312--313.
 
-\bibitem{Neuburger1936_262}
----{}---{}--- (1936) \enquote{{Praezisionsmessung der Gitterkonstante von sehr
-  reinem Tantal},} \emph{Zeitschrift fuer Kristallographie, Kristallgeometrie,
-  Kristallphysik, Kristallchemie (-144,1977)}, \textbf{93}, pp. 312--313.
+\bibitem{Vavilova1988}
+\textsc{Vavilova, V.~V.}, \textsc{L.~N. Galkin}, and \textsc{M.~V. Glazov}
+  (1988) \enquote{{Stabilization of a Phase with the $\delta$-Mn Structure by
+  Rapid Quenching in the Rhenium--Tantalum System},} in \emph{Dokl. Akad. Nauk
+  SSSR}, vol. 300, pp. 1157--1161.
 
 \bibitem{Treco1953_964}
 \textsc{Treco, R.~M.} (1953) \enquote{{Effect of small additions of oxygen on
@@ -572,6 +602,12 @@
   \textsc{H.~Huang}, \textsc{F.~Gao}, and \textsc{S.~De} (2014)
   \enquote{{Pressure effect on stabilities of self-Interstitials in
   HCP-Zirconium},} \emph{Scientific Reports}, \textbf{4}, p. 5735.
+
+\bibitem{Prager1994}
+\textsc{Prager, A. I.~K.}, \textsc{A.~M. Balagurov}, \textsc{I.~O. Bashkin},
+  \textsc{A.~V. Belushkin}, \textsc{E.~G. Ponyatovsky}, and \textsc{M} (1994)
+  \enquote{{Neutron scattering studies of ordered $\gamma$-ZrD},} \emph{Journal
+  of Physics: Condensed Matter}, \textbf{6}(43), p. 8977.
 
 \bibitem{Kuroda1998}
 \textsc{Kuroda, D.}, \textsc{M.~Niinomi}, \textsc{M.~Morinaga},
@@ -677,10 +713,10 @@
 \textsc{Arroyave, R.} and \textsc{Z.-K. Liu} (2006) \enquote{{Thermodynamic
   modelling of the Zn-Zr system},} \emph{Calphad}, \textbf{30}(1), pp. 1--13.
 
-\bibitem{Dickinson1967a}
-\textsc{Dickinson, J.} and \textsc{P.~Armstrong} (1967) \enquote{{Temperature
-  dependence of the elastic constants of molybdenum},} \emph{Journal of Applied
-  Physics}, \textbf{38}(2), pp. 602--606.
+\bibitem{VanDeWalle2002}
+\textsc{{Van De Walle}, A.}, \textsc{M.~Asta}, and \textsc{G.~Ceder} (2002)
+  \enquote{{The alloy theoretic automated toolkit: A user guide},}
+  \emph{Calphad}, \textbf{26}(4), pp. 539--553.
 
 \bibitem{Denton1991}
 \textsc{Denton, A.~R.} and \textsc{N.~W. Ashcroft} (1991) \enquote{{Vegard's
@@ -705,7 +741,8 @@
   Thermodynamics of Materials}}, Cambridge University Press.
 
 \bibitem{Liu2017}
-\textsc{Liu, Z.-K.}, \textsc{S.-L. Shang}, and \textsc{Y.~Wang} (2017),
-  \enquote{{Fundamentals of Thermal Expansion and Thermal Contraction},} .
+\textsc{Liu, Z.-K.}, \textsc{S.-L. Shang}, and \textsc{Y.~Wang} (2017)
+  \enquote{{Fundamentals of Thermal Expansion and Thermal Contraction},}
+  \emph{Materials}, \textbf{10}(4).
 
 \end{thebibliography}

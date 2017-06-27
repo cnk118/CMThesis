@@ -1,6 +1,6 @@
 \contentsline {chapter}{List of Figures}{x}{chapter*.3}
-\contentsline {chapter}{List of Tables}{xx}{chapter*.4}
-\contentsline {chapter}{Acknowledgments}{xxiv}{chapter*.5}
+\contentsline {chapter}{List of Tables}{xix}{chapter*.4}
+\contentsline {chapter}{Acknowledgments}{xxiii}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter..1}
 \contentsline {section}{\numberline {1.1}\tolerance 9999\emergencystretch 3em\hfuzz .5\p@ \vfuzz \hfuzz Motivation}{1}{section..1.1}
 \contentsline {section}{\numberline {1.2}Overview}{2}{section..1.2}
@@ -38,10 +38,10 @@
 \contentsline {section}{\numberline {3.7}Thermodynamic modeling of six Ti-containing ternary systems}{32}{section..3.7}
 \contentsline {subsection}{\numberline {3.7.1}Ti-Mo-Nb}{32}{subsection..3.7.1}
 \contentsline {subsection}{\numberline {3.7.2}Ti-Mo-Ta}{33}{subsection..3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Ti-Mo-Zr}{33}{subsection..3.7.3}
+\contentsline {subsection}{\numberline {3.7.3}Ti-Mo-Zr}{34}{subsection..3.7.3}
 \contentsline {subsection}{\numberline {3.7.4}Ti-Nb-Ta}{34}{subsection..3.7.4}
 \contentsline {subsection}{\numberline {3.7.5}Ti-Nb-Zr}{35}{subsection..3.7.5}
-\contentsline {subsection}{\numberline {3.7.6}Ti-Ta-Zr}{35}{subsection..3.7.6}
+\contentsline {subsection}{\numberline {3.7.6}Ti-Ta-Zr}{36}{subsection..3.7.6}
 \contentsline {section}{\numberline {3.8}Conclusion}{36}{section..3.8}
 \contentsline {chapter}{\numberline {4}Thermodynamic modeling of the Sn-Ta system}{62}{chapter..4}
 \contentsline {section}{\numberline {4.1}Introduction}{62}{section..4.1}
@@ -76,14 +76,14 @@
 \contentsline {subsubsection}{\numberline {7.3.3.1}Phonon density of states at 300 K}{150}{subsubsection..7.3.3.1}
 \contentsline {subsubsection}{\numberline {7.3.3.2}Diffraction patterns at 300 K}{151}{subsubsection..7.3.3.2}
 \contentsline {section}{\numberline {7.4}Conclusion}{152}{section..7.4}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{175}{chapter..8}
-\contentsline {section}{\numberline {8.1}Conclusions}{175}{section..8.1}
-\contentsline {section}{\numberline {8.2}Future Work}{179}{section..8.2}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{178}{chapter..8}
+\contentsline {section}{\numberline {8.1}Conclusions}{178}{section..8.1}
+\contentsline {section}{\numberline {8.2}Future Work}{182}{section..8.2}
 \renewcommand {\cftchappresnum }{Appendix }
-\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{181}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sn-Ta Database}{198}{appendix.B}
-\contentsline {chapter}{\numberline {C}Calculation and Fitting Details}{206}{appendix.C}
-\contentsline {chapter}{\numberline {D}Ti Elastic Database}{210}{appendix.D}
-\contentsline {chapter}{\numberline {E}Pycalphad script}{217}{appendix.E}
-\contentsline {chapter}{\numberline {F}Ti-Nb Experimental Elastic Data}{227}{appendix.F}
-\contentsline {chapter}{Bibliography}{231}{equation.F.0.6}
+\contentsline {chapter}{\numberline {A}Ti-Mo-Nb-Ta-Zr Database}{184}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sn-Ta Database}{201}{appendix.B}
+\contentsline {chapter}{\numberline {C}Calculation and Fitting Details}{209}{appendix.C}
+\contentsline {chapter}{\numberline {D}Ti Elastic Database}{213}{appendix.D}
+\contentsline {chapter}{\numberline {E}Pycalphad script}{220}{appendix.E}
+\contentsline {chapter}{\numberline {F}Ti-Nb Experimental Elastic Data}{230}{appendix.F}
+\contentsline {chapter}{Bibliography}{234}{equation.F.0.6}
